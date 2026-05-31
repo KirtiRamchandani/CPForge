@@ -1,0 +1,8 @@
+target/
+.cpforge/
+.tests/
+*.exe
+*.pdb
+*.obj
+output.txt
+
