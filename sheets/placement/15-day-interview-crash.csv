@@ -1,0 +1,46 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status
+leetcode-1-two-sum,leetcode,"Two Sum",https://leetcode.com/problems/two-sum/,easy,800,arrays;hashing,hash map,amazon;google;meta;microsoft,beginner,unseen
+sheet-two-sum,leetcode,"Two Sum",https://leetcode.com/problems/two-sum/,easy,800,arrays,hash map,,intermediate,unseen
+sheet-watermelon,codeforces,"Watermelon",https://codeforces.com/problemset/problem/4/A,800,800,implementation,parity,,newbie,unseen
+cf-4a,codeforces,"Watermelon",https://codeforces.com/problemset/problem/4/A,800,800,implementation,parity,,newbie,unseen
+lc-two-sum,leetcode,"Two Sum",https://leetcode.com/problems/two-sum/,easy,800,arrays;hashing,hash map,amazon;google,beginner,unseen
+codeforces-4A-watermelon,codeforces,"Watermelon",https://codeforces.com/problemset/problem/4/A,800,800,implementation,parity,,newbie,unseen
+codeforces-71A-way-too-long-words,codeforces,"Way Too Long Words",https://codeforces.com/problemset/problem/71/A,800,800,strings,simulation,,newbie,unseen
+codeforces-158A-next-round,codeforces,"Next Round",https://codeforces.com/problemset/problem/158/A,800,800,implementation,simulation,,newbie,unseen
+codeforces-50A-domino-piling,codeforces,"Domino piling",https://codeforces.com/problemset/problem/50/A,800,800,math,greedy,,newbie,unseen
+codeforces-231A-team,codeforces,"Team",https://codeforces.com/problemset/problem/231/A,800,800,implementation,counting,,newbie,unseen
+codeforces-282A-bit,codeforces,"Bit++",https://codeforces.com/problemset/problem/282/A,800,800,implementation,simulation,,newbie,unseen
+codeforces-339A-helpful-maths,codeforces,"Helpful Maths",https://codeforces.com/problemset/problem/339/A,800,800,sorting,sort,,newbie,unseen
+codeforces-546A-soldier-and-bananas,codeforces,"Soldier and Bananas",https://codeforces.com/problemset/problem/546/A,800,800,math,arithmetic,,newbie,unseen
+codeforces-791A-bear-and-big-brother,codeforces,"Bear and Big Brother",https://codeforces.com/problemset/problem/791/A,800,800,math,simulation,,newbie,unseen
+codeforces-110A-nearly-lucky-number,codeforces,"Nearly Lucky Number",https://codeforces.com/problemset/problem/110/A,800,800,implementation,validation,,newbie,unseen
+codeforces-112A-petya-and-strings,codeforces,"Petya and Strings",https://codeforces.com/problemset/problem/112/A,800,800,strings,compare,,newbie,unseen
+codeforces-118A-string-task,codeforces,"String Task",https://codeforces.com/problemset/problem/118/A,800,800,strings,transform,,newbie,unseen
+codeforces-133A-hq9,codeforces,"HQ9+",https://codeforces.com/problemset/problem/133/A,800,800,implementation,interpreter,,newbie,unseen
+codeforces-160A-twins,codeforces,"Twins",https://codeforces.com/problemset/problem/160/A,800,800,sorting,greedy,,newbie,unseen
+codeforces-200B-drinks,codeforces,"Drinks",https://codeforces.com/problemset/problem/200/B,800,800,math,average,,newbie,unseen
+codeforces-263A-beautiful-matrix,codeforces,"Beautiful Matrix",https://codeforces.com/problemset/problem/263/A,800,800,matrices,manhattan,,newbie,unseen
+codeforces-271A-beautiful-year,codeforces,"Beautiful Year",https://codeforces.com/problemset/problem/271/A,800,800,implementation,set,,newbie,unseen
+codeforces-281A-word-capitalization,codeforces,"Word Capitalization",https://codeforces.com/problemset/problem/281/A,800,800,strings,capitalize,,newbie,unseen
+codeforces-318A-even-odds,codeforces,"Even Odds",https://codeforces.com/problemset/problem/318/A,800,800,math,binary search,,newbie,unseen
+codeforces-337A-puzzles,codeforces,"Puzzles",https://codeforces.com/problemset/problem/337/A,800,800,sorting,greedy,,newbie,unseen
+codeforces-339B-xenia-and-ringroad,codeforces,"Xenia and Ringroad",https://codeforces.com/problemset/problem/339/B,800,800,implementation,simulation,,newbie,unseen
+codeforces-432A-choosing-teams,codeforces,"Choosing Teams",https://codeforces.com/problemset/problem/432/A,800,800,sorting,greedy,,newbie,unseen
+codeforces-443A-anton-and-letters,codeforces,"Anton and Letters",https://codeforces.com/problemset/problem/443/A,800,800,strings,set,,newbie,unseen
+codeforces-467A-george-and-accommodation,codeforces,"George and Accommodation",https://codeforces.com/problemset/problem/467/A,800,800,implementation,count,,newbie,unseen
+codeforces-520A-pangram,codeforces,"Pangram",https://codeforces.com/problemset/problem/520/A,800,800,strings,set,,newbie,unseen
+codeforces-584A-olesya-and-rodion,codeforces,"Olesya and Rodion",https://codeforces.com/problemset/problem/584/A,800,800,constructive,build,,newbie,unseen
+codeforces-617A-elephant,codeforces,"Elephant",https://codeforces.com/problemset/problem/617/A,800,800,math,greedy,,newbie,unseen
+codeforces-677A-vanya-and-fence,codeforces,"Vanya and Fence",https://codeforces.com/problemset/problem/677/A,800,800,math,ceil,,newbie,unseen
+codeforces-705A-hulk,codeforces,"Hulk",https://codeforces.com/problemset/problem/705/A,800,800,strings,construct,,newbie,unseen
+codeforces-734A-anton-and-danik,codeforces,"Anton and Danik",https://codeforces.com/problemset/problem/734/A,800,800,strings,count,,newbie,unseen
+codeforces-735A-kathmandu,codeforces,"Kathmandu",https://codeforces.com/problemset/problem/735/A,800,800,implementation,parse,,newbie,unseen
+codeforces-742A-arpa-s-overnight-party,codeforces,"Arpa's Overnight Party",https://codeforces.com/problemset/problem/742/A,800,800,math,parity,,newbie,unseen
+codeforces-749A-bachgold-problem,codeforces,"Bachgold Problem",https://codeforces.com/problemset/problem/749/A,800,800,math,greedy,,newbie,unseen
+codeforces-750A-new-year-and-hurry,codeforces,"New Year and Hurry",https://codeforces.com/problemset/problem/750/A,800,800,greedy,knapsack-lite,,newbie,unseen
+codeforces-758A-lucky-conversion,codeforces,"Lucky Conversion",https://codeforces.com/problemset/problem/758/A,800,800,strings,swap,,newbie,unseen
+codeforces-760B-frodo-and-the-ring,codeforces,"Frodo and the Ring",https://codeforces.com/problemset/problem/760/B,800,800,greedy,construct,,newbie,unseen
+codeforces-761A-union-of-doubles,codeforces,"Union of Doubles",https://codeforces.com/problemset/problem/761/A,800,800,strings,construct,,newbie,unseen
+codeforces-785A-anton-and-polyhedra,codeforces,"Anton and Polyhedra",https://codeforces.com/problemset/problem/785/A,800,800,implementation,lookup,,newbie,unseen
+codeforces-786B-berland-trade,codeforces,"Berland trade",https://codeforces.com/problemset/problem/786/B,800,800,greedy,sort,,newbie,unseen
+codeforces-791B-getting-ac,codeforces,"Getting AC",https://codeforces.com/problemset/problem/791/B,800,800,greedy,exchange,,newbie,unseen

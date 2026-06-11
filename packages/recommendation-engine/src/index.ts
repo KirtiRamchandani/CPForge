@@ -110,6 +110,58 @@ export const buildWeeklyPlan = (workspace: WorkspaceData, profile: Profile) =>
     task: index % 3 === 2 ? "Review and upsolve before new problems" : "Solve targeted problems with notes"
   }));
 
+export interface CompanyPlanBlock {
+  days: number;
+  title: string;
+  focus: string[];
+  milestones: string[];
+  mustSolve: string[];
+  mockChecklist: string[];
+}
+
+const companyPatterns: Record<string, string[]> = {
+  amazon: ["arrays", "sliding-window", "trees", "graphs", "heap", "dynamic-programming"],
+  microsoft: ["arrays", "strings", "trees", "graphs", "dynamic-programming", "system-design-prep"],
+  google: ["graphs", "dynamic-programming", "greedy", "binary-search", "math"],
+  meta: ["arrays", "strings", "trees", "graphs", "dynamic-programming"],
+  netflix: ["arrays", "hashing", "system-design-prep"],
+  flipkart: ["arrays", "dynamic-programming", "graphs"],
+  uber: ["graphs", "heap", "dynamic-programming", "greedy"],
+  adobe: ["arrays", "strings", "dynamic-programming"],
+  goldmansachs: ["math", "dynamic-programming", "greedy"],
+  jpmorgan: ["math", "arrays", "dynamic-programming"],
+  atlassian: ["arrays", "graphs", "dynamic-programming"],
+  oracle: ["arrays", "sql-prep", "dynamic-programming"],
+  salesforce: ["arrays", "strings", "dynamic-programming"],
+  walmart: ["arrays", "greedy", "dynamic-programming"],
+  default: ["arrays", "strings", "trees", "graphs", "dynamic-programming"]
+};
+
+export const buildCompanyPlan = (company: string, days: number): CompanyPlanBlock => {
+  const key = company.toLowerCase().replace(/[^a-z]/g, "");
+  const patterns = companyPatterns[key] ?? companyPatterns.default;
+  const weekCount = Math.ceil(days / 7);
+  return {
+    days,
+    title: `${company} ${days}-day interview prep`,
+    focus: patterns,
+    milestones: Array.from({ length: Math.min(weekCount, 8) }, (_, i) => `Week ${i + 1}: ${patterns[i % patterns.length]} + ${i % 2 === 0 ? "2 mediums" : "1 review block"}`),
+    mustSolve: problemBank
+      .filter((p) => p.companies.includes(key) || patterns.some((pat) => p.topics.includes(pat) || p.patterns.some((x) => x.includes(pat))))
+      .slice(0, 12)
+      .map((p) => p.title),
+    mockChecklist: [
+      "Explain approach before coding",
+      "State time/space complexity",
+      "Walk through 2 edge cases",
+      "Compare brute force vs optimized",
+      "Mention trade-offs if follow-up asked"
+    ]
+  };
+};
+
+export const buildCompanyPlans = (company: string): CompanyPlanBlock[] => [30, 45, 60].map((days) => buildCompanyPlan(company, days));
+
 const pickProblemForWeakArea = (topic: string, goal: string): Problem => {
   const exact = problemBank.find((problem) => problem.topics.includes(topic) || problem.patterns.includes(topic));
   if (exact) return exact;

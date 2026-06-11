@@ -1,0 +1,37 @@
+#cp-forge-contest {
+  position: fixed;
+  bottom: 18px;
+  left: 18px;
+  z-index: 2147483646;
+  width: 340px;
+  max-height: 50vh;
+  overflow: auto;
+  border: 1px solid #2a3957;
+  border-radius: 8px;
+  padding: 14px;
+  background: #0e1728;
+  color: #edf5ff;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+#cp-forge-contest header {
+  display: flex;
+  justify-content: space-between;
+  color: #8bd3ff;
+}
+
+#cp-forge-contest ul,
+#cp-forge-contest ol {
+  padding-left: 18px;
+  color: #a8b9d5;
+  font-size: 13px;
+}
+
+#cp-forge-contest button {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #2c4163;
+  background: #17243c;
+  color: #eaf2ff;
+  cursor: pointer;
+}

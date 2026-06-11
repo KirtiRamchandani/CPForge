@@ -1,0 +1,76 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status
+leetcode-1-two-sum,leetcode,"Two Sum",https://leetcode.com/problems/two-sum/,easy,800,arrays;hashing,hash map,amazon;google;meta;microsoft,beginner,unseen
+lc-two-sum,leetcode,"Two Sum",https://leetcode.com/problems/two-sum/,easy,800,arrays;hashing,hash map,amazon;google,beginner,unseen
+leetcode-217-contains-duplicate,leetcode,"Contains Duplicate",https://leetcode.com/problems/contains-duplicate/,easy,850,arrays;hashing,hash set,amazon;google;meta;microsoft,beginner,unseen
+leetcode-242-valid-anagram,leetcode,"Valid Anagram",https://leetcode.com/problems/valid-anagram/,easy,850,strings;hashing,frequency map,amazon;google;meta;microsoft,beginner,unseen
+leetcode-125-valid-palindrome,leetcode,"Valid Palindrome",https://leetcode.com/problems/valid-palindrome/,easy,850,strings,two pointers,amazon;google;meta;microsoft,beginner,unseen
+leetcode-100-same-tree,leetcode,"Same Tree",https://leetcode.com/problems/same-tree/,easy,850,trees,dfs,amazon;google;meta;microsoft,beginner,unseen
+sheet-contains-duplicate,leetcode,"Contains Duplicate",https://leetcode.com/problems/contains-duplicate/,easy,850,arrays;hashing,hash set,microsoft,beginner,unseen
+sheet-valid-anagram,leetcode,"Valid Anagram",https://leetcode.com/problems/valid-anagram/,easy,850,strings;hashing,frequency map,microsoft,beginner,unseen
+sheet-valid-palindrome,leetcode,"Valid Palindrome",https://leetcode.com/problems/valid-palindrome/,easy,850,strings,two pointers,microsoft,beginner,unseen
+sheet-same-tree,leetcode,"Same Tree",https://leetcode.com/problems/same-tree/,easy,850,trees,dfs,microsoft,beginner,unseen
+leetcode-121-best-time-to-buy-and-sell-stock,leetcode,"Best Time to Buy and Sell Stock",https://leetcode.com/problems/best-time-to-buy-and-sell-stock/,easy,900,arrays,prefix min,amazon;google;meta;microsoft,beginner,unseen
+leetcode-191-number-of-1-bits,leetcode,"Number of 1 Bits",https://leetcode.com/problems/number-of-1-bits/,easy,900,bit-manipulation,bit count,amazon;google;meta;microsoft,beginner,unseen
+leetcode-268-missing-number,leetcode,"Missing Number",https://leetcode.com/problems/missing-number/,easy,900,arrays;bit-manipulation,xor,amazon;google;meta;microsoft,beginner,unseen
+leetcode-70-climbing-stairs,leetcode,"Climbing Stairs",https://leetcode.com/problems/climbing-stairs/,easy,900,dynamic-programming,1D DP,amazon;google;meta;microsoft,beginner,unseen
+leetcode-206-reverse-linked-list,leetcode,"Reverse Linked List",https://leetcode.com/problems/reverse-linked-list/,easy,900,linked-lists,iterative reverse,amazon;google;meta;microsoft,beginner,unseen
+leetcode-20-valid-parentheses,leetcode,"Valid Parentheses",https://leetcode.com/problems/valid-parentheses/,easy,900,stack,stack,amazon;google;meta;microsoft,beginner,unseen
+leetcode-104-maximum-depth-of-binary-tree,leetcode,"Maximum Depth of Binary Tree",https://leetcode.com/problems/maximum-depth-of-binary-tree/,easy,900,trees,dfs,amazon;google;meta;microsoft,beginner,unseen
+leetcode-226-invert-binary-tree,leetcode,"Invert Binary Tree",https://leetcode.com/problems/invert-binary-tree/,easy,900,trees,dfs,amazon;google;meta;microsoft,beginner,unseen
+leetcode-21-merge-two-sorted-lists,leetcode,"Merge Two Sorted Lists",https://leetcode.com/problems/merge-two-sorted-lists/,easy,900,linked-lists,merge,amazon;google;meta;microsoft,beginner,unseen
+leetcode-252-meeting-rooms,leetcode,"Meeting Rooms",https://leetcode.com/problems/meeting-rooms/,easy,900,intervals,sort,amazon;google;meta;microsoft,beginner,unseen
+sheet-best-time-to-buy-and-sell-stock,leetcode,"Best Time to Buy and Sell Stock",https://leetcode.com/problems/best-time-to-buy-and-sell-stock/,easy,900,arrays,prefix min,microsoft,beginner,unseen
+sheet-number-of-1-bits,leetcode,"Number of 1 Bits",https://leetcode.com/problems/number-of-1-bits/,easy,900,bit-manipulation,bit count,microsoft,beginner,unseen
+sheet-missing-number,leetcode,"Missing Number",https://leetcode.com/problems/missing-number/,easy,900,arrays;bit-manipulation,xor,microsoft,beginner,unseen
+sheet-climbing-stairs,leetcode,"Climbing Stairs",https://leetcode.com/problems/climbing-stairs/,easy,900,dynamic-programming,1D DP,microsoft,beginner,unseen
+sheet-reverse-linked-list,leetcode,"Reverse Linked List",https://leetcode.com/problems/reverse-linked-list/,easy,900,linked-lists,iterative reverse,microsoft,beginner,unseen
+sheet-valid-parentheses,leetcode,"Valid Parentheses",https://leetcode.com/problems/valid-parentheses/,easy,900,stack,stack,microsoft,beginner,unseen
+sheet-maximum-depth-of-binary-tree,leetcode,"Maximum Depth of Binary Tree",https://leetcode.com/problems/maximum-depth-of-binary-tree/,easy,900,trees,dfs,microsoft,beginner,unseen
+sheet-invert-binary-tree,leetcode,"Invert Binary Tree",https://leetcode.com/problems/invert-binary-tree/,easy,900,trees,dfs,microsoft,beginner,unseen
+sheet-merge-two-sorted-lists,leetcode,"Merge Two Sorted Lists",https://leetcode.com/problems/merge-two-sorted-lists/,easy,900,linked-lists,merge,microsoft,beginner,unseen
+sheet-meeting-rooms,leetcode,"Meeting Rooms",https://leetcode.com/problems/meeting-rooms/,easy,900,intervals,sort,microsoft,beginner,unseen
+leetcode-338-counting-bits,leetcode,"Counting Bits",https://leetcode.com/problems/counting-bits/,easy,950,bit-manipulation;dynamic-programming,DP bits,amazon;google;meta;microsoft,beginner,unseen
+leetcode-190-reverse-bits,leetcode,"Reverse Bits",https://leetcode.com/problems/reverse-bits/,easy,950,bit-manipulation,bit reverse,amazon;google;meta;microsoft,beginner,unseen
+leetcode-572-subtree-of-another-tree,leetcode,"Subtree of Another Tree",https://leetcode.com/problems/subtree-of-another-tree/,easy,950,trees,dfs match,amazon;google;meta;microsoft,beginner,unseen
+leetcode-110-balanced-binary-tree,leetcode,"Balanced Binary Tree",https://leetcode.com/problems/balanced-binary-tree/,easy,950,trees,height dfs,amazon;google;meta;microsoft,beginner,unseen
+sheet-counting-bits,leetcode,"Counting Bits",https://leetcode.com/problems/counting-bits/,easy,950,bit-manipulation;dynamic-programming,DP bits,microsoft,beginner,unseen
+sheet-reverse-bits,leetcode,"Reverse Bits",https://leetcode.com/problems/reverse-bits/,easy,950,bit-manipulation,bit reverse,microsoft,beginner,unseen
+sheet-subtree-of-another-tree,leetcode,"Subtree of Another Tree",https://leetcode.com/problems/subtree-of-another-tree/,easy,950,trees,dfs match,microsoft,beginner,unseen
+sheet-balanced-binary-tree,leetcode,"Balanced Binary Tree",https://leetcode.com/problems/balanced-binary-tree/,easy,950,trees,height dfs,microsoft,beginner,unseen
+leetcode-543-diameter-of-binary-tree,leetcode,"Diameter of Binary Tree",https://leetcode.com/problems/diameter-of-binary-tree/,easy,1000,trees,dfs height,amazon;google;meta;microsoft,beginner,unseen
+leetcode-703-kth-largest-element-in-a-stream,leetcode,"Kth Largest Element in a Stream",https://leetcode.com/problems/kth-largest-element-in-a-stream/,easy,1000,heap,min heap,amazon;google;meta;microsoft,beginner,unseen
+sheet-diameter-of-binary-tree,leetcode,"Diameter of Binary Tree",https://leetcode.com/problems/diameter-of-binary-tree/,easy,1000,trees,dfs height,microsoft,beginner,unseen
+sheet-kth-largest-element-in-a-stream,leetcode,"Kth Largest Element in a Stream",https://leetcode.com/problems/kth-largest-element-in-a-stream/,easy,1000,heap,min heap,microsoft,beginner,unseen
+leetcode-53-maximum-subarray,leetcode,"Maximum Subarray",https://leetcode.com/problems/maximum-subarray/,medium,1100,arrays,kadane,amazon;google;meta;microsoft,intermediate,unseen
+sheet-maximum-subarray,leetcode,"Maximum Subarray",https://leetcode.com/problems/maximum-subarray/,medium,1100,arrays,kadane,microsoft,intermediate,unseen
+leetcode-238-product-of-array-except-self,leetcode,"Product of Array Except Self",https://leetcode.com/problems/product-of-array-except-self/,medium,1200,arrays,prefix product,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-62-unique-paths,leetcode,"Unique Paths",https://leetcode.com/problems/unique-paths/,medium,1200,dynamic-programming,grid DP,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-19-remove-nth-node-from-end-of-list,leetcode,"Remove Nth Node From End of List",https://leetcode.com/problems/remove-nth-node-from-end-of-list/,medium,1200,linked-lists,two pointers,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-3-longest-substring-without-repeating-characters,leetcode,"Longest Substring Without Repeating Characters",https://leetcode.com/problems/longest-substring-without-repeating-characters/,medium,1200,strings,sliding-window,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-49-group-anagrams,leetcode,"Group Anagrams",https://leetcode.com/problems/group-anagrams/,medium,1200,strings;hashing,hash map,amazon;google;meta;microsoft,intermediate,unseen
+sheet-product-of-array-except-self,leetcode,"Product of Array Except Self",https://leetcode.com/problems/product-of-array-except-self/,medium,1200,arrays,prefix product,microsoft,intermediate,unseen
+sheet-unique-paths,leetcode,"Unique Paths",https://leetcode.com/problems/unique-paths/,medium,1200,dynamic-programming,grid DP,microsoft,intermediate,unseen
+sheet-remove-nth-node-from-end-of-list,leetcode,"Remove Nth Node From End of List",https://leetcode.com/problems/remove-nth-node-from-end-of-list/,medium,1200,linked-lists,two pointers,microsoft,intermediate,unseen
+sheet-longest-substring-without-repeating-characters,leetcode,"Longest Substring Without Repeating Characters",https://leetcode.com/problems/longest-substring-without-repeating-characters/,medium,1200,strings,sliding-window,amazon;meta,intermediate,unseen
+sheet-group-anagrams,leetcode,"Group Anagrams",https://leetcode.com/problems/group-anagrams/,medium,1200,strings;hashing,hash map,microsoft,intermediate,unseen
+lc-longest-substring,leetcode,"Longest Substring Without Repeating Characters",https://leetcode.com/problems/longest-substring-without-repeating-characters/,medium,1200,strings,sliding-window,amazon;meta,intermediate,unseen
+leetcode-152-maximum-product-subarray,leetcode,"Maximum Product Subarray",https://leetcode.com/problems/maximum-product-subarray/,medium,1300,arrays,kadane,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-371-sum-of-two-integers,leetcode,"Sum of Two Integers",https://leetcode.com/problems/sum-of-two-integers/,medium,1300,bit-manipulation,bitwise,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-198-house-robber,leetcode,"House Robber",https://leetcode.com/problems/house-robber/,medium,1300,dynamic-programming,1D DP,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-55-jump-game,leetcode,"Jump Game",https://leetcode.com/problems/jump-game/,medium,1300,arrays;greedy,greedy,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-200-number-of-islands,leetcode,"Number of Islands",https://leetcode.com/problems/number-of-islands/,medium,1300,graphs,dfs connected components,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-323-number-of-connected-components-in-an-undirected-graph,leetcode,"Number of Connected Components in an Undirected Graph",https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/,medium,1300,graphs,union find,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-73-set-matrix-zeroes,leetcode,"Set Matrix Zeroes",https://leetcode.com/problems/set-matrix-zeroes/,medium,1300,matrices,in-place,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-54-spiral-matrix,leetcode,"Spiral Matrix",https://leetcode.com/problems/spiral-matrix/,medium,1300,matrices,simulation,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-271-encode-and-decode-strings,leetcode,"Encode and Decode Strings",https://leetcode.com/problems/encode-and-decode-strings/,medium,1300,strings,delimiter encoding,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-98-validate-binary-search-tree,leetcode,"Validate Binary Search Tree",https://leetcode.com/problems/validate-binary-search-tree/,medium,1300,trees;bst,inorder bounds,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-235-lowest-common-ancestor-of-a-binary-search-tree,leetcode,"Lowest Common Ancestor of a Binary Search Tree",https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/,medium,1300,trees;bst,bst walk,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-199-binary-tree-right-side-view,leetcode,"Binary Tree Right Side View",https://leetcode.com/problems/binary-tree-right-side-view/,medium,1300,trees,bfs levels,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-1448-count-good-nodes-in-binary-tree,leetcode,"Count Good Nodes in Binary Tree",https://leetcode.com/problems/count-good-nodes-in-binary-tree/,medium,1300,trees,dfs,amazon;google;meta;microsoft,intermediate,unseen
+leetcode-2-add-two-numbers,leetcode,"Add Two Numbers",https://leetcode.com/problems/add-two-numbers/,medium,1300,linked-lists,carry simulation,amazon;google;meta;microsoft,intermediate,unseen
+sheet-maximum-product-subarray,leetcode,"Maximum Product Subarray",https://leetcode.com/problems/maximum-product-subarray/,medium,1300,arrays,kadane,microsoft,intermediate,unseen
+sheet-sum-of-two-integers,leetcode,"Sum of Two Integers",https://leetcode.com/problems/sum-of-two-integers/,medium,1300,bit-manipulation,bitwise,microsoft,intermediate,unseen
+sheet-house-robber,leetcode,"House Robber",https://leetcode.com/problems/house-robber/,medium,1300,dynamic-programming,1D DP,microsoft,intermediate,unseen
+sheet-jump-game,leetcode,"Jump Game",https://leetcode.com/problems/jump-game/,medium,1300,arrays;greedy,greedy,microsoft,intermediate,unseen
+sheet-number-of-islands,leetcode,"Number of Islands",https://leetcode.com/problems/number-of-islands/,medium,1300,graphs,bfs shortest path;dfs connected components,amazon;microsoft,intermediate,unseen
+sheet-number-of-connected-components-in-an-undirected-graph,leetcode,"Number of Connected Components in an Undirected Graph",https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/,medium,1300,graphs,union find,microsoft,intermediate,unseen

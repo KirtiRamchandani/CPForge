@@ -1,15 +1,18 @@
 {
   "manifest_version": 3,
   "name": "CP Forge Companion",
-  "description": "Local-first problem sidebar for Codeforces, LeetCode, AtCoder, GFG, and CSES — notes, timer, mistakes, review, upsolve.",
-  "version": "0.1.0",
+  "description": "Local-first sidebar for Codeforces, LeetCode, AtCoder, GFG, CSES, CodeChef, HackerRank, InterviewBit — notes, timer, checklist, contest cockpit.",
+  "version": "0.2.0",
   "permissions": ["storage"],
   "host_permissions": [
     "https://codeforces.com/*",
     "https://leetcode.com/*",
     "https://atcoder.jp/*",
     "https://www.geeksforgeeks.org/*",
-    "https://cses.fi/*"
+    "https://cses.fi/*",
+    "https://www.codechef.com/*",
+    "https://www.hackerrank.com/*",
+    "https://www.interviewbit.com/*"
   ],
   "action": {
     "default_popup": "popup.html"
@@ -26,10 +29,18 @@
         "https://leetcode.com/*",
         "https://atcoder.jp/*",
         "https://www.geeksforgeeks.org/*",
-        "https://cses.fi/*"
+        "https://cses.fi/*",
+        "https://www.codechef.com/*",
+        "https://www.hackerrank.com/*",
+        "https://www.interviewbit.com/*"
       ],
       "js": ["src/content.ts"],
       "css": ["src/sidebar.css"]
+    },
+    {
+      "matches": ["https://codeforces.com/contest/*"],
+      "js": ["src/contest-cockpit.ts"],
+      "css": ["src/contest.css"]
     }
   ]
 }

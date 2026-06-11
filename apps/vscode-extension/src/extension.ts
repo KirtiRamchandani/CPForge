@@ -118,6 +118,33 @@ export function activate(context: vscode.ExtensionContext) {
       else term.sendText(`echo "Run your ${lang} solution with input at ${inputUri.fsPath}"`);
       term.show();
     }),
+    command("cpForge.markAttempted", async () => {
+      const title = await vscode.window.showInputBox({ prompt: "Problem title to mark attempted" });
+      if (!title) return;
+      await upsertProblem(title, "attempted");
+      vscode.window.showInformationMessage(`CP Forge: marked ${title} attempted`);
+    }),
+    command("cpForge.sendToReview", async () => {
+      const title = await vscode.window.showInputBox({ prompt: "Problem to schedule for review" });
+      if (!title) return;
+      await upsertProblem(title, "review_later");
+      vscode.window.showInformationMessage(`CP Forge: ${title} flagged for review`);
+    }),
+    command("cpForge.openNotes", async () => {
+      const title = await vscode.window.showInputBox({ prompt: "Open notes for problem" });
+      if (!title) return;
+      const doc = await vscode.workspace.openTextDocument(noteUri(title));
+      await vscode.window.showTextDocument(doc);
+    }),
+    command("cpForge.weakTopicWarning", async () => {
+      const workspace = await readWorkspace();
+      const topics = [...new Set((workspace.mistakes ?? []).map((m) => m.category))];
+      vscode.window.showWarningMessage(
+        topics.length
+          ? `CP Forge: repeated mistake categories — ${topics.slice(0, 4).join(", ")}`
+          : "CP Forge: log mistakes to unlock weak-topic warnings."
+      );
+    }),
     command("cpForge.exportSession", async () => {
       await ensureCpForgeDirs();
       const exportUri = vscode.Uri.joinPath(workspaceRoot(), ".cpforge", "exports", "vscode-session.json");

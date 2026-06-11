@@ -148,6 +148,36 @@ export const chartToSvg = (data: Record<string, number>, title = "CP Forge Chart
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><rect width="100%" height="100%" rx="16" fill="#0b1020"/><text x="24" y="42" fill="#ffffff" font-size="24" font-family="Inter,Arial">${escapeXml(title)}</text>${bars}</svg>`;
 };
 
+export const chartToPngHtml = (data: Record<string, number>, title = "CP Forge Chart"): string => {
+  const svg = chartToSvg(data, title);
+  const escaped = svg.replace(/\\/g, "\\\\").replace(/`/g, "\\`").replace(/\$/g, "\\$");
+  return `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><title>${escapeHtml(title)} PNG Export</title>
+<style>body{margin:0;background:#080b13;color:#e9f1ff;font-family:Inter,sans-serif;padding:24px}button{padding:10px 16px;border-radius:8px;border:0;background:#42d392;color:#07100d;font-weight:700;cursor:pointer;margin-top:16px}</style>
+</head><body>
+<h1>${escapeHtml(title)}</h1>
+<div id="wrap">${svg}</div>
+<button id="dl" type="button">Download PNG</button>
+<script>
+const svg=\`${escaped}\`;
+const img=new Image();
+const canvas=document.createElement('canvas');
+canvas.width=760;canvas.height=360;
+const ctx=canvas.getContext('2d');
+img.onload=function(){
+  ctx.drawImage(img,0,0);
+  document.getElementById('dl').onclick=function(){
+    const a=document.createElement('a');
+    a.download='cp-forge-chart.png';
+    a.href=canvas.toDataURL('image/png');
+    a.click();
+  };
+  document.getElementById('dl').click();
+};
+img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+</script></body></html>`;
+};
+
 export const workspaceToJson = (workspace: WorkspaceData): string => JSON.stringify(workspace, null, 2);
 
 export const recommendationsToMarkdown = (items: Recommendation[]): string =>

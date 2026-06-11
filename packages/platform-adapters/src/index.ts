@@ -264,6 +264,115 @@ export const leetcodeSubmissionsToProblems = (
     solvedAt: new Date(Number(submission.timestamp) * 1000).toISOString().slice(0, 10)
   }));
 
+export const parseAtCoderProblemPage = (html: string, url: string): Problem => {
+  const title = strip(firstMatch(html, /<span class="lang-en">([^<]+)<\/span>/) ?? documentTitle(html, "AtCoder"));
+  const slug = url.split("/tasks/")[1]?.replace(/\/$/, "") ?? title;
+  return baseDomProblem("atcoder", slug, title, url, "atcoder", []);
+};
+
+export const parseGfgProblemPage = (html: string, url: string): Problem => {
+  const title = strip(firstMatch(html, /<h1[^>]*>([^<]+)<\/h1>/) ?? "GFG Problem");
+  const difficulty = strip(firstMatch(html, /(School|Basic|Easy|Medium|Hard)/) ?? "unknown");
+  const slug = url.split("/problems/")[1]?.split("/")[0] ?? slugify(title);
+  return baseDomProblem("gfg", slug, title, url, difficulty, []);
+};
+
+export const parseCsesProblemPage = (html: string, url: string): Problem => {
+  const title = strip(firstMatch(html, /<h1>([^<]+)<\/h1>/) ?? "CSES Problem");
+  const slug = url.split("/").pop() ?? slugify(title);
+  return baseDomProblem("cses", slug, title, url, "cses", []);
+};
+
+export const parseCodeChefProblemPage = (html: string, url: string): Problem => {
+  const title = strip(firstMatch(html, /<h1[^>]*class="[^"]*problem-name[^"]*"[^>]*>([^<]+)<\/h1>/) ?? firstMatch(html, /<title>([^<|]+)/) ?? "CodeChef Problem");
+  const slug = url.split("/problems/")[1]?.split("/")[0] ?? slugify(title);
+  return baseDomProblem("codechef", slug, title, url, "codechef", []);
+};
+
+export const parseHackerRankProblemPage = (html: string, url: string): Problem => {
+  const title = strip(firstMatch(html, /<h1[^>]*>([^<]+)<\/h1>/) ?? "HackerRank Challenge");
+  const slug = url.split("/challenges/")[1]?.split("/")[0] ?? slugify(title);
+  const difficulty = strip(firstMatch(html, /(Easy|Medium|Hard)/) ?? "unknown");
+  return baseDomProblem("hackerrank", slug, title, url, difficulty, []);
+};
+
+export const parseInterviewBitProblemPage = (html: string, url: string): Problem => {
+  const title = strip(firstMatch(html, /<h1[^>]*>([^<]+)<\/h1>/) ?? "InterviewBit Problem");
+  const slug = url.split("/problems/")[1]?.split("/")[0] ?? slugify(title);
+  return baseDomProblem("interviewbit", slug, title, url, "unknown", []);
+};
+
+export const detectProblemFromPage = (html: string, url: string): Problem | null => {
+  const host = new URL(url).hostname;
+  if (host.includes("leetcode.com") && url.includes("/problems/")) return parseLeetCodeProblemPage(html, url);
+  if (host.includes("codeforces.com") && url.includes("/problem")) {
+    const title = strip(firstMatch(html, /<div class="title">([^<]+)<\/div>/) ?? "Codeforces Problem");
+    const parts = url.match(/problem\/(\d+)\/([A-Z0-9]+)/i);
+    const slug = parts ? `${parts[1]}${parts[2]}` : slugify(title);
+    const tags = [...html.matchAll(/<a[^>]*\/problemset\/tag\/[^"]+"[^>]*>([^<]+)</g)].map((m) => strip(m[1] ?? ""));
+    return baseDomProblem("codeforces", slug, title, url, strip(firstMatch(html, /(\d{3,4})/) ?? "unknown"), tags.slice(0, 6));
+  }
+  if (host.includes("atcoder.jp") && url.includes("/tasks/")) return parseAtCoderProblemPage(html, url);
+  if (host.includes("geeksforgeeks.org")) return parseGfgProblemPage(html, url);
+  if (host.includes("cses.fi")) return parseCsesProblemPage(html, url);
+  if (host.includes("codechef.com")) return parseCodeChefProblemPage(html, url);
+  if (host.includes("hackerrank.com")) return parseHackerRankProblemPage(html, url);
+  if (host.includes("interviewbit.com")) return parseInterviewBitProblemPage(html, url);
+  return null;
+};
+
+export class AtCoderScraper {
+  async userSubmissions(username: string, limit = 50): Promise<Problem[]> {
+    const url = `https://atcoder.jp/users/${username}/history/json`;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`AtCoder history failed: HTTP ${response.status}`);
+    const data = (await response.json()) as Array<{ problem_id: string; result: string; problem_url: string }>;
+    return data
+      .filter((row) => row.result === "AC")
+      .slice(0, limit)
+      .map((row) => ({
+        id: stableId("atcoder", row.problem_id),
+        platform: "atcoder",
+        platformId: row.problem_id,
+        title: row.problem_id,
+        url: `https://atcoder.jp${row.problem_url}`,
+        difficulty: "unknown",
+        topics: [],
+        patterns: [],
+        companies: [],
+        level: "atcoder",
+        status: "solved",
+        attempts: 1,
+        confidence: 75,
+        notes: "",
+        mistakes: [],
+        source: "atcoder-scrape"
+      }));
+  }
+}
+
+const baseDomProblem = (platform: Platform, slug: string, title: string, url: string, difficulty: string, topics: string[]): Problem => ({
+  id: stableId(platform, slug),
+  platform,
+  platformId: slug,
+  title,
+  url,
+  difficulty,
+  topics,
+  patterns: [],
+  companies: [],
+  level: platform,
+  status: "unseen",
+  attempts: 0,
+  confidence: 0,
+  notes: "",
+  mistakes: [],
+  source: `${platform}-dom`
+});
+
+const documentTitle = (html: string, suffix: string) => strip(firstMatch(html, /<title>([^<]+)<\/title>/) ?? suffix).replace(new RegExp(`\\s*-?\\s*${suffix}.*$`, "i"), "");
+const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
 const strip = (value: string) => value.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 const firstMatch = (value: string, pattern: RegExp) => value.match(pattern)?.[1];
 const splitList = (value = "") => value.split(/[;,|]/).map((item) => item.trim()).filter(Boolean);

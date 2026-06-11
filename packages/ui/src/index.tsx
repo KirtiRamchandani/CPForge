@@ -92,3 +92,5 @@ export const ActivityGrid = ({ title, data }: { title: string; data: Record<stri
     </section>
   );
 };
+
+export { MindmapCanvas } from "./MindmapCanvas";

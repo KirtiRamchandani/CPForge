@@ -1,0 +1,22 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status
+leetcode-1-two-sum,leetcode,"Two Sum",https://leetcode.com/problems/two-sum/,easy,800,arrays;hashing,hash map,amazon;google;meta;microsoft,beginner,unseen
+sheet-two-sum,leetcode,"Two Sum",https://leetcode.com/problems/two-sum/,easy,800,arrays,hash map,,intermediate,unseen
+sheet-watermelon,codeforces,"Watermelon",https://codeforces.com/problemset/problem/4/A,800,800,implementation,parity,,newbie,unseen
+cf-4a,codeforces,"Watermelon",https://codeforces.com/problemset/problem/4/A,800,800,implementation,parity,,newbie,unseen
+lc-two-sum,leetcode,"Two Sum",https://leetcode.com/problems/two-sum/,easy,800,arrays;hashing,hash map,amazon;google,beginner,unseen
+codeforces-4A-watermelon,codeforces,"Watermelon",https://codeforces.com/problemset/problem/4/A,800,800,implementation,parity,,newbie,unseen
+codeforces-71A-way-too-long-words,codeforces,"Way Too Long Words",https://codeforces.com/problemset/problem/71/A,800,800,strings,simulation,,newbie,unseen
+codeforces-158A-next-round,codeforces,"Next Round",https://codeforces.com/problemset/problem/158/A,800,800,implementation,simulation,,newbie,unseen
+codeforces-50A-domino-piling,codeforces,"Domino piling",https://codeforces.com/problemset/problem/50/A,800,800,math,greedy,,newbie,unseen
+codeforces-231A-team,codeforces,"Team",https://codeforces.com/problemset/problem/231/A,800,800,implementation,counting,,newbie,unseen
+codeforces-282A-bit,codeforces,"Bit++",https://codeforces.com/problemset/problem/282/A,800,800,implementation,simulation,,newbie,unseen
+codeforces-339A-helpful-maths,codeforces,"Helpful Maths",https://codeforces.com/problemset/problem/339/A,800,800,sorting,sort,,newbie,unseen
+codeforces-546A-soldier-and-bananas,codeforces,"Soldier and Bananas",https://codeforces.com/problemset/problem/546/A,800,800,math,arithmetic,,newbie,unseen
+codeforces-791A-bear-and-big-brother,codeforces,"Bear and Big Brother",https://codeforces.com/problemset/problem/791/A,800,800,math,simulation,,newbie,unseen
+codeforces-110A-nearly-lucky-number,codeforces,"Nearly Lucky Number",https://codeforces.com/problemset/problem/110/A,800,800,implementation,validation,,newbie,unseen
+codeforces-112A-petya-and-strings,codeforces,"Petya and Strings",https://codeforces.com/problemset/problem/112/A,800,800,strings,compare,,newbie,unseen
+codeforces-118A-string-task,codeforces,"String Task",https://codeforces.com/problemset/problem/118/A,800,800,strings,transform,,newbie,unseen
+codeforces-133A-hq9,codeforces,"HQ9+",https://codeforces.com/problemset/problem/133/A,800,800,implementation,interpreter,,newbie,unseen
+codeforces-160A-twins,codeforces,"Twins",https://codeforces.com/problemset/problem/160/A,800,800,sorting,greedy,,newbie,unseen
+codeforces-200B-drinks,codeforces,"Drinks",https://codeforces.com/problemset/problem/200/B,800,800,math,average,,newbie,unseen
+codeforces-263A-beautiful-matrix,codeforces,"Beautiful Matrix",https://codeforces.com/problemset/problem/263/A,800,800,matrices,manhattan,,newbie,unseen

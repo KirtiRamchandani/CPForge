@@ -1,0 +1,201 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status
+codeforces-2234B-palindrome-twelve-and-two-terms,codeforces,"Palindrome, Twelve and Two Terms",https://codeforces.com/problemset/problem/2234/B,800,800,brute-force;constructive-algorithms;math,brute force;constructive algorithms,,newbie,unseen
+codeforces-2234A-euclid-sequence-and-two-numbers,codeforces,"Euclid, Sequence and Two Numbers",https://codeforces.com/problemset/problem/2234/A,800,800,math;number-theory;sortings,math;number theory,,newbie,unseen
+codeforces-2232A-convergence,codeforces,"Convergence",https://codeforces.com/problemset/problem/2232/A,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2231A-construct-an-array,codeforces,"Construct an Array",https://codeforces.com/problemset/problem/2231/A,800,800,constructive-algorithms,constructive algorithms,,newbie,unseen
+codeforces-2230A-optimal-purchase,codeforces,"Optimal Purchase",https://codeforces.com/problemset/problem/2230/A,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2229B-absolute-cinema,codeforces,"Absolute Cinema",https://codeforces.com/problemset/problem/2229/B,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2229A-slimes-on-a-line,codeforces,"Slimes on a Line",https://codeforces.com/problemset/problem/2229/A,800,800,brute-force;greedy;math,greedy,,newbie,unseen
+codeforces-2228A-marisa-steals-reimu-s-takeout,codeforces,"Marisa Steals Reimu's Takeout",https://codeforces.com/problemset/problem/2228/A,800,800,greedy;implementation,greedy,,newbie,unseen
+codeforces-2227C-snowfall,codeforces,"Snowfall",https://codeforces.com/problemset/problem/2227/C,800,800,constructive-algorithms;math,constructive algorithms;math,,newbie,unseen
+codeforces-2227B-party-monster,codeforces,"Party Monster",https://codeforces.com/problemset/problem/2227/B,800,800,greedy,greedy,,newbie,unseen
+codeforces-2227A-koshary,codeforces,"Koshary",https://codeforces.com/problemset/problem/2227/A,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2226A-disturbing-distribution,codeforces,"Disturbing Distribution",https://codeforces.com/problemset/problem/2226/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2225A-a-number-between-two-others,codeforces,"A Number Between Two Others",https://codeforces.com/problemset/problem/2225/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2224A-zhily-and-array-operating,codeforces,"Zhily and Array Operating",https://codeforces.com/problemset/problem/2224/A,800,800,constructive-algorithms;greedy,greedy,,newbie,unseen
+codeforces-2222A-a-wonderful-contest,codeforces,"A Wonderful Contest",https://codeforces.com/problemset/problem/2222/A,800,800,brute-force;dp;math,dynamic programming,,newbie,unseen
+codeforces-2220A-blocked,codeforces,"Blocked",https://codeforces.com/problemset/problem/2220/A,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2218C-the-67th-permutation-problem,codeforces,"The 67th Permutation Problem",https://codeforces.com/problemset/problem/2218/C,800,800,constructive-algorithms;greedy;math,greedy,,newbie,unseen
+codeforces-2218B-the-67th-6-7-integer-problem,codeforces,"The 67th 6-7 Integer Problem",https://codeforces.com/problemset/problem/2218/B,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2218A-the-67th-integer-problem,codeforces,"The 67th Integer Problem",https://codeforces.com/problemset/problem/2218/A,800,800,brute-force;games;implementation;math,brute force;games,,newbie,unseen
+codeforces-2217A-the-equalizer,codeforces,"The Equalizer",https://codeforces.com/problemset/problem/2217/A,800,800,math,math,,newbie,unseen
+codeforces-2211A-antimedian-deletion,codeforces,"Antimedian Deletion",https://codeforces.com/problemset/problem/2211/A,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2210A-a-simple-sequence,codeforces,"A Simple Sequence",https://codeforces.com/problemset/problem/2210/A,800,800,constructive-algorithms;dp;greedy;number-theory,dynamic programming,,newbie,unseen
+codeforces-2209A-flip-flops,codeforces,"Flip Flops",https://codeforces.com/problemset/problem/2209/A,800,800,greedy,greedy,,newbie,unseen
+codeforces-2208A-bingo-candies,codeforces,"Bingo Candies",https://codeforces.com/problemset/problem/2208/A,800,800,constructive-algorithms;math,constructive algorithms;math,,newbie,unseen
+codeforces-2207A-1-1,codeforces,"1-1",https://codeforces.com/problemset/problem/2207/A,800,800,greedy;strings,greedy,,newbie,unseen
+codeforces-2205B-simons-and-cakes-for-success,codeforces,"Simons and Cakes for Success",https://codeforces.com/problemset/problem/2205/B,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2205A-simons-and-making-it-beautiful,codeforces,"Simons and Making It Beautiful",https://codeforces.com/problemset/problem/2205/A,800,800,brute-force;constructive-algorithms,brute force;constructive algorithms,,newbie,unseen
+codeforces-2204B-right-maximum,codeforces,"Right Maximum",https://codeforces.com/problemset/problem/2204/B,800,800,greedy,greedy,,newbie,unseen
+codeforces-2204A-passing-the-ball,codeforces,"Passing the Ball",https://codeforces.com/problemset/problem/2204/A,800,800,brute-force;implementation,brute force;implementation,,newbie,unseen
+codeforces-2203A-towers-of-boxes,codeforces,"Towers of Boxes",https://codeforces.com/problemset/problem/2203/A,800,800,math,math,,newbie,unseen
+codeforces-2202A-parkour-design,codeforces,"Parkour Design",https://codeforces.com/problemset/problem/2202/A,800,800,math,math,,newbie,unseen
+codeforces-2200B-deletion-sort,codeforces,"Deletion Sort",https://codeforces.com/problemset/problem/2200/B,800,800,bitmasks;brute-force;greedy;sortings,greedy,,newbie,unseen
+codeforces-2200A-eating-game,codeforces,"Eating Game",https://codeforces.com/problemset/problem/2200/A,800,800,greedy,greedy,,newbie,unseen
+codeforces-2197A-friendly-numbers,codeforces,"Friendly Numbers",https://codeforces.com/problemset/problem/2197/A,800,800,binary-search;brute-force;expression-parsing;math;schedules,binary search,,newbie,unseen
+codeforces-2195A-sieve-of-erato67henes,codeforces,"Sieve of Erato67henes",https://codeforces.com/problemset/problem/2195/A,800,800,math;number-theory,math;number theory,,newbie,unseen
+codeforces-2194A-lawn-mower,codeforces,"Lawn Mower",https://codeforces.com/problemset/problem/2194/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2193B-reverse-a-permutation,codeforces,"Reverse a Permutation",https://codeforces.com/problemset/problem/2193/B,800,800,greedy,greedy,,newbie,unseen
+codeforces-2193A-dbmb-and-the-array,codeforces,"DBMB and the Array",https://codeforces.com/problemset/problem/2193/A,800,800,brute-force;math,brute force;math,,newbie,unseen
+codeforces-2192A-string-rotation-game,codeforces,"String Rotation Game",https://codeforces.com/problemset/problem/2192/A,800,800,brute-force;strings,brute force;strings,,newbie,unseen
+codeforces-2191A-array-coloring,codeforces,"Array Coloring",https://codeforces.com/problemset/problem/2191/A,800,800,constructive-algorithms,constructive algorithms,,newbie,unseen
+codeforces-2189A-table-with-numbers,codeforces,"Table with Numbers",https://codeforces.com/problemset/problem/2189/A,800,800,greedy;implementation,greedy,,newbie,unseen
+codeforces-2188A-divisible-permutation,codeforces,"Divisible Permutation",https://codeforces.com/problemset/problem/2188/A,800,800,constructive-algorithms,constructive algorithms,,newbie,unseen
+codeforces-2185B-prefix-max,codeforces,"Prefix Max",https://codeforces.com/problemset/problem/2185/B,800,800,greedy,greedy,,newbie,unseen
+codeforces-2185A-perfect-root,codeforces,"Perfect Root",https://codeforces.com/problemset/problem/2185/A,800,800,constructive-algorithms;math,constructive algorithms;math,,newbie,unseen
+codeforces-2184A-social-experiment,codeforces,"Social Experiment",https://codeforces.com/problemset/problem/2184/A,800,800,math,math,,newbie,unseen
+codeforces-2183A-binary-array-game,codeforces,"Binary Array Game",https://codeforces.com/problemset/problem/2183/A,800,800,games,games,,newbie,unseen
+codeforces-2182B-new-year-cake,codeforces,"New Year Cake",https://codeforces.com/problemset/problem/2182/B,800,800,brute-force,brute force,,newbie,unseen
+codeforces-2182A-new-year-string,codeforces,"New Year String",https://codeforces.com/problemset/problem/2182/A,800,800,constructive-algorithms;greedy;implementation;strings,greedy,,newbie,unseen
+codeforces-2180B-ashmal,codeforces,"Ashmal",https://codeforces.com/problemset/problem/2180/B,800,800,greedy;strings,greedy,,newbie,unseen
+codeforces-2180A-carnival-wheel,codeforces,"Carnival Wheel",https://codeforces.com/problemset/problem/2180/A,800,800,brute-force;number-theory,brute force;number theory,,newbie,unseen
+codeforces-2179B-blackslex-and-showering,codeforces,"Blackslex and Showering",https://codeforces.com/problemset/problem/2179/B,800,800,dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-2179A-blackslex-and-password,codeforces,"Blackslex and Password",https://codeforces.com/problemset/problem/2179/A,800,800,math;strings,math;strings,,newbie,unseen
+codeforces-2178A-yes-or-yes,codeforces,"Yes or Yes",https://codeforces.com/problemset/problem/2178/A,800,800,greedy;strings,greedy,,newbie,unseen
+codeforces-2176A-operations-with-inversions,codeforces,"Operations with Inversions",https://codeforces.com/problemset/problem/2176/A,800,800,greedy;implementation;math,greedy,,newbie,unseen
+codeforces-2175A-little-fairy-s-painting,codeforces,"Little Fairy's Painting",https://codeforces.com/problemset/problem/2175/A,800,800,implementation,implementation,,newbie,unseen
+codeforces-2173A-sleeping-through-classes,codeforces,"Sleeping Through Classes",https://codeforces.com/problemset/problem/2173/A,800,800,greedy;implementation,greedy,,newbie,unseen
+codeforces-2172A-ascii-art-contest,codeforces,"ASCII Art Contest",https://codeforces.com/problemset/problem/2172/A,800,800,implementation,implementation,,newbie,unseen
+codeforces-2171A-shizuku-hoshikawa-and-farm-legs,codeforces,"Shizuku Hoshikawa and Farm Legs",https://codeforces.com/problemset/problem/2171/A,800,800,brute-force;math,brute force;math,,newbie,unseen
+codeforces-2170A-maximum-neighborhood,codeforces,"Maximum Neighborhood",https://codeforces.com/problemset/problem/2170/A,800,800,bitmasks;brute-force;greedy;implementation;math,greedy,,newbie,unseen
+codeforces-2167C-isamatdin-and-his-magic-wand,codeforces,"Isamatdin and His Magic Wand!",https://codeforces.com/problemset/problem/2167/C,800,800,constructive-algorithms;greedy;implementation;sortings,greedy,,newbie,unseen
+codeforces-2167B-your-name,codeforces,"Your Name",https://codeforces.com/problemset/problem/2167/B,800,800,sortings;strings,sortings;strings,,newbie,unseen
+codeforces-2167A-square,codeforces,"Square?",https://codeforces.com/problemset/problem/2167/A,800,800,math;sortings,math;sortings,,newbie,unseen
+codeforces-2166A-same-difference,codeforces,"Same Difference",https://codeforces.com/problemset/problem/2166/A,800,800,brute-force;greedy;strings,greedy,,newbie,unseen
+codeforces-2164A-sequence-game,codeforces,"Sequence Game",https://codeforces.com/problemset/problem/2164/A,800,800,brute-force;sortings,brute force;sortings,,newbie,unseen
+codeforces-2163A-souvlaki-vs-kalamaki,codeforces,"Souvlaki VS. Kalamaki",https://codeforces.com/problemset/problem/2163/A,800,800,brute-force;greedy;math;sortings,greedy,,newbie,unseen
+codeforces-2162A-beautiful-average,codeforces,"Beautiful Average",https://codeforces.com/problemset/problem/2162/A,800,800,brute-force;greedy,greedy,,newbie,unseen
+codeforces-2161A-round-trip,codeforces,"Round Trip",https://codeforces.com/problemset/problem/2161/A,800,800,games;greedy;implementation;math,greedy,,newbie,unseen
+codeforces-2160A-mex-partition,codeforces,"MEX Partition",https://codeforces.com/problemset/problem/2160/A,800,800,math,math,,newbie,unseen
+codeforces-2158A-suspension,codeforces,"Suspension",https://codeforces.com/problemset/problem/2158/A,800,800,constructive-algorithms;greedy;math,greedy,,newbie,unseen
+codeforces-2157A-dungeon-equilibrium,codeforces,"Dungeon Equilibrium",https://codeforces.com/problemset/problem/2157/A,800,800,greedy;implementation;sortings,greedy,,newbie,unseen
+codeforces-2156A-pizza-time,codeforces,"Pizza Time",https://codeforces.com/problemset/problem/2156/A,800,800,brute-force;constructive-algorithms;greedy,greedy,,newbie,unseen
+codeforces-2155A-el-fucho,codeforces,"El fucho",https://codeforces.com/problemset/problem/2155/A,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2154A-notelock,codeforces,"Notelock",https://codeforces.com/problemset/problem/2154/A,800,800,greedy;two-pointers,greedy,,newbie,unseen
+codeforces-2153B-bitwise-reversion,codeforces,"Bitwise Reversion",https://codeforces.com/problemset/problem/2153/B,800,800,bitmasks;greedy,greedy,,newbie,unseen
+codeforces-2153A-circle-of-apple-trees,codeforces,"Circle of Apple Trees",https://codeforces.com/problemset/problem/2153/A,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2152A-increase-or-smash,codeforces,"Increase or Smash",https://codeforces.com/problemset/problem/2152/A,800,800,greedy;implementation,greedy,,newbie,unseen
+codeforces-2151A-incremental-subarray,codeforces,"Incremental Subarray",https://codeforces.com/problemset/problem/2151/A,800,800,math;strings,math;strings,,newbie,unseen
+codeforces-2149B-unconventional-pairs,codeforces,"Unconventional Pairs",https://codeforces.com/problemset/problem/2149/B,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2149A-be-positive,codeforces,"Be Positive",https://codeforces.com/problemset/problem/2149/A,800,800,math,math,,newbie,unseen
+codeforces-2148B-lasers,codeforces,"Lasers",https://codeforces.com/problemset/problem/2148/B,800,800,geometry,geometry,,newbie,unseen
+codeforces-2148A-sublime-sequence,codeforces,"Sublime Sequence",https://codeforces.com/problemset/problem/2148/A,800,800,brute-force;hashing;math,brute force;hashing,,newbie,unseen
+codeforces-2147A-shortest-increasing-path,codeforces,"Shortest Increasing Path",https://codeforces.com/problemset/problem/2147/A,800,800,constructive-algorithms;greedy,greedy,,newbie,unseen
+codeforces-2146A-equal-occurrences,codeforces,"Equal Occurrences",https://codeforces.com/problemset/problem/2146/A,800,800,brute-force;greedy;implementation,greedy,,newbie,unseen
+codeforces-2145A-candies-for-nephews,codeforces,"Candies for Nephews",https://codeforces.com/problemset/problem/2145/A,800,800,math,math,,newbie,unseen
+codeforces-2144A-cut-the-array,codeforces,"Cut the Array",https://codeforces.com/problemset/problem/2144/A,800,800,brute-force;constructive-algorithms;math;number-theory,brute force;constructive algorithms,,newbie,unseen
+codeforces-2143A-all-lengths-subtraction,codeforces,"All Lengths Subtraction",https://codeforces.com/problemset/problem/2143/A,800,800,brute-force;two-pointers,brute force;two pointers,,newbie,unseen
+codeforces-2141A-furniture-store,codeforces,"Furniture Store",https://codeforces.com/problemset/problem/2141/A,800,800,*special;implementation,*special;implementation,,newbie,unseen
+codeforces-2140A-shift-sort,codeforces,"Shift Sort",https://codeforces.com/problemset/problem/2140/A,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2139B-cake-collection,codeforces,"Cake Collection",https://codeforces.com/problemset/problem/2139/B,800,800,greedy,greedy,,newbie,unseen
+codeforces-2139A-maple-and-multiplication,codeforces,"Maple and Multiplication",https://codeforces.com/problemset/problem/2139/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2137A-collatz-conjecture,codeforces,"Collatz Conjecture",https://codeforces.com/problemset/problem/2137/A,800,800,constructive-algorithms;math,constructive algorithms;math,,newbie,unseen
+codeforces-2136A-in-the-dream,codeforces,"In the Dream",https://codeforces.com/problemset/problem/2136/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2134A-painting-with-two-colors,codeforces,"Painting With Two Colors",https://codeforces.com/problemset/problem/2134/A,800,800,constructive-algorithms;implementation;math,constructive algorithms;implementation,,newbie,unseen
+codeforces-2133B-villagers,codeforces,"Villagers",https://codeforces.com/problemset/problem/2133/B,800,800,greedy,greedy,,newbie,unseen
+codeforces-2133A-redstone,codeforces,"Redstone?",https://codeforces.com/problemset/problem/2133/A,800,800,brute-force;data-structures;implementation;math,brute force;data structures,,newbie,unseen
+codeforces-2132A-homework,codeforces,"Homework",https://codeforces.com/problemset/problem/2132/A,800,800,brute-force;implementation;strings,brute force;implementation,,newbie,unseen
+codeforces-2131B-alternating-series,codeforces,"Alternating Series",https://codeforces.com/problemset/problem/2131/B,800,800,constructive-algorithms;greedy;math,greedy,,newbie,unseen
+codeforces-2131A-lever,codeforces,"Lever",https://codeforces.com/problemset/problem/2131/A,800,800,math,math,,newbie,unseen
+codeforces-2130A-submission-is-all-you-need,codeforces,"Submission is All You Need",https://codeforces.com/problemset/problem/2130/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2128A-recycling-center,codeforces,"Recycling Center",https://codeforces.com/problemset/problem/2128/A,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2127A-mix-mex-max,codeforces,"Mix Mex Max",https://codeforces.com/problemset/problem/2127/A,800,800,constructive-algorithms;greedy;math,greedy,,newbie,unseen
+codeforces-2126B-no-casino-in-the-mountains,codeforces,"No Casino in the Mountains",https://codeforces.com/problemset/problem/2126/B,800,800,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-2126A-only-one-digit,codeforces,"Only One Digit",https://codeforces.com/problemset/problem/2126/A,800,800,brute-force;implementation;math,brute force;implementation,,newbie,unseen
+codeforces-2125A-difficult-contest,codeforces,"Difficult Contest",https://codeforces.com/problemset/problem/2125/A,800,800,constructive-algorithms;implementation;sortings;strings,constructive algorithms;implementation,,newbie,unseen
+codeforces-2124A-deranged-deletions,codeforces,"Deranged Deletions",https://codeforces.com/problemset/problem/2124/A,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2123B-tournament,codeforces,"Tournament",https://codeforces.com/problemset/problem/2123/B,800,800,greedy,greedy,,newbie,unseen
+codeforces-2123A-blackboard-game,codeforces,"Blackboard Game",https://codeforces.com/problemset/problem/2123/A,800,800,math,math,,newbie,unseen
+codeforces-2122A-greedy-grid,codeforces,"Greedy Grid",https://codeforces.com/problemset/problem/2122/A,800,800,constructive-algorithms;greedy,greedy,,newbie,unseen
+codeforces-2121B-above-the-clouds,codeforces,"Above the Clouds",https://codeforces.com/problemset/problem/2121/B,800,800,constructive-algorithms;greedy;strings,greedy,,newbie,unseen
+codeforces-2121A-letter-home,codeforces,"Letter Home",https://codeforces.com/problemset/problem/2121/A,800,800,brute-force;math,brute force;math,,newbie,unseen
+codeforces-2120A-square-of-rectangles,codeforces,"Square of Rectangles",https://codeforces.com/problemset/problem/2120/A,800,800,geometry;math,geometry;math,,newbie,unseen
+codeforces-2119A-add-or-xor,codeforces,"Add or XOR",https://codeforces.com/problemset/problem/2119/A,800,800,bitmasks;greedy;math,greedy,,newbie,unseen
+codeforces-2118A-equal-subsequences,codeforces,"Equal Subsequences",https://codeforces.com/problemset/problem/2118/A,800,800,constructive-algorithms;greedy,greedy,,newbie,unseen
+codeforces-2117B-shrink,codeforces,"Shrink",https://codeforces.com/problemset/problem/2117/B,800,800,constructive-algorithms,constructive algorithms,,newbie,unseen
+codeforces-2117A-false-alarm,codeforces,"False Alarm",https://codeforces.com/problemset/problem/2117/A,800,800,greedy;implementation,greedy,,newbie,unseen
+codeforces-2116A-gellyfish-and-tricolor-pansy,codeforces,"Gellyfish and Tricolor Pansy",https://codeforces.com/problemset/problem/2116/A,800,800,games;greedy,greedy,,newbie,unseen
+codeforces-2114A-square-year,codeforces,"Square Year",https://codeforces.com/problemset/problem/2114/A,800,800,binary-search;brute-force;math,binary search,,newbie,unseen
+codeforces-2113A-shashliks,codeforces,"Shashliks",https://codeforces.com/problemset/problem/2113/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2112A-race,codeforces,"Race",https://codeforces.com/problemset/problem/2112/A,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2111A-energy-crystals,codeforces,"Energy Crystals",https://codeforces.com/problemset/problem/2111/A,800,800,greedy;implementation;math,greedy,,newbie,unseen
+codeforces-2110A-fashionable-array,codeforces,"Fashionable Array",https://codeforces.com/problemset/problem/2110/A,800,800,implementation;sortings,implementation;sortings,,newbie,unseen
+codeforces-2109A-it-s-time-to-duel,codeforces,"It's Time To Duel",https://codeforces.com/problemset/problem/2109/A,800,800,implementation,implementation,,newbie,unseen
+codeforces-2108A-permutation-warm-up,codeforces,"Permutation Warm-Up",https://codeforces.com/problemset/problem/2108/A,800,800,combinatorics;greedy;math,greedy,,newbie,unseen
+codeforces-2107A-lrc-and-vip,codeforces,"LRC and VIP",https://codeforces.com/problemset/problem/2107/A,800,800,greedy;number-theory,greedy,,newbie,unseen
+codeforces-2106A-dr-tc,codeforces,"Dr. TC",https://codeforces.com/problemset/problem/2106/A,800,800,brute-force;math,brute force;math,,newbie,unseen
+codeforces-2104A-three-decks,codeforces,"Three Decks",https://codeforces.com/problemset/problem/2104/A,800,800,math,math,,newbie,unseen
+codeforces-2103A-common-multiple,codeforces,"Common Multiple",https://codeforces.com/problemset/problem/2103/A,800,800,brute-force;greedy;implementation;math,greedy,,newbie,unseen
+codeforces-2098A-vadim-s-collection,codeforces,"Vadim's Collection",https://codeforces.com/problemset/problem/2098/A,800,800,brute-force;greedy,greedy,,newbie,unseen
+codeforces-2096A-wonderful-sticks,codeforces,"Wonderful Sticks",https://codeforces.com/problemset/problem/2096/A,800,800,constructive-algorithms;greedy,greedy,,newbie,unseen
+codeforces-2094B-bobritto-bandito,codeforces,"Bobritto Bandito",https://codeforces.com/problemset/problem/2094/B,800,800,brute-force;constructive-algorithms,brute force;constructive algorithms,,newbie,unseen
+codeforces-2094A-trippi-troppi,codeforces,"Trippi Troppi",https://codeforces.com/problemset/problem/2094/A,800,800,strings,strings,,newbie,unseen
+codeforces-2093A-ideal-generator,codeforces,"Ideal Generator",https://codeforces.com/problemset/problem/2093/A,800,800,math,math,,newbie,unseen
+codeforces-2092A-kamilka-and-the-sheep,codeforces,"Kamilka and the Sheep",https://codeforces.com/problemset/problem/2092/A,800,800,greedy;math;number-theory;sortings,greedy,,newbie,unseen
+codeforces-2091B-team-training,codeforces,"Team Training",https://codeforces.com/problemset/problem/2091/B,800,800,dp;greedy;sortings,dynamic programming,,newbie,unseen
+codeforces-2091A-olympiad-date,codeforces,"Olympiad Date",https://codeforces.com/problemset/problem/2091/A,800,800,greedy;strings,greedy,,newbie,unseen
+codeforces-2090A-treasure-hunt,codeforces,"Treasure Hunt",https://codeforces.com/problemset/problem/2090/A,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2086A-cloudberry-jam,codeforces,"Cloudberry Jam",https://codeforces.com/problemset/problem/2086/A,800,800,math,math,,newbie,unseen
+codeforces-2084A-max-and-mod,codeforces,"Max and Mod",https://codeforces.com/problemset/problem/2084/A,800,800,constructive-algorithms;math,constructive algorithms;math,,newbie,unseen
+codeforces-2082A-binary-matrix,codeforces,"Binary Matrix",https://codeforces.com/problemset/problem/2082/A,800,800,constructive-algorithms;greedy,greedy,,newbie,unseen
+codeforces-2078A-final-verdict,codeforces,"Final Verdict",https://codeforces.com/problemset/problem/2078/A,800,800,math,math,,newbie,unseen
+codeforces-2075A-to-zero,codeforces,"To Zero",https://codeforces.com/problemset/problem/2075/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2074B-the-third-side,codeforces,"The Third Side",https://codeforces.com/problemset/problem/2074/B,800,800,geometry;greedy;math,greedy,,newbie,unseen
+codeforces-2074A-draw-a-square,codeforces,"Draw a Square",https://codeforces.com/problemset/problem/2074/A,800,800,geometry;implementation,geometry;implementation,,newbie,unseen
+codeforces-2072A-new-world-new-me-new-array,codeforces,"New World, New Me, New Array",https://codeforces.com/problemset/problem/2072/A,800,800,greedy;implementation;math,greedy,,newbie,unseen
+codeforces-2071A-the-play-never-ends,codeforces,"The Play Never Ends",https://codeforces.com/problemset/problem/2071/A,800,800,math;number-theory,math;number theory,,newbie,unseen
+codeforces-2070A-fizzbuzz-remixed,codeforces,"FizzBuzz Remixed",https://codeforces.com/problemset/problem/2070/A,800,800,brute-force;math,brute force;math,,newbie,unseen
+codeforces-2069A-was-there-an-array,codeforces,"Was there an Array?",https://codeforces.com/problemset/problem/2069/A,800,800,graph-matchings;greedy,greedy,,newbie,unseen
+codeforces-2067A-adjacent-digit-sums,codeforces,"Adjacent Digit Sums",https://codeforces.com/problemset/problem/2067/A,800,800,brute-force;constructive-algorithms;math,brute force;constructive algorithms,,newbie,unseen
+codeforces-2065B-skibidus-and-ohio,codeforces,"Skibidus and Ohio",https://codeforces.com/problemset/problem/2065/B,800,800,strings,strings,,newbie,unseen
+codeforces-2065A-skibidus-and-amog-u,codeforces,"Skibidus and Amog'u",https://codeforces.com/problemset/problem/2065/A,800,800,brute-force;constructive-algorithms;greedy;implementation;strings,greedy,,newbie,unseen
+codeforces-2064A-brogramming-contest,codeforces,"Brogramming Contest",https://codeforces.com/problemset/problem/2064/A,800,800,greedy;strings,greedy,,newbie,unseen
+codeforces-2063A-minimal-coprime,codeforces,"Minimal Coprime",https://codeforces.com/problemset/problem/2063/A,800,800,math;number-theory,math;number theory,,newbie,unseen
+codeforces-2062A-string,codeforces,"String",https://codeforces.com/problemset/problem/2062/A,800,800,constructive-algorithms;greedy;math;strings,greedy,,newbie,unseen
+codeforces-2061A-kevin-and-arithmetic,codeforces,"Kevin and Arithmetic",https://codeforces.com/problemset/problem/2061/A,800,800,math,math,,newbie,unseen
+codeforces-2060A-fibonacciness,codeforces,"Fibonacciness",https://codeforces.com/problemset/problem/2060/A,800,800,brute-force,brute force,,newbie,unseen
+codeforces-2059A-milya-and-two-arrays,codeforces,"Milya and Two Arrays",https://codeforces.com/problemset/problem/2059/A,800,800,constructive-algorithms;greedy;sortings,greedy,,newbie,unseen
+codeforces-2057A-mex-table,codeforces,"MEX Table",https://codeforces.com/problemset/problem/2057/A,800,800,constructive-algorithms;math,constructive algorithms;math,,newbie,unseen
+codeforces-2056A-shape-perimeter,codeforces,"Shape Perimeter",https://codeforces.com/problemset/problem/2056/A,800,800,constructive-algorithms;math,constructive algorithms;math,,newbie,unseen
+codeforces-2055A-two-frogs,codeforces,"Two Frogs",https://codeforces.com/problemset/problem/2055/A,800,800,constructive-algorithms;games;greedy;math,greedy,,newbie,unseen
+codeforces-2053A-tender-carpenter,codeforces,"Tender Carpenter",https://codeforces.com/problemset/problem/2053/A,800,800,dp;geometry;greedy;math,dynamic programming,,newbie,unseen
+codeforces-2051B-journey,codeforces,"Journey",https://codeforces.com/problemset/problem/2051/B,800,800,binary-search;math,binary search,,newbie,unseen
+codeforces-2051A-preparing-for-the-olympiad,codeforces,"Preparing for the Olympiad",https://codeforces.com/problemset/problem/2051/A,800,800,greedy,greedy,,newbie,unseen
+codeforces-2050A-line-breaks,codeforces,"Line Breaks",https://codeforces.com/problemset/problem/2050/A,800,800,implementation,implementation,,newbie,unseen
+codeforces-2049A-mex-destruction,codeforces,"MEX Destruction",https://codeforces.com/problemset/problem/2049/A,800,800,greedy;implementation,greedy,,newbie,unseen
+codeforces-2048A-kevin-and-combination-lock,codeforces,"Kevin and Combination Lock",https://codeforces.com/problemset/problem/2048/A,800,800,brute-force;greedy;implementation;math;number-theory,greedy,,newbie,unseen
+codeforces-2047A-alyona-and-a-square-jigsaw-puzzle,codeforces,"Alyona and a Square Jigsaw Puzzle",https://codeforces.com/problemset/problem/2047/A,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2044C-hard-problem,codeforces,"Hard Problem",https://codeforces.com/problemset/problem/2044/C,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2044B-normal-problem,codeforces,"Normal Problem",https://codeforces.com/problemset/problem/2044/B,800,800,implementation;strings,implementation;strings,,newbie,unseen
+codeforces-2044A-easy-problem,codeforces,"Easy Problem",https://codeforces.com/problemset/problem/2044/A,800,800,brute-force;math,brute force;math,,newbie,unseen
+codeforces-2043A-coin-transformation,codeforces,"Coin Transformation",https://codeforces.com/problemset/problem/2043/A,800,800,brute-force;math,brute force;math,,newbie,unseen
+codeforces-2042A-greedy-monocarp,codeforces,"Greedy Monocarp",https://codeforces.com/problemset/problem/2042/A,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2040A-game-of-division,codeforces,"Game of Division",https://codeforces.com/problemset/problem/2040/A,800,800,games;math,games;math,,newbie,unseen
+codeforces-2039A-shohag-loves-mod,codeforces,"Shohag Loves Mod",https://codeforces.com/problemset/problem/2039/A,800,800,constructive-algorithms;number-theory,constructive algorithms;number theory,,newbie,unseen
+codeforces-2038N-fixing-the-expression,codeforces,"Fixing the Expression",https://codeforces.com/problemset/problem/2038/N,800,800,implementation,implementation,,newbie,unseen
+codeforces-2038J-waiting-for,codeforces,"Waiting for...",https://codeforces.com/problemset/problem/2038/J,800,800,greedy;implementation,greedy,,newbie,unseen
+codeforces-2037B-intercepted-inputs,codeforces,"Intercepted Inputs",https://codeforces.com/problemset/problem/2037/B,800,800,brute-force;implementation,brute force;implementation,,newbie,unseen
+codeforces-2037A-twice,codeforces,"Twice",https://codeforces.com/problemset/problem/2037/A,800,800,implementation,implementation,,newbie,unseen
+codeforces-2036B-startup,codeforces,"Startup",https://codeforces.com/problemset/problem/2036/B,800,800,greedy;sortings,greedy,,newbie,unseen
+codeforces-2036A-quintomania,codeforces,"Quintomania",https://codeforces.com/problemset/problem/2036/A,800,800,implementation,implementation,,newbie,unseen
+codeforces-2035A-sliding,codeforces,"Sliding",https://codeforces.com/problemset/problem/2035/A,800,800,implementation;math,implementation;math,,newbie,unseen
+codeforces-2034A-king-keykhosrow-s-mystery,codeforces,"King Keykhosrow's Mystery",https://codeforces.com/problemset/problem/2034/A,800,800,brute-force;chinese-remainder-theorem;math;number-theory,brute force;chinese remainder theorem,,newbie,unseen
+codeforces-2033A-sakurako-and-kosuke,codeforces,"Sakurako and Kosuke",https://codeforces.com/problemset/problem/2033/A,800,800,constructive-algorithms;implementation;math,constructive algorithms;implementation,,newbie,unseen
+codeforces-2032A-circuit,codeforces,"Circuit",https://codeforces.com/problemset/problem/2032/A,800,800,greedy;implementation;math;number-theory,greedy,,newbie,unseen
+codeforces-2031A-penchick-and-modern-monument,codeforces,"Penchick and Modern Monument",https://codeforces.com/problemset/problem/2031/A,800,800,constructive-algorithms;dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-2030B-minimise-oneness,codeforces,"Minimise Oneness",https://codeforces.com/problemset/problem/2030/B,800,800,combinatorics;constructive-algorithms;games;math,combinatorics;constructive algorithms,,newbie,unseen
+codeforces-2030A-a-gift-from-orangutan,codeforces,"A Gift From Orangutan",https://codeforces.com/problemset/problem/2030/A,800,800,constructive-algorithms;greedy;math;sortings,greedy,,newbie,unseen
+codeforces-2029A-set,codeforces,"Set",https://codeforces.com/problemset/problem/2029/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2027A-rectangle-arrangement,codeforces,"Rectangle Arrangement",https://codeforces.com/problemset/problem/2027/A,800,800,geometry;implementation;math,geometry;implementation,,newbie,unseen
+codeforces-2025A-two-screens,codeforces,"Two Screens",https://codeforces.com/problemset/problem/2025/A,800,800,binary-search;greedy;strings;two-pointers,binary search,,newbie,unseen
+codeforces-2024A-profitable-interest-rate,codeforces,"Profitable Interest Rate",https://codeforces.com/problemset/problem/2024/A,800,800,greedy;math,greedy,,newbie,unseen
+codeforces-2022A-bus-to-p-njamo,codeforces,"Bus to Pénjamo",https://codeforces.com/problemset/problem/2022/A,800,800,constructive-algorithms;greedy;implementation;math,greedy,,newbie,unseen
+codeforces-2021A-meaning-mean,codeforces,"Meaning Mean",https://codeforces.com/problemset/problem/2021/A,800,800,data-structures;greedy;math;sortings,greedy,,newbie,unseen
+codeforces-2020A-find-minimum-operations,codeforces,"Find Minimum Operations",https://codeforces.com/problemset/problem/2020/A,800,800,bitmasks;brute-force;greedy;math;number-theory,greedy,,newbie,unseen
+codeforces-2019A-max-plus-size,codeforces,"Max Plus Size",https://codeforces.com/problemset/problem/2019/A,800,800,brute-force;dp;greedy,dynamic programming,,newbie,unseen
+codeforces-2014B-robin-hood-and-the-major-oak,codeforces,"Robin Hood and the Major Oak",https://codeforces.com/problemset/problem/2014/B,800,800,math,math,,newbie,unseen
+codeforces-2014A-robin-helps,codeforces,"Robin Helps",https://codeforces.com/problemset/problem/2014/A,800,800,greedy;implementation,greedy,,newbie,unseen
+codeforces-2013A-zhan-s-blender,codeforces,"Zhan's Blender",https://codeforces.com/problemset/problem/2013/A,800,800,constructive-algorithms;math,constructive algorithms;math,,newbie,unseen
+codeforces-2010B-three-brothers,codeforces,"Three Brothers",https://codeforces.com/problemset/problem/2010/B,800,800,brute-force;implementation;math,brute force;implementation,,newbie,unseen
+codeforces-2010A-alternating-sum-of-numbers,codeforces,"Alternating Sum of Numbers",https://codeforces.com/problemset/problem/2010/A,800,800,brute-force;implementation;math,brute force;implementation,,newbie,unseen
+codeforces-2009B-osu-mania,codeforces,"osu!mania",https://codeforces.com/problemset/problem/2009/B,800,800,brute-force;implementation,brute force;implementation,,newbie,unseen

@@ -1,0 +1,201 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status
+codeforces-2234C-vessels-heights-and-two-versions-easy-version,codeforces,"Vessels, Heights and Two Versions (Easy Version)",https://codeforces.com/problemset/problem/2234/C,1200,1200,dfs-and-similar;dsu;greedy;implementation;two-pointers,graphs,,specialist,unseen
+codeforces-2227D-palindromex,codeforces,"Palindromex",https://codeforces.com/problemset/problem/2227/D,1200,1200,binary-search;brute-force;constructive-algorithms;data-structures;greedy;implementation;two-pointers,binary search,,specialist,unseen
+codeforces-2224B-zhily-and-mex-and-max,codeforces,"Zhily and Mex and Max",https://codeforces.com/problemset/problem/2224/B,1200,1200,constructive-algorithms;greedy;math;sortings,greedy,,specialist,unseen
+codeforces-2220B-oie-excursion,codeforces,"OIE Excursion",https://codeforces.com/problemset/problem/2220/B,1200,1200,greedy,greedy,,specialist,unseen
+codeforces-2218E-the-67th-xor-problem,codeforces,"The 67th XOR Problem",https://codeforces.com/problemset/problem/2218/E,1200,1200,binary-search;bitmasks;brute-force,binary search,,specialist,unseen
+codeforces-2210C1-a-simple-gcd-problem-easy-version,codeforces,"A Simple GCD Problem (Easy Version)",https://codeforces.com/problemset/problem/2210/C1,1200,1200,greedy;number-theory,greedy,,specialist,unseen
+codeforces-2202B-abab-construction,codeforces,"ABAB Construction",https://codeforces.com/problemset/problem/2202/B,1200,1200,dp;greedy;implementation,dynamic programming,,specialist,unseen
+codeforces-2196A-game-with-a-fraction,codeforces,"Game with a Fraction",https://codeforces.com/problemset/problem/2196/A,1200,1200,games;math,games;math,,specialist,unseen
+codeforces-2190A-sorting-game,codeforces,"Sorting Game",https://codeforces.com/problemset/problem/2190/A,1200,1200,constructive-algorithms;games;greedy,greedy,,specialist,unseen
+codeforces-2189B-the-curse-of-the-frog,codeforces,"The Curse of the Frog",https://codeforces.com/problemset/problem/2189/B,1200,1200,constructive-algorithms;greedy;math,greedy,,specialist,unseen
+codeforces-2182C-production-of-snowmen,codeforces,"Production of Snowmen",https://codeforces.com/problemset/problem/2182/C,1200,1200,brute-force;combinatorics;dp,dynamic programming,,specialist,unseen
+codeforces-2181H-honey-cake,codeforces,"Honey Cake",https://codeforces.com/problemset/problem/2181/H,1200,1200,brute-force;math;number-theory,brute force;math,,specialist,unseen
+codeforces-2178C-first-or-second,codeforces,"First or Second",https://codeforces.com/problemset/problem/2178/C,1200,1200,dp;greedy;implementation,dynamic programming,,specialist,unseen
+codeforces-2174A-needle-in-a-haystack,codeforces,"Needle in a Haystack",https://codeforces.com/problemset/problem/2174/A,1200,1200,greedy;strings;two-pointers,greedy,,specialist,unseen
+codeforces-2172E-number-maze,codeforces,"Number Maze",https://codeforces.com/problemset/problem/2172/E,1200,1200,implementation,implementation,,specialist,unseen
+codeforces-2170B-addition-on-a-segment,codeforces,"Addition on a Segment",https://codeforces.com/problemset/problem/2170/B,1200,1200,greedy;math,greedy,,specialist,unseen
+codeforces-2161C-loyalty,codeforces,"Loyalty",https://codeforces.com/problemset/problem/2161/C,1200,1200,constructive-algorithms;greedy;sortings;two-pointers,greedy,,specialist,unseen
+codeforces-2158B-split,codeforces,"Split",https://codeforces.com/problemset/problem/2158/B,1200,1200,constructive-algorithms;greedy;math,greedy,,specialist,unseen
+codeforces-2149D-a-and-b,codeforces,"A and B",https://codeforces.com/problemset/problem/2149/D,1200,1200,strings,strings,,specialist,unseen
+codeforces-2148E-split,codeforces,"Split",https://codeforces.com/problemset/problem/2148/E,1200,1200,binary-search;data-structures;two-pointers,binary search,,specialist,unseen
+codeforces-2141B-games,codeforces,"Games",https://codeforces.com/problemset/problem/2141/B,1200,1200,*special;greedy,greedy,,specialist,unseen
+codeforces-2137D-replace-with-occurrences,codeforces,"Replace with Occurrences",https://codeforces.com/problemset/problem/2137/D,1200,1200,constructive-algorithms,constructive algorithms,,specialist,unseen
+codeforces-2135A-against-the-difference,codeforces,"Against the Difference",https://codeforces.com/problemset/problem/2135/A,1200,1200,data-structures;dp,dynamic programming,,specialist,unseen
+codeforces-2134C-even-larger,codeforces,"Even Larger",https://codeforces.com/problemset/problem/2134/C,1200,1200,brute-force;greedy;implementation,greedy,,specialist,unseen
+codeforces-2134B-add-0-or-k,codeforces,"Add 0 or K",https://codeforces.com/problemset/problem/2134/B,1200,1200,constructive-algorithms;math;number-theory,constructive algorithms;math,,specialist,unseen
+codeforces-2128C-leftmost-below,codeforces,"Leftmost Below",https://codeforces.com/problemset/problem/2128/C,1200,1200,greedy;math,greedy,,specialist,unseen
+codeforces-2126D-this-is-the-last-time,codeforces,"This Is the Last Time",https://codeforces.com/problemset/problem/2126/D,1200,1200,data-structures;greedy;sortings,greedy,,specialist,unseen
+codeforces-2123D-binary-string-battle,codeforces,"Binary String Battle",https://codeforces.com/problemset/problem/2123/D,1200,1200,constructive-algorithms;games;greedy,greedy,,specialist,unseen
+codeforces-2121C-those-who-are-with-us,codeforces,"Those Who Are With Us",https://codeforces.com/problemset/problem/2121/C,1200,1200,greedy;implementation,greedy,,specialist,unseen
+codeforces-2119B-line-segments,codeforces,"Line Segments",https://codeforces.com/problemset/problem/2119/B,1200,1200,geometry;greedy;math,greedy,,specialist,unseen
+codeforces-2118B-make-it-permutation,codeforces,"Make It Permutation",https://codeforces.com/problemset/problem/2118/B,1200,1200,constructive-algorithms,constructive algorithms,,specialist,unseen
+codeforces-2117D-retaliation,codeforces,"Retaliation",https://codeforces.com/problemset/problem/2117/D,1200,1200,binary-search;math;number-theory,binary search,,specialist,unseen
+codeforces-2117C-cool-partition,codeforces,"Cool Partition",https://codeforces.com/problemset/problem/2117/C,1200,1200,data-structures;greedy,greedy,,specialist,unseen
+codeforces-2113B-good-start,codeforces,"Good Start",https://codeforces.com/problemset/problem/2113/B,1200,1200,constructive-algorithms;math,constructive algorithms;math,,specialist,unseen
+codeforces-2109B-slice-to-survive,codeforces,"Slice to Survive",https://codeforces.com/problemset/problem/2109/B,1200,1200,bitmasks;greedy;math,greedy,,specialist,unseen
+codeforces-2094E-boneca-ambalabu,codeforces,"Boneca Ambalabu",https://codeforces.com/problemset/problem/2094/E,1200,1200,bitmasks,bitmasks,,specialist,unseen
+codeforces-2092C-asuna-and-the-mosquitoes,codeforces,"Asuna and the Mosquitoes",https://codeforces.com/problemset/problem/2092/C,1200,1200,constructive-algorithms;greedy;math,greedy,,specialist,unseen
+codeforces-2091D-place-of-the-olympiad,codeforces,"Place of the Olympiad",https://codeforces.com/problemset/problem/2091/D,1200,1200,binary-search;greedy;math,binary search,,specialist,unseen
+codeforces-2085B-serval-and-final-mex,codeforces,"Serval and Final MEX",https://codeforces.com/problemset/problem/2085/B,1200,1200,constructive-algorithms;implementation,constructive algorithms;implementation,,specialist,unseen
+codeforces-2072C-creating-keys-for-storages-has-become-my-main-skill,codeforces,"Creating Keys for StORages Has Become My Main Skill",https://codeforces.com/problemset/problem/2072/C,1200,1200,bitmasks;constructive-algorithms;greedy,greedy,,specialist,unseen
+codeforces-2069B-set-of-strangers,codeforces,"Set of Strangers",https://codeforces.com/problemset/problem/2069/B,1200,1200,greedy;matrices,greedy,,specialist,unseen
+codeforces-2067B-two-large-bags,codeforces,"Two Large Bags",https://codeforces.com/problemset/problem/2067/B,1200,1200,brute-force;dp;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-2065D-skibidus-and-sigma,codeforces,"Skibidus and Sigma",https://codeforces.com/problemset/problem/2065/D,1200,1200,greedy;sortings,greedy,,specialist,unseen
+codeforces-2062C-cirno-and-operations,codeforces,"Cirno and Operations",https://codeforces.com/problemset/problem/2062/C,1200,1200,brute-force;math,brute force;math,,specialist,unseen
+codeforces-2056C-palindromic-subsequences,codeforces,"Palindromic Subsequences",https://codeforces.com/problemset/problem/2056/C,1200,1200,brute-force;constructive-algorithms;math,brute force;constructive algorithms,,specialist,unseen
+codeforces-2053B-outstanding-impressionist,codeforces,"Outstanding Impressionist",https://codeforces.com/problemset/problem/2053/B,1200,1200,binary-search;brute-force;data-structures;greedy,binary search,,specialist,unseen
+codeforces-2051D-counting-pairs,codeforces,"Counting Pairs",https://codeforces.com/problemset/problem/2051/D,1200,1200,binary-search;sortings;two-pointers,binary search,,specialist,unseen
+codeforces-2050C-uninteresting-number,codeforces,"Uninteresting Number",https://codeforces.com/problemset/problem/2050/C,1200,1200,brute-force;dp;math,dynamic programming,,specialist,unseen
+codeforces-2048C-kevin-and-binary-strings,codeforces,"Kevin and Binary Strings",https://codeforces.com/problemset/problem/2048/C,1200,1200,bitmasks;brute-force;greedy;implementation;strings,greedy,,specialist,unseen
+codeforces-2046A-swap-columns-and-find-a-path,codeforces,"Swap Columns and Find a Path",https://codeforces.com/problemset/problem/2046/A,1200,1200,greedy;sortings,greedy,,specialist,unseen
+codeforces-2041E-beautiful-array,codeforces,"Beautiful Array",https://codeforces.com/problemset/problem/2041/E,1200,1200,constructive-algorithms;math,constructive algorithms;math,,specialist,unseen
+codeforces-2041B-bowling-frame,codeforces,"Bowling Frame",https://codeforces.com/problemset/problem/2041/B,1200,1200,binary-search;brute-force;math,binary search,,specialist,unseen
+codeforces-2039C1-shohag-loves-xor-easy-version,codeforces,"Shohag Loves XOR (Easy Version)",https://codeforces.com/problemset/problem/2039/C1,1200,1200,bitmasks;brute-force;math;number-theory,bitmasks;brute force,,specialist,unseen
+codeforces-2021B-maximize-mex,codeforces,"Maximize Mex",https://codeforces.com/problemset/problem/2021/B,1200,1200,brute-force;greedy;math;number-theory,greedy,,specialist,unseen
+codeforces-2020B-brightness-begins,codeforces,"Brightness Begins",https://codeforces.com/problemset/problem/2020/B,1200,1200,binary-search;math,binary search,,specialist,unseen
+codeforces-2019B-all-pairs-segments,codeforces,"All Pairs Segments",https://codeforces.com/problemset/problem/2019/B,1200,1200,implementation;math,implementation;math,,specialist,unseen
+codeforces-2005B2-the-strict-teacher-hard-version,codeforces,"The Strict Teacher (Hard Version)",https://codeforces.com/problemset/problem/2005/B2,1200,1200,binary-search;greedy;math;sortings,binary search,,specialist,unseen
+codeforces-2003C-turtle-and-good-pairs,codeforces,"Turtle and Good Pairs",https://codeforces.com/problemset/problem/2003/C,1200,1200,constructive-algorithms;greedy;sortings;strings,greedy,,specialist,unseen
+codeforces-2002C-black-circles,codeforces,"Black Circles",https://codeforces.com/problemset/problem/2002/C,1200,1200,brute-force;geometry;greedy;math,greedy,,specialist,unseen
+codeforces-2000D-right-left-wrong,codeforces,"Right Left Wrong",https://codeforces.com/problemset/problem/2000/D,1200,1200,greedy;implementation;two-pointers,greedy,,specialist,unseen
+codeforces-1996C-sort,codeforces,"Sort",https://codeforces.com/problemset/problem/1996/C,1200,1200,dp;greedy;sortings;strings,dynamic programming,,specialist,unseen
+codeforces-1992D-test-of-love,codeforces,"Test of Love",https://codeforces.com/problemset/problem/1992/D,1200,1200,dp;greedy;implementation,dynamic programming,,specialist,unseen
+codeforces-1990B-array-craft,codeforces,"Array Craft",https://codeforces.com/problemset/problem/1990/B,1200,1200,constructive-algorithms;greedy,greedy,,specialist,unseen
+codeforces-1989B-substring-and-subsequence,codeforces,"Substring and Subsequence",https://codeforces.com/problemset/problem/1989/B,1200,1200,brute-force;greedy;strings,greedy,,specialist,unseen
+codeforces-1987C-basil-s-garden,codeforces,"Basil's Garden",https://codeforces.com/problemset/problem/1987/C,1200,1200,dp;greedy,dynamic programming,,specialist,unseen
+codeforces-1985E-secret-box,codeforces,"Secret Box",https://codeforces.com/problemset/problem/1985/E,1200,1200,brute-force;combinatorics;math,brute force;combinatorics,,specialist,unseen
+codeforces-1983B-corner-twist,codeforces,"Corner Twist",https://codeforces.com/problemset/problem/1983/B,1200,1200,constructive-algorithms;greedy;implementation;math,greedy,,specialist,unseen
+codeforces-1982C-boring-day,codeforces,"Boring Day",https://codeforces.com/problemset/problem/1982/C,1200,1200,binary-search;data-structures;dp;greedy;two-pointers,dynamic programming,,specialist,unseen
+codeforces-1982B-collatz-conjecture,codeforces,"Collatz Conjecture",https://codeforces.com/problemset/problem/1982/B,1200,1200,brute-force;implementation;math;number-theory,brute force;implementation,,specialist,unseen
+codeforces-1979C-earning-on-bets,codeforces,"Earning on Bets",https://codeforces.com/problemset/problem/1979/C,1200,1200,binary-search;combinatorics;constructive-algorithms;number-theory,binary search,,specialist,unseen
+codeforces-1975C-chamo-and-mocha-s-array,codeforces,"Chamo and Mocha's Array",https://codeforces.com/problemset/problem/1975/C,1200,1200,binary-search;brute-force;greedy,binary search,,specialist,unseen
+codeforces-1954C-long-multiplication,codeforces,"Long Multiplication",https://codeforces.com/problemset/problem/1954/C,1200,1200,greedy;math;number-theory,greedy,,specialist,unseen
+codeforces-1954B-make-it-ugly,codeforces,"Make It Ugly",https://codeforces.com/problemset/problem/1954/B,1200,1200,implementation;math,implementation;math,,specialist,unseen
+codeforces-1951B-battle-cows,codeforces,"Battle Cows",https://codeforces.com/problemset/problem/1951/B,1200,1200,binary-search;data-structures;greedy,binary search,,specialist,unseen
+codeforces-1945C-left-and-right-houses,codeforces,"Left and Right Houses",https://codeforces.com/problemset/problem/1945/C,1200,1200,brute-force,brute force,,specialist,unseen
+codeforces-1941D-rudolf-and-the-ball-game,codeforces,"Rudolf and the Ball Game",https://codeforces.com/problemset/problem/1941/D,1200,1200,dfs-and-similar;dp;implementation,dynamic programming,,specialist,unseen
+codeforces-1935B-informatics-in-mac,codeforces,"Informatics in MAC",https://codeforces.com/problemset/problem/1935/B,1200,1200,constructive-algorithms,constructive algorithms,,specialist,unseen
+codeforces-1934B-yet-another-coin-problem,codeforces,"Yet Another Coin Problem",https://codeforces.com/problemset/problem/1934/B,1200,1200,brute-force;dp;greedy;math,dynamic programming,,specialist,unseen
+codeforces-1933D-turtle-tenacity-continual-mods,codeforces,"Turtle Tenacity: Continual Mods",https://codeforces.com/problemset/problem/1933/D,1200,1200,constructive-algorithms;greedy;math;number-theory;sortings,greedy,,specialist,unseen
+codeforces-1928B-equalize,codeforces,"Equalize",https://codeforces.com/problemset/problem/1928/B,1200,1200,binary-search;greedy;sortings;two-pointers,binary search,,specialist,unseen
+codeforces-1926C-vlad-and-a-sum-of-sum-of-digits,codeforces,"Vlad and a Sum of Sum of Digits",https://codeforces.com/problemset/problem/1926/C,1200,1200,dp;implementation,dynamic programming,,specialist,unseen
+codeforces-1925B-a-balanced-problemset,codeforces,"A Balanced Problemset?",https://codeforces.com/problemset/problem/1925/B,1200,1200,brute-force;greedy;math;number-theory,greedy,,specialist,unseen
+codeforces-1922B-forming-triangles,codeforces,"Forming Triangles",https://codeforces.com/problemset/problem/1922/B,1200,1200,combinatorics;constructive-algorithms;math;sortings,combinatorics;constructive algorithms,,specialist,unseen
+codeforces-1916C-training-before-the-olympiad,codeforces,"Training Before the Olympiad",https://codeforces.com/problemset/problem/1916/C,1200,1200,constructive-algorithms;games;greedy;implementation;math,greedy,,specialist,unseen
+codeforces-1914D-three-activities,codeforces,"Three Activities",https://codeforces.com/problemset/problem/1914/D,1200,1200,brute-force;dp;greedy;implementation;sortings,dynamic programming,,specialist,unseen
+codeforces-1909B-make-almost-equal-with-mod,codeforces,"Make Almost Equal With Mod",https://codeforces.com/problemset/problem/1909/B,1200,1200,bitmasks;constructive-algorithms;math;number-theory,bitmasks;constructive algorithms,,specialist,unseen
+codeforces-1907C-removal-of-unattractive-pairs,codeforces,"Removal of Unattractive Pairs",https://codeforces.com/problemset/problem/1907/C,1200,1200,constructive-algorithms;greedy;math;strings,greedy,,specialist,unseen
+codeforces-1903B-storage-room,codeforces,"StORage room",https://codeforces.com/problemset/problem/1903/B,1200,1200,bitmasks;brute-force;constructive-algorithms;greedy,greedy,,specialist,unseen
+codeforces-1886B-fear-of-the-dark,codeforces,"Fear of the Dark",https://codeforces.com/problemset/problem/1886/B,1200,1200,binary-search;geometry;math,binary search,,specialist,unseen
+codeforces-1881C-perfect-square,codeforces,"Perfect Square",https://codeforces.com/problemset/problem/1881/C,1200,1200,brute-force;implementation,brute force;implementation,,specialist,unseen
+codeforces-1877C-joyboard,codeforces,"Joyboard",https://codeforces.com/problemset/problem/1877/C,1200,1200,math;number-theory,math;number theory,,specialist,unseen
+codeforces-1874A-jellyfish-and-game,codeforces,"Jellyfish and Game",https://codeforces.com/problemset/problem/1874/A,1200,1200,brute-force;games;greedy;implementation,greedy,,specialist,unseen
+codeforces-1872D-plus-minus-permutation,codeforces,"Plus Minus Permutation",https://codeforces.com/problemset/problem/1872/D,1200,1200,math,math,,specialist,unseen
+codeforces-1870B-friendly-arrays,codeforces,"Friendly Arrays",https://codeforces.com/problemset/problem/1870/B,1200,1200,bitmasks;greedy;math,greedy,,specialist,unseen
+codeforces-1860B-fancy-coins,codeforces,"Fancy Coins",https://codeforces.com/problemset/problem/1860/B,1200,1200,binary-search;brute-force;greedy;math,binary search,,specialist,unseen
+codeforces-1859C-another-permutation-problem,codeforces,"Another Permutation Problem",https://codeforces.com/problemset/problem/1859/C,1200,1200,brute-force;dp;greedy;math,dynamic programming,,specialist,unseen
+codeforces-1857C-assembly-via-minimums,codeforces,"Assembly via Minimums",https://codeforces.com/problemset/problem/1857/C,1200,1200,greedy;sortings,greedy,,specialist,unseen
+codeforces-1853B-fibonaccharsis,codeforces,"Fibonaccharsis",https://codeforces.com/problemset/problem/1853/B,1200,1200,binary-search;brute-force;math,binary search,,specialist,unseen
+codeforces-1848B-vika-and-the-bridge,codeforces,"Vika and the Bridge",https://codeforces.com/problemset/problem/1848/B,1200,1200,binary-search;data-structures;greedy;implementation;math;sortings,binary search,,specialist,unseen
+codeforces-1846D-rudolph-and-christmas-tree,codeforces,"Rudolph and Christmas Tree",https://codeforces.com/problemset/problem/1846/D,1200,1200,constructive-algorithms;geometry;math,constructive algorithms;geometry,,specialist,unseen
+codeforces-1846C-rudolf-and-the-another-competition,codeforces,"Rudolf and the Another Competition",https://codeforces.com/problemset/problem/1846/C,1200,1200,constructive-algorithms;data-structures;dp;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-1843D-apple-tree,codeforces,"Apple Tree",https://codeforces.com/problemset/problem/1843/D,1200,1200,combinatorics;dfs-and-similar;dp;math;trees,dynamic programming,,specialist,unseen
+codeforces-1834C-game-with-reversing,codeforces,"Game with Reversing",https://codeforces.com/problemset/problem/1834/C,1200,1200,games;greedy;math;strings,greedy,,specialist,unseen
+codeforces-1832C-contrast-value,codeforces,"Contrast Value",https://codeforces.com/problemset/problem/1832/C,1200,1200,greedy;implementation,greedy,,specialist,unseen
+codeforces-1826A-trust-nobody,codeforces,"Trust Nobody",https://codeforces.com/problemset/problem/1826/A,1200,1200,brute-force;greedy;implementation;sortings,greedy,,specialist,unseen
+codeforces-1822D-super-permutation,codeforces,"Super-Permutation",https://codeforces.com/problemset/problem/1822/D,1200,1200,constructive-algorithms;math,constructive algorithms;math,,specialist,unseen
+codeforces-1808B-playing-in-a-casino,codeforces,"Playing in a Casino",https://codeforces.com/problemset/problem/1808/B,1200,1200,math;sortings,math;sortings,,specialist,unseen
+codeforces-1800D-remove-two-letters,codeforces,"Remove Two Letters",https://codeforces.com/problemset/problem/1800/D,1200,1200,data-structures;greedy;hashing;strings,greedy,,specialist,unseen
+codeforces-1799B-equalize-by-divide,codeforces,"Equalize by Divide",https://codeforces.com/problemset/problem/1799/B,1200,1200,brute-force;constructive-algorithms;greedy;math,greedy,,specialist,unseen
+codeforces-1793C-dora-and-search,codeforces,"Dora and Search",https://codeforces.com/problemset/problem/1793/C,1200,1200,constructive-algorithms;data-structures;two-pointers,constructive algorithms;data structures,,specialist,unseen
+codeforces-1792B-stand-up-comedian,codeforces,"Stand-up Comedian",https://codeforces.com/problemset/problem/1792/B,1200,1200,greedy;math,greedy,,specialist,unseen
+codeforces-1790D-matryoshkas,codeforces,"Matryoshkas",https://codeforces.com/problemset/problem/1790/D,1200,1200,data-structures;greedy;sortings,greedy,,specialist,unseen
+codeforces-1769C1-i,codeforces,"Подкрутка I",https://codeforces.com/problemset/problem/1769/C1,1200,1200,*special;brute-force;dp;greedy,dynamic programming,,specialist,unseen
+codeforces-1763B-incinerate,codeforces,"Incinerate",https://codeforces.com/problemset/problem/1763/B,1200,1200,binary-search;brute-force;data-structures;implementation;math;sortings,binary search,,specialist,unseen
+codeforces-1747C-swap-game,codeforces,"Swap Game",https://codeforces.com/problemset/problem/1747/C,1200,1200,games,games,,specialist,unseen
+codeforces-1744D-divisibility-by-2-n,codeforces,"Divisibility by 2^n",https://codeforces.com/problemset/problem/1744/D,1200,1200,greedy;math;sortings,greedy,,specialist,unseen
+codeforces-1742E-scuza,codeforces,"Scuza",https://codeforces.com/problemset/problem/1742/E,1200,1200,binary-search;greedy;math,binary search,,specialist,unseen
+codeforces-1738B-prefix-sum-addicts,codeforces,"Prefix Sum Addicts",https://codeforces.com/problemset/problem/1738/B,1200,1200,constructive-algorithms;greedy;math;sortings,greedy,,specialist,unseen
+codeforces-1736B-playing-with-gcd,codeforces,"Playing with GCD",https://codeforces.com/problemset/problem/1736/B,1200,1200,math;number-theory,math;number theory,,specialist,unseen
+codeforces-1734C-removing-smallest-multiples,codeforces,"Removing Smallest Multiples",https://codeforces.com/problemset/problem/1734/C,1200,1200,greedy;math,greedy,,specialist,unseen
+codeforces-1730C-minimum-notation,codeforces,"Minimum Notation",https://codeforces.com/problemset/problem/1730/C,1200,1200,data-structures;greedy;math;sortings,greedy,,specialist,unseen
+codeforces-1729D-friends-and-the-restaurant,codeforces,"Friends and the Restaurant",https://codeforces.com/problemset/problem/1729/D,1200,1200,greedy;sortings;two-pointers,greedy,,specialist,unseen
+codeforces-1720C-corners,codeforces,"Corners",https://codeforces.com/problemset/problem/1720/C,1200,1200,greedy;implementation,greedy,,specialist,unseen
+codeforces-1713C-build-permutation,codeforces,"Build Permutation",https://codeforces.com/problemset/problem/1713/C,1200,1200,constructive-algorithms;dp;math,dynamic programming,,specialist,unseen
+codeforces-1704C-virus,codeforces,"Virus",https://codeforces.com/problemset/problem/1704/C,1200,1200,greedy;implementation;sortings,greedy,,specialist,unseen
+codeforces-1703E-mirror-grid,codeforces,"Mirror Grid",https://codeforces.com/problemset/problem/1703/E,1200,1200,implementation,implementation,,specialist,unseen
+codeforces-1694B-paranoid-string,codeforces,"Paranoid String",https://codeforces.com/problemset/problem/1694/B,1200,1200,constructive-algorithms;greedy,greedy,,specialist,unseen
+codeforces-1692E-binary-deque,codeforces,"Binary Deque",https://codeforces.com/problemset/problem/1692/E,1200,1200,binary-search;implementation;two-pointers,binary search,,specialist,unseen
+codeforces-1681C-double-sort,codeforces,"Double Sort",https://codeforces.com/problemset/problem/1681/C,1200,1200,implementation;sortings,implementation;sortings,,specialist,unseen
+codeforces-1679B-stone-age-problem,codeforces,"Stone Age Problem",https://codeforces.com/problemset/problem/1679/B,1200,1200,data-structures;implementation,data structures;implementation,,specialist,unseen
+codeforces-1674D-a-b-c-sort,codeforces,"A-B-C Sort",https://codeforces.com/problemset/problem/1674/D,1200,1200,constructive-algorithms;implementation;sortings,constructive algorithms;implementation,,specialist,unseen
+codeforces-1671C-dolce-vita,codeforces,"Dolce Vita",https://codeforces.com/problemset/problem/1671/C,1200,1200,binary-search;brute-force;greedy;math,binary search,,specialist,unseen
+codeforces-1669G-fall-down,codeforces,"Fall Down",https://codeforces.com/problemset/problem/1669/G,1200,1200,dfs-and-similar;implementation,graphs,,specialist,unseen
+codeforces-1669E-2-letter-strings,codeforces,"2-Letter Strings",https://codeforces.com/problemset/problem/1669/E,1200,1200,data-structures;math;strings,data structures;math,,specialist,unseen
+codeforces-1657C-bracket-sequence-deletion,codeforces,"Bracket Sequence Deletion",https://codeforces.com/problemset/problem/1657/C,1200,1200,greedy;implementation,greedy,,specialist,unseen
+codeforces-1656C-make-equal-with-mod,codeforces,"Make Equal With Mod",https://codeforces.com/problemset/problem/1656/C,1200,1200,constructive-algorithms;math;number-theory;sortings,constructive algorithms;math,,specialist,unseen
+codeforces-1650C-weight-of-the-system-of-nested-segments,codeforces,"Weight of the System of Nested Segments",https://codeforces.com/problemset/problem/1650/C,1200,1200,greedy;hashing;implementation;sortings,greedy,,specialist,unseen
+codeforces-1647B-madoka-and-the-elegant-gift,codeforces,"Madoka and the Elegant Gift",https://codeforces.com/problemset/problem/1647/B,1200,1200,brute-force;constructive-algorithms;graphs;implementation,graphs,,specialist,unseen
+codeforces-1641A-great-sequence,codeforces,"Great Sequence",https://codeforces.com/problemset/problem/1641/A,1200,1200,brute-force;greedy;sortings,greedy,,specialist,unseen
+codeforces-1637C-andrew-and-stones,codeforces,"Andrew and Stones",https://codeforces.com/problemset/problem/1637/C,1200,1200,greedy;implementation,greedy,,specialist,unseen
+codeforces-1635C-differential-sorting,codeforces,"Differential Sorting",https://codeforces.com/problemset/problem/1635/C,1200,1200,constructive-algorithms;greedy,greedy,,specialist,unseen
+codeforces-1619C-wrong-addition,codeforces,"Wrong Addition",https://codeforces.com/problemset/problem/1619/C,1200,1200,implementation,implementation,,specialist,unseen
+codeforces-1613C-poisoned-dagger,codeforces,"Poisoned Dagger",https://codeforces.com/problemset/problem/1613/C,1200,1200,binary-search,binary search,,specialist,unseen
+codeforces-1608B-build-the-permutation,codeforces,"Build the Permutation",https://codeforces.com/problemset/problem/1608/B,1200,1200,constructive-algorithms;greedy,greedy,,specialist,unseen
+codeforces-1598C-delete-two-elements,codeforces,"Delete Two Elements",https://codeforces.com/problemset/problem/1598/C,1200,1200,data-structures;dp;implementation;math;two-pointers,dynamic programming,,specialist,unseen
+codeforces-1594C-make-them-equal,codeforces,"Make Them Equal",https://codeforces.com/problemset/problem/1594/C,1200,1200,brute-force;greedy;math;strings,greedy,,specialist,unseen
+codeforces-1592B-hemose-shopping,codeforces,"Hemose Shopping",https://codeforces.com/problemset/problem/1592/B,1200,1200,constructive-algorithms;dsu;math;sortings,constructive algorithms;dsu,,specialist,unseen
+codeforces-1583B-omkar-and-heavenly-tree,codeforces,"Omkar and Heavenly Tree",https://codeforces.com/problemset/problem/1583/B,1200,1200,constructive-algorithms;trees,constructive algorithms;trees,,specialist,unseen
+codeforces-1582C-grandma-capa-knits-a-scarf,codeforces,"Grandma Capa Knits a Scarf",https://codeforces.com/problemset/problem/1582/C,1200,1200,brute-force;data-structures;greedy;strings;two-pointers,greedy,,specialist,unseen
+codeforces-1581B-diameter-of-graph,codeforces,"Diameter of Graph",https://codeforces.com/problemset/problem/1581/B,1200,1200,constructive-algorithms;graphs;greedy;math,graphs,,specialist,unseen
+codeforces-1578E-easy-scheduling,codeforces,"Easy Scheduling",https://codeforces.com/problemset/problem/1578/E,1200,1200,implementation;math,implementation;math,,specialist,unseen
+codeforces-1559C-mocha-and-hiking,codeforces,"Mocha and Hiking",https://codeforces.com/problemset/problem/1559/C,1200,1200,constructive-algorithms;graphs,graphs,,specialist,unseen
+codeforces-1553C-penalty,codeforces,"Penalty",https://codeforces.com/problemset/problem/1553/C,1200,1200,bitmasks;brute-force;dp;greedy,dynamic programming,,specialist,unseen
+codeforces-1546B-aquamoon-and-stolen-string,codeforces,"AquaMoon and Stolen String",https://codeforces.com/problemset/problem/1546/B,1200,1200,interactive;math,interactive;math,,specialist,unseen
+codeforces-1541B-pleasant-pairs,codeforces,"Pleasant Pairs",https://codeforces.com/problemset/problem/1541/B,1200,1200,brute-force;implementation;math;number-theory,brute force;implementation,,specialist,unseen
+codeforces-1539C-stable-groups,codeforces,"Stable Groups",https://codeforces.com/problemset/problem/1539/C,1200,1200,greedy;sortings,greedy,,specialist,unseen
+codeforces-1537C-challenging-cliffs,codeforces,"Challenging Cliffs",https://codeforces.com/problemset/problem/1537/C,1200,1200,constructive-algorithms;greedy;implementation;math,greedy,,specialist,unseen
+codeforces-1536B-prinzessin-der-verurteilung,codeforces,"Prinzessin der Verurteilung",https://codeforces.com/problemset/problem/1536/B,1200,1200,brute-force;constructive-algorithms;strings,brute force;constructive algorithms,,specialist,unseen
+codeforces-1530C-pursuit,codeforces,"Pursuit",https://codeforces.com/problemset/problem/1530/C,1200,1200,binary-search;brute-force;greedy;sortings,binary search,,specialist,unseen
+codeforces-1527B1-palindrome-game-easy-version,codeforces,"Palindrome Game (easy version)",https://codeforces.com/problemset/problem/1527/B1,1200,1200,constructive-algorithms;games,constructive algorithms;games,,specialist,unseen
+codeforces-1520D-same-differences,codeforces,"Same Differences",https://codeforces.com/problemset/problem/1520/D,1200,1200,data-structures;hashing;math,data structures;hashing,,specialist,unseen
+codeforces-1517B-morning-jogging,codeforces,"Morning Jogging",https://codeforces.com/problemset/problem/1517/B,1200,1200,constructive-algorithms;greedy;sortings,greedy,,specialist,unseen
+codeforces-1514B-and-0-sum-big,codeforces,"AND 0, Sum Big",https://codeforces.com/problemset/problem/1514/B,1200,1200,bitmasks;combinatorics;math,bitmasks;combinatorics,,specialist,unseen
+codeforces-1512D-corrupted-array,codeforces,"Corrupted Array",https://codeforces.com/problemset/problem/1512/D,1200,1200,constructive-algorithms;data-structures;greedy,greedy,,specialist,unseen
+codeforces-1512C-a-b-palindrome,codeforces,"A-B Palindrome",https://codeforces.com/problemset/problem/1512/C,1200,1200,constructive-algorithms;implementation;strings,constructive algorithms;implementation,,specialist,unseen
+codeforces-1510K-king-s-task,codeforces,"King's Task",https://codeforces.com/problemset/problem/1510/K,1200,1200,brute-force;graphs;implementation,graphs,,specialist,unseen
+codeforces-1504B-flip-the-bits,codeforces,"Flip the Bits",https://codeforces.com/problemset/problem/1504/B,1200,1200,constructive-algorithms;greedy;implementation;math,greedy,,specialist,unseen
+codeforces-1497C1-k-lcm-easy-version,codeforces,"k-LCM (easy version)",https://codeforces.com/problemset/problem/1497/C1,1200,1200,constructive-algorithms;math,constructive algorithms;math,,specialist,unseen
+codeforces-1497B-m-arrays,codeforces,"M-arrays",https://codeforces.com/problemset/problem/1497/B,1200,1200,constructive-algorithms;greedy;math,greedy,,specialist,unseen
+codeforces-1495A-diamond-miner,codeforces,"Diamond Miner",https://codeforces.com/problemset/problem/1495/A,1200,1200,geometry;greedy;math;sortings,greedy,,specialist,unseen
+codeforces-1491B-minimal-cost,codeforces,"Minimal Cost",https://codeforces.com/problemset/problem/1491/B,1200,1200,brute-force;math,brute force;math,,specialist,unseen
+codeforces-1490D-permutation-transformation,codeforces,"Permutation Transformation",https://codeforces.com/problemset/problem/1490/D,1200,1200,dfs-and-similar;divide-and-conquer;implementation,graphs,,specialist,unseen
+codeforces-1487B-cat-cycle,codeforces,"Cat Cycle",https://codeforces.com/problemset/problem/1487/B,1200,1200,math;number-theory,math;number theory,,specialist,unseen
+codeforces-1485B-replace-and-keep-sorted,codeforces,"Replace and Keep Sorted",https://codeforces.com/problemset/problem/1485/B,1200,1200,dp;implementation;math,dynamic programming,,specialist,unseen
+codeforces-1472D-even-odd-game,codeforces,"Even-Odd Game",https://codeforces.com/problemset/problem/1472/D,1200,1200,dp;games;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-1455B-jumps,codeforces,"Jumps",https://codeforces.com/problemset/problem/1455/B,1200,1200,constructive-algorithms;math,constructive algorithms;math,,specialist,unseen
+codeforces-1454C-sequence-transformation,codeforces,"Sequence Transformation",https://codeforces.com/problemset/problem/1454/C,1200,1200,greedy;implementation,greedy,,specialist,unseen
+codeforces-1437B-reverse-binary-strings,codeforces,"Reverse Binary Strings",https://codeforces.com/problemset/problem/1437/B,1200,1200,constructive-algorithms;greedy,greedy,,specialist,unseen
+codeforces-1433D-districts-connection,codeforces,"Districts Connection",https://codeforces.com/problemset/problem/1433/D,1200,1200,constructive-algorithms;dfs-and-similar,graphs,,specialist,unseen
+codeforces-1428B-belted-rooms,codeforces,"Belted Rooms",https://codeforces.com/problemset/problem/1428/B,1200,1200,graphs;implementation,graphs,,specialist,unseen
+codeforces-1420B-rock-and-lever,codeforces,"Rock and Lever",https://codeforces.com/problemset/problem/1420/B,1200,1200,bitmasks;math,bitmasks;math,,specialist,unseen
+codeforces-1419B-stairs,codeforces,"Stairs",https://codeforces.com/problemset/problem/1419/B,1200,1200,brute-force;constructive-algorithms;greedy;implementation;math,greedy,,specialist,unseen
+codeforces-1409C-yet-another-array-restoration,codeforces,"Yet Another Array Restoration",https://codeforces.com/problemset/problem/1409/C,1200,1200,brute-force;math;number-theory,brute force;math,,specialist,unseen
+codeforces-1406B-maximum-product,codeforces,"Maximum Product",https://codeforces.com/problemset/problem/1406/B,1200,1200,brute-force;dp;greedy;implementation;sortings,dynamic programming,,specialist,unseen
+codeforces-1399C-boats-competition,codeforces,"Boats Competition",https://codeforces.com/problemset/problem/1399/C,1200,1200,brute-force;greedy;two-pointers,greedy,,specialist,unseen
+codeforces-1392C-omkar-and-waterslide,codeforces,"Omkar and Waterslide",https://codeforces.com/problemset/problem/1392/C,1200,1200,greedy;implementation,greedy,,specialist,unseen
+codeforces-1385C-make-it-good,codeforces,"Make It Good",https://codeforces.com/problemset/problem/1385/C,1200,1200,greedy,greedy,,specialist,unseen
+codeforces-1384A-common-prefixes,codeforces,"Common Prefixes",https://codeforces.com/problemset/problem/1384/A,1200,1200,constructive-algorithms;greedy;strings,greedy,,specialist,unseen
+codeforces-1375B-neighbor-grid,codeforces,"Neighbor Grid",https://codeforces.com/problemset/problem/1375/B,1200,1200,constructive-algorithms;greedy,greedy,,specialist,unseen
+codeforces-1371B-magical-calendar,codeforces,"Magical Calendar",https://codeforces.com/problemset/problem/1371/B,1200,1200,math,math,,specialist,unseen
+codeforces-1369B-accuratelee,codeforces,"AccurateLee",https://codeforces.com/problemset/problem/1369/B,1200,1200,greedy;implementation;strings,greedy,,specialist,unseen
+codeforces-1364A-xxxxx,codeforces,"XXXXX",https://codeforces.com/problemset/problem/1364/A,1200,1200,brute-force;data-structures;number-theory;two-pointers,brute force;data structures,,specialist,unseen
+codeforces-1363A-odd-selection,codeforces,"Odd Selection",https://codeforces.com/problemset/problem/1363/A,1200,1200,brute-force;implementation;math,brute force;implementation,,specialist,unseen
+codeforces-1362B-johnny-and-his-hobbies,codeforces,"Johnny and His Hobbies",https://codeforces.com/problemset/problem/1362/B,1200,1200,bitmasks;brute-force,bitmasks;brute force,,specialist,unseen
+codeforces-1355B-young-explorers,codeforces,"Young Explorers",https://codeforces.com/problemset/problem/1355/B,1200,1200,dp;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-1355A-sequence-with-digits,codeforces,"Sequence with Digits",https://codeforces.com/problemset/problem/1355/A,1200,1200,brute-force;implementation;math,brute force;implementation,,specialist,unseen
+codeforces-1354B-ternary-string,codeforces,"Ternary String",https://codeforces.com/problemset/problem/1354/B,1200,1200,binary-search;dp;implementation;two-pointers,dynamic programming,,specialist,unseen
+codeforces-1352C-k-th-not-divisible-by-n,codeforces,"K-th Not Divisible by n",https://codeforces.com/problemset/problem/1352/C,1200,1200,binary-search;math,binary search,,specialist,unseen
+codeforces-1352B-same-parity-summands,codeforces,"Same Parity Summands",https://codeforces.com/problemset/problem/1352/B,1200,1200,constructive-algorithms;math,constructive algorithms;math,,specialist,unseen
+codeforces-1343C-alternating-subsequence,codeforces,"Alternating Subsequence",https://codeforces.com/problemset/problem/1343/C,1200,1200,dp;greedy;two-pointers,dynamic programming,,specialist,unseen

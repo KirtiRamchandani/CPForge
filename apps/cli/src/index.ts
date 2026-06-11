@@ -7,6 +7,7 @@ import { analyzeWorkspace, buildStuckDiagnosis, computeAchievements } from "@cp-
 import { buildVirtualContest, contestReadinessMessage, parseCodeforcesContests, upcomingContestAlerts } from "@cp-forge/contest-engine";
 import { buildLaunchReport, createWorkspace } from "@cp-forge/core";
 import {
+  chartToPngHtml,
   chartToSvg,
   dailyPlanToMarkdown,
   extensionImportBundle,
@@ -24,6 +25,7 @@ import {
 } from "@cp-forge/export-engine";
 import { createMistake, mistakeStats } from "@cp-forge/mistake-engine";
 import {
+  AtCoderScraper,
   CodeforcesApiClient,
   LeetCodeGraphQLClient,
   leetcodeSubmissionsToProblems,
@@ -32,7 +34,7 @@ import {
 import { printDoctorReport, printInfo, printLaunchReport, printList, printStuckReport, printSuccess, printTodayPlan } from "./terminal.js";
 import { portfolioHtml, portfolioMarkdown, profileCardSvg } from "@cp-forge/portfolio-engine";
 import { buildDailyPlan, buildWeeklyPlan, detectWeakAreas, recommendNext } from "@cp-forge/recommendation-engine";
-import { completeReview, dueReviews, scheduleReviews } from "@cp-forge/review-scheduler";
+import { completeReview, completedReviews, dueReviews, overdueReviews, scheduleReviews, upcomingReviews } from "@cp-forge/review-scheduler";
 import { generateRoadmapPlan } from "@cp-forge/roadmap-engine";
 import type { MistakeCategory, Problem, Profile, WorkspaceData } from "@cp-forge/schemas";
 import { generateCompanySheet, filterSheet, problemBank } from "@cp-forge/sheet-engine";
@@ -96,6 +98,7 @@ program
   .description("Sync optional public platform data.")
   .option("--cf <handle>", "Codeforces handle")
   .option("--leetcode <handle>", "LeetCode handle")
+  .option("--atcoder <handle>", "AtCoder handle")
   .option("--all", "sync all configured handles")
   .option("--offline", "verify local cache/workspace only")
   .action(async (options) => {
@@ -107,8 +110,9 @@ program
     let next = workspace;
     const cf = options.cf ?? (options.all ? workspace.profile.codeforcesHandle : undefined);
     const leetcode = options.leetcode ?? (options.all ? workspace.profile.leetcodeHandle : undefined);
-    if (!cf && !leetcode) {
-      printInfo("No handles provided. Use --cf, --leetcode, or --all with configured profile handles.");
+    const atcoder = options.atcoder ?? (options.all ? workspace.profile.atcoderHandle : undefined);
+    if (!cf && !leetcode && !atcoder) {
+      printInfo("No handles provided. Use --cf, --leetcode, --atcoder, or --all.");
       return;
     }
     if (cf) {
@@ -118,6 +122,10 @@ program
     if (leetcode) {
       next = await tryLeetCodeSync(next, leetcode);
       printSuccess(`Synced LeetCode data for ${leetcode}.`);
+    }
+    if (atcoder) {
+      next = await tryAtCoderSync(next, atcoder);
+      printSuccess(`Synced AtCoder data for ${atcoder}.`);
     }
     await saveWorkspace(next);
   });
@@ -231,7 +239,14 @@ program
       printSuccess(`Completed review ${id}.`);
       return;
     }
-    const items = scope === "upcoming" ? workspace.reviews.filter((review) => !review.completed) : dueReviews(workspace.reviews);
+    const items =
+      scope === "upcoming"
+        ? upcomingReviews(workspace.reviews)
+        : scope === "overdue"
+          ? overdueReviews(workspace.reviews)
+          : scope === "completed"
+            ? completedReviews(workspace.reviews)
+            : dueReviews(workspace.reviews);
     console.log(`\nReviews (${scope})`);
     printList(items.map((item) => `${item.problemId} due ${item.dueDate} - ${item.reason}`));
   });
@@ -313,7 +328,7 @@ program
   .command("chart")
   .description("Generate charts as SVG or HTML.")
   .option("--type <type>", "progress, weakness, company-readiness, cp-rating, topic-distribution, mistake-distribution", "progress")
-  .option("--export <format>", "svg, html", "svg")
+  .option("--export <format>", "svg, html, png", "svg")
   .action(async (options) => {
     const workspace = await ensureWorkspace();
     const analytics = analyzeWorkspace(workspace);
@@ -323,9 +338,16 @@ program
         : options.type === "topic-distribution" || options.type === "weakness"
           ? analytics.topicDistribution
           : analytics.platformDistribution;
+    const exportsDir = workspacePaths().exports;
+    await fs.mkdir(exportsDir, { recursive: true });
+    if (options.export === "png") {
+      const file = path.join(exportsDir, `chart-${options.type}.html`);
+      await fs.writeFile(file, chartToPngHtml(data, `CP Forge ${options.type}`), "utf8");
+      printSuccess(`PNG export page written to ${file} (open in browser to download PNG)`);
+      return;
+    }
     const svg = chartToSvg(data, `CP Forge ${options.type}`);
-    const file = path.join(workspacePaths().exports, `chart-${options.type}.${options.export === "html" ? "html" : "svg"}`);
-    await fs.mkdir(path.dirname(file), { recursive: true });
+    const file = path.join(exportsDir, `chart-${options.type}.${options.export === "html" ? "html" : "svg"}`);
     await fs.writeFile(file, options.export === "html" ? `<!doctype html><html><body>${svg}</body></html>` : svg, "utf8");
     printSuccess(`Chart exported to ${file}`);
   });
@@ -651,6 +673,18 @@ async function tryCodeforcesSync(workspace: WorkspaceData, handle: string): Prom
     workspace.problems = mergeProblems(workspace.problems, imported);
   } catch (error) {
     printInfo(`Codeforces sync skipped: ${(error as Error).message}`);
+  }
+  return workspace;
+}
+
+async function tryAtCoderSync(workspace: WorkspaceData, handle: string): Promise<WorkspaceData> {
+  const client = new AtCoderScraper();
+  try {
+    const imported = await client.userSubmissions(handle, 100);
+    workspace.profile.atcoderHandle = handle;
+    workspace.problems = mergeProblems(workspace.problems, imported);
+  } catch (error) {
+    printInfo(`AtCoder sync skipped: ${(error as Error).message}`);
   }
   return workspace;
 }

@@ -1,13 +1,14 @@
 import { analyzeWorkspace, buildStuckDiagnosis } from "@cp-forge/analytics-engine";
 import { buildLaunchReport, createWorkspace } from "@cp-forge/core";
 import { portfolioMarkdown } from "@cp-forge/portfolio-engine";
-import { buildDailyPlan, buildWeeklyPlan, detectWeakAreas } from "@cp-forge/recommendation-engine";
+import { buildDailyPlan, buildWeeklyPlan, buildCompanyPlans, detectWeakAreas } from "@cp-forge/recommendation-engine";
 import { generateRoadmapPlan, toggleNodeProgress } from "@cp-forge/roadmap-engine";
 import type { RoadmapNode, WorkspaceData } from "@cp-forge/schemas";
 import { problemBank } from "@cp-forge/sheet-engine";
-import { ActivityGrid, BarChart, MindmapTree, StatCard } from "@cp-forge/ui";
+import { ActivityGrid, BarChart, MindmapCanvas, MindmapTree, StatCard } from "@cp-forge/ui";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AchievementGrid, CommandPalette, computeAchievements } from "./CommandPalette";
+import { CfSearchPanel } from "./CfSearchPanel";
 
 const nav = [
   "Home",
@@ -42,6 +43,8 @@ export const App = () => {
   const [mindmapOverride, setMindmapOverride] = useState<RoadmapNode | undefined>();
   const [sheetSearch, setSheetSearch] = useState("");
   const [sheetPlatform, setSheetPlatform] = useState("all");
+  const [mindmapMode, setMindmapMode] = useState<"tree" | "canvas">("canvas");
+  const [reviewTab, setReviewTab] = useState<"due" | "overdue" | "upcoming" | "completed">("due");
   const [paletteOpen, setPaletteOpen] = useState(false);
   const [stuckOpen, setStuckOpen] = useState(false);
   const [completedToday, setCompletedToday] = useState<Record<string, boolean>>({});
@@ -111,6 +114,29 @@ export const App = () => {
     if (!response.ok) throw new Error("Demo data missing");
     importPayload((await response.json()) as DashboardPayload);
   }, [importPayload]);
+
+  useEffect(() => {
+    const cached = localStorage.getItem("cp-forge-dashboard-cache");
+    if (cached) {
+      try {
+        importPayload(JSON.parse(cached) as DashboardPayload);
+      } catch {
+        /* ignore */
+      }
+    }
+  }, [importPayload]);
+
+  useEffect(() => {
+    localStorage.setItem("cp-forge-dashboard-cache", JSON.stringify(buildPayload(workspace)));
+  }, [workspace]);
+
+  const reviewItems = useMemo(() => {
+    const today = new Date().toISOString().slice(0, 10);
+    if (reviewTab === "overdue") return workspace.reviews.filter((r) => !r.completed && r.dueDate < today);
+    if (reviewTab === "upcoming") return workspace.reviews.filter((r) => !r.completed && r.dueDate > today);
+    if (reviewTab === "completed") return workspace.reviews.filter((r) => r.completed);
+    return workspace.reviews.filter((r) => !r.completed && r.dueDate <= today);
+  }, [reviewTab, workspace.reviews]);
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -290,7 +316,19 @@ export const App = () => {
         {active === "Mindmap" || active === "Roadmaps" ? (
           <section className="mindmap-layout">
             <Panel title="Skill Tree">
-              <MindmapTree node={mindmap} onToggle={(id) => setMindmapOverride(toggleNodeProgress(mindmap, id))} />
+              <div className="sheet-toolbar">
+                <button className={mindmapMode === "canvas" ? "btn-primary" : ""} onClick={() => setMindmapMode("canvas")} type="button">
+                  Canvas
+                </button>
+                <button className={mindmapMode === "tree" ? "btn-primary" : ""} onClick={() => setMindmapMode("tree")} type="button">
+                  Tree
+                </button>
+              </div>
+              {mindmapMode === "canvas" ? (
+                <MindmapCanvas node={mindmap} onToggle={(id) => setMindmapOverride(toggleNodeProgress(mindmap, id))} />
+              ) : (
+                <MindmapTree node={mindmap} onToggle={(id) => setMindmapOverride(toggleNodeProgress(mindmap, id))} />
+              )}
             </Panel>
             <Panel title="Weekly Milestones">
               {weekly.map((item) => (
@@ -333,6 +371,7 @@ export const App = () => {
                 <p className="empty-sheet">No problems match your filters.</p>
               )}
             </div>
+            <CfSearchPanel />
           </Panel>
         )}
 
@@ -419,25 +458,42 @@ export const App = () => {
 
         {active === "Reviews" && (
           <Panel title="Spaced Reviews">
-            {workspace.reviews.length ? (
-              workspace.reviews.map((item) => (
+            <div className="sheet-toolbar">
+              {(["due", "overdue", "upcoming", "completed"] as const).map((tab) => (
+                <button className={reviewTab === tab ? "btn-primary" : ""} key={tab} onClick={() => setReviewTab(tab)} type="button">
+                  {tab}
+                </button>
+              ))}
+            </div>
+            {reviewItems.length ? (
+              reviewItems.map((item) => (
                 <Task key={item.id} label={item.dueDate} value={`${item.problemId} · ${item.reason}`} />
               ))
             ) : (
-              <p>No reviews scheduled. Solve problems and run `cp-forge review schedule` to build retention.</p>
+              <p>No reviews in this bucket. Run `cp-forge review schedule` after solving.</p>
             )}
           </Panel>
         )}
 
         {active === "Companies" && (
           <Panel title="Company Readiness">
-            {workspace.profile.targetCompanies.length ? (
-              workspace.profile.targetCompanies.map((company) => (
-                <Task key={company} label={company} value={`${filterSheetCount(company)} problems tagged · ${analytics.readinessScore}% readiness`} />
-              ))
-            ) : (
-              <p>Set a company goal with `cp-forge launch --goal amazon`.</p>
-            )}
+            {(workspace.profile.targetCompanies.length ? workspace.profile.targetCompanies : ["amazon"]).map((company) => (
+              <div className="company-block" key={company}>
+                <h3>{company}</h3>
+                {buildCompanyPlans(company).map((plan) => (
+                  <div className="company-plan" key={plan.days}>
+                    <strong>{plan.title}</strong>
+                    <p>Focus: {plan.focus.join(", ")}</p>
+                    <ul>
+                      {plan.milestones.slice(0, 4).map((m) => (
+                        <li key={m}>{m}</li>
+                      ))}
+                    </ul>
+                    <p>Must-solve: {plan.mustSolve.slice(0, 5).join(" · ") || `Run cp-forge sheet --company ${company}`}</p>
+                  </div>
+                ))}
+              </div>
+            ))}
           </Panel>
         )}
 

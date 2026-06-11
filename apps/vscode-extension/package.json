@@ -25,6 +25,10 @@
       { "command": "cpForge.startTimer", "title": "CP Forge: Start Timer" },
       { "command": "cpForge.stopTimer", "title": "CP Forge: Stop Timer" },
       { "command": "cpForge.runSamples", "title": "CP Forge: Run Samples" },
+      { "command": "cpForge.markAttempted", "title": "CP Forge: Mark Attempted" },
+      { "command": "cpForge.sendToReview", "title": "CP Forge: Send to Review" },
+      { "command": "cpForge.openNotes", "title": "CP Forge: Open Notes" },
+      { "command": "cpForge.weakTopicWarning", "title": "CP Forge: Weak Topic Warning" },
       { "command": "cpForge.exportSession", "title": "CP Forge: Export Session" }
     ]
   },

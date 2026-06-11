@@ -1,0 +1,121 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status
+codeforces-2222A-a-wonderful-contest,codeforces,"A Wonderful Contest",https://codeforces.com/problemset/problem/2222/A,800,800,brute-force;dp;math,dynamic programming,,newbie,unseen
+codeforces-2210A-a-simple-sequence,codeforces,"A Simple Sequence",https://codeforces.com/problemset/problem/2210/A,800,800,constructive-algorithms;dp;greedy;number-theory,dynamic programming,,newbie,unseen
+codeforces-2179B-blackslex-and-showering,codeforces,"Blackslex and Showering",https://codeforces.com/problemset/problem/2179/B,800,800,dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-2126B-no-casino-in-the-mountains,codeforces,"No Casino in the Mountains",https://codeforces.com/problemset/problem/2126/B,800,800,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-2091B-team-training,codeforces,"Team Training",https://codeforces.com/problemset/problem/2091/B,800,800,dp;greedy;sortings,dynamic programming,,newbie,unseen
+codeforces-2053A-tender-carpenter,codeforces,"Tender Carpenter",https://codeforces.com/problemset/problem/2053/A,800,800,dp;geometry;greedy;math,dynamic programming,,newbie,unseen
+codeforces-2031A-penchick-and-modern-monument,codeforces,"Penchick and Modern Monument",https://codeforces.com/problemset/problem/2031/A,800,800,constructive-algorithms;dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-2019A-max-plus-size,codeforces,"Max Plus Size",https://codeforces.com/problemset/problem/2019/A,800,800,brute-force;dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1932A-thorns-and-coins,codeforces,"Thorns and Coins",https://codeforces.com/problemset/problem/1932/A,800,800,dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-1862A-gift-carpet,codeforces,"Gift Carpet",https://codeforces.com/problemset/problem/1862/A,800,800,dp;greedy;implementation;strings,dynamic programming,,newbie,unseen
+codeforces-1686B-odd-subarrays,codeforces,"Odd Subarrays",https://codeforces.com/problemset/problem/1686/B,800,800,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1598A-computer-game,codeforces,"Computer Game",https://codeforces.com/problemset/problem/1598/A,800,800,brute-force;dfs-and-similar;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-1566B-min-mex-cut,codeforces,"MIN-MEX Cut",https://codeforces.com/problemset/problem/1566/B,800,800,bitmasks;constructive-algorithms;dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1549B-gregor-and-the-pawn-game,codeforces,"Gregor and the Pawn Game",https://codeforces.com/problemset/problem/1549/B,800,800,dfs-and-similar;dp;flows;graph-matchings;graphs;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-1539B-love-song,codeforces,"Love Song",https://codeforces.com/problemset/problem/1539/B,800,800,dp;implementation;strings,dynamic programming,,newbie,unseen
+codeforces-1538A-stone-game,codeforces,"Stone Game",https://codeforces.com/problemset/problem/1538/A,800,800,brute-force;dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1519B-the-cake-is-a-lie,codeforces,"The Cake Is a Lie",https://codeforces.com/problemset/problem/1519/B,800,800,dp;math,dynamic programming,,newbie,unseen
+codeforces-1472B-fair-division,codeforces,"Fair Division",https://codeforces.com/problemset/problem/1472/B,800,800,dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-1466B-last-minute-enhancements,codeforces,"Last minute enhancements",https://codeforces.com/problemset/problem/1466/B,800,800,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1462B-last-year-s-substring,codeforces,"Last Year's Substring",https://codeforces.com/problemset/problem/1462/B,800,800,dp;implementation;strings,dynamic programming,,newbie,unseen
+codeforces-1323A-even-subset-sum-problem,codeforces,"Even Subset Sum Problem",https://codeforces.com/problemset/problem/1323/A,800,800,brute-force;dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-1180A-alex-and-a-rhombus,codeforces,"Alex and a Rhombus",https://codeforces.com/problemset/problem/1180/A,800,800,dp;implementation;math,dynamic programming,,newbie,unseen
+codeforces-996A-hit-the-lottery,codeforces,"Hit the Lottery",https://codeforces.com/problemset/problem/996/A,800,800,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-910A-the-way-to-home,codeforces,"The Way to Home",https://codeforces.com/problemset/problem/910/A,800,800,dfs-and-similar;dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-894A-qaq,codeforces,"QAQ",https://codeforces.com/problemset/problem/894/A,800,800,brute-force;dp,dynamic programming,,newbie,unseen
+codeforces-702A-maximum-increase,codeforces,"Maximum Increase",https://codeforces.com/problemset/problem/702/A,800,800,dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-2178B-impost-or-sus,codeforces,"Impost or Sus",https://codeforces.com/problemset/problem/2178/B,900,900,dp;greedy;implementation;strings,dynamic programming,,newbie,unseen
+codeforces-1973A-chess-for-three,codeforces,"Chess For Three",https://codeforces.com/problemset/problem/1973/A,900,900,brute-force;dp;implementation;math,dynamic programming,,newbie,unseen
+codeforces-1941C-rudolf-and-the-ugly-string,codeforces,"Rudolf and the Ugly String",https://codeforces.com/problemset/problem/1941/C,900,900,dp;greedy;strings,dynamic programming,,newbie,unseen
+codeforces-1900B-laura-and-operations,codeforces,"Laura and Operations",https://codeforces.com/problemset/problem/1900/B,900,900,dp;math,dynamic programming,,newbie,unseen
+codeforces-1732B-ugu,codeforces,"Ugu",https://codeforces.com/problemset/problem/1732/B,900,900,brute-force;dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-1709B-also-try-minecraft,codeforces,"Also Try Minecraft",https://codeforces.com/problemset/problem/1709/B,900,900,data-structures;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-1593B-make-it-divisible-by-25,codeforces,"Make it Divisible by 25",https://codeforces.com/problemset/problem/1593/B,900,900,dfs-and-similar;dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-1559B-mocha-and-red-and-blue,codeforces,"Mocha and Red and Blue",https://codeforces.com/problemset/problem/1559/B,900,900,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1501B-napoleon-cake,codeforces,"Napoleon Cake",https://codeforces.com/problemset/problem/1501/B,900,900,dp;implementation;sortings,dynamic programming,,newbie,unseen
+codeforces-1475B-new-year-s-number,codeforces,"New Year's Number",https://codeforces.com/problemset/problem/1475/B,900,900,brute-force;dp;math,dynamic programming,,newbie,unseen
+codeforces-1451B-non-substring-subsequence,codeforces,"Non-Substring Subsequence",https://codeforces.com/problemset/problem/1451/B,900,900,dp;greedy;implementation;strings,dynamic programming,,newbie,unseen
+codeforces-1339A-filling-diamonds,codeforces,"Filling Diamonds",https://codeforces.com/problemset/problem/1339/A,900,900,brute-force;dp;implementation;math,dynamic programming,,newbie,unseen
+codeforces-1206B-make-product-equal-one,codeforces,"Make Product Equal One",https://codeforces.com/problemset/problem/1206/B,900,900,dp;implementation,dynamic programming,,newbie,unseen
+codeforces-1113A-sasha-and-his-trip,codeforces,"Sasha and His Trip",https://codeforces.com/problemset/problem/1113/A,900,900,dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-580A-kefa-and-first-steps,codeforces,"Kefa and First Steps",https://codeforces.com/problemset/problem/580/A,900,900,brute-force;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-2203B-beautiful-numbers,codeforces,"Beautiful Numbers",https://codeforces.com/problemset/problem/2203/B,1000,1000,bitmasks;dp;fft;greedy;math,dynamic programming,,newbie,unseen
+codeforces-2114C-need-more-arrays,codeforces,"Need More Arrays",https://codeforces.com/problemset/problem/2114/C,1000,1000,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-2104B-move-to-the-end,codeforces,"Move to the End",https://codeforces.com/problemset/problem/2104/B,1000,1000,brute-force;data-structures;dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-2090B-pushing-balls,codeforces,"Pushing Balls",https://codeforces.com/problemset/problem/2090/B,1000,1000,brute-force;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-1941B-rudolf-and-121,codeforces,"Rudolf and 121",https://codeforces.com/problemset/problem/1941/B,1000,1000,brute-force;dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-1883C-raspberries,codeforces,"Raspberries",https://codeforces.com/problemset/problem/1883/C,1000,1000,dp;math,dynamic programming,,newbie,unseen
+codeforces-1861B-two-binary-strings,codeforces,"Two Binary Strings",https://codeforces.com/problemset/problem/1861/B,1000,1000,constructive-algorithms;dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1829D-gold-rush,codeforces,"Gold Rush",https://codeforces.com/problemset/problem/1829/D,1000,1000,brute-force;dfs-and-similar;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-1566C-max-mex-cut,codeforces,"MAX-MEX Cut",https://codeforces.com/problemset/problem/1566/C,1000,1000,bitmasks;constructive-algorithms;dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1499B-binary-removals,codeforces,"Binary Removals",https://codeforces.com/problemset/problem/1499/B,1000,1000,brute-force;dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-1469B-red-and-blue,codeforces,"Red and Blue",https://codeforces.com/problemset/problem/1469/B,1000,1000,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1359B-new-theatre-square,codeforces,"New Theatre Square",https://codeforces.com/problemset/problem/1359/B,1000,1000,brute-force;dp;greedy;implementation;two-pointers,dynamic programming,,newbie,unseen
+codeforces-1182A-filling-shapes,codeforces,"Filling Shapes",https://codeforces.com/problemset/problem/1182/A,1000,1000,dp;math,dynamic programming,,newbie,unseen
+codeforces-753A-santa-claus-and-candies,codeforces,"Santa Claus and Candies",https://codeforces.com/problemset/problem/753/A,1000,1000,dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-732B-cormen-the-best-friend-of-a-man,codeforces,"Cormen --- The Best Friend Of a Man",https://codeforces.com/problemset/problem/732/B,1000,1000,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-72G-fibonacci-army,codeforces,"Fibonacci army",https://codeforces.com/problemset/problem/72/G,1000,1000,*special;dp,dynamic programming,,newbie,unseen
+codeforces-2225C-red-black-pairs,codeforces,"Red-Black Pairs",https://codeforces.com/problemset/problem/2225/C,1100,1100,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-2211B-mickey-mouse-constructive,codeforces,"Mickey Mouse Constructive",https://codeforces.com/problemset/problem/2211/B,1100,1100,constructive-algorithms;dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-2195C-dice-roll-sequence,codeforces,"Dice Roll Sequence",https://codeforces.com/problemset/problem/2195/C,1100,1100,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-2184C-huge-pile,codeforces,"Huge Pile",https://codeforces.com/problemset/problem/2184/C,1100,1100,binary-search;dfs-and-similar;dp;graphs;math,dynamic programming,,newbie,unseen
+codeforces-2173B-niko-s-tactical-cards,codeforces,"Niko's Tactical Cards",https://codeforces.com/problemset/problem/2173/B,1100,1100,dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-2111B-fibonacci-cubes,codeforces,"Fibonacci Cubes",https://codeforces.com/problemset/problem/2111/B,1100,1100,brute-force;dp;implementation;math,dynamic programming,,newbie,unseen
+codeforces-2065C1-skibidus-and-fanum-tax-easy-version,codeforces,"Skibidus and Fanum Tax (easy version)",https://codeforces.com/problemset/problem/2065/C1,1100,1100,binary-search;dp;greedy,dynamic programming,,newbie,unseen
+codeforces-2025B-binomial-coefficients-kind-of,codeforces,"Binomial Coefficients, Kind Of",https://codeforces.com/problemset/problem/2025/B,1100,1100,combinatorics;dp;math,dynamic programming,,newbie,unseen
+codeforces-2008D-sakurako-s-hobby,codeforces,"Sakurako's Hobby",https://codeforces.com/problemset/problem/2008/D,1100,1100,dp;dsu;graphs;math,dynamic programming,,newbie,unseen
+codeforces-1971D-binary-cut,codeforces,"Binary Cut",https://codeforces.com/problemset/problem/1971/D,1100,1100,dp;greedy;implementation;sortings;strings,dynamic programming,,newbie,unseen
+codeforces-1958A-1-3-5,codeforces,"1-3-5",https://codeforces.com/problemset/problem/1958/A,1100,1100,*special;dp,dynamic programming,,newbie,unseen
+codeforces-1950D-product-of-binary-decimals,codeforces,"Product of Binary Decimals",https://codeforces.com/problemset/problem/1950/D,1100,1100,brute-force;dp;implementation;number-theory,dynamic programming,,newbie,unseen
+codeforces-1948B-array-fix,codeforces,"Array Fix",https://codeforces.com/problemset/problem/1948/B,1100,1100,brute-force;dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-1946B-maximum-sum,codeforces,"Maximum Sum",https://codeforces.com/problemset/problem/1946/B,1100,1100,dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-1923B-monsters-attack,codeforces,"Monsters Attack!",https://codeforces.com/problemset/problem/1923/B,1100,1100,dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-1917B-erase-first-or-second-letter,codeforces,"Erase First or Second Letter",https://codeforces.com/problemset/problem/1917/B,1100,1100,brute-force;combinatorics;data-structures;dp;strings,dynamic programming,,newbie,unseen
+codeforces-1904B-collecting-game,codeforces,"Collecting Game",https://codeforces.com/problemset/problem/1904/B,1100,1100,binary-search;dp;greedy;sortings;two-pointers,dynamic programming,,newbie,unseen
+codeforces-1899C-yarik-and-array,codeforces,"Yarik and Array",https://codeforces.com/problemset/problem/1899/C,1100,1100,dp;greedy;two-pointers,dynamic programming,,newbie,unseen
+codeforces-1807G2-subsequence-addition-hard-version,codeforces,"Subsequence Addition (Hard Version)",https://codeforces.com/problemset/problem/1807/G2,1100,1100,bitmasks;dp;greedy;implementation;sortings,dynamic programming,,newbie,unseen
+codeforces-1807G1-subsequence-addition-easy-version,codeforces,"Subsequence Addition (Easy Version)",https://codeforces.com/problemset/problem/1807/G1,1100,1100,brute-force;data-structures;dp;greedy;implementation;sortings,dynamic programming,,newbie,unseen
+codeforces-1791E-negatives-and-positives,codeforces,"Negatives and Positives",https://codeforces.com/problemset/problem/1791/E,1100,1100,dp;greedy;sortings,dynamic programming,,newbie,unseen
+codeforces-1743C-save-the-magazines,codeforces,"Save the Magazines",https://codeforces.com/problemset/problem/1743/C,1100,1100,constructive-algorithms;dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1706B-making-towers,codeforces,"Making Towers",https://codeforces.com/problemset/problem/1706/B,1100,1100,dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-1637B-mex-and-array,codeforces,"MEX and Array",https://codeforces.com/problemset/problem/1637/B,1100,1100,brute-force;dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-1631B-fun-with-even-subarrays,codeforces,"Fun with Even Subarrays",https://codeforces.com/problemset/problem/1631/B,1100,1100,dp;greedy,dynamic programming,,newbie,unseen
+codeforces-1478B-nezzar-and-lucky-number,codeforces,"Nezzar and Lucky Number",https://codeforces.com/problemset/problem/1478/B,1100,1100,brute-force;dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-1472C-long-jumps,codeforces,"Long Jumps",https://codeforces.com/problemset/problem/1472/C,1100,1100,dp;graphs,dynamic programming,,newbie,unseen
+codeforces-1382B-sequential-nim,codeforces,"Sequential Nim",https://codeforces.com/problemset/problem/1382/B,1100,1100,dp;games,dynamic programming,,newbie,unseen
+codeforces-1345B-card-constructions,codeforces,"Card Constructions",https://codeforces.com/problemset/problem/1345/B,1100,1100,binary-search;brute-force;dp;math,dynamic programming,,newbie,unseen
+codeforces-919B-perfect-number,codeforces,"Perfect Number",https://codeforces.com/problemset/problem/919/B,1100,1100,binary-search;brute-force;dp;implementation;number-theory,dynamic programming,,newbie,unseen
+codeforces-706B-interesting-drink,codeforces,"Interesting drink",https://codeforces.com/problemset/problem/706/B,1100,1100,binary-search;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-651A-joysticks,codeforces,"Joysticks",https://codeforces.com/problemset/problem/651/A,1100,1100,dp;greedy;implementation;math,dynamic programming,,newbie,unseen
+codeforces-522B-photo-to-remember,codeforces,"Photo to Remember",https://codeforces.com/problemset/problem/522/B,1100,1100,*special;data-structures;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-368B-sereja-and-suffixes,codeforces,"Sereja and Suffixes",https://codeforces.com/problemset/problem/368/B,1100,1100,data-structures;dp,dynamic programming,,newbie,unseen
+codeforces-363B-fence,codeforces,"Fence",https://codeforces.com/problemset/problem/363/B,1100,1100,brute-force;dp,dynamic programming,,newbie,unseen
+codeforces-331C1-the-great-julya-calendar,codeforces,"The Great Julya Calendar",https://codeforces.com/problemset/problem/331/C1,1100,1100,dp,dynamic programming,,newbie,unseen
+codeforces-313B-ilya-and-queries,codeforces,"Ilya and Queries",https://codeforces.com/problemset/problem/313/B,1100,1100,dp;implementation,dynamic programming,,newbie,unseen
+codeforces-2202B-abab-construction,codeforces,"ABAB Construction",https://codeforces.com/problemset/problem/2202/B,1200,1200,dp;greedy;implementation,dynamic programming,,specialist,unseen
+codeforces-2182C-production-of-snowmen,codeforces,"Production of Snowmen",https://codeforces.com/problemset/problem/2182/C,1200,1200,brute-force;combinatorics;dp,dynamic programming,,specialist,unseen
+codeforces-2178C-first-or-second,codeforces,"First or Second",https://codeforces.com/problemset/problem/2178/C,1200,1200,dp;greedy;implementation,dynamic programming,,specialist,unseen
+codeforces-2135A-against-the-difference,codeforces,"Against the Difference",https://codeforces.com/problemset/problem/2135/A,1200,1200,data-structures;dp,dynamic programming,,specialist,unseen
+codeforces-2067B-two-large-bags,codeforces,"Two Large Bags",https://codeforces.com/problemset/problem/2067/B,1200,1200,brute-force;dp;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-2050C-uninteresting-number,codeforces,"Uninteresting Number",https://codeforces.com/problemset/problem/2050/C,1200,1200,brute-force;dp;math,dynamic programming,,specialist,unseen
+codeforces-1996C-sort,codeforces,"Sort",https://codeforces.com/problemset/problem/1996/C,1200,1200,dp;greedy;sortings;strings,dynamic programming,,specialist,unseen
+codeforces-1992D-test-of-love,codeforces,"Test of Love",https://codeforces.com/problemset/problem/1992/D,1200,1200,dp;greedy;implementation,dynamic programming,,specialist,unseen
+codeforces-1987C-basil-s-garden,codeforces,"Basil's Garden",https://codeforces.com/problemset/problem/1987/C,1200,1200,dp;greedy,dynamic programming,,specialist,unseen
+codeforces-1982C-boring-day,codeforces,"Boring Day",https://codeforces.com/problemset/problem/1982/C,1200,1200,binary-search;data-structures;dp;greedy;two-pointers,dynamic programming,,specialist,unseen
+codeforces-1941D-rudolf-and-the-ball-game,codeforces,"Rudolf and the Ball Game",https://codeforces.com/problemset/problem/1941/D,1200,1200,dfs-and-similar;dp;implementation,dynamic programming,,specialist,unseen
+codeforces-1934B-yet-another-coin-problem,codeforces,"Yet Another Coin Problem",https://codeforces.com/problemset/problem/1934/B,1200,1200,brute-force;dp;greedy;math,dynamic programming,,specialist,unseen
+codeforces-1926C-vlad-and-a-sum-of-sum-of-digits,codeforces,"Vlad and a Sum of Sum of Digits",https://codeforces.com/problemset/problem/1926/C,1200,1200,dp;implementation,dynamic programming,,specialist,unseen
+codeforces-1914D-three-activities,codeforces,"Three Activities",https://codeforces.com/problemset/problem/1914/D,1200,1200,brute-force;dp;greedy;implementation;sortings,dynamic programming,,specialist,unseen
+codeforces-1859C-another-permutation-problem,codeforces,"Another Permutation Problem",https://codeforces.com/problemset/problem/1859/C,1200,1200,brute-force;dp;greedy;math,dynamic programming,,specialist,unseen
+codeforces-1846C-rudolf-and-the-another-competition,codeforces,"Rudolf and the Another Competition",https://codeforces.com/problemset/problem/1846/C,1200,1200,constructive-algorithms;data-structures;dp;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-1843D-apple-tree,codeforces,"Apple Tree",https://codeforces.com/problemset/problem/1843/D,1200,1200,combinatorics;dfs-and-similar;dp;math;trees,dynamic programming,,specialist,unseen
+codeforces-1769C1-i,codeforces,"Подкрутка I",https://codeforces.com/problemset/problem/1769/C1,1200,1200,*special;brute-force;dp;greedy,dynamic programming,,specialist,unseen
+codeforces-1713C-build-permutation,codeforces,"Build Permutation",https://codeforces.com/problemset/problem/1713/C,1200,1200,constructive-algorithms;dp;math,dynamic programming,,specialist,unseen
+codeforces-1598C-delete-two-elements,codeforces,"Delete Two Elements",https://codeforces.com/problemset/problem/1598/C,1200,1200,data-structures;dp;implementation;math;two-pointers,dynamic programming,,specialist,unseen
+codeforces-1553C-penalty,codeforces,"Penalty",https://codeforces.com/problemset/problem/1553/C,1200,1200,bitmasks;brute-force;dp;greedy,dynamic programming,,specialist,unseen
+codeforces-1485B-replace-and-keep-sorted,codeforces,"Replace and Keep Sorted",https://codeforces.com/problemset/problem/1485/B,1200,1200,dp;implementation;math,dynamic programming,,specialist,unseen
+codeforces-1472D-even-odd-game,codeforces,"Even-Odd Game",https://codeforces.com/problemset/problem/1472/D,1200,1200,dp;games;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-1406B-maximum-product,codeforces,"Maximum Product",https://codeforces.com/problemset/problem/1406/B,1200,1200,brute-force;dp;greedy;implementation;sortings,dynamic programming,,specialist,unseen
+codeforces-1355B-young-explorers,codeforces,"Young Explorers",https://codeforces.com/problemset/problem/1355/B,1200,1200,dp;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-1354B-ternary-string,codeforces,"Ternary String",https://codeforces.com/problemset/problem/1354/B,1200,1200,binary-search;dp;implementation;two-pointers,dynamic programming,,specialist,unseen

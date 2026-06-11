@@ -23,5 +23,13 @@ export const scheduleReviews = (problems: Problem[], start = isoDate()): ReviewI
 export const dueReviews = (reviews: ReviewItem[], today = isoDate()): ReviewItem[] =>
   reviews.filter((review) => !review.completed && review.dueDate <= today);
 
+export const overdueReviews = (reviews: ReviewItem[], today = isoDate()): ReviewItem[] =>
+  reviews.filter((review) => !review.completed && review.dueDate < today);
+
+export const upcomingReviews = (reviews: ReviewItem[], today = isoDate()): ReviewItem[] =>
+  reviews.filter((review) => !review.completed && review.dueDate > today).sort((a, b) => a.dueDate.localeCompare(b.dueDate));
+
+export const completedReviews = (reviews: ReviewItem[]): ReviewItem[] => reviews.filter((review) => review.completed);
+
 export const completeReview = (reviews: ReviewItem[], id: string, completedAt = isoDate()): ReviewItem[] =>
   reviews.map((review) => (review.id === id ? { ...review, completed: true, completedAt } : review));

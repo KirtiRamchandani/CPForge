@@ -1,0 +1,121 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status
+codeforces-2069A-was-there-an-array,codeforces,"Was there an Array?",https://codeforces.com/problemset/problem/2069/A,800,800,graph-matchings;greedy,greedy,,newbie,unseen
+codeforces-1944A-destroying-bridges,codeforces,"Destroying Bridges",https://codeforces.com/problemset/problem/1944/A,800,800,graphs;greedy;math,graphs,,newbie,unseen
+codeforces-1843C-sum-in-binary-tree,codeforces,"Sum in Binary Tree",https://codeforces.com/problemset/problem/1843/C,800,800,bitmasks;combinatorics;math;trees,bitmasks;combinatorics,,newbie,unseen
+codeforces-1797A-li-hua-and-maze,codeforces,"Li Hua and Maze",https://codeforces.com/problemset/problem/1797/A,800,800,constructive-algorithms;flows;graphs;greedy;implementation,graphs,,newbie,unseen
+codeforces-1598A-computer-game,codeforces,"Computer Game",https://codeforces.com/problemset/problem/1598/A,800,800,brute-force;dfs-and-similar;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-1549B-gregor-and-the-pawn-game,codeforces,"Gregor and the Pawn Game",https://codeforces.com/problemset/problem/1549/B,800,800,dfs-and-similar;dp;flows;graph-matchings;graphs;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-939A-love-triangle,codeforces,"Love Triangle",https://codeforces.com/problemset/problem/939/A,800,800,graphs,graphs,,newbie,unseen
+codeforces-910A-the-way-to-home,codeforces,"The Way to Home",https://codeforces.com/problemset/problem/910/A,800,800,dfs-and-similar;dp;greedy;implementation,dynamic programming,,newbie,unseen
+codeforces-755A-polandball-and-hypothesis,codeforces,"PolandBall and Hypothesis",https://codeforces.com/problemset/problem/755/A,800,800,brute-force;graphs;math;number-theory,graphs,,newbie,unseen
+codeforces-266B-queue-at-the-school,codeforces,"Queue at the School",https://codeforces.com/problemset/problem/266/B,800,800,constructive-algorithms;graph-matchings;implementation;shortest-paths,constructive algorithms;graph matchings,,newbie,unseen
+codeforces-2214A-odd-one-out,codeforces,"Odd One Out",https://codeforces.com/problemset/problem/2214/A,900,900,*special;graph-matchings;implementation,*special;graph matchings,,newbie,unseen
+codeforces-1662O-circular-maze,codeforces,"Circular Maze",https://codeforces.com/problemset/problem/1662/O,900,900,brute-force;dfs-and-similar;graphs;implementation,graphs,,newbie,unseen
+codeforces-1662F-antennas,codeforces,"Antennas",https://codeforces.com/problemset/problem/1662/F,900,900,data-structures;dfs-and-similar;graphs;implementation;shortest-paths,graphs,,newbie,unseen
+codeforces-1593B-make-it-divisible-by-25,codeforces,"Make it Divisible by 25",https://codeforces.com/problemset/problem/1593/B,900,900,dfs-and-similar;dp;greedy;math,dynamic programming,,newbie,unseen
+codeforces-1331E-jordan-smiley,codeforces,"Jordan Smiley",https://codeforces.com/problemset/problem/1331/E,900,900,*special;dfs-and-similar;geometry;implementation,graphs,,newbie,unseen
+codeforces-1057A-bmail-computer-network,codeforces,"Bmail Computer Network",https://codeforces.com/problemset/problem/1057/A,900,900,*special;dfs-and-similar;trees,graphs,,newbie,unseen
+codeforces-1055A-metro,codeforces,"Metro",https://codeforces.com/problemset/problem/1055/A,900,900,graphs,graphs,,newbie,unseen
+codeforces-948A-protect-sheep,codeforces,"Protect Sheep",https://codeforces.com/problemset/problem/948/A,900,900,brute-force;dfs-and-similar;graphs;implementation,graphs,,newbie,unseen
+codeforces-115A-party,codeforces,"Party",https://codeforces.com/problemset/problem/115/A,900,900,dfs-and-similar;graphs;trees,graphs,,newbie,unseen
+codeforces-1829D-gold-rush,codeforces,"Gold Rush",https://codeforces.com/problemset/problem/1829/D,1000,1000,brute-force;dfs-and-similar;dp;implementation,dynamic programming,,newbie,unseen
+codeforces-1033A-king-escape,codeforces,"King Escape",https://codeforces.com/problemset/problem/1033/A,1000,1000,dfs-and-similar;graphs;implementation,graphs,,newbie,unseen
+codeforces-1020B-badge,codeforces,"Badge",https://codeforces.com/problemset/problem/1020/B,1000,1000,brute-force;dfs-and-similar;graphs,graphs,,newbie,unseen
+codeforces-727A-transformation-from-a-to-b,codeforces,"Transformation: from A to B",https://codeforces.com/problemset/problem/727/A,1000,1000,brute-force;dfs-and-similar;math,graphs,,newbie,unseen
+codeforces-500A-new-year-transportation,codeforces,"New Year Transportation",https://codeforces.com/problemset/problem/500/A,1000,1000,dfs-and-similar;graphs;implementation,graphs,,newbie,unseen
+codeforces-2207H3-bowser-s-castle-hard-version,codeforces,"Bowser's Castle (Hard Version)",https://codeforces.com/problemset/problem/2207/H3,1100,1100,constructive-algorithms;divide-and-conquer;interactive;trees;two-pointers,constructive algorithms;divide and conquer,,newbie,unseen
+codeforces-2207H2-bowser-s-castle-medium-version,codeforces,"Bowser's Castle (Medium Version)",https://codeforces.com/problemset/problem/2207/H2,1100,1100,constructive-algorithms;divide-and-conquer;interactive;trees;two-pointers,constructive algorithms;divide and conquer,,newbie,unseen
+codeforces-2207H1-bowser-s-castle-easy-version,codeforces,"Bowser's Castle (Easy Version)",https://codeforces.com/problemset/problem/2207/H1,1100,1100,binary-search;constructive-algorithms;divide-and-conquer;greedy;interactive;trees,binary search,,newbie,unseen
+codeforces-2184C-huge-pile,codeforces,"Huge Pile",https://codeforces.com/problemset/problem/2184/C,1100,1100,binary-search;dfs-and-similar;dp;graphs;math,dynamic programming,,newbie,unseen
+codeforces-2155B-abraham-s-great-escape,codeforces,"Abraham's Great Escape",https://codeforces.com/problemset/problem/2155/B,1100,1100,constructive-algorithms;graphs,graphs,,newbie,unseen
+codeforces-2078B-vicious-labyrinth,codeforces,"Vicious Labyrinth",https://codeforces.com/problemset/problem/2078/B,1100,1100,constructive-algorithms;graphs;greedy;implementation;math,graphs,,newbie,unseen
+codeforces-2008D-sakurako-s-hobby,codeforces,"Sakurako's Hobby",https://codeforces.com/problemset/problem/2008/D,1100,1100,dp;dsu;graphs;math,dynamic programming,,newbie,unseen
+codeforces-1952G-mathematician-takeover,codeforces,"Mathematician Takeover",https://codeforces.com/problemset/problem/1952/G,1100,1100,*special;binary-search;dfs-and-similar;math,binary search,,newbie,unseen
+codeforces-1939C-more-gifts,codeforces,"More Gifts",https://codeforces.com/problemset/problem/1939/C,1100,1100,*special;dfs-and-similar;two-pointers,graphs,,newbie,unseen
+codeforces-1905B-begginer-s-zelda,codeforces,"Begginer's Zelda",https://codeforces.com/problemset/problem/1905/B,1100,1100,greedy;trees,greedy,,newbie,unseen
+codeforces-1829E-the-lakes,codeforces,"The Lakes",https://codeforces.com/problemset/problem/1829/E,1100,1100,dfs-and-similar;dsu;graphs;implementation,graphs,,newbie,unseen
+codeforces-1663A-who-tested,codeforces,"Who Tested?",https://codeforces.com/problemset/problem/1663/A,1100,1100,*special;expression-parsing;trees,*special;expression parsing,,newbie,unseen
+codeforces-1624C-division-by-two-and-permutation,codeforces,"Division by Two and Permutation",https://codeforces.com/problemset/problem/1624/C,1100,1100,constructive-algorithms;flows;graph-matchings;greedy;math,greedy,,newbie,unseen
+codeforces-1623B-game-on-ranges,codeforces,"Game on Ranges",https://codeforces.com/problemset/problem/1623/B,1100,1100,brute-force;dfs-and-similar;implementation;sortings,graphs,,newbie,unseen
+codeforces-1511C-yet-another-card-deck,codeforces,"Yet Another Card Deck",https://codeforces.com/problemset/problem/1511/C,1100,1100,brute-force;data-structures;implementation;trees,brute force;data structures,,newbie,unseen
+codeforces-1472C-long-jumps,codeforces,"Long Jumps",https://codeforces.com/problemset/problem/1472/C,1100,1100,dp;graphs,dynamic programming,,newbie,unseen
+codeforces-1360C-similar-pairs,codeforces,"Similar Pairs",https://codeforces.com/problemset/problem/1360/C,1100,1100,constructive-algorithms;graph-matchings;greedy;sortings,greedy,,newbie,unseen
+codeforces-1324C-frog-jumps,codeforces,"Frog Jumps",https://codeforces.com/problemset/problem/1324/C,1100,1100,binary-search;data-structures;dfs-and-similar;greedy;implementation,binary search,,newbie,unseen
+codeforces-1297E-modernization-of-treeland,codeforces,"Modernization of Treeland",https://codeforces.com/problemset/problem/1297/E,1100,1100,*special;dfs-and-similar;trees,graphs,,newbie,unseen
+codeforces-1255B-fridge-lockers,codeforces,"Fridge Lockers",https://codeforces.com/problemset/problem/1255/B,1100,1100,graphs;implementation,graphs,,newbie,unseen
+codeforces-1192B-dynamic-diameter,codeforces,"Dynamic Diameter",https://codeforces.com/problemset/problem/1192/B,1100,1100,*special;data-structures;dfs-and-similar;divide-and-conquer;trees,graphs,,newbie,unseen
+codeforces-648C-,codeforces,"Путь Робота",https://codeforces.com/problemset/problem/648/C,1100,1100,constructive-algorithms;dfs-and-similar;graphs,graphs,,newbie,unseen
+codeforces-370A-rook-bishop-and-king,codeforces,"Rook, Bishop and King",https://codeforces.com/problemset/problem/370/A,1100,1100,graphs;math;shortest-paths,graphs,,newbie,unseen
+codeforces-2234C-vessels-heights-and-two-versions-easy-version,codeforces,"Vessels, Heights and Two Versions (Easy Version)",https://codeforces.com/problemset/problem/2234/C,1200,1200,dfs-and-similar;dsu;greedy;implementation;two-pointers,graphs,,specialist,unseen
+codeforces-1941D-rudolf-and-the-ball-game,codeforces,"Rudolf and the Ball Game",https://codeforces.com/problemset/problem/1941/D,1200,1200,dfs-and-similar;dp;implementation,dynamic programming,,specialist,unseen
+codeforces-1843D-apple-tree,codeforces,"Apple Tree",https://codeforces.com/problemset/problem/1843/D,1200,1200,combinatorics;dfs-and-similar;dp;math;trees,dynamic programming,,specialist,unseen
+codeforces-1669G-fall-down,codeforces,"Fall Down",https://codeforces.com/problemset/problem/1669/G,1200,1200,dfs-and-similar;implementation,graphs,,specialist,unseen
+codeforces-1647B-madoka-and-the-elegant-gift,codeforces,"Madoka and the Elegant Gift",https://codeforces.com/problemset/problem/1647/B,1200,1200,brute-force;constructive-algorithms;graphs;implementation,graphs,,specialist,unseen
+codeforces-1583B-omkar-and-heavenly-tree,codeforces,"Omkar and Heavenly Tree",https://codeforces.com/problemset/problem/1583/B,1200,1200,constructive-algorithms;trees,constructive algorithms;trees,,specialist,unseen
+codeforces-1581B-diameter-of-graph,codeforces,"Diameter of Graph",https://codeforces.com/problemset/problem/1581/B,1200,1200,constructive-algorithms;graphs;greedy;math,graphs,,specialist,unseen
+codeforces-1559C-mocha-and-hiking,codeforces,"Mocha and Hiking",https://codeforces.com/problemset/problem/1559/C,1200,1200,constructive-algorithms;graphs,graphs,,specialist,unseen
+codeforces-1510K-king-s-task,codeforces,"King's Task",https://codeforces.com/problemset/problem/1510/K,1200,1200,brute-force;graphs;implementation,graphs,,specialist,unseen
+codeforces-1490D-permutation-transformation,codeforces,"Permutation Transformation",https://codeforces.com/problemset/problem/1490/D,1200,1200,dfs-and-similar;divide-and-conquer;implementation,graphs,,specialist,unseen
+codeforces-1433D-districts-connection,codeforces,"Districts Connection",https://codeforces.com/problemset/problem/1433/D,1200,1200,constructive-algorithms;dfs-and-similar,graphs,,specialist,unseen
+codeforces-1428B-belted-rooms,codeforces,"Belted Rooms",https://codeforces.com/problemset/problem/1428/B,1200,1200,graphs;implementation,graphs,,specialist,unseen
+codeforces-1327B-princesses-and-princes,codeforces,"Princesses and Princes",https://codeforces.com/problemset/problem/1327/B,1200,1200,brute-force;graphs;greedy,graphs,,specialist,unseen
+codeforces-1311B-weirdsort,codeforces,"WeirdSort",https://codeforces.com/problemset/problem/1311/B,1200,1200,dfs-and-similar;sortings,graphs,,specialist,unseen
+codeforces-913B-christmas-spruce,codeforces,"Christmas Spruce",https://codeforces.com/problemset/problem/913/B,1200,1200,implementation;trees,implementation;trees,,specialist,unseen
+codeforces-902B-coloring-a-tree,codeforces,"Coloring a Tree",https://codeforces.com/problemset/problem/902/B,1200,1200,dfs-and-similar;dsu;greedy,graphs,,specialist,unseen
+codeforces-522A-reposts,codeforces,"Reposts",https://codeforces.com/problemset/problem/522/A,1200,1200,*special;dfs-and-similar;dp;graphs;trees,dynamic programming,,specialist,unseen
+codeforces-489B-bersu-ball,codeforces,"BerSU Ball",https://codeforces.com/problemset/problem/489/B,1200,1200,dfs-and-similar;dp;graph-matchings;greedy;sortings;two-pointers,dynamic programming,,specialist,unseen
+codeforces-445A-dzy-loves-chessboard,codeforces,"DZY Loves Chessboard",https://codeforces.com/problemset/problem/445/A,1200,1200,dfs-and-similar;implementation,graphs,,specialist,unseen
+codeforces-344B-simple-molecules,codeforces,"Simple Molecules",https://codeforces.com/problemset/problem/344/B,1200,1200,brute-force;graphs;math,graphs,,specialist,unseen
+codeforces-292B-network-topology,codeforces,"Network Topology",https://codeforces.com/problemset/problem/292/B,1200,1200,graphs;implementation,graphs,,specialist,unseen
+codeforces-217A-ice-skating,codeforces,"Ice Skating",https://codeforces.com/problemset/problem/217/A,1200,1200,brute-force;dfs-and-similar;dsu;graphs,graphs,,specialist,unseen
+codeforces-129B-students-and-shoelaces,codeforces,"Students and Shoelaces",https://codeforces.com/problemset/problem/129/B,1200,1200,brute-force;dfs-and-similar;graphs;implementation,graphs,,specialist,unseen
+codeforces-2172M-maximum-distance-to-port,codeforces,"Maximum Distance To Port",https://codeforces.com/problemset/problem/2172/M,1300,1300,graphs;shortest-paths,graphs,,specialist,unseen
+codeforces-2143C-max-tree,codeforces,"Max Tree",https://codeforces.com/problemset/problem/2143/C,1300,1300,constructive-algorithms;dfs-and-similar;graphs;greedy,graphs,,specialist,unseen
+codeforces-2129A-double-perspective,codeforces,"Double Perspective",https://codeforces.com/problemset/problem/2129/A,1300,1300,constructive-algorithms;dp;dsu;graphs;greedy;sortings,dynamic programming,,specialist,unseen
+codeforces-2086C-disappearing-permutation,codeforces,"Disappearing Permutation",https://codeforces.com/problemset/problem/2086/C,1300,1300,dfs-and-similar;dp;dsu;graphs;greedy;implementation,dynamic programming,,specialist,unseen
+codeforces-2056B-find-the-permutation,codeforces,"Find the Permutation",https://codeforces.com/problemset/problem/2056/B,1300,1300,brute-force;dfs-and-similar;graphs;implementation;sortings,graphs,,specialist,unseen
+codeforces-2049B-pspspsps,codeforces,"pspspsps",https://codeforces.com/problemset/problem/2049/B,1300,1300,brute-force;constructive-algorithms;graph-matchings;implementation,brute force;constructive algorithms,,specialist,unseen
+codeforces-1968D-permutation-game,codeforces,"Permutation Game",https://codeforces.com/problemset/problem/1968/D,1300,1300,brute-force;dfs-and-similar;games;graphs;greedy;math,graphs,,specialist,unseen
+codeforces-1948C-arrow-path,codeforces,"Arrow Path",https://codeforces.com/problemset/problem/1948/C,1300,1300,brute-force;constructive-algorithms;dfs-and-similar;dp;graphs;shortest-paths,dynamic programming,,specialist,unseen
+codeforces-1900C-anji-s-binary-tree,codeforces,"Anji's Binary Tree",https://codeforces.com/problemset/problem/1900/C,1300,1300,dfs-and-similar;dp;trees,dynamic programming,,specialist,unseen
+codeforces-1857D-strong-vertices,codeforces,"Strong Vertices",https://codeforces.com/problemset/problem/1857/D,1300,1300,math;sortings;trees,math;sortings,,specialist,unseen
+codeforces-1829F-forever-winter,codeforces,"Forever Winter",https://codeforces.com/problemset/problem/1829/F,1300,1300,dfs-and-similar;graphs;math,graphs,,specialist,unseen
+codeforces-1741D-masha-and-a-beautiful-tree,codeforces,"Masha and a Beautiful Tree",https://codeforces.com/problemset/problem/1741/D,1300,1300,dfs-and-similar;divide-and-conquer;graphs;sortings;trees,graphs,,specialist,unseen
+codeforces-1726C-jatayu-s-balanced-bracket-sequence,codeforces,"Jatayu's Balanced Bracket Sequence",https://codeforces.com/problemset/problem/1726/C,1300,1300,data-structures;dsu;graphs;greedy,graphs,,specialist,unseen
+codeforces-1711B-party,codeforces,"Party",https://codeforces.com/problemset/problem/1711/B,1300,1300,brute-force;graphs,graphs,,specialist,unseen
+codeforces-1676G-white-black-balanced-subtrees,codeforces,"White-Black Balanced Subtrees",https://codeforces.com/problemset/problem/1676/G,1300,1300,dfs-and-similar;dp;graphs;trees,dynamic programming,,specialist,unseen
+codeforces-1675D-vertical-paths,codeforces,"Vertical Paths",https://codeforces.com/problemset/problem/1675/D,1300,1300,graphs;implementation;trees,graphs,,specialist,unseen
+codeforces-1661B-getting-zero,codeforces,"Getting Zero",https://codeforces.com/problemset/problem/1661/B,1300,1300,bitmasks;brute-force;dfs-and-similar;dp;graphs;greedy;shortest-paths,dynamic programming,,specialist,unseen
+codeforces-1638C-inversion-graph,codeforces,"Inversion Graph",https://codeforces.com/problemset/problem/1638/C,1300,1300,data-structures;dsu;graphs;math,graphs,,specialist,unseen
+codeforces-1534C-little-alawn-s-puzzle,codeforces,"Little Alawn's Puzzle",https://codeforces.com/problemset/problem/1534/C,1300,1300,combinatorics;dp;dsu;graphs;math,dynamic programming,,specialist,unseen
+codeforces-1360E-polygon,codeforces,"Polygon",https://codeforces.com/problemset/problem/1360/E,1300,1300,dp;graphs;implementation;shortest-paths,dynamic programming,,specialist,unseen
+codeforces-1249B2-books-exchange-hard-version,codeforces,"Books Exchange (hard version)",https://codeforces.com/problemset/problem/1249/B2,1300,1300,dfs-and-similar;dsu;math,graphs,,specialist,unseen
+codeforces-1182B-plus-from-picture,codeforces,"Plus from Picture",https://codeforces.com/problemset/problem/1182/B,1300,1300,dfs-and-similar;implementation;strings,graphs,,specialist,unseen
+codeforces-1152B-neko-performs-cat-furrier-transform,codeforces,"Neko Performs Cat Furrier Transform",https://codeforces.com/problemset/problem/1152/B,1300,1300,bitmasks;constructive-algorithms;dfs-and-similar;math,graphs,,specialist,unseen
+codeforces-1065B-vasya-and-isolated-vertices,codeforces,"Vasya and Isolated Vertices",https://codeforces.com/problemset/problem/1065/B,1300,1300,constructive-algorithms;graphs,graphs,,specialist,unseen
+codeforces-932B-recursive-queries,codeforces,"Recursive Queries",https://codeforces.com/problemset/problem/932/B,1300,1300,binary-search;data-structures;dfs-and-similar,binary search,,specialist,unseen
+codeforces-899C-dividing-the-numbers,codeforces,"Dividing the numbers",https://codeforces.com/problemset/problem/899/C,1300,1300,constructive-algorithms;graphs;math,graphs,,specialist,unseen
+codeforces-893C-rumor,codeforces,"Rumor",https://codeforces.com/problemset/problem/893/C,1300,1300,dfs-and-similar;graphs;greedy,graphs,,specialist,unseen
+codeforces-886C-petya-and-catacombs,codeforces,"Petya and Catacombs",https://codeforces.com/problemset/problem/886/C,1300,1300,dsu;greedy;implementation;trees,greedy,,specialist,unseen
+codeforces-862B-mahmoud-and-ehab-and-the-bipartiteness,codeforces,"Mahmoud and Ehab and the bipartiteness",https://codeforces.com/problemset/problem/862/B,1300,1300,dfs-and-similar;graphs;trees,graphs,,specialist,unseen
+codeforces-755C-polandball-and-forest,codeforces,"PolandBall and Forest",https://codeforces.com/problemset/problem/755/C,1300,1300,dfs-and-similar;dsu;graphs;interactive;trees,graphs,,specialist,unseen
+codeforces-707B-bakery,codeforces,"Bakery",https://codeforces.com/problemset/problem/707/B,1300,1300,graphs,graphs,,specialist,unseen
+codeforces-653B-bear-and-compressing,codeforces,"Bear and Compressing",https://codeforces.com/problemset/problem/653/B,1300,1300,brute-force;dfs-and-similar;dp;strings,dynamic programming,,specialist,unseen
+codeforces-429A-xor-tree,codeforces,"Xor-tree",https://codeforces.com/problemset/problem/429/A,1300,1300,dfs-and-similar;trees,graphs,,specialist,unseen
+codeforces-330B-road-construction,codeforces,"Road Construction",https://codeforces.com/problemset/problem/330/B,1300,1300,constructive-algorithms;graphs,graphs,,specialist,unseen
+codeforces-94B-friends,codeforces,"Friends",https://codeforces.com/problemset/problem/94/B,1300,1300,graphs;implementation;math,graphs,,specialist,unseen
+codeforces-57A-square-earth,codeforces,"Square Earth?",https://codeforces.com/problemset/problem/57/A,1300,1300,dfs-and-similar;greedy;implementation,graphs,,specialist,unseen
+codeforces-27B-tournament,codeforces,"Tournament",https://codeforces.com/problemset/problem/27/B,1300,1300,bitmasks;brute-force;dfs-and-similar;greedy,graphs,,specialist,unseen
+codeforces-2204D-alternating-path,codeforces,"Alternating Path",https://codeforces.com/problemset/problem/2204/D,1400,1400,constructive-algorithms;dfs-and-similar;graph-matchings;graphs,graphs,,specialist,unseen
+codeforces-2171D-rae-taylor-and-trees-easy-version,codeforces,"Rae Taylor and Trees (easy version)",https://codeforces.com/problemset/problem/2171/D,1400,1400,binary-search;data-structures;dp;dsu;greedy;implementation;trees,dynamic programming,,specialist,unseen
+codeforces-2168C-intercepting-butterflies,codeforces,"Intercepting Butterflies",https://codeforces.com/problemset/problem/2168/C,1400,1400,bitmasks;communication;constructive-algorithms;graphs;interactive,graphs,,specialist,unseen
+codeforces-2133C-the-nether,codeforces,"The Nether",https://codeforces.com/problemset/problem/2133/C,1400,1400,graphs;interactive,graphs,,specialist,unseen
+codeforces-2131D-arboris-contractio,codeforces,"Arboris Contractio",https://codeforces.com/problemset/problem/2131/D,1400,1400,data-structures;graphs;greedy;trees,graphs,,specialist,unseen
+codeforces-2120C-divine-tree,codeforces,"Divine Tree",https://codeforces.com/problemset/problem/2120/C,1400,1400,constructive-algorithms;greedy;math;sortings;trees,greedy,,specialist,unseen
+codeforces-2114E-kirei-attacks-the-estate,codeforces,"Kirei Attacks the Estate",https://codeforces.com/problemset/problem/2114/E,1400,1400,dfs-and-similar;dp;greedy;trees,dynamic programming,,specialist,unseen
+codeforces-2066A-object-identification,codeforces,"Object Identification",https://codeforces.com/problemset/problem/2066/A,1400,1400,graphs;greedy;implementation;interactive,graphs,,specialist,unseen
+codeforces-2034C-trapped-in-the-witch-s-labyrinth,codeforces,"Trapped in the Witch's Labyrinth",https://codeforces.com/problemset/problem/2034/C,1400,1400,constructive-algorithms;dfs-and-similar;graphs;implementation,graphs,,specialist,unseen
+codeforces-2033E-sakurako-kosuke-and-the-permutation,codeforces,"Sakurako, Kosuke, and the Permutation",https://codeforces.com/problemset/problem/2033/E,1400,1400,brute-force;data-structures;dfs-and-similar;dsu;graphs;greedy;math,graphs,,specialist,unseen
+codeforces-2011H-strange-matrix,codeforces,"Strange Matrix",https://codeforces.com/problemset/problem/2011/H,1400,1400,*special;graphs;greedy,graphs,,specialist,unseen
+codeforces-1940C-burenka-and-pether,codeforces,"Burenka and Pether",https://codeforces.com/problemset/problem/1940/C,1400,1400,*special;data-structures;dfs-and-similar;divide-and-conquer;dsu;graphs;sortings;trees,graphs,,specialist,unseen
+codeforces-1940A-parallel-universes,codeforces,"Parallel Universes",https://codeforces.com/problemset/problem/1940/A,1400,1400,*special;constructive-algorithms;dfs-and-similar;dsu;graphs,graphs,,specialist,unseen
