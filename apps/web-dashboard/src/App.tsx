@@ -2,13 +2,31 @@ import { analyzeWorkspace } from "@cp-forge/analytics-engine";
 import { buildLaunchReport, createWorkspace } from "@cp-forge/core";
 import { portfolioMarkdown } from "@cp-forge/portfolio-engine";
 import { buildDailyPlan, buildWeeklyPlan, detectWeakAreas } from "@cp-forge/recommendation-engine";
-import { generateRoadmapPlan } from "@cp-forge/roadmap-engine";
-import type { WorkspaceData } from "@cp-forge/schemas";
+import { generateRoadmapPlan, toggleNodeProgress } from "@cp-forge/roadmap-engine";
+import type { RoadmapNode, WorkspaceData } from "@cp-forge/schemas";
 import { problemBank } from "@cp-forge/sheet-engine";
-import { BarChart, MindmapTree, StatCard } from "@cp-forge/ui";
+import { ActivityGrid, BarChart, MindmapTree, StatCard } from "@cp-forge/ui";
 import { useCallback, useMemo, useRef, useState } from "react";
 
-const nav = ["Home", "Today", "Roadmaps", "Mindmap", "Sheets", "Charts", "Weaknesses", "Mistakes", "Upsolve", "Reviews", "Companies", "Portfolio", "Settings"];
+const nav = [
+  "Home",
+  "Today",
+  "Progress",
+  "Roadmaps",
+  "Mindmap",
+  "Sheets",
+  "Charts",
+  "Contests",
+  "Weaknesses",
+  "Mistakes",
+  "Upsolve",
+  "Reviews",
+  "Companies",
+  "Platforms",
+  "Portfolio",
+  "Notes",
+  "Settings"
+];
 
 interface DashboardPayload {
   workspace: WorkspaceData;
@@ -20,22 +38,31 @@ interface DashboardPayload {
 
 export const App = () => {
   const [active, setActive] = useState("Home");
+  const [mindmapOverride, setMindmapOverride] = useState<RoadmapNode | undefined>();
   const [payload, setPayload] = useState<DashboardPayload>(() => buildPayload(createWorkspace({ goal: "amazon", targetCompanies: ["amazon"], preferredLanguage: "cpp" })));
   const fileInput = useRef<HTMLInputElement>(null);
 
   const { workspace, analytics, today, weekly, weakAreas, roadmap, report } = useMemo(() => {
     const ws = payload.workspace;
     const areas = payload.weakAreas ?? detectWeakAreas(ws);
+    const plan = generateRoadmapPlan({
+      goal: ws.profile.goal,
+      days: ws.profile.interviewTimelineDays,
+      weakTopics: areas.map((area) => area.topic),
+      workspace: ws
+    });
     return {
       workspace: ws,
       analytics: payload.analytics ?? analyzeWorkspace(ws),
       today: payload.today ?? buildDailyPlan(ws, ws.profile),
       weekly: payload.weekly ?? buildWeeklyPlan(ws, ws.profile),
       weakAreas: areas,
-      roadmap: generateRoadmapPlan({ goal: ws.profile.goal, days: ws.profile.interviewTimelineDays, weakTopics: areas.map((area) => area.topic) }),
+      roadmap: plan,
       report: buildLaunchReport(ws, { days: ws.profile.interviewTimelineDays, profile: ws.profile, offline: true })
     };
   }, [payload]);
+
+  const mindmap = mindmapOverride ?? roadmap.mindmap;
 
   const importFile = useCallback(async (file: File) => {
     const text = await file.text();
@@ -111,7 +138,7 @@ export const App = () => {
               <StatCard label="Readiness" value={`${analytics.readinessScore}%`} detail="Company pattern coverage" />
               <StatCard label="Review Load" value={`${analytics.reviewDueCount} due`} detail="Spaced repetition" />
               <StatCard label="Weakest Pattern" value={weakestPattern} detail="High-frequency and low coverage" />
-              <StatCard label="Mistake Focus" value={topMistake} detail="Track fixes, not shame" />
+              <StatCard label="Solve streak" value={`${analytics.solveStreakDays} days`} detail="Consistency beats cramming" />
             </section>
             <section className="two-col">
               <BarChart title="Topic Distribution" data={analytics.topicDistribution} />
@@ -134,10 +161,25 @@ export const App = () => {
           </Panel>
         )}
 
+        {active === "Progress" && (
+          <section className="two-col">
+            <Panel title="Training Progress">
+              <Task label="Solved" value={`${analytics.solvedCount}`} />
+              <Task label="Attempted" value={`${analytics.attemptedCount}`} />
+              <Task label="Streak" value={`${analytics.solveStreakDays} days`} />
+              <Task label="Readiness" value={`${analytics.readinessScore}%`} />
+            </Panel>
+            <ActivityGrid title="Recent Activity" data={analytics.weeklyActivity} />
+          </section>
+        )}
+
         {active === "Mindmap" || active === "Roadmaps" ? (
           <section className="mindmap-layout">
             <Panel title="Skill Tree">
-              <MindmapTree node={roadmap.mindmap} />
+              <MindmapTree
+                node={mindmap}
+                onToggle={(id) => setMindmapOverride(toggleNodeProgress(mindmap, id))}
+              />
             </Panel>
             <Panel title="Weekly Milestones">
               {weekly.map((item) => (
@@ -167,7 +209,46 @@ export const App = () => {
             <BarChart title="Solved By Topic" data={analytics.topicDistribution} />
             <BarChart title="Platform Mix" data={analytics.platformDistribution} />
             <BarChart title="Mistake Categories" data={analytics.mistakeDistribution} />
+            <BarChart title="CF Rating Buckets" data={analytics.ratingProgress} />
+            <ActivityGrid title="Solve Activity" data={analytics.weeklyActivity} />
           </section>
+        )}
+
+        {active === "Contests" && (
+          <Panel title="Contest Blocks">
+            {Array.isArray(workspace.contests) && workspace.contests.length ? (
+              workspace.contests.map((contest, index) => (
+                <Task
+                  key={String((contest as { id?: string }).id ?? index)}
+                  label={String((contest as { platform?: string }).platform ?? "contest")}
+                  value={`${String((contest as { title?: string }).title ?? "Virtual block")} · ${((contest as { problems?: string[] }).problems ?? []).length} problems`}
+                />
+              ))
+            ) : (
+              <p>No contests yet. Run `cp-forge contest --rating 1200` or `cp-forge contest --upcoming`.</p>
+            )}
+          </Panel>
+        )}
+
+        {active === "Platforms" && (
+          <Panel title="Platform Handles">
+            <Task label="Codeforces" value={workspace.profile.codeforcesHandle ?? "Not linked — cp-forge sync --cf handle"} />
+            <Task label="LeetCode" value={workspace.profile.leetcodeHandle ?? "Not linked"} />
+            <Task label="AtCoder" value={workspace.profile.atcoderHandle ?? "Not linked"} />
+            <BarChart title="Problems By Platform" data={analytics.platformDistribution} />
+          </Panel>
+        )}
+
+        {active === "Notes" && (
+          <Panel title="Problem Notes">
+            <p>Notes live in `.cpforge/notes/` and sync from the VS Code / Chrome extensions.</p>
+            {workspace.problems
+              .filter((problem) => problem.notes)
+              .slice(0, 20)
+              .map((problem) => (
+                <Task key={problem.id} label={problem.title} value={problem.notes} />
+              ))}
+          </Panel>
         )}
 
         {active === "Weaknesses" && (

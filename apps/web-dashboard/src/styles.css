@@ -383,3 +383,20 @@ a {
 #cp-forge-sidebar button.active {
   outline: 2px solid #42d392;
 }
+
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.activity-cell {
+  aspect-ratio: 1;
+  border-radius: 4px;
+  background: #42d392;
+}
+
+.activity-grid-panel .chart-empty {
+  margin-top: 8px;
+}

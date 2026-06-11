@@ -1,11 +1,22 @@
 {
-  "name": "@cp-forge/cli",
+  "name": "cp-forge",
   "version": "0.1.0",
+  "description": "The local-first training OS for DSA, Competitive Programming, and coding interviews.",
+  "license": "MIT",
   "type": "module",
   "bin": {
     "cp-forge": "./dist/index.js"
   },
   "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KirtiRamchandani/CPForge.git",
+    "directory": "apps/cli"
+  },
+  "keywords": ["competitive-programming", "dsa", "leetcode", "codeforces", "roadmap", "interview"],
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --clean",
     "dev": "tsx src/index.ts",
@@ -13,6 +24,7 @@
   },
   "dependencies": {
     "@cp-forge/analytics-engine": "workspace:*",
+    "@cp-forge/contest-engine": "workspace:*",
     "@cp-forge/core": "workspace:*",
     "@cp-forge/export-engine": "workspace:*",
     "@cp-forge/mistake-engine": "workspace:*",

@@ -129,8 +129,143 @@ const walkSheets = (dir) => {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) problems.push(...walkSheets(full));
     else if (entry.name.endsWith(".json")) problems.push(...fromJson(full));
+    else if (entry.name.endsWith(".csv")) problems.push(...fromCsv(full));
   }
   return problems;
+};
+
+const fromCsv = (filePath) => {
+  const lines = fs.readFileSync(filePath, "utf8").trim().split(/\r?\n/);
+  if (lines.length < 2) return [];
+  const headers = lines[0].split(",").map((cell) => cell.trim().replace(/^"|"$/g, ""));
+  return lines.slice(1).filter(Boolean).map((line) => {
+    const values = line.split(",").map((cell) => cell.trim().replace(/^"|"$/g, ""));
+    const record = Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ""]));
+    const title = record.title || record.Problem || "Imported Problem";
+    const slug = slugify(title);
+    return {
+      id: `sheet-${slug}`,
+      platform: record.platform || "leetcode",
+      platformId: record.platformId || slug,
+      title,
+      url: record.url || record.URL || `https://leetcode.com/problems/${slug}/`,
+      difficulty: record.difficulty || "medium",
+      rating: record.rating ? Number(record.rating) : 1200,
+      topics: (record.topics || record.topic || "").split(/[;|]/).map((s) => s.trim()).filter(Boolean),
+      patterns: (record.patterns || record.pattern || "").split(/[;|]/).map((s) => s.trim()).filter(Boolean),
+      companies: (record.companies || record.company || "").split(/[;|]/).map((s) => s.trim().toLowerCase()).filter(Boolean),
+      level: record.level || "intermediate",
+      status: "unseen",
+      attempts: 0,
+      confidence: 0,
+      notes: record.notes || "",
+      mistakes: [],
+      source: "sheet-csv"
+    };
+  });
+};
+
+const cfExtras = [
+  ["4A", "Watermelon", "800", ["implementation"], ["parity"]],
+  ["71A", "Way Too Long Words", "800", ["strings"], ["simulation"]],
+  ["158A", "Next Round", "800", ["implementation"], ["simulation"]],
+  ["50A", "Domino piling", "800", ["math"], ["greedy"]],
+  ["231A", "Team", "800", ["implementation"], ["counting"]],
+  ["282A", "Bit++", "800", ["implementation"], ["simulation"]],
+  ["339A", "Helpful Maths", "800", ["sorting"], ["sort"]],
+  ["486A", "Calculating Function", "900", ["math"], ["formula"]],
+  ["580A", "Kefa and First Steps", "900", ["arrays"], ["two pointers"]],
+  ["977A", "Wrong Subtraction", "900", ["math"], ["simulation"]],
+  ["546A", "Soldier and Bananas", "800", ["math"], ["arithmetic"]],
+  ["791A", "Bear and Big Brother", "800", ["math"], ["simulation"]],
+  ["977B", "Two-gram", "900", ["strings"], ["frequency"]],
+  ["110A", "Nearly Lucky Number", "800", ["implementation"], ["validation"]],
+  ["112A", "Petya and Strings", "800", ["strings"], ["compare"]],
+  ["118A", "String Task", "800", ["strings"], ["transform"]],
+  ["133A", "HQ9+", "800", ["implementation"], ["interpreter"]],
+  ["160A", "Twins", "800", ["sorting"], ["greedy"]],
+  ["200B", "Drinks", "800", ["math"], ["average"]],
+  ["263A", "Beautiful Matrix", "800", ["matrices"], ["manhattan"]],
+  ["271A", "Beautiful Year", "800", ["implementation"], ["set"]],
+  ["281A", "Word Capitalization", "800", ["strings"], ["capitalize"]],
+  ["318A", "Even Odds", "800", ["math"], ["binary search"]],
+  ["337A", "Puzzles", "800", ["sorting"], ["greedy"]],
+  ["339B", "Xenia and Ringroad", "800", ["implementation"], ["simulation"]],
+  ["432A", "Choosing Teams", "800", ["sorting"], ["greedy"]],
+  ["443A", "Anton and Letters", "800", ["strings"], ["set"]],
+  ["467A", "George and Accommodation", "800", ["implementation"], ["count"]],
+  ["520A", "Pangram", "800", ["strings"], ["set"]],
+  ["584A", "Olesya and Rodion", "800", ["constructive"], ["build"]],
+  ["617A", "Elephant", "800", ["math"], ["greedy"]],
+  ["677A", "Vanya and Fence", "800", ["math"], ["ceil"]],
+  ["705A", "Hulk", "800", ["strings"], ["construct"]],
+  ["734A", "Anton and Danik", "800", ["strings"], ["count"]],
+  ["735A", "Kathmandu", "800", ["implementation"], ["parse"]],
+  ["742A", "Arpa's Overnight Party", "800", ["math"], ["parity"]],
+  ["749A", "Bachgold Problem", "800", ["math"], ["greedy"]],
+  ["750A", "New Year and Hurry", "800", ["greedy"], ["knapsack-lite"]],
+  ["758A", "Lucky Conversion", "800", ["strings"], ["swap"]],
+  ["760B", "Frodo and the Ring", "800", ["greedy"], ["construct"]],
+  ["761A", "Union of Doubles", "800", ["strings"], ["construct"]],
+  ["785A", "Anton and Polyhedra", "800", ["implementation"], ["lookup"]],
+  ["786B", "Berland trade", "800", ["greedy"], ["sort"]],
+  ["791B", "Getting AC", "800", ["greedy"], ["exchange"]],
+  ["812A", "Sagheer and Nubian Market", "800", ["binary-search"], ["binary search on answer"]],
+  ["831A", "Tram", "800", ["simulation"], ["track max"]],
+  ["832A", "Garland", "800", ["strings"], ["compare"]],
+  ["834A", "Elevator or Stairs", "800", ["math"], ["compare"]],
+  ["835A", "The Office", "800", ["math"], ["area"]],
+  ["837A", "Text Splitting", "800", ["strings"], ["split"]],
+  ["839A", "Bus Game", "800", ["simulation"], ["track"]],
+  ["841A", "Anton and letter", "800", ["strings"], ["set"]],
+  ["842A", "Display", "800", ["math"], ["formula"]],
+  ["844A", "Diverse Substring", "800", ["strings"], ["sliding-window"]],
+  ["845A", "Chess Tournament", "800", ["math"], ["count"]],
+  ["847A", "Union Jack", "800", ["geometry"], ["construct"]],
+  ["848A", "From Y to Y", "800", ["strings"], ["run length"]],
+  ["849A", "Football", "800", ["strings"], ["compare"]],
+  ["851A", "Arpa and the Contest", "800", ["math"], ["formula"]],
+  ["852A", "Digits Permutation", "800", ["strings"], ["permutation"]],
+  ["854A", "Fraction", "800", ["math"], ["reduce"]],
+  ["855A", "Tom Riddle's Diary", "800", ["strings"], ["frequency"]],
+  ["856A", "Similar Words", "800", ["strings"], ["compare"]],
+  ["857A", "Two Co-Prime Arrays", "800", ["math"], ["coprime"]],
+  ["858A", "Polycarp at the ATM", "800", ["math"], ["ceil"]],
+  ["859A", "Declined Invitations", "800", ["simulation"], ["count"]],
+  ["860A", "Remove Smallest", "800", ["greedy"], ["adjacent"]],
+  ["861A", "Hayato and School", "800", ["strings"], ["construct"]],
+  ["862A", "Mahmoud and Ehab and the xor", "800", ["math"], ["xor"]],
+  ["863A", "Turn the Lights Off", "800", ["simulation"], ["reverse"]],
+  ["864A", "Bus", "800", ["implementation"], ["count"]],
+  ["865A", "Cheating", "800", ["math"], ["formula"]],
+  ["455A", "Boredom", "1500", ["dynamic-programming"], ["1D DP"]],
+  ["20C", "Dijkstra?", "1900", ["graphs"], ["dijkstra"]],
+  ["165E", "Compatible Numbers", "2100", ["bit-manipulation"], ["bitmask DP"]]
+];
+
+const toCfProblem = ([platformId, title, rating, topics, patterns]) => {
+  const match = String(platformId).match(/^(\d+)([A-Z]?)$/i);
+  const contest = match?.[1] ?? "4";
+  const index = match?.[2]?.toUpperCase() || "A";
+  return {
+    id: `codeforces-${contest}${index}-${slugify(title)}`,
+    platform: "codeforces",
+    platformId: `${contest}${index}`,
+    title,
+    url: `https://codeforces.com/problemset/problem/${contest}/${index}`,
+  difficulty: rating,
+  rating: Number(rating),
+  topics,
+  patterns,
+  companies: [],
+  level: Number(rating) < 1200 ? "newbie" : Number(rating) < 1600 ? "specialist" : "expert",
+  status: "unseen",
+  attempts: 0,
+  confidence: 0,
+  notes: "",
+  mistakes: [],
+  source: "cf-curated"
+  };
 };
 
 const merged = new Map();
@@ -139,6 +274,16 @@ for (const item of blind75.map((row) => toProblem(row, ["amazon", "google", "met
 }
 for (const item of walkSheets(sheetsDir)) {
   if (item?.id) merged.set(item.id, { ...item, source: item.source ?? "sheet" });
+}
+for (const item of cfExtras.map(toCfProblem)) {
+  merged.set(item.id, item);
+}
+
+const datasetsFile = path.join(root, "datasets", "cf-problems-sample.json");
+if (fs.existsSync(datasetsFile)) {
+  for (const item of fromJson(datasetsFile)) {
+    if (item?.id) merged.set(item.id, { ...item, source: item.source ?? "dataset" });
+  }
 }
 
 const output = [...merged.values()].sort((a, b) => (a.rating ?? 0) - (b.rating ?? 0));
@@ -150,5 +295,17 @@ const blindPack = {
   description: "High-frequency interview problems for local-first practice.",
   problems: output.filter((p) => p.source === "curated").map((p) => p.id)
 };
+const neetcodePack = {
+  title: "NeetCode 150",
+  description: "Extended interview curriculum beyond Blind 75.",
+  problems: output.filter((p) => p.platform === "leetcode").map((p) => p.id).slice(0, 150)
+};
+const cfPack = {
+  title: "CF Specialist Ladder",
+  description: "Codeforces problems from 800 to 2100 for rating growth.",
+  problems: output.filter((p) => p.platform === "codeforces").map((p) => p.id)
+};
 fs.writeFileSync(path.join(root, "packs", "blind-75.json"), `${JSON.stringify(blindPack, null, 2)}\n`, "utf8");
+fs.writeFileSync(path.join(root, "packs", "neetcode-150.json"), `${JSON.stringify(neetcodePack, null, 2)}\n`, "utf8");
+fs.writeFileSync(path.join(root, "packs", "cf-specialist.json"), `${JSON.stringify(cfPack, null, 2)}\n`, "utf8");
 console.log(`Synced ${output.length} problems to ${path.relative(root, outFile)}`);

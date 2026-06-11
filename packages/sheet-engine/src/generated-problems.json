@@ -29,6 +29,29 @@
     "source": "curated"
   },
   {
+    "id": "sheet-watermelon",
+    "platform": "codeforces",
+    "platformId": "watermelon",
+    "title": "Watermelon",
+    "url": "https://codeforces.com/problemset/problem/4/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "parity"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Warmup",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "cf-4a",
     "platform": "codeforces",
     "title": "Watermelon",
@@ -49,6 +72,33 @@
     "notes": "Warmup",
     "review_date": "",
     "source": "sheet"
+  },
+  {
+    "id": "sheet-two-sum",
+    "platform": "leetcode",
+    "platformId": "two-sum",
+    "title": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "easy",
+    "rating": 800,
+    "topics": [
+      "arrays",
+      "hashing"
+    ],
+    "patterns": [
+      "hash map"
+    ],
+    "companies": [
+      "amazon",
+      "google"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Must do",
+    "mistakes": [],
+    "source": "sheet-csv"
   },
   {
     "id": "lc-two-sum",
@@ -75,6 +125,1570 @@
     "notes": "Must do",
     "review_date": "",
     "source": "sheet"
+  },
+  {
+    "id": "codeforces-4A-watermelon",
+    "platform": "codeforces",
+    "platformId": "4A",
+    "title": "Watermelon",
+    "url": "https://codeforces.com/problemset/problem/4/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "parity"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-71A-way-too-long-words",
+    "platform": "codeforces",
+    "platformId": "71A",
+    "title": "Way Too Long Words",
+    "url": "https://codeforces.com/problemset/problem/71/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "simulation"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-158A-next-round",
+    "platform": "codeforces",
+    "platformId": "158A",
+    "title": "Next Round",
+    "url": "https://codeforces.com/problemset/problem/158/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "simulation"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-50A-domino-piling",
+    "platform": "codeforces",
+    "platformId": "50A",
+    "title": "Domino piling",
+    "url": "https://codeforces.com/problemset/problem/50/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-231A-team",
+    "platform": "codeforces",
+    "platformId": "231A",
+    "title": "Team",
+    "url": "https://codeforces.com/problemset/problem/231/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "counting"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-282A-bit",
+    "platform": "codeforces",
+    "platformId": "282A",
+    "title": "Bit++",
+    "url": "https://codeforces.com/problemset/problem/282/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "simulation"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-339A-helpful-maths",
+    "platform": "codeforces",
+    "platformId": "339A",
+    "title": "Helpful Maths",
+    "url": "https://codeforces.com/problemset/problem/339/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "sorting"
+    ],
+    "patterns": [
+      "sort"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-546A-soldier-and-bananas",
+    "platform": "codeforces",
+    "platformId": "546A",
+    "title": "Soldier and Bananas",
+    "url": "https://codeforces.com/problemset/problem/546/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "arithmetic"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-791A-bear-and-big-brother",
+    "platform": "codeforces",
+    "platformId": "791A",
+    "title": "Bear and Big Brother",
+    "url": "https://codeforces.com/problemset/problem/791/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "simulation"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-110A-nearly-lucky-number",
+    "platform": "codeforces",
+    "platformId": "110A",
+    "title": "Nearly Lucky Number",
+    "url": "https://codeforces.com/problemset/problem/110/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "validation"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-112A-petya-and-strings",
+    "platform": "codeforces",
+    "platformId": "112A",
+    "title": "Petya and Strings",
+    "url": "https://codeforces.com/problemset/problem/112/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "compare"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-118A-string-task",
+    "platform": "codeforces",
+    "platformId": "118A",
+    "title": "String Task",
+    "url": "https://codeforces.com/problemset/problem/118/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "transform"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-133A-hq9",
+    "platform": "codeforces",
+    "platformId": "133A",
+    "title": "HQ9+",
+    "url": "https://codeforces.com/problemset/problem/133/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "interpreter"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-160A-twins",
+    "platform": "codeforces",
+    "platformId": "160A",
+    "title": "Twins",
+    "url": "https://codeforces.com/problemset/problem/160/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "sorting"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-200B-drinks",
+    "platform": "codeforces",
+    "platformId": "200B",
+    "title": "Drinks",
+    "url": "https://codeforces.com/problemset/problem/200/B",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "average"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-263A-beautiful-matrix",
+    "platform": "codeforces",
+    "platformId": "263A",
+    "title": "Beautiful Matrix",
+    "url": "https://codeforces.com/problemset/problem/263/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "matrices"
+    ],
+    "patterns": [
+      "manhattan"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-271A-beautiful-year",
+    "platform": "codeforces",
+    "platformId": "271A",
+    "title": "Beautiful Year",
+    "url": "https://codeforces.com/problemset/problem/271/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "set"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-281A-word-capitalization",
+    "platform": "codeforces",
+    "platformId": "281A",
+    "title": "Word Capitalization",
+    "url": "https://codeforces.com/problemset/problem/281/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "capitalize"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-318A-even-odds",
+    "platform": "codeforces",
+    "platformId": "318A",
+    "title": "Even Odds",
+    "url": "https://codeforces.com/problemset/problem/318/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "binary search"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-337A-puzzles",
+    "platform": "codeforces",
+    "platformId": "337A",
+    "title": "Puzzles",
+    "url": "https://codeforces.com/problemset/problem/337/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "sorting"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-339B-xenia-and-ringroad",
+    "platform": "codeforces",
+    "platformId": "339B",
+    "title": "Xenia and Ringroad",
+    "url": "https://codeforces.com/problemset/problem/339/B",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "simulation"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-432A-choosing-teams",
+    "platform": "codeforces",
+    "platformId": "432A",
+    "title": "Choosing Teams",
+    "url": "https://codeforces.com/problemset/problem/432/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "sorting"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-443A-anton-and-letters",
+    "platform": "codeforces",
+    "platformId": "443A",
+    "title": "Anton and Letters",
+    "url": "https://codeforces.com/problemset/problem/443/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "set"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-467A-george-and-accommodation",
+    "platform": "codeforces",
+    "platformId": "467A",
+    "title": "George and Accommodation",
+    "url": "https://codeforces.com/problemset/problem/467/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "count"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-520A-pangram",
+    "platform": "codeforces",
+    "platformId": "520A",
+    "title": "Pangram",
+    "url": "https://codeforces.com/problemset/problem/520/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "set"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-584A-olesya-and-rodion",
+    "platform": "codeforces",
+    "platformId": "584A",
+    "title": "Olesya and Rodion",
+    "url": "https://codeforces.com/problemset/problem/584/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "constructive"
+    ],
+    "patterns": [
+      "build"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-617A-elephant",
+    "platform": "codeforces",
+    "platformId": "617A",
+    "title": "Elephant",
+    "url": "https://codeforces.com/problemset/problem/617/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-677A-vanya-and-fence",
+    "platform": "codeforces",
+    "platformId": "677A",
+    "title": "Vanya and Fence",
+    "url": "https://codeforces.com/problemset/problem/677/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "ceil"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-705A-hulk",
+    "platform": "codeforces",
+    "platformId": "705A",
+    "title": "Hulk",
+    "url": "https://codeforces.com/problemset/problem/705/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "construct"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-734A-anton-and-danik",
+    "platform": "codeforces",
+    "platformId": "734A",
+    "title": "Anton and Danik",
+    "url": "https://codeforces.com/problemset/problem/734/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "count"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-735A-kathmandu",
+    "platform": "codeforces",
+    "platformId": "735A",
+    "title": "Kathmandu",
+    "url": "https://codeforces.com/problemset/problem/735/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "parse"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-742A-arpa-s-overnight-party",
+    "platform": "codeforces",
+    "platformId": "742A",
+    "title": "Arpa's Overnight Party",
+    "url": "https://codeforces.com/problemset/problem/742/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "parity"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-749A-bachgold-problem",
+    "platform": "codeforces",
+    "platformId": "749A",
+    "title": "Bachgold Problem",
+    "url": "https://codeforces.com/problemset/problem/749/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-750A-new-year-and-hurry",
+    "platform": "codeforces",
+    "platformId": "750A",
+    "title": "New Year and Hurry",
+    "url": "https://codeforces.com/problemset/problem/750/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "greedy"
+    ],
+    "patterns": [
+      "knapsack-lite"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-758A-lucky-conversion",
+    "platform": "codeforces",
+    "platformId": "758A",
+    "title": "Lucky Conversion",
+    "url": "https://codeforces.com/problemset/problem/758/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "swap"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-760B-frodo-and-the-ring",
+    "platform": "codeforces",
+    "platformId": "760B",
+    "title": "Frodo and the Ring",
+    "url": "https://codeforces.com/problemset/problem/760/B",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "greedy"
+    ],
+    "patterns": [
+      "construct"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-761A-union-of-doubles",
+    "platform": "codeforces",
+    "platformId": "761A",
+    "title": "Union of Doubles",
+    "url": "https://codeforces.com/problemset/problem/761/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "construct"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-785A-anton-and-polyhedra",
+    "platform": "codeforces",
+    "platformId": "785A",
+    "title": "Anton and Polyhedra",
+    "url": "https://codeforces.com/problemset/problem/785/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "lookup"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-786B-berland-trade",
+    "platform": "codeforces",
+    "platformId": "786B",
+    "title": "Berland trade",
+    "url": "https://codeforces.com/problemset/problem/786/B",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "greedy"
+    ],
+    "patterns": [
+      "sort"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-791B-getting-ac",
+    "platform": "codeforces",
+    "platformId": "791B",
+    "title": "Getting AC",
+    "url": "https://codeforces.com/problemset/problem/791/B",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "greedy"
+    ],
+    "patterns": [
+      "exchange"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-812A-sagheer-and-nubian-market",
+    "platform": "codeforces",
+    "platformId": "812A",
+    "title": "Sagheer and Nubian Market",
+    "url": "https://codeforces.com/problemset/problem/812/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "binary-search"
+    ],
+    "patterns": [
+      "binary search on answer"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-831A-tram",
+    "platform": "codeforces",
+    "platformId": "831A",
+    "title": "Tram",
+    "url": "https://codeforces.com/problemset/problem/831/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "simulation"
+    ],
+    "patterns": [
+      "track max"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-832A-garland",
+    "platform": "codeforces",
+    "platformId": "832A",
+    "title": "Garland",
+    "url": "https://codeforces.com/problemset/problem/832/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "compare"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-834A-elevator-or-stairs",
+    "platform": "codeforces",
+    "platformId": "834A",
+    "title": "Elevator or Stairs",
+    "url": "https://codeforces.com/problemset/problem/834/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "compare"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-835A-the-office",
+    "platform": "codeforces",
+    "platformId": "835A",
+    "title": "The Office",
+    "url": "https://codeforces.com/problemset/problem/835/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "area"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-837A-text-splitting",
+    "platform": "codeforces",
+    "platformId": "837A",
+    "title": "Text Splitting",
+    "url": "https://codeforces.com/problemset/problem/837/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "split"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-839A-bus-game",
+    "platform": "codeforces",
+    "platformId": "839A",
+    "title": "Bus Game",
+    "url": "https://codeforces.com/problemset/problem/839/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "simulation"
+    ],
+    "patterns": [
+      "track"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-841A-anton-and-letter",
+    "platform": "codeforces",
+    "platformId": "841A",
+    "title": "Anton and letter",
+    "url": "https://codeforces.com/problemset/problem/841/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "set"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-842A-display",
+    "platform": "codeforces",
+    "platformId": "842A",
+    "title": "Display",
+    "url": "https://codeforces.com/problemset/problem/842/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "formula"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-844A-diverse-substring",
+    "platform": "codeforces",
+    "platformId": "844A",
+    "title": "Diverse Substring",
+    "url": "https://codeforces.com/problemset/problem/844/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-845A-chess-tournament",
+    "platform": "codeforces",
+    "platformId": "845A",
+    "title": "Chess Tournament",
+    "url": "https://codeforces.com/problemset/problem/845/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "count"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-847A-union-jack",
+    "platform": "codeforces",
+    "platformId": "847A",
+    "title": "Union Jack",
+    "url": "https://codeforces.com/problemset/problem/847/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "geometry"
+    ],
+    "patterns": [
+      "construct"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-848A-from-y-to-y",
+    "platform": "codeforces",
+    "platformId": "848A",
+    "title": "From Y to Y",
+    "url": "https://codeforces.com/problemset/problem/848/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "run length"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-849A-football",
+    "platform": "codeforces",
+    "platformId": "849A",
+    "title": "Football",
+    "url": "https://codeforces.com/problemset/problem/849/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "compare"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-851A-arpa-and-the-contest",
+    "platform": "codeforces",
+    "platformId": "851A",
+    "title": "Arpa and the Contest",
+    "url": "https://codeforces.com/problemset/problem/851/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "formula"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-852A-digits-permutation",
+    "platform": "codeforces",
+    "platformId": "852A",
+    "title": "Digits Permutation",
+    "url": "https://codeforces.com/problemset/problem/852/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "permutation"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-854A-fraction",
+    "platform": "codeforces",
+    "platformId": "854A",
+    "title": "Fraction",
+    "url": "https://codeforces.com/problemset/problem/854/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "reduce"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-855A-tom-riddle-s-diary",
+    "platform": "codeforces",
+    "platformId": "855A",
+    "title": "Tom Riddle's Diary",
+    "url": "https://codeforces.com/problemset/problem/855/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "frequency"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-856A-similar-words",
+    "platform": "codeforces",
+    "platformId": "856A",
+    "title": "Similar Words",
+    "url": "https://codeforces.com/problemset/problem/856/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "compare"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-857A-two-co-prime-arrays",
+    "platform": "codeforces",
+    "platformId": "857A",
+    "title": "Two Co-Prime Arrays",
+    "url": "https://codeforces.com/problemset/problem/857/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "coprime"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-858A-polycarp-at-the-atm",
+    "platform": "codeforces",
+    "platformId": "858A",
+    "title": "Polycarp at the ATM",
+    "url": "https://codeforces.com/problemset/problem/858/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "ceil"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-859A-declined-invitations",
+    "platform": "codeforces",
+    "platformId": "859A",
+    "title": "Declined Invitations",
+    "url": "https://codeforces.com/problemset/problem/859/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "simulation"
+    ],
+    "patterns": [
+      "count"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-860A-remove-smallest",
+    "platform": "codeforces",
+    "platformId": "860A",
+    "title": "Remove Smallest",
+    "url": "https://codeforces.com/problemset/problem/860/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "greedy"
+    ],
+    "patterns": [
+      "adjacent"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-861A-hayato-and-school",
+    "platform": "codeforces",
+    "platformId": "861A",
+    "title": "Hayato and School",
+    "url": "https://codeforces.com/problemset/problem/861/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "construct"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-862A-mahmoud-and-ehab-and-the-xor",
+    "platform": "codeforces",
+    "platformId": "862A",
+    "title": "Mahmoud and Ehab and the xor",
+    "url": "https://codeforces.com/problemset/problem/862/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "xor"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-863A-turn-the-lights-off",
+    "platform": "codeforces",
+    "platformId": "863A",
+    "title": "Turn the Lights Off",
+    "url": "https://codeforces.com/problemset/problem/863/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "simulation"
+    ],
+    "patterns": [
+      "reverse"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-864A-bus",
+    "platform": "codeforces",
+    "platformId": "864A",
+    "title": "Bus",
+    "url": "https://codeforces.com/problemset/problem/864/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "count"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-865A-cheating",
+    "platform": "codeforces",
+    "platformId": "865A",
+    "title": "Cheating",
+    "url": "https://codeforces.com/problemset/problem/865/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "formula"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
   },
   {
     "id": "leetcode-217-contains-duplicate",
@@ -472,6 +2086,98 @@
     "source": "curated"
   },
   {
+    "id": "codeforces-486A-calculating-function",
+    "platform": "codeforces",
+    "platformId": "486A",
+    "title": "Calculating Function",
+    "url": "https://codeforces.com/problemset/problem/486/A",
+    "difficulty": "900",
+    "rating": 900,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "formula"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-580A-kefa-and-first-steps",
+    "platform": "codeforces",
+    "platformId": "580A",
+    "title": "Kefa and First Steps",
+    "url": "https://codeforces.com/problemset/problem/580/A",
+    "difficulty": "900",
+    "rating": 900,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-977A-wrong-subtraction",
+    "platform": "codeforces",
+    "platformId": "977A",
+    "title": "Wrong Subtraction",
+    "url": "https://codeforces.com/problemset/problem/977/A",
+    "difficulty": "900",
+    "rating": 900,
+    "topics": [
+      "math"
+    ],
+    "patterns": [
+      "simulation"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-977B-two-gram",
+    "platform": "codeforces",
+    "platformId": "977B",
+    "title": "Two-gram",
+    "url": "https://codeforces.com/problemset/problem/977/B",
+    "difficulty": "900",
+    "rating": 900,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "frequency"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
     "id": "leetcode-338-counting-bits",
     "platform": "leetcode",
     "platformId": "338",
@@ -810,6 +2516,32 @@
     "source": "curated"
   },
   {
+    "id": "sheet-longest-substring-without-repeating-characters",
+    "platform": "leetcode",
+    "platformId": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [
+      "amazon",
+      "meta"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Variable window",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "lc-longest-substring",
     "platform": "leetcode",
     "title": "Longest Substring Without Repeating Characters",
@@ -833,6 +2565,25 @@
     "notes": "Variable window",
     "review_date": "",
     "source": "sheet"
+  },
+  {
+    "id": "sheet-imported-problem",
+    "platform": "leetcode",
+    "platformId": "imported-problem",
+    "title": "Imported Problem",
+    "url": "https://leetcode.com/problems/imported-problem/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [],
+    "patterns": [],
+    "companies": [],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
   },
   {
     "id": "leetcode-152-maximum-product-subarray",
@@ -1228,6 +2979,33 @@
     "notes": "",
     "mistakes": [],
     "source": "curated"
+  },
+  {
+    "id": "sheet-number-of-islands",
+    "platform": "leetcode",
+    "platformId": "number-of-islands",
+    "title": "Number of Islands",
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "bfs shortest path",
+      "dfs connected components"
+    ],
+    "companies": [
+      "amazon",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Core graph",
+    "mistakes": [],
+    "source": "sheet-csv"
   },
   {
     "id": "leetcode-153-find-minimum-in-rotated-sorted-array",
@@ -1713,6 +3491,31 @@
     "source": "curated"
   },
   {
+    "id": "sheet-binary-search-on-answer-template",
+    "platform": "leetcode",
+    "platformId": "binary-search-on-answer-template",
+    "title": "Binary Search on Answer Template",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "binary search on answer"
+    ],
+    "companies": [
+      "meta"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "leetcode-15-3sum",
     "platform": "leetcode",
     "platformId": "15",
@@ -2025,6 +3828,77 @@
     "source": "curated"
   },
   {
+    "id": "sheet-coin-change",
+    "platform": "leetcode",
+    "platformId": "coin-change",
+    "title": "Coin Change",
+    "url": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "knapsack DP"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-boredom",
+    "platform": "codeforces",
+    "platformId": "boredom",
+    "title": "Boredom",
+    "url": "https://codeforces.com/problemset/problem/455/A",
+    "difficulty": "1500",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "1D DP"
+    ],
+    "companies": [],
+    "level": "specialist",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "DP transition",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "codeforces-455A-boredom",
+    "platform": "codeforces",
+    "platformId": "455A",
+    "title": "Boredom",
+    "url": "https://codeforces.com/problemset/problem/455/A",
+    "difficulty": "1500",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "1D DP"
+    ],
+    "companies": [],
+    "level": "specialist",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
     "id": "leetcode-300-longest-increasing-subsequence",
     "platform": "leetcode",
     "platformId": "300",
@@ -2223,6 +4097,32 @@
     "source": "curated"
   },
   {
+    "id": "sheet-minimum-window-substring",
+    "platform": "leetcode",
+    "platformId": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [
+      "amazon",
+      "google"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Hard invariant",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "lc-min-window",
     "platform": "leetcode",
     "title": "Minimum Window Substring",
@@ -2302,5 +4202,74 @@
     "notes": "",
     "mistakes": [],
     "source": "curated"
+  },
+  {
+    "id": "sheet-dijkstra",
+    "platform": "codeforces",
+    "platformId": "dijkstra",
+    "title": "Dijkstra?",
+    "url": "https://codeforces.com/problemset/problem/20/C",
+    "difficulty": "1900",
+    "rating": 1900,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "dijkstra"
+    ],
+    "companies": [],
+    "level": "expert",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Shortest paths",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "codeforces-20C-dijkstra",
+    "platform": "codeforces",
+    "platformId": "20C",
+    "title": "Dijkstra?",
+    "url": "https://codeforces.com/problemset/problem/20/C",
+    "difficulty": "1900",
+    "rating": 1900,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "dijkstra"
+    ],
+    "companies": [],
+    "level": "expert",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
+  },
+  {
+    "id": "codeforces-165E-compatible-numbers",
+    "platform": "codeforces",
+    "platformId": "165E",
+    "title": "Compatible Numbers",
+    "url": "https://codeforces.com/problemset/problem/165/E",
+    "difficulty": "2100",
+    "rating": 2100,
+    "topics": [
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "bitmask DP"
+    ],
+    "companies": [],
+    "level": "expert",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "cf-curated"
   }
 ]

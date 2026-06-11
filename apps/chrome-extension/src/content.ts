@@ -49,6 +49,7 @@ if (isProblemPage && !document.getElementById("cp-forge-sidebar")) {
       </ul>
     </section>
     <footer><small id="cp-forge-sync-status">Saved locally</small></footer>
+    <button id="cp-forge-export" type="button">Export to .cpforge</button>
   `;
   document.body.appendChild(sidebar);
 
@@ -112,6 +113,22 @@ if (isProblemPage && !document.getElementById("cp-forge-sidebar")) {
       void saveState({ notes: textarea.value });
     }, 400)
   );
+
+  const exportButton = sidebar.querySelector("#cp-forge-export") as HTMLButtonElement;
+  exportButton.addEventListener("click", async () => {
+    const stored = await chrome.storage.local.get(STORAGE_KEY);
+    const sessions = (stored[STORAGE_KEY] ?? {}) as Record<string, SessionState>;
+    const blob = new Blob([JSON.stringify({ exportedAt: new Date().toISOString(), sessions }, null, 2)], {
+      type: "application/json"
+    });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = "cpforge-extension-sync.json";
+    anchor.click();
+    URL.revokeObjectURL(url);
+    statusLabel.textContent = "Exported extension sync JSON";
+  });
 }
 
 function debounce(fn: () => void, wait: number) {

@@ -66,3 +66,29 @@ export const BarChart = ({ title, data }: { title: string; data: Record<string, 
     </section>
   );
 };
+
+export const ActivityGrid = ({ title, data }: { title: string; data: Record<string, number> }) => {
+  const entries = Object.entries(data)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .slice(-28);
+  const max = Math.max(1, ...entries.map(([, value]) => value));
+  return (
+    <section className="chart-panel activity-grid-panel">
+      <h2>{title}</h2>
+      {entries.length === 0 ? (
+        <p className="chart-empty">Solve problems to build your activity grid.</p>
+      ) : (
+        <div className="activity-grid">
+          {entries.map(([day, value]) => (
+            <div
+              className="activity-cell"
+              key={day}
+              style={{ opacity: 0.25 + (value / max) * 0.75 }}
+              title={`${day}: ${value}`}
+            />
+          ))}
+        </div>
+      )}
+    </section>
+  );
+};

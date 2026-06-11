@@ -4,6 +4,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import { Command } from "commander";
 import { analyzeWorkspace, buildStuckDiagnosis } from "@cp-forge/analytics-engine";
+import { buildVirtualContest, contestReadinessMessage, parseCodeforcesContests, upcomingContestAlerts } from "@cp-forge/contest-engine";
 import { buildLaunchReport, createWorkspace } from "@cp-forge/core";
 import {
   chartToSvg,
@@ -428,13 +429,19 @@ program
     }
     if (action === "add" && name) {
       const packPath = path.join(packsDir, `${name}.json`);
-      const pack = JSON.parse(await fs.readFile(packPath, "utf8")) as { problems?: Problem[]; title?: string };
+      const pack = JSON.parse(await fs.readFile(packPath, "utf8")) as {
+        problems?: Array<Problem | string>;
+        title?: string;
+      };
       const workspace = await ensureWorkspace();
-      if (pack.problems?.length) {
-        workspace.problems = mergeProblems(workspace.problems, pack.problems);
+      const resolved = (pack.problems ?? [])
+        .map((entry) => (typeof entry === "string" ? problemBank.find((problem) => problem.id === entry) : entry))
+        .filter((problem): problem is Problem => Boolean(problem));
+      if (resolved.length) {
+        workspace.problems = mergeProblems(workspace.problems, resolved);
       }
       await saveWorkspace(workspace);
-      printSuccess(`Installed pack ${name}${pack.title ? `: ${pack.title}` : ""}.`);
+      printSuccess(`Installed pack ${name}${pack.title ? `: ${pack.title}` : ""} with ${resolved.length} problems.`);
       return;
     }
     throw new Error("Use `cp-forge pack list` or `cp-forge pack add <name>`.");
@@ -489,15 +496,47 @@ program
 
 program
   .command("contest")
-  .description("Create a local contest practice plan.")
+  .description("Create a local contest practice plan or list upcoming Codeforces contests.")
   .option("--platform <platform>", "platform", "codeforces")
   .option("--rating <rating>", "target rating", parseNumber, 1200)
+  .option("--upcoming", "fetch upcoming contests when online")
   .action(async (options) => {
     const workspace = await ensureWorkspace();
-    const picks = problemBank.filter((problem) => problem.platform === options.platform && (problem.rating ?? 0) <= options.rating + 200).slice(0, 5);
-    workspace.contests.push({ platform: options.platform, rating: options.rating, problems: picks.map((problem) => problem.id), createdAt: new Date().toISOString() });
+    const analytics = analyzeWorkspace(workspace);
+    if (options.upcoming && options.platform === "codeforces") {
+      try {
+        const client = new CodeforcesApiClient();
+        const rows = (await client.contestList()) as Array<{
+          id: number;
+          name: string;
+          type: string;
+          phase: string;
+          startTimeSeconds?: number;
+          durationSeconds?: number;
+        }>;
+        const alerts = upcomingContestAlerts(parseCodeforcesContests(rows));
+        await writeJson(path.join(workspacePaths().exports, "contest-alerts.json"), alerts);
+        alerts.slice(0, 5).forEach((alert) => console.log(`${alert.startsAt.slice(0, 10)} · ${alert.name} · ${alert.url}`));
+        printSuccess(`Saved ${alerts.length} upcoming contests to .cpforge/exports/contest-alerts.json`);
+      } catch (error) {
+        printInfo(`Could not fetch contests offline: ${error instanceof Error ? error.message : "unknown"}`);
+      }
+    }
+    const plan = buildVirtualContest(options.rating, options.platform);
+    workspace.contests.push({
+      id: plan.id,
+      platform: plan.platform,
+      rating: plan.targetRating,
+      problems: plan.problems.map((problem) => problem.id),
+      createdAt: new Date().toISOString(),
+      title: plan.title,
+      checklist: plan.checklist
+    });
     await saveWorkspace(workspace);
-    printSuccess(`Created ${options.platform} practice contest with ${picks.length} problems.`);
+    await writeJson(path.join(workspacePaths().exports, "virtual-contest.json"), plan);
+    console.log(contestReadinessMessage(analytics.solvedCount, analytics.upsolveCount));
+    plan.checklist.forEach((item) => console.log(`- ${item}`));
+    printSuccess(`Created ${options.platform} virtual contest with ${plan.problems.length} problems.`);
   });
 
 program

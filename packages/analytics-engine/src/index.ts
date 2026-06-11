@@ -12,6 +12,9 @@ export interface AnalyticsSnapshot {
   platformDistribution: Record<string, number>;
   mistakeDistribution: Record<string, number>;
   readinessScore: number;
+  solveStreakDays: number;
+  weeklyActivity: Record<string, number>;
+  ratingProgress: Record<string, number>;
 }
 
 export const analyzeWorkspace = (workspace: WorkspaceData): AnalyticsSnapshot => {
@@ -33,7 +36,18 @@ export const analyzeWorkspace = (workspace: WorkspaceData): AnalyticsSnapshot =>
     .sort((a, b) => b[1] - a[1])
     .slice(0, 4)
     .map(([topic]) => topic);
-  const readinessScore = Math.min(95, Math.round(solved.length * 3 + strongTopics.length * 8 - weakTopics.length * 4));
+  const readinessScore = Math.min(
+    95,
+    Math.round(
+      solved.length * 3 +
+        strongTopics.length * 8 -
+        weakTopics.length * 4 +
+        Math.min(10, computeSolveStreak(workspace)) * 2
+    )
+  );
+
+  const weeklyActivity = buildWeeklyActivity(workspace);
+  const ratingProgress = buildRatingProgress(workspace);
 
   return {
     solvedCount: solved.length,
@@ -45,7 +59,10 @@ export const analyzeWorkspace = (workspace: WorkspaceData): AnalyticsSnapshot =>
     topicDistribution,
     platformDistribution,
     mistakeDistribution,
-    readinessScore: Math.max(12, readinessScore)
+    readinessScore: Math.max(12, readinessScore),
+    solveStreakDays: computeSolveStreak(workspace),
+    weeklyActivity,
+    ratingProgress
   };
 };
 
@@ -89,3 +106,40 @@ const countMany = (items: string[]): Record<string, number> =>
     counts[item] = (counts[item] ?? 0) + 1;
     return counts;
   }, {});
+
+const computeSolveStreak = (workspace: WorkspaceData): number => {
+  const days = workspace.problems
+    .map((problem) => problem.solvedAt?.slice(0, 10))
+    .filter((day): day is string => Boolean(day));
+  if (!days.length) return 0;
+  const unique = [...new Set(days)].sort();
+  let streak = 1;
+  for (let index = unique.length - 1; index > 0; index -= 1) {
+    const current = new Date(`${unique[index]}T00:00:00.000Z`);
+    const previous = new Date(`${unique[index - 1]}T00:00:00.000Z`);
+    const diff = (current.getTime() - previous.getTime()) / 86_400_000;
+    if (diff === 1) streak += 1;
+    else break;
+  }
+  return streak;
+};
+
+const buildWeeklyActivity = (workspace: WorkspaceData): Record<string, number> => {
+  const counts: Record<string, number> = {};
+  for (const problem of workspace.problems) {
+    const day = problem.solvedAt?.slice(0, 10) ?? problem.lastAttemptedAt?.slice(0, 10);
+    if (!day) continue;
+    counts[day] = (counts[day] ?? 0) + 1;
+  }
+  return counts;
+};
+
+const buildRatingProgress = (workspace: WorkspaceData): Record<string, number> => {
+  const cf = workspace.problems.filter((problem) => problem.platform === "codeforces" && problem.rating);
+  const buckets: Record<string, number> = {};
+  for (const problem of cf) {
+    const bucket = `${Math.floor((problem.rating ?? 800) / 200) * 200}-${Math.floor((problem.rating ?? 800) / 200) * 200 + 199}`;
+    buckets[bucket] = (buckets[bucket] ?? 0) + 1;
+  }
+  return buckets;
+};

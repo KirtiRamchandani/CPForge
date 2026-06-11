@@ -1,0 +1,6 @@
+title,platform,url,difficulty,rating,topics,patterns,companies
+Two Sum,leetcode,https://leetcode.com/problems/two-sum/,easy,800,arrays,hash map,amazon
+Longest Substring Without Repeating Characters,leetcode,https://leetcode.com/problems/longest-substring-without-repeating-characters/,medium,1200,strings,sliding-window,amazon
+Minimum Window Substring,leetcode,https://leetcode.com/problems/minimum-window-substring/,hard,1700,strings,sliding-window,google
+Binary Search on Answer Template,leetcode,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/,medium,1400,arrays,binary search on answer,meta
+Coin Change,leetcode,https://leetcode.com/problems/coin-change/,medium,1500,dynamic-programming,knapsack DP,microsoft

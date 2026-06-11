@@ -1,4 +1,4 @@
-import type { RoadmapNode } from "@cp-forge/schemas";
+import type { RoadmapNode, WorkspaceData } from "@cp-forge/schemas";
 import { problemBank } from "@cp-forge/sheet-engine";
 import { addDays, isoDate, stableId } from "@cp-forge/utils";
 
@@ -9,6 +9,7 @@ export interface RoadmapOptions {
   company?: string;
   targetRating?: number;
   weakTopics?: string[];
+  workspace?: WorkspaceData;
 }
 
 export const dsaMindmap: RoadmapNode = {
@@ -65,6 +66,9 @@ export const generateRoadmapPlan = (options: RoadmapOptions) => {
       ? ["arrays", "sliding-window", "trees", "graphs", "dynamic-programming"]
       : ["arrays", "graphs", "dynamic-programming", "binary-search"];
 
+  const baseMindmap = goal === "cp" ? cpMindmap : decorateWeakNodes(dsaMindmap, focusTopics);
+  const mindmap = options.workspace ? applyWorkspaceProgress(baseMindmap, options.workspace) : baseMindmap;
+
   return {
     goal,
     days,
@@ -86,8 +90,51 @@ export const generateRoadmapPlan = (options: RoadmapOptions) => {
     })),
     requiredProblems: problemBank.filter((problem) => problem.topics.some((topic) => focusTopics.includes(topic))).slice(0, 12),
     reviewCheckpoints: [1, 3, 7, 14, 30].filter((interval) => interval <= days),
-    mindmap: goal === "cp" ? cpMindmap : decorateWeakNodes(dsaMindmap, focusTopics)
+    mindmap
   };
+};
+
+export const applyWorkspaceProgress = (root: RoadmapNode, workspace: WorkspaceData): RoadmapNode => {
+  const solved = new Set(workspace.problems.filter((p) => p.status === "solved" || p.status === "mastered").map((p) => p.id));
+  const inProgress = new Set(workspace.problems.filter((p) => p.status === "solving" || p.status === "attempted").map((p) => p.id));
+
+  const walk = (node: RoadmapNode): RoadmapNode => {
+    const linked = node.linkedProblems.filter((id) => solved.has(id));
+    const linkedTotal = node.linkedProblems.length || 1;
+    const progress = Math.round((linked.length / linkedTotal) * 100);
+    const status =
+      linked.length === linkedTotal && linkedTotal > 0
+        ? "mastered"
+        : linked.length > 0
+          ? "in_progress"
+          : node.linkedProblems.some((id) => inProgress.has(id))
+            ? "in_progress"
+            : node.status;
+
+    return {
+      ...node,
+      progress: Math.max(node.progress, progress),
+      status,
+      children: node.children.map(walk)
+    };
+  };
+
+  return walk(root);
+};
+
+export const toggleNodeProgress = (root: RoadmapNode, nodeId: string): RoadmapNode => {
+  const walk = (node: RoadmapNode): RoadmapNode => {
+    if (node.id === nodeId) {
+      const nextProgress = node.progress >= 100 ? 0 : Math.min(100, node.progress + 25);
+      return {
+        ...node,
+        progress: nextProgress,
+        status: nextProgress >= 100 ? "mastered" : nextProgress > 0 ? "in_progress" : "unseen"
+      };
+    }
+    return { ...node, children: node.children.map(walk) };
+  };
+  return walk(root);
 };
 
 function topic(id: string, title: string, patterns: string[]): RoadmapNode {

@@ -106,6 +106,9 @@ importers:
       '@cp-forge/analytics-engine':
         specifier: workspace:*
         version: link:../../packages/analytics-engine
+      '@cp-forge/contest-engine':
+        specifier: workspace:*
+        version: link:../../packages/contest-engine
       '@cp-forge/core':
         specifier: workspace:*
         version: link:../../packages/core

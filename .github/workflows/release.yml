@@ -22,7 +22,13 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
-      - run: pnpm --filter @cp-forge/cli build
+      - run: pnpm --filter cp-forge build
+      - name: Publish CLI to npm
+        if: startsWith(github.ref, 'refs/tags/v')
+        working-directory: apps/cli
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: pnpm --filter @cp-forge/web-dashboard build
       - run: pnpm --filter @cp-forge/chrome-extension build
       - run: pnpm --filter @cp-forge/vscode-extension build
