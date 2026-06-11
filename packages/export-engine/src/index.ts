@@ -53,23 +53,85 @@ export const mindmapToMarkdown = (node: RoadmapNode, depth = 0): string => {
   return [`${prefix}- [${node.status}] ${node.title} (${node.progress}%)`, ...node.children.map((child) => mindmapToMarkdown(child, depth + 1))].join("\n");
 };
 
-export const mindmapToHtml = (node: RoadmapNode): string => `<!doctype html>
+export const mindmapToHtml = (node: RoadmapNode): string => mindmapToInteractiveHtml(node);
+
+export const mindmapToInteractiveHtml = (node: RoadmapNode): string => `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CP Forge Mindmap</title>
+  <title>CP Forge Skill Tree</title>
   <style>
-    body{margin:0;background:#0b1020;color:#e6edf7;font-family:Inter,system-ui,sans-serif}
-    main{max-width:1100px;margin:0 auto;padding:32px}
-    details{margin:10px 0;padding:10px 14px;border:1px solid #26324d;border-radius:8px;background:#111a2e}
-    summary{cursor:pointer;font-weight:700}
-    .bar{height:8px;background:#23314f;border-radius:999px;overflow:hidden;margin:8px 0}
-    .bar span{display:block;height:100%;background:#42d392}
-    .status{color:#8bd3ff;font-size:12px;text-transform:uppercase}
+    :root { --bg:#080b13; --panel:#0f1728; --line:#263451; --accent:#42d392; --text:#e9f1ff; --muted:#8fa3c4; }
+    *{box-sizing:border-box}
+    body{margin:0;background:radial-gradient(circle at 20% 0%,#1a2844,var(--bg));color:var(--text);font-family:Inter,system-ui,sans-serif}
+    header{padding:32px 32px 0;max-width:1200px;margin:0 auto}
+    h1{margin:0 0 8px;font-size:32px}
+    .sub{color:var(--muted);margin:0 0 24px}
+    main{max-width:1200px;margin:0 auto;padding:24px 32px 48px;display:grid;grid-template-columns:1fr 320px;gap:24px}
+    .tree{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:16px}
+    .detail{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:20px;position:sticky;top:24px;height:fit-content}
+    details{margin:8px 0;border:1px solid var(--line);border-radius:8px;padding:8px 12px;background:#0b1220}
+    summary{cursor:pointer;font-weight:600;list-style:none;display:flex;align-items:center;gap:8px}
+    summary::-webkit-details-marker{display:none}
+    .badge{font-size:10px;text-transform:uppercase;color:#8bd3ff;margin-left:auto}
+    .bar{height:6px;background:#1b2942;border-radius:999px;overflow:hidden;margin:8px 0}
+    .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#8bd3ff);transition:width .3s}
+    button.toggle{margin-top:6px;padding:6px 10px;border-radius:6px;border:1px solid #2b3a58;background:#17233a;color:var(--text);cursor:pointer;font-size:12px}
+    button.toggle:hover{border-color:var(--accent)}
+    #detail-title{font-size:20px;margin:0 0 8px}
+    #detail-body{color:var(--muted);line-height:1.5;font-size:14px}
+    .pill{display:inline-block;padding:4px 8px;border-radius:999px;background:#17233a;border:1px solid #2b3a58;font-size:12px;margin:4px 4px 0 0}
   </style>
 </head>
-<body><main><h1>CP Forge Mindmap</h1>${nodeToHtml(node)}</main></body></html>`;
+<body>
+  <header>
+    <h1>CP Forge Skill Tree</h1>
+    <p class="sub">Click nodes to inspect · Toggle progress · Saved locally in this browser</p>
+  </header>
+  <main>
+    <section class="tree" id="tree">${nodeToInteractiveHtml(node)}</section>
+    <aside class="detail">
+      <h2 id="detail-title">Select a node</h2>
+      <p id="detail-body">Explore your DSA/CP roadmap. Progress toggles persist in localStorage.</p>
+    </aside>
+  </main>
+  <script>
+    const KEY = 'cp-forge-mindmap-progress';
+    const store = JSON.parse(localStorage.getItem(KEY) || '{}');
+    function save(){ localStorage.setItem(KEY, JSON.stringify(store)); }
+    function renderDetail(el){
+      document.getElementById('detail-title').textContent = el.dataset.title;
+      document.getElementById('detail-body').innerHTML =
+        '<p>' + (el.dataset.desc || '') + '</p>' +
+        '<p><span class="pill">' + el.dataset.status + '</span><span class="pill">' + el.dataset.progress + '%</span></p>';
+    }
+    document.querySelectorAll('[data-node-id]').forEach(function(el){
+      const id = el.dataset.nodeId;
+      if(store[id] !== undefined){
+        const bar = el.querySelector('.bar i');
+        if(bar) bar.style.width = store[id] + '%';
+        el.dataset.progress = store[id];
+      }
+      el.addEventListener('click', function(e){
+        if(e.target.tagName === 'BUTTON') return;
+        renderDetail(el);
+      });
+      const btn = el.querySelector('button.toggle');
+      if(btn) btn.addEventListener('click', function(){
+        const cur = Number(el.dataset.progress || 0);
+        const next = cur >= 100 ? 0 : Math.min(100, cur + 25);
+        el.dataset.progress = String(next);
+        const bar = el.querySelector('.bar i');
+        if(bar) bar.style.width = next + '%';
+        store[id] = next;
+        save();
+        renderDetail(el);
+      });
+    });
+  </script>
+</body>
+</html>`;
 
 export const chartToSvg = (data: Record<string, number>, title = "CP Forge Chart"): string => {
   const entries = Object.entries(data).slice(0, 8);
@@ -110,11 +172,18 @@ export const mistakesToFlashcardsMarkdown = (mistakes: Mistake[]): string =>
     )
     .join("\n");
 
-const nodeToHtml = (node: RoadmapNode): string => `<details open>
-  <summary>${escapeHtml(node.title)} <span class="status">${node.status}</span></summary>
-  <p>${escapeHtml(node.description)}</p>
-  <div class="bar"><span style="width:${node.progress}%"></span></div>
-  ${node.children.map(nodeToHtml).join("")}
+const nodeToHtml = (node: RoadmapNode): string => nodeToInteractiveHtml(node);
+
+const nodeToInteractiveHtml = (node: RoadmapNode): string => `<details open>
+  <summary data-node-id="${escapeAttr(node.id)}" data-title="${escapeAttr(node.title)}" data-desc="${escapeAttr(node.description)}" data-status="${escapeAttr(node.status)}" data-progress="${node.progress}">
+    ${escapeHtml(node.title)} <span class="badge">${node.status.replaceAll("_", " ")}</span>
+  </summary>
+  <div data-node-id="${escapeAttr(node.id)}" data-title="${escapeAttr(node.title)}" data-desc="${escapeAttr(node.description)}" data-status="${escapeAttr(node.status)}" data-progress="${node.progress}">
+    <p style="color:#9eb0cf;font-size:13px;margin:6px 0">${escapeHtml(node.description)}</p>
+    <div class="bar"><i style="width:${node.progress}%"></i></div>
+    <button class="toggle" type="button">Mark progress +25%</button>
+    ${node.children.map(nodeToInteractiveHtml).join("")}
+  </div>
 </details>`;
 
 const valueFor = (problem: Problem, key: string): unknown => {
@@ -125,4 +194,5 @@ const valueFor = (problem: Problem, key: string): unknown => {
 
 const csvValue = (value: unknown): string => `"${String(value).replaceAll('"', '""')}"`;
 const escapeHtml = (value: string): string => value.replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char] ?? char);
+const escapeAttr = (value: string): string => escapeHtml(value).replace(/`/g, "&#96;");
 const escapeXml = escapeHtml;

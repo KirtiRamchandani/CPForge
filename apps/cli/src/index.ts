@@ -18,7 +18,13 @@ import {
   workspaceToJson
 } from "@cp-forge/export-engine";
 import { createMistake, mistakeStats } from "@cp-forge/mistake-engine";
-import { CodeforcesApiClient, parseCustomCsv } from "@cp-forge/platform-adapters";
+import {
+  CodeforcesApiClient,
+  LeetCodeGraphQLClient,
+  leetcodeSubmissionsToProblems,
+  parseCustomCsv
+} from "@cp-forge/platform-adapters";
+import { printInfo, printLaunchReport, printList, printSuccess } from "./terminal.js";
 import { portfolioHtml, portfolioMarkdown, profileCardSvg } from "@cp-forge/portfolio-engine";
 import { buildDailyPlan, buildWeeklyPlan, detectWeakAreas, recommendNext } from "@cp-forge/recommendation-engine";
 import { completeReview, dueReviews, scheduleReviews } from "@cp-forge/review-scheduler";
@@ -66,8 +72,9 @@ program
     let workspace = await ensureWorkspace(profileFromOptions(options));
     workspace.profile = { ...workspace.profile, ...profileFromOptions(options) };
 
-    if (options.cf && !options.offline) {
-      workspace = await tryCodeforcesSync(workspace, options.cf);
+    if (!options.offline) {
+      if (options.cf) workspace = await tryCodeforcesSync(workspace, options.cf);
+      if (options.leetcode) workspace = await tryLeetCodeSync(workspace, options.leetcode);
     }
 
     workspace.reviews = scheduleReviews(workspace.problems);
@@ -92,13 +99,22 @@ program
       printSuccess("Offline sync complete. Local workspace is readable.");
       return;
     }
+    let next = workspace;
     const cf = options.cf ?? (options.all ? workspace.profile.codeforcesHandle : undefined);
-    if (!cf) {
-      printInfo("No Codeforces handle provided. Use --cf handle or configure one with init.");
+    const leetcode = options.leetcode ?? (options.all ? workspace.profile.leetcodeHandle : undefined);
+    if (!cf && !leetcode) {
+      printInfo("No handles provided. Use --cf, --leetcode, or --all with configured profile handles.");
       return;
     }
-    await saveWorkspace(await tryCodeforcesSync(workspace, cf));
-    printSuccess(`Synced public Codeforces data for ${cf}.`);
+    if (cf) {
+      next = await tryCodeforcesSync(next, cf);
+      printSuccess(`Synced Codeforces data for ${cf}.`);
+    }
+    if (leetcode) {
+      next = await tryLeetCodeSync(next, leetcode);
+      printSuccess(`Synced LeetCode data for ${leetcode}.`);
+    }
+    await saveWorkspace(next);
   });
 
 program
@@ -640,6 +656,21 @@ async function tryCodeforcesSync(workspace: WorkspaceData, handle: string): Prom
   return workspace;
 }
 
+async function tryLeetCodeSync(workspace: WorkspaceData, handle: string): Promise<WorkspaceData> {
+  const client = new LeetCodeGraphQLClient();
+  try {
+    const data = (await client.recentAcSubmissions(handle, 100)) as {
+      recentAcSubmissionList?: Array<{ title: string; titleSlug: string; timestamp: string }>;
+    };
+    const imported = leetcodeSubmissionsToProblems(data.recentAcSubmissionList ?? []);
+    workspace.profile.leetcodeHandle = handle;
+    workspace.problems = mergeProblems(workspace.problems, imported);
+  } catch (error) {
+    printInfo(`LeetCode sync skipped: ${(error as Error).message}`);
+  }
+  return workspace;
+}
+
 function submissionsToProblems(submissions: Array<Record<string, unknown>>): Problem[] {
   return submissions.slice(0, 300).flatMap((submission) => {
     const problem = submission.problem as Record<string, unknown> | undefined;
@@ -746,37 +777,6 @@ async function exportByFormat(workspace: WorkspaceData, format: string) {
           : problemsToMarkdown(workspace.problems);
   await fs.writeFile(file, content, "utf8");
   return file;
-}
-
-function printLaunchReport(report: ReturnType<typeof buildLaunchReport>) {
-  console.log(`\n${report.title}\n`);
-  console.log(`Goal: ${report.goal}`);
-  console.log(`Timeline: ${report.timelineDays} days`);
-  console.log(`Language: ${report.language.toUpperCase()}`);
-  console.log("\nDetected strengths:");
-  printList(report.strengths.length ? report.strengths : ["Building baseline"]);
-  console.log("\nDetected weak areas:");
-  printList(report.weakAreas.map((area) => `${area.topic}: ${area.reason}`));
-  console.log("\nGenerated:");
-  printList(report.generated);
-  console.log("\nNext action:");
-  console.log(`${report.next.action} because ${report.next.reason}`);
-}
-
-function printList(items: string[]) {
-  if (items.length === 0) {
-    console.log("- Nothing yet");
-    return;
-  }
-  items.forEach((item) => console.log(`- ${item}`));
-}
-
-function printSuccess(message: string) {
-  console.log(`CP Forge: ${message}`);
-}
-
-function printInfo(message: string) {
-  console.log(`CP Forge: ${message}`);
 }
 
 function printWorkspaceLocation() {

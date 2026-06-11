@@ -9,14 +9,22 @@
     "vscode": "^1.100.0"
   },
   "categories": ["Other"],
-  "activationEvents": ["onCommand:cpForge.startProblem"],
+  "activationEvents": [
+    "onCommand:cpForge.startProblem",
+    "onCommand:cpForge.runSamples",
+    "onCommand:cpForge.startTimer"
+  ],
   "contributes": {
     "commands": [
       { "command": "cpForge.startProblem", "title": "CP Forge: Start Problem" },
       { "command": "cpForge.addMistake", "title": "CP Forge: Add Mistake" },
       { "command": "cpForge.addNote", "title": "CP Forge: Add Note" },
+      { "command": "cpForge.openDesignDoc", "title": "CP Forge: Open Design Doc" },
       { "command": "cpForge.markSolved", "title": "CP Forge: Mark Solved" },
       { "command": "cpForge.showChecklist", "title": "CP Forge: Show Checklist" },
+      { "command": "cpForge.startTimer", "title": "CP Forge: Start Timer" },
+      { "command": "cpForge.stopTimer", "title": "CP Forge: Stop Timer" },
+      { "command": "cpForge.runSamples", "title": "CP Forge: Run Samples" },
       { "command": "cpForge.exportSession", "title": "CP Forge: Export Session" }
     ]
   },

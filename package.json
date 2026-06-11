@@ -14,8 +14,10 @@
     "format": "prettier --write .",
     "fetch-cf": "node scripts/fetch-cf-problemset.mjs",
     "sync-bank": "node scripts/sync-problem-bank.mjs",
+    "sample-dashboard": "node scripts/generate-sample-dashboard.mjs",
     "install-cli": "node scripts/sync-problem-bank.mjs && corepack pnpm build",
-    "check": "corepack pnpm typecheck && corepack pnpm test && corepack pnpm build"
+    "check": "corepack pnpm typecheck && corepack pnpm test && corepack pnpm build",
+    "e2e": "playwright test"
   },
   "keywords": [
     "competitive-programming",
@@ -28,6 +30,7 @@
     "spaced-repetition"
   ],
   "devDependencies": {
+    "@playwright/test": "^1.52.0",
     "@types/chrome": "^0.0.326",
     "@types/node": "^24.0.0",
     "@types/react": "^19.1.8",

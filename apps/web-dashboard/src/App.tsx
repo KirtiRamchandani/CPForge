@@ -6,7 +6,7 @@ import { generateRoadmapPlan, toggleNodeProgress } from "@cp-forge/roadmap-engin
 import type { RoadmapNode, WorkspaceData } from "@cp-forge/schemas";
 import { problemBank } from "@cp-forge/sheet-engine";
 import { ActivityGrid, BarChart, MindmapTree, StatCard } from "@cp-forge/ui";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 const nav = [
   "Home",
@@ -39,8 +39,11 @@ interface DashboardPayload {
 export const App = () => {
   const [active, setActive] = useState("Home");
   const [mindmapOverride, setMindmapOverride] = useState<RoadmapNode | undefined>();
+  const [sheetSearch, setSheetSearch] = useState("");
+  const [sheetPlatform, setSheetPlatform] = useState("all");
   const [payload, setPayload] = useState<DashboardPayload>(() => buildPayload(createWorkspace({ goal: "amazon", targetCompanies: ["amazon"], preferredLanguage: "cpp" })));
   const fileInput = useRef<HTMLInputElement>(null);
+  const searchInput = useRef<HTMLInputElement>(null);
 
   const { workspace, analytics, today, weekly, weakAreas, roadmap, report } = useMemo(() => {
     const ws = payload.workspace;
@@ -64,16 +67,66 @@ export const App = () => {
 
   const mindmap = mindmapOverride ?? roadmap.mindmap;
 
-  const importFile = useCallback(async (file: File) => {
-    const text = await file.text();
-    const parsed = JSON.parse(text) as DashboardPayload;
+  const filteredSheet = useMemo(() => {
+    const query = sheetSearch.trim().toLowerCase();
+    return problemBank.filter((problem) => {
+      if (sheetPlatform !== "all" && problem.platform !== sheetPlatform) return false;
+      if (!query) return true;
+      const haystack = [problem.title, problem.platform, problem.difficulty, ...problem.topics, ...problem.patterns, ...problem.companies].join(" ").toLowerCase();
+      return haystack.includes(query);
+    });
+  }, [sheetPlatform, sheetSearch]);
+
+  const importPayload = useCallback((parsed: DashboardPayload) => {
     if (!parsed.workspace?.profile) throw new Error("Invalid dashboard export");
     setPayload(buildPayload(parsed.workspace, parsed));
   }, []);
 
+  const importFile = useCallback(
+    async (file: File) => {
+      const text = await file.text();
+      importPayload(JSON.parse(text) as DashboardPayload);
+    },
+    [importPayload]
+  );
+
+  const exportDashboard = useCallback(() => {
+    const blob = new Blob([JSON.stringify(buildPayload(workspace), null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = "dashboard-data.json";
+    anchor.click();
+    URL.revokeObjectURL(url);
+  }, [workspace]);
+
+  const loadDemo = useCallback(async () => {
+    const response = await fetch("/sample-dashboard-data.json");
+    if (!response.ok) throw new Error("Demo data missing");
+    importPayload((await response.json()) as DashboardPayload);
+  }, [importPayload]);
+
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "/" && active === "Sheets") {
+        event.preventDefault();
+        searchInput.current?.focus();
+      }
+      if (event.key === "Escape") {
+        setSheetSearch("");
+      }
+      const index = Number(event.key) - 1;
+      if (event.altKey && index >= 0 && index < nav.length) {
+        event.preventDefault();
+        setActive(nav[index]!);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [active]);
+
   const goalLabel = workspace.profile.targetCompanies[0] ?? workspace.profile.goal;
   const weakestPattern = weakAreas[0]?.topic ?? analytics.weakTopics[0] ?? "None logged";
-  const topMistake = workspace.mistakes[0]?.category ?? "None logged";
   const masteryPercent = analytics.readinessScore;
 
   return (
@@ -93,12 +146,13 @@ export const App = () => {
             </button>
           ))}
         </nav>
+        <p className="sidebar-hint">Alt+1–9 quick nav · / search on Sheets</p>
       </aside>
 
       <section className="workspace">
         <header className="topbar">
           <div>
-            <p>Local-first dashboard · {workspace.problems.length} tracked problems</p>
+            <p>Local-first dashboard · {workspace.problems.length} tracked problems · {problemBank.length} curated in browser</p>
             <h1>{active}</h1>
           </div>
           <div className="topbar-actions">
@@ -113,8 +167,14 @@ export const App = () => {
               ref={fileInput}
               type="file"
             />
+            <button className="btn-secondary" onClick={() => void loadDemo().catch(() => alert("Demo data not found."))} type="button">
+              Load demo
+            </button>
+            <button className="btn-primary" onClick={exportDashboard} type="button">
+              Export JSON
+            </button>
             <button onClick={() => fileInput.current?.click()} type="button">
-              Import .cpforge export
+              Import .cpforge
             </button>
           </div>
         </header>
@@ -176,10 +236,7 @@ export const App = () => {
         {active === "Mindmap" || active === "Roadmaps" ? (
           <section className="mindmap-layout">
             <Panel title="Skill Tree">
-              <MindmapTree
-                node={mindmap}
-                onToggle={(id) => setMindmapOverride(toggleNodeProgress(mindmap, id))}
-              />
+              <MindmapTree node={mindmap} onToggle={(id) => setMindmapOverride(toggleNodeProgress(mindmap, id))} />
             </Panel>
             <Panel title="Weekly Milestones">
               {weekly.map((item) => (
@@ -190,16 +247,37 @@ export const App = () => {
         ) : null}
 
         {active === "Sheets" && (
-          <Panel title={`Problem Sheet · ${problemBank.length} curated problems`}>
+          <Panel title={`Problem Sheet · ${filteredSheet.length} of ${problemBank.length}`}>
+            <div className="sheet-toolbar">
+              <input
+                className="search-input"
+                onChange={(event) => setSheetSearch(event.target.value)}
+                placeholder="Search title, topic, pattern, company… (press /)"
+                ref={searchInput}
+                type="search"
+                value={sheetSearch}
+              />
+              <select onChange={(event) => setSheetPlatform(event.target.value)} value={sheetPlatform}>
+                <option value="all">All platforms</option>
+                <option value="leetcode">LeetCode</option>
+                <option value="codeforces">Codeforces</option>
+                <option value="geeksforgeeks">GFG</option>
+                <option value="custom">Custom</option>
+              </select>
+            </div>
             <div className="problem-table">
-              {problemBank.map((problem) => (
-                <a href={problem.url} key={problem.id} target="_blank" rel="noreferrer">
-                  <strong>{problem.title}</strong>
-                  <span>{problem.platform}</span>
-                  <span>{problem.difficulty}</span>
-                  <small>{problem.patterns.join(", ") || problem.topics.join(", ")}</small>
-                </a>
-              ))}
+              {filteredSheet.length ? (
+                filteredSheet.map((problem) => (
+                  <a href={problem.url} key={problem.id} rel="noreferrer" target="_blank">
+                    <strong>{problem.title}</strong>
+                    <span>{problem.platform}</span>
+                    <span>{problem.difficulty}</span>
+                    <small>{problem.patterns.join(", ") || problem.topics.join(", ")}</small>
+                  </a>
+                ))
+              ) : (
+                <p className="empty-sheet">No problems match your filters.</p>
+              )}
             </div>
           </Panel>
         )}
@@ -233,7 +311,7 @@ export const App = () => {
         {active === "Platforms" && (
           <Panel title="Platform Handles">
             <Task label="Codeforces" value={workspace.profile.codeforcesHandle ?? "Not linked — cp-forge sync --cf handle"} />
-            <Task label="LeetCode" value={workspace.profile.leetcodeHandle ?? "Not linked"} />
+            <Task label="LeetCode" value={workspace.profile.leetcodeHandle ?? "Not linked — cp-forge sync --leetcode handle"} />
             <Task label="AtCoder" value={workspace.profile.atcoderHandle ?? "Not linked"} />
             <BarChart title="Problems By Platform" data={analytics.platformDistribution} />
           </Panel>
@@ -301,11 +379,7 @@ export const App = () => {
           <Panel title="Company Readiness">
             {workspace.profile.targetCompanies.length ? (
               workspace.profile.targetCompanies.map((company) => (
-                <Task
-                  key={company}
-                  label={company}
-                  value={`${filterSheetCount(company)} problems tagged · ${analytics.readinessScore}% readiness`}
-                />
+                <Task key={company} label={company} value={`${filterSheetCount(company)} problems tagged · ${analytics.readinessScore}% readiness`} />
               ))
             ) : (
               <p>Set a company goal with `cp-forge launch --goal amazon`.</p>
@@ -327,7 +401,7 @@ export const App = () => {
             <Task label="Timeline" value={`${workspace.profile.interviewTimelineDays} days`} />
             <Task label="Codeforces" value={workspace.profile.codeforcesHandle ?? "Not linked"} />
             <Task label="LeetCode" value={workspace.profile.leetcodeHandle ?? "Not linked"} />
-            <p className="settings-note">All data stays local in `.cpforge/`. Export with `cp-forge export` anytime.</p>
+            <p className="settings-note">All data stays local in `.cpforge/`. Export with `cp-forge export` or the Export JSON button above.</p>
           </Panel>
         )}
       </section>

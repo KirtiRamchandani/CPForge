@@ -42,6 +42,8 @@ a {
   position: sticky;
   top: 0;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .brand {
@@ -365,6 +367,57 @@ a {
 .topbar-actions {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #42d392, #2bb67d) !important;
+  border-color: #42d392 !important;
+  color: #07100d !important;
+  font-weight: 700;
+  box-shadow: 0 0 24px rgba(66, 211, 146, 0.25);
+}
+
+.btn-secondary {
+  border-color: #3d5578 !important;
+}
+
+.sheet-toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.search-input,
+.sheet-toolbar select {
+  border: 1px solid #2b3a58;
+  border-radius: 8px;
+  background: #0b1220;
+  color: #e9f1ff;
+  padding: 10px 12px;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.search-input:focus,
+.sheet-toolbar select:focus {
+  outline: 2px solid #42d392;
+  border-color: #42d392;
+}
+
+.empty-sheet {
+  color: #9eb0cf;
+  padding: 24px;
+  text-align: center;
+}
+
+.sidebar-hint {
+  margin-top: auto;
+  padding-top: 24px;
+  font-size: 11px;
+  color: #6d819f;
 }
 
 .portfolio-preview {

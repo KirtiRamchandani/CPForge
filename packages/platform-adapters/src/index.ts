@@ -163,6 +163,107 @@ export const parseCustomCsv = (csv: string, platform: Platform = "custom"): Prob
   });
 };
 
+export interface LeetCodeClientOptions {
+  cache?: AdapterCache;
+  endpoint?: string;
+  minIntervalMs?: number;
+}
+
+export class LeetCodeGraphQLClient {
+  private readonly cache: AdapterCache;
+  private readonly endpoint: string;
+  private readonly minIntervalMs: number;
+  private nextAllowedAt = 0;
+
+  constructor(options: LeetCodeClientOptions = {}) {
+    this.cache = options.cache ?? new MemoryCache();
+    this.endpoint = options.endpoint ?? "https://leetcode.com/graphql";
+    this.minIntervalMs = options.minIntervalMs ?? 2_000;
+  }
+
+  async recentAcSubmissions(username: string, limit = 50) {
+    const query = `
+      query recentAcSubmissions($username: String!, $limit: Int) {
+        recentAcSubmissionList(username: $username, limit: $limit) {
+          title
+          titleSlug
+          timestamp
+        }
+      }`;
+    return this.query("recentAcSubmissions", query, { username, limit }, 30 * 60 * 1000);
+  }
+
+  async userProfile(username: string) {
+    const query = `
+      query userProfile($username: String!) {
+        matchedUser(username: $username) {
+          username
+          submitStats {
+            acSubmissionNum { difficulty count }
+          }
+        }
+      }`;
+    return this.query("userProfile", query, { username }, 60 * 60 * 1000);
+  }
+
+  async query<T>(label: string, query: string, variables: Record<string, unknown>, ttlMs: number): Promise<T> {
+    const cacheKey = `leetcode:${label}:${JSON.stringify(variables)}`;
+    const cached = await this.cache.get<T>(cacheKey);
+    if (cached) return cached;
+
+    await this.waitForSlot();
+    const response = await fetch(this.endpoint, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ query, variables })
+    });
+    if (!response.ok) {
+      throw new Error(`LeetCode ${label} failed with HTTP ${response.status}`);
+    }
+    const body = (await response.json()) as { data?: T; errors?: Array<{ message: string }> };
+    if (body.errors?.length) {
+      throw new Error(`LeetCode ${label} failed: ${body.errors[0]?.message ?? "unknown error"}`);
+    }
+    if (!body.data) {
+      throw new Error(`LeetCode ${label} returned empty data`);
+    }
+    await this.cache.set(cacheKey, body.data, ttlMs);
+    return body.data;
+  }
+
+  private async waitForSlot() {
+    const now = Date.now();
+    const delay = Math.max(0, this.nextAllowedAt - now);
+    this.nextAllowedAt = Math.max(now, this.nextAllowedAt) + this.minIntervalMs;
+    if (delay > 0) {
+      await new Promise((resolve) => setTimeout(resolve, delay));
+    }
+  }
+}
+
+export const leetcodeSubmissionsToProblems = (
+  submissions: Array<{ title: string; titleSlug: string; timestamp: string }>
+): Problem[] =>
+  submissions.map((submission) => ({
+    id: stableId("leetcode", submission.titleSlug),
+    platform: "leetcode",
+    platformId: submission.titleSlug,
+    title: submission.title,
+    url: `https://leetcode.com/problems/${submission.titleSlug}/`,
+    difficulty: "unknown",
+    topics: [],
+    patterns: [],
+    companies: [],
+    level: "leetcode",
+    status: "solved",
+    attempts: 1,
+    confidence: 80,
+    notes: "",
+    mistakes: [],
+    source: "leetcode-graphql",
+    solvedAt: new Date(Number(submission.timestamp) * 1000).toISOString().slice(0, 10)
+  }));
+
 const strip = (value: string) => value.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 const firstMatch = (value: string, pattern: RegExp) => value.match(pattern)?.[1];
 const splitList = (value = "") => value.split(/[;,|]/).map((item) => item.trim()).filter(Boolean);

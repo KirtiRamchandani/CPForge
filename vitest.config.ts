@@ -4,6 +4,9 @@ import { defineConfig } from "vitest/config";
 const root = __dirname;
 
 export default defineConfig({
+  test: {
+    exclude: ["**/node_modules/**", "**/dist/**", "e2e/**"]
+  },
   resolve: {
     alias: {
       "@cp-forge/analytics-engine": path.resolve(root, "packages/analytics-engine/src/index.ts"),
