@@ -29,6 +29,29 @@
     "source": "curated"
   },
   {
+    "id": "sheet-two-sum",
+    "platform": "leetcode",
+    "platformId": "two-sum",
+    "title": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "easy",
+    "rating": 800,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "hash map"
+    ],
+    "companies": [],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "sheet-watermelon",
     "platform": "codeforces",
     "platformId": "watermelon",
@@ -72,29 +95,6 @@
     "notes": "Warmup",
     "review_date": "",
     "source": "sheet"
-  },
-  {
-    "id": "sheet-two-sum",
-    "platform": "leetcode",
-    "platformId": "two-sum",
-    "title": "Two Sum",
-    "url": "https://leetcode.com/problems/two-sum/",
-    "difficulty": "easy",
-    "rating": 800,
-    "topics": [
-      "arrays"
-    ],
-    "patterns": [
-      "hash map"
-    ],
-    "companies": [],
-    "level": "intermediate",
-    "status": "unseen",
-    "attempts": 0,
-    "confidence": 0,
-    "notes": "",
-    "mistakes": [],
-    "source": "sheet-csv"
   },
   {
     "id": "lc-two-sum",
@@ -1801,6 +1801,108 @@
     "source": "curated"
   },
   {
+    "id": "sheet-contains-duplicate",
+    "platform": "leetcode",
+    "platformId": "contains-duplicate",
+    "title": "Contains Duplicate",
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "difficulty": "easy",
+    "rating": 850,
+    "topics": [
+      "arrays",
+      "hashing"
+    ],
+    "patterns": [
+      "hash set"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-valid-anagram",
+    "platform": "leetcode",
+    "platformId": "valid-anagram",
+    "title": "Valid Anagram",
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "difficulty": "easy",
+    "rating": 850,
+    "topics": [
+      "strings",
+      "hashing"
+    ],
+    "patterns": [
+      "frequency map"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-valid-palindrome",
+    "platform": "leetcode",
+    "platformId": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "difficulty": "easy",
+    "rating": 850,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-same-tree",
+    "platform": "leetcode",
+    "platformId": "same-tree",
+    "title": "Same Tree",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "difficulty": "easy",
+    "rating": 850,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "leetcode-121-best-time-to-buy-and-sell-stock",
     "platform": "leetcode",
     "platformId": "121",
@@ -2082,6 +2184,257 @@
     "source": "curated"
   },
   {
+    "id": "sheet-best-time-to-buy-and-sell-stock",
+    "platform": "leetcode",
+    "platformId": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "prefix min"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-number-of-1-bits",
+    "platform": "leetcode",
+    "platformId": "number-of-1-bits",
+    "title": "Number of 1 Bits",
+    "url": "https://leetcode.com/problems/number-of-1-bits/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "bit count"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-missing-number",
+    "platform": "leetcode",
+    "platformId": "missing-number",
+    "title": "Missing Number",
+    "url": "https://leetcode.com/problems/missing-number/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "arrays",
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "xor"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-climbing-stairs",
+    "platform": "leetcode",
+    "platformId": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "1D DP"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-reverse-linked-list",
+    "platform": "leetcode",
+    "platformId": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "url": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "iterative reverse"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-valid-parentheses",
+    "platform": "leetcode",
+    "platformId": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "stack"
+    ],
+    "patterns": [
+      "stack"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-maximum-depth-of-binary-tree",
+    "platform": "leetcode",
+    "platformId": "maximum-depth-of-binary-tree",
+    "title": "Maximum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-invert-binary-tree",
+    "platform": "leetcode",
+    "platformId": "invert-binary-tree",
+    "title": "Invert Binary Tree",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-merge-two-sorted-lists",
+    "platform": "leetcode",
+    "platformId": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "merge"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-meeting-rooms",
+    "platform": "leetcode",
+    "platformId": "meeting-rooms",
+    "title": "Meeting Rooms",
+    "url": "https://leetcode.com/problems/meeting-rooms/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "intervals"
+    ],
+    "patterns": [
+      "sort"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "codeforces-486A-calculating-function",
     "platform": "codeforces",
     "platformId": "486A",
@@ -2287,6 +2640,107 @@
     "source": "curated"
   },
   {
+    "id": "sheet-counting-bits",
+    "platform": "leetcode",
+    "platformId": "counting-bits",
+    "title": "Counting Bits",
+    "url": "https://leetcode.com/problems/counting-bits/",
+    "difficulty": "easy",
+    "rating": 950,
+    "topics": [
+      "bit-manipulation",
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "DP bits"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-reverse-bits",
+    "platform": "leetcode",
+    "platformId": "reverse-bits",
+    "title": "Reverse Bits",
+    "url": "https://leetcode.com/problems/reverse-bits/",
+    "difficulty": "easy",
+    "rating": 950,
+    "topics": [
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "bit reverse"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-subtree-of-another-tree",
+    "platform": "leetcode",
+    "platformId": "subtree-of-another-tree",
+    "title": "Subtree of Another Tree",
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "difficulty": "easy",
+    "rating": 950,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs match"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-balanced-binary-tree",
+    "platform": "leetcode",
+    "platformId": "balanced-binary-tree",
+    "title": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "difficulty": "easy",
+    "rating": 950,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "height dfs"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "leetcode-543-diameter-of-binary-tree",
     "platform": "leetcode",
     "platformId": "543",
@@ -2343,6 +2797,56 @@
     "source": "curated"
   },
   {
+    "id": "sheet-diameter-of-binary-tree",
+    "platform": "leetcode",
+    "platformId": "diameter-of-binary-tree",
+    "title": "Diameter of Binary Tree",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "difficulty": "easy",
+    "rating": 1000,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs height"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-kth-largest-element-in-a-stream",
+    "platform": "leetcode",
+    "platformId": "kth-largest-element-in-a-stream",
+    "title": "Kth Largest Element in a Stream",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "difficulty": "easy",
+    "rating": 1000,
+    "topics": [
+      "heap"
+    ],
+    "patterns": [
+      "min heap"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "leetcode-53-maximum-subarray",
     "platform": "leetcode",
     "platformId": "53",
@@ -2369,6 +2873,31 @@
     "notes": "",
     "mistakes": [],
     "source": "curated"
+  },
+  {
+    "id": "sheet-maximum-subarray",
+    "platform": "leetcode",
+    "platformId": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "medium",
+    "rating": 1100,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "kadane"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
   },
   {
     "id": "leetcode-238-product-of-array-except-self",
@@ -2512,6 +3041,81 @@
     "source": "curated"
   },
   {
+    "id": "sheet-product-of-array-except-self",
+    "platform": "leetcode",
+    "platformId": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "prefix product"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-unique-paths",
+    "platform": "leetcode",
+    "platformId": "unique-paths",
+    "title": "Unique Paths",
+    "url": "https://leetcode.com/problems/unique-paths/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "grid DP"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-remove-nth-node-from-end-of-list",
+    "platform": "leetcode",
+    "platformId": "remove-nth-node-from-end-of-list",
+    "title": "Remove Nth Node From End of List",
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "sheet-longest-substring-without-repeating-characters",
     "platform": "leetcode",
     "platformId": "longest-substring-without-repeating-characters",
@@ -2534,6 +3138,32 @@
     "attempts": 0,
     "confidence": 0,
     "notes": "Variable window",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-group-anagrams",
+    "platform": "leetcode",
+    "platformId": "group-anagrams",
+    "title": "Group Anagrams",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "strings",
+      "hashing"
+    ],
+    "patterns": [
+      "hash map"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
     "mistakes": [],
     "source": "sheet-csv"
   },
@@ -2977,6 +3607,107 @@
     "source": "curated"
   },
   {
+    "id": "sheet-maximum-product-subarray",
+    "platform": "leetcode",
+    "platformId": "maximum-product-subarray",
+    "title": "Maximum Product Subarray",
+    "url": "https://leetcode.com/problems/maximum-product-subarray/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "kadane"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-sum-of-two-integers",
+    "platform": "leetcode",
+    "platformId": "sum-of-two-integers",
+    "title": "Sum of Two Integers",
+    "url": "https://leetcode.com/problems/sum-of-two-integers/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "bitwise"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-house-robber",
+    "platform": "leetcode",
+    "platformId": "house-robber",
+    "title": "House Robber",
+    "url": "https://leetcode.com/problems/house-robber/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "1D DP"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-jump-game",
+    "platform": "leetcode",
+    "platformId": "jump-game",
+    "title": "Jump Game",
+    "url": "https://leetcode.com/problems/jump-game/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "arrays",
+      "greedy"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "sheet-number-of-islands",
     "platform": "leetcode",
     "platformId": "number-of-islands",
@@ -3000,6 +3731,233 @@
     "attempts": 0,
     "confidence": 0,
     "notes": "Core graph",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-number-of-connected-components-in-an-undirected-graph",
+    "platform": "leetcode",
+    "platformId": "number-of-connected-components-in-an-undirected-graph",
+    "title": "Number of Connected Components in an Undirected Graph",
+    "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "union find"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-set-matrix-zeroes",
+    "platform": "leetcode",
+    "platformId": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "matrices"
+    ],
+    "patterns": [
+      "in-place"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-spiral-matrix",
+    "platform": "leetcode",
+    "platformId": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "url": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "matrices"
+    ],
+    "patterns": [
+      "simulation"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-encode-and-decode-strings",
+    "platform": "leetcode",
+    "platformId": "encode-and-decode-strings",
+    "title": "Encode and Decode Strings",
+    "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "delimiter encoding"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-validate-binary-search-tree",
+    "platform": "leetcode",
+    "platformId": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "trees",
+      "bst"
+    ],
+    "patterns": [
+      "inorder bounds"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-lowest-common-ancestor-of-a-binary-search-tree",
+    "platform": "leetcode",
+    "platformId": "lowest-common-ancestor-of-a-binary-search-tree",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "trees",
+      "bst"
+    ],
+    "patterns": [
+      "bst walk"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-binary-tree-right-side-view",
+    "platform": "leetcode",
+    "platformId": "binary-tree-right-side-view",
+    "title": "Binary Tree Right Side View",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "bfs levels"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-count-good-nodes-in-binary-tree",
+    "platform": "leetcode",
+    "platformId": "count-good-nodes-in-binary-tree",
+    "title": "Count Good Nodes in Binary Tree",
+    "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-add-two-numbers",
+    "platform": "leetcode",
+    "platformId": "add-two-numbers",
+    "title": "Add Two Numbers",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "carry simulation"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
     "mistakes": [],
     "source": "sheet-csv"
   },
@@ -3487,6 +4445,438 @@
     "source": "curated"
   },
   {
+    "id": "sheet-find-minimum-in-rotated-sorted-array",
+    "platform": "leetcode",
+    "platformId": "find-minimum-in-rotated-sorted-array",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays",
+      "binary-search"
+    ],
+    "patterns": [
+      "binary search on answer"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-search-in-rotated-sorted-array",
+    "platform": "leetcode",
+    "platformId": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays",
+      "binary-search"
+    ],
+    "patterns": [
+      "binary search"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-container-with-most-water",
+    "platform": "leetcode",
+    "platformId": "container-with-most-water",
+    "title": "Container With Most Water",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-combination-sum",
+    "platform": "leetcode",
+    "platformId": "combination-sum",
+    "title": "Combination Sum",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "backtracking"
+    ],
+    "patterns": [
+      "backtracking"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-clone-graph",
+    "platform": "leetcode",
+    "platformId": "clone-graph",
+    "title": "Clone Graph",
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "bfs shortest path"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-longest-consecutive-sequence",
+    "platform": "leetcode",
+    "platformId": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays",
+      "hashing"
+    ],
+    "patterns": [
+      "hash set"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-graph-valid-tree",
+    "platform": "leetcode",
+    "platformId": "graph-valid-tree",
+    "title": "Graph Valid Tree",
+    "url": "https://leetcode.com/problems/graph-valid-tree/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "union find"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-implement-trie-prefix-tree",
+    "platform": "leetcode",
+    "platformId": "implement-trie-prefix-tree",
+    "title": "Implement Trie (Prefix Tree)",
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "tries"
+    ],
+    "patterns": [
+      "trie"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-word-search",
+    "platform": "leetcode",
+    "platformId": "word-search",
+    "title": "Word Search",
+    "url": "https://leetcode.com/problems/word-search/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "backtracking",
+      "matrices"
+    ],
+    "patterns": [
+      "backtracking"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-rotate-image",
+    "platform": "leetcode",
+    "platformId": "rotate-image",
+    "title": "Rotate Image",
+    "url": "https://leetcode.com/problems/rotate-image/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "matrices"
+    ],
+    "patterns": [
+      "transpose"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-merge-intervals",
+    "platform": "leetcode",
+    "platformId": "merge-intervals",
+    "title": "Merge Intervals",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "intervals"
+    ],
+    "patterns": [
+      "sort merge"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-insert-interval",
+    "platform": "leetcode",
+    "platformId": "insert-interval",
+    "title": "Insert Interval",
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "intervals"
+    ],
+    "patterns": [
+      "merge intervals"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-longest-palindromic-substring",
+    "platform": "leetcode",
+    "platformId": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "expand around center"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-palindomic-substrings",
+    "platform": "leetcode",
+    "platformId": "palindomic-substrings",
+    "title": "Palindomic Substrings",
+    "url": "https://leetcode.com/problems/palindomic-substrings/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "expand around center"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-kth-smallest-element-in-a-bst",
+    "platform": "leetcode",
+    "platformId": "kth-smallest-element-in-a-bst",
+    "title": "Kth Smallest Element in a BST",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "trees",
+      "bst"
+    ],
+    "patterns": [
+      "inorder"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-top-k-frequent-elements",
+    "platform": "leetcode",
+    "platformId": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "heap",
+      "hashing"
+    ],
+    "patterns": [
+      "bucket sort"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-kth-largest-element-in-an-array",
+    "platform": "leetcode",
+    "platformId": "kth-largest-element-in-an-array",
+    "title": "Kth Largest Element in an Array",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "heap",
+      "arrays"
+    ],
+    "patterns": [
+      "quickselect"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "sheet-binary-search-on-answer-template",
     "platform": "leetcode",
     "platformId": "binary-search-on-answer-template",
@@ -3824,6 +5214,31 @@
     "source": "curated"
   },
   {
+    "id": "sheet-3sum",
+    "platform": "leetcode",
+    "platformId": "3sum",
+    "title": "3Sum",
+    "url": "https://leetcode.com/problems/3sum/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "sheet-coin-change",
     "platform": "leetcode",
     "platformId": "coin-change",
@@ -3838,6 +5253,233 @@
       "knapsack DP"
     ],
     "companies": [],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-word-break",
+    "platform": "leetcode",
+    "platformId": "word-break",
+    "title": "Word Break",
+    "url": "https://leetcode.com/problems/word-break/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming",
+      "strings"
+    ],
+    "patterns": [
+      "DP strings"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-house-robber-ii",
+    "platform": "leetcode",
+    "platformId": "house-robber-ii",
+    "title": "House Robber II",
+    "url": "https://leetcode.com/problems/house-robber-ii/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "circular DP"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-decode-ways",
+    "platform": "leetcode",
+    "platformId": "decode-ways",
+    "title": "Decode Ways",
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming",
+      "strings"
+    ],
+    "patterns": [
+      "DP strings"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-course-schedule",
+    "platform": "leetcode",
+    "platformId": "course-schedule",
+    "title": "Course Schedule",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "topological sort"
+    ],
+    "companies": [],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-reorder-list",
+    "platform": "leetcode",
+    "platformId": "reorder-list",
+    "title": "Reorder List",
+    "url": "https://leetcode.com/problems/reorder-list/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-non-overlapping-intervals",
+    "platform": "leetcode",
+    "platformId": "non-overlapping-intervals",
+    "title": "Non-overlapping Intervals",
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "intervals",
+      "greedy"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-longest-repeating-character-replacement",
+    "platform": "leetcode",
+    "platformId": "longest-repeating-character-replacement",
+    "title": "Longest Repeating Character Replacement",
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-construct-binary-tree-from-preorder-and-inorder-traversal",
+    "platform": "leetcode",
+    "platformId": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "divide and conquer"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-meeting-rooms-ii",
+    "platform": "leetcode",
+    "platformId": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "intervals",
+      "heap"
+    ],
+    "patterns": [
+      "heap"
+    ],
+    "companies": [
+      "microsoft"
+    ],
     "level": "intermediate",
     "status": "unseen",
     "attempts": 0,
@@ -3866,29 +5508,6 @@
     "attempts": 0,
     "confidence": 0,
     "notes": "DP transition",
-    "mistakes": [],
-    "source": "sheet-csv"
-  },
-  {
-    "id": "sheet-course-schedule",
-    "platform": "leetcode",
-    "platformId": "course-schedule",
-    "title": "Course Schedule",
-    "url": "https://leetcode.com/problems/course-schedule/",
-    "difficulty": "medium",
-    "rating": 1500,
-    "topics": [
-      "graphs"
-    ],
-    "patterns": [
-      "topological sort"
-    ],
-    "companies": [],
-    "level": "intermediate",
-    "status": "unseen",
-    "attempts": 0,
-    "confidence": 0,
-    "notes": "",
     "mistakes": [],
     "source": "sheet-csv"
   },
@@ -3999,6 +5618,82 @@
     "notes": "",
     "mistakes": [],
     "source": "curated"
+  },
+  {
+    "id": "sheet-longest-increasing-subsequence",
+    "platform": "leetcode",
+    "platformId": "longest-increasing-subsequence",
+    "title": "Longest Increasing Subsequence",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "difficulty": "medium",
+    "rating": 1600,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "LIS DP"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-longest-common-subsequence",
+    "platform": "leetcode",
+    "platformId": "longest-common-subsequence",
+    "title": "Longest Common Subsequence",
+    "url": "https://leetcode.com/problems/longest-common-subsequence/",
+    "difficulty": "medium",
+    "rating": 1600,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "2D DP"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-pacific-atlantic-water-flow",
+    "platform": "leetcode",
+    "platformId": "pacific-atlantic-water-flow",
+    "title": "Pacific Atlantic Water Flow",
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+    "difficulty": "medium",
+    "rating": 1600,
+    "topics": [
+      "graphs",
+      "matrices"
+    ],
+    "patterns": [
+      "multi-source bfs"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
   },
   {
     "id": "leetcode-23-merge-k-sorted-lists",
@@ -4114,6 +5809,32 @@
     "source": "curated"
   },
   {
+    "id": "sheet-merge-k-sorted-lists",
+    "platform": "leetcode",
+    "platformId": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "linked-lists",
+      "heap"
+    ],
+    "patterns": [
+      "heap"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
     "id": "sheet-minimum-window-substring",
     "platform": "leetcode",
     "platformId": "minimum-window-substring",
@@ -4136,6 +5857,56 @@
     "attempts": 0,
     "confidence": 0,
     "notes": "Hard invariant",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-binary-tree-maximum-path-sum",
+    "platform": "leetcode",
+    "platformId": "binary-tree-maximum-path-sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs postorder"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-serialize-and-deserialize-binary-tree",
+    "platform": "leetcode",
+    "platformId": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "bfs"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
     "mistakes": [],
     "source": "sheet-csv"
   },
@@ -4219,6 +5990,57 @@
     "notes": "",
     "mistakes": [],
     "source": "curated"
+  },
+  {
+    "id": "sheet-word-search-ii",
+    "platform": "leetcode",
+    "platformId": "word-search-ii",
+    "title": "Word Search II",
+    "url": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "hard",
+    "rating": 1800,
+    "topics": [
+      "tries",
+      "backtracking"
+    ],
+    "patterns": [
+      "trie + backtracking"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-find-median-from-data-stream",
+    "platform": "leetcode",
+    "platformId": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "hard",
+    "rating": 1800,
+    "topics": [
+      "heap"
+    ],
+    "patterns": [
+      "two heaps"
+    ],
+    "companies": [
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "sheet-csv"
   },
   {
     "id": "sheet-dijkstra",

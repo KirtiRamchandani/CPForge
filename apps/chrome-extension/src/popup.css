@@ -58,6 +58,24 @@ input {
   margin-top: 12px;
 }
 
+.popup-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  text-align: center;
+}
+
+.popup-stats strong {
+  display: block;
+  font-size: 20px;
+  color: #42d392;
+}
+
+.popup-stats span {
+  font-size: 11px;
+  color: #8fa3c4;
+}
+
 .options-shell label input[type="text"] {
   margin-top: 6px;
 }

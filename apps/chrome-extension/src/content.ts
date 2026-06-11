@@ -1,6 +1,7 @@
 import { parseLeetCodeProblemPage } from "@cp-forge/platform-adapters";
 
 const STORAGE_KEY = "cp-forge-session";
+const MISTAKE_KEY = "cp-forge-mistakes";
 
 interface SessionState {
   url: string;
@@ -9,43 +10,96 @@ interface SessionState {
   status: string;
   notes: string;
   updatedAt: string;
+  difficulty?: string;
+  topics?: string[];
 }
 
-const isProblemPage =
-  location.hostname.includes("codeforces.com") || (location.hostname.includes("leetcode.com") && location.pathname.includes("/problems/"));
+interface DetectedProblem {
+  title: string;
+  platform: string;
+  url: string;
+  difficulty: string;
+  topics: string[];
+}
 
-if (isProblemPage && !document.getElementById("cp-forge-sidebar")) {
-  const problem =
-    location.hostname.includes("leetcode.com")
-      ? parseLeetCodeProblemPage(document.documentElement.outerHTML, location.href)
-      : {
-          title: document.querySelector(".problem-statement .title")?.textContent?.trim() ?? "Codeforces Problem",
-          platform: "codeforces",
-          url: location.href,
-          difficulty: "unknown",
-          topics: [] as string[]
-        };
+const detectProblem = (): DetectedProblem | null => {
+  const host = location.hostname;
+  const path = location.pathname;
 
+  if (host.includes("leetcode.com") && path.includes("/problems/")) {
+    const parsed = parseLeetCodeProblemPage(document.documentElement.outerHTML, location.href);
+    return { title: parsed.title, platform: "leetcode", url: location.href, difficulty: parsed.difficulty, topics: parsed.topics };
+  }
+  if (host.includes("codeforces.com") && /\/problem/.test(path)) {
+    return {
+      title: document.querySelector(".problem-statement .title")?.textContent?.trim() ?? "Codeforces Problem",
+      platform: "codeforces",
+      url: location.href,
+      difficulty: document.querySelector(".tag-box")?.textContent?.trim() ?? "unknown",
+      topics: Array.from(document.querySelectorAll(".tag-box a")).map((el) => el.textContent?.trim() ?? "").filter(Boolean)
+    };
+  }
+  if (host.includes("atcoder.jp") && path.includes("/tasks/")) {
+    return {
+      title: document.querySelector("#task-statement span")?.textContent?.trim() ?? document.title.split(" - ")[0] ?? "AtCoder Task",
+      platform: "atcoder",
+      url: location.href,
+      difficulty: "atcoder",
+      topics: []
+    };
+  }
+  if (host.includes("geeksforgeeks.org") && /\/problems\//.test(path)) {
+    return {
+      title: document.querySelector("h1, .problems_header_content__title")?.textContent?.trim() ?? "GFG Problem",
+      platform: "geeksforgeeks",
+      url: location.href,
+      difficulty: document.querySelector(".difficulty-bar, .badge")?.textContent?.trim() ?? "unknown",
+      topics: []
+    };
+  }
+  if (host.includes("cses.fi") && path.includes("/problemset/")) {
+    return {
+      title: document.querySelector("h1")?.textContent?.trim() ?? "CSES Problem",
+      platform: "cses",
+      url: location.href,
+      difficulty: "cses",
+      topics: []
+    };
+  }
+  return null;
+};
+
+const problem = detectProblem();
+
+if (problem && !document.getElementById("cp-forge-sidebar")) {
+  void mountSidebar(problem);
+  enhanceProblemLinks();
+}
+
+async function mountSidebar(problem: DetectedProblem) {
+  const mistakes = await loadMistakeCount();
   const sidebar = document.createElement("aside");
   sidebar.id = "cp-forge-sidebar";
   sidebar.innerHTML = `
     <header>
       <strong>CP Forge</strong>
-      <span>${problem.platform}</span>
+      <span>${escapeHtml(problem.platform)}</span>
     </header>
     <h2>${escapeHtml(problem.title)}</h2>
-    <p>${escapeHtml(problem.difficulty)} · Local-first tracking · <span id="cp-forge-timer">00:00</span></p>
+    <p>${escapeHtml(problem.difficulty)} · <span id="cp-forge-timer">00:00</span></p>
+    ${mistakes.overflow ? `<p class="cp-forge-warn">⚠ You logged ${mistakes.overflow} overflow mistakes before. Check integer types.</p>` : ""}
     <button data-status="solving">Start Solving</button>
     <button data-status="solved">Mark Solved</button>
     <button data-status="upsolve">Send To Upsolve</button>
     <label>Notes<textarea placeholder="Approach, bug, edge case, complexity"></textarea></label>
     <section>
-      <strong>Checklist</strong>
+      <strong>Pre-submit checklist</strong>
       <ul>
-        <li>Integer overflow checked</li>
-        <li>Multiple test cases handled</li>
-        <li>Boundary cases tested</li>
-        <li>Complexity fits constraints</li>
+        <li>Integer overflow / long long</li>
+        <li>Multiple test cases</li>
+        <li>Boundary cases</li>
+        <li>Complexity fits limits</li>
+        <li>Clear arrays between cases</li>
       </ul>
     </section>
     <footer><small id="cp-forge-sync-status">Saved locally</small></footer>
@@ -66,7 +120,9 @@ if (isProblemPage && !document.getElementById("cp-forge-sidebar")) {
         platform: problem.platform,
         status: "unseen",
         notes: "",
-        updatedAt: new Date().toISOString()
+        updatedAt: new Date().toISOString(),
+        difficulty: problem.difficulty,
+        topics: problem.topics
       }
     );
   };
@@ -114,19 +170,10 @@ if (isProblemPage && !document.getElementById("cp-forge-sidebar")) {
     }, 400)
   );
 
-  const exportButton = sidebar.querySelector("#cp-forge-export") as HTMLButtonElement;
-  exportButton.addEventListener("click", async () => {
+  sidebar.querySelector("#cp-forge-export")?.addEventListener("click", async () => {
     const stored = await chrome.storage.local.get(STORAGE_KEY);
     const sessions = (stored[STORAGE_KEY] ?? {}) as Record<string, SessionState>;
-    const blob = new Blob([JSON.stringify({ exportedAt: new Date().toISOString(), sessions }, null, 2)], {
-      type: "application/json"
-    });
-    const url = URL.createObjectURL(blob);
-    const anchor = document.createElement("a");
-    anchor.href = url;
-    anchor.download = "cpforge-extension-sync.json";
-    anchor.click();
-    URL.revokeObjectURL(url);
+    downloadJson("cpforge-extension-sync.json", { exportedAt: new Date().toISOString(), sessions });
     statusLabel.textContent = "Exported extension sync JSON";
   });
 
@@ -138,6 +185,37 @@ if (isProblemPage && !document.getElementById("cp-forge-sidebar")) {
     const secs = String(seconds % 60).padStart(2, "0");
     timerEl.textContent = `${mins}:${secs}`;
   }, 1000);
+}
+
+async function enhanceProblemLinks() {
+  const stored = await chrome.storage.local.get(STORAGE_KEY);
+  const sessions = (stored[STORAGE_KEY] ?? {}) as Record<string, SessionState>;
+  document.querySelectorAll("a[href*='/problem'], a[href*='/problems/'], a[href*='/tasks/']").forEach((anchor) => {
+    const link = anchor as HTMLAnchorElement;
+    const session = sessions[link.href];
+    if (!session || session.status === "unseen") return;
+    if (link.querySelector(".cp-forge-badge")) return;
+    const badge = document.createElement("span");
+    badge.className = "cp-forge-badge";
+    badge.textContent = ` [${session.status}]`;
+    link.appendChild(badge);
+  });
+}
+
+async function loadMistakeCount() {
+  const stored = await chrome.storage.local.get(MISTAKE_KEY);
+  const list = (stored[MISTAKE_KEY] ?? []) as Array<{ category: string }>;
+  return { overflow: list.filter((m) => m.category === "overflow").length };
+}
+
+function downloadJson(name: string, data: unknown) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = name;
+  anchor.click();
+  URL.revokeObjectURL(url);
 }
 
 function debounce(fn: () => void, wait: number) {

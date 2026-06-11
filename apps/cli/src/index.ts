@@ -3,18 +3,23 @@ import { promises as fs } from "node:fs";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { Command } from "commander";
-import { analyzeWorkspace, buildStuckDiagnosis } from "@cp-forge/analytics-engine";
+import { analyzeWorkspace, buildStuckDiagnosis, computeAchievements } from "@cp-forge/analytics-engine";
 import { buildVirtualContest, contestReadinessMessage, parseCodeforcesContests, upcomingContestAlerts } from "@cp-forge/contest-engine";
 import { buildLaunchReport, createWorkspace } from "@cp-forge/core";
 import {
   chartToSvg,
+  dailyPlanToMarkdown,
+  extensionImportBundle,
   mindmapToHtml,
   mindmapToMarkdown,
   mistakesToAnkiCsv,
   mistakesToFlashcardsMarkdown,
   problemsToCsv,
   problemsToMarkdown,
+  problemsToNotionMarkdown,
+  problemsToObsidianNotes,
   reviewsToIcs,
+  vscodeWorkspaceConfig,
   workspaceToJson
 } from "@cp-forge/export-engine";
 import { createMistake, mistakeStats } from "@cp-forge/mistake-engine";
@@ -24,7 +29,7 @@ import {
   leetcodeSubmissionsToProblems,
   parseCustomCsv
 } from "@cp-forge/platform-adapters";
-import { printInfo, printLaunchReport, printList, printSuccess } from "./terminal.js";
+import { printDoctorReport, printInfo, printLaunchReport, printList, printStuckReport, printSuccess, printTodayPlan } from "./terminal.js";
 import { portfolioHtml, portfolioMarkdown, profileCardSvg } from "@cp-forge/portfolio-engine";
 import { buildDailyPlan, buildWeeklyPlan, detectWeakAreas, recommendNext } from "@cp-forge/recommendation-engine";
 import { completeReview, dueReviews, scheduleReviews } from "@cp-forge/review-scheduler";
@@ -179,23 +184,23 @@ program
     const stats = mistakeStats(workspace.mistakes);
     const stuck = buildStuckDiagnosis(workspace);
     const attempted = workspace.problems.filter((p) => p.attempts > 0 && p.status !== "solved");
-    console.log("\nCP Forge Doctor\n");
-    console.log("Diagnosis:");
-    stuck.reasons.forEach((reason, index) => console.log(`${index + 1}. ${reason}`));
-    if (analytics.upsolveCount > 0) console.log(`${stuck.reasons.length + 1}. ${analytics.upsolveCount} problems waiting in upsolve queue.`);
-    if (attempted.length > 5) console.log(`${stuck.reasons.length + 2}. ${attempted.length} attempted-but-unsolved problems are blocking rating growth.`);
-    console.log(`\nSnapshot: ${analytics.solvedCount} solved · ${analytics.reviewDueCount} reviews due · readiness ${analytics.readinessScore}%`);
-    if (stats.total > 0) {
-      const top = Object.entries(stats.byCategory).sort((a, b) => b[1] - a[1])[0];
-      if (top) console.log(`Top mistake category: ${top[0]} (${top[1]})`);
-    }
-    console.log("\nPrescription:");
-    console.log("- Stop random solving for 14 days.");
-    console.log("- Solve 20 targeted problems from:", weakAreas.slice(0, 3).map((a) => a.topic).join(", ") || "your weakest topics");
-    console.log("- Upsolve", Math.min(analytics.upsolveCount || 3, 10), "failed problems this week.");
-    console.log("- Review solved problems on 1, 3, 7, 14, and 30 day intervals.");
-    console.log("- Run 2 virtual contests: cp-forge contest --rating", workspace.profile.targetCpRating ?? 1200);
-    console.log("- Log one mistake after every wrong answer: cp-forge mistakes add");
+    const diagnosis = [...stuck.reasons];
+    if (analytics.upsolveCount > 0) diagnosis.push(`${analytics.upsolveCount} problems waiting in upsolve queue.`);
+    if (attempted.length > 5) diagnosis.push(`${attempted.length} attempted-but-unsolved problems are blocking rating growth.`);
+    const top = stats.total > 0 ? Object.entries(stats.byCategory).sort((a, b) => b[1] - a[1])[0] : undefined;
+    printDoctorReport({
+      diagnosis,
+      prescription: [
+        "Stop random solving for 14 days.",
+        `Solve 20 targeted problems from: ${weakAreas.slice(0, 3).map((a) => a.topic).join(", ") || "weakest topics"}`,
+        `Upsolve ${Math.min(analytics.upsolveCount || 3, 10)} failed problems this week.`,
+        "Review solved problems on 1, 3, 7, 14, and 30 day intervals.",
+        `Run 2 virtual contests: cp-forge contest --rating ${workspace.profile.targetCpRating ?? 1200}`,
+        "Log one mistake after every wrong answer: cp-forge mistakes add"
+      ],
+      snapshot: `${analytics.solvedCount} solved · ${analytics.reviewDueCount} reviews due · readiness ${analytics.readinessScore}%`,
+      topMistake: top ? `${top[0]} (${top[1]})` : undefined
+    });
   });
 
 program
@@ -391,13 +396,8 @@ program
   .action(async () => {
     const workspace = await ensureWorkspace();
     const plan = buildDailyPlan(workspace, workspace.profile);
-    console.log("\nToday's CP Forge Plan\n");
-    console.log(`Warmup: ${plan.warmup.title} (${plan.warmup.url})`);
-    plan.main.forEach((problem, index) => console.log(`Main ${index + 1}: ${problem.title} (${problem.url})`));
-    if (plan.reviewProblemId) console.log(`Review: ${plan.reviewProblemId}`);
-    if (plan.upsolveProblemId) console.log(`Upsolve: ${plan.upsolveProblemId}`);
-    console.log(`Reflection: ${plan.reflection}`);
-    console.log(`\nNext action: ${plan.nextAction.action} because ${plan.nextAction.reason}`);
+    printTodayPlan(plan);
+    printInfo(`${plan.nextAction.action} — ${plan.nextAction.reason}`);
   });
 
 program
@@ -406,9 +406,7 @@ program
   .action(async () => {
     const workspace = await ensureWorkspace();
     const diagnosis = buildStuckDiagnosis(workspace);
-    console.log("\nWhy am I stuck?\n");
-    console.log(diagnosis.summary);
-    diagnosis.reasons.forEach((reason, index) => console.log(`${index + 1}. ${reason}`));
+    printStuckReport(diagnosis.summary, diagnosis.reasons);
   });
 
 program
@@ -597,7 +595,8 @@ program
       analytics: analyzeWorkspace(workspace),
       today: buildDailyPlan(workspace, workspace.profile),
       weekly: buildWeeklyPlan(workspace, workspace.profile),
-      weakAreas: detectWeakAreas(workspace)
+      weakAreas: detectWeakAreas(workspace),
+      achievements: computeAchievements(workspace, analyzeWorkspace(workspace))
     });
     printSuccess("Dashboard data exported to .cpforge/exports/dashboard-data.json");
   });
@@ -713,13 +712,28 @@ function mergeProblems(existing: Problem[], incoming: Problem[]): Problem[] {
 
 async function writeLaunchExports(workspace: WorkspaceData, report: ReturnType<typeof buildLaunchReport>) {
   const exportsDir = workspacePaths().exports;
+  const obsidianDir = path.join(exportsDir, "obsidian");
+  await fs.mkdir(obsidianDir, { recursive: true });
   await fs.mkdir(exportsDir, { recursive: true });
   await fs.writeFile(path.join(exportsDir, "cp-forge-report.json"), JSON.stringify(report, null, 2), "utf8");
   await fs.writeFile(path.join(exportsDir, "sheet.csv"), problemsToCsv(workspace.problems), "utf8");
   await fs.writeFile(path.join(exportsDir, "sheet.md"), problemsToMarkdown(workspace.problems), "utf8");
+  await fs.writeFile(path.join(exportsDir, "notion.md"), problemsToNotionMarkdown(workspace.problems), "utf8");
+  await fs.writeFile(path.join(exportsDir, "obsidian", "problems.md"), problemsToObsidianNotes(workspace.problems.slice(0, 40)), "utf8");
   await fs.writeFile(path.join(exportsDir, "reviews.ics"), reviewsToIcs(workspace.reviews), "utf8");
   await fs.writeFile(path.join(exportsDir, "mindmap.html"), mindmapToHtml(report.roadmap.mindmap), "utf8");
   await fs.writeFile(path.join(exportsDir, "portfolio.md"), portfolioMarkdown(workspace), "utf8");
+  await fs.writeFile(path.join(exportsDir, "daily-plan.md"), dailyPlanToMarkdown(report.dailyPlan), "utf8");
+  await fs.writeFile(path.join(exportsDir, "vscode-workspace.json"), vscodeWorkspaceConfig(workspace.profile.preferredLanguage), "utf8");
+  await fs.writeFile(path.join(exportsDir, "extension-import.json"), extensionImportBundle(workspace), "utf8");
+  await writeJson(path.join(exportsDir, "dashboard-data.json"), {
+    workspace,
+    analytics: analyzeWorkspace(workspace),
+    today: buildDailyPlan(workspace, workspace.profile),
+    weekly: buildWeeklyPlan(workspace, workspace.profile),
+    weakAreas: detectWeakAreas(workspace),
+    achievements: computeAchievements(workspace, analyzeWorkspace(workspace))
+  });
   await exportWorkspace(path.join(exportsDir, "workspace.json"));
 }
 
@@ -774,7 +788,11 @@ async function exportByFormat(workspace: WorkspaceData, format: string) {
         ? workspaceToJson(workspace)
         : format === "html"
           ? portfolioHtml(workspace)
-          : problemsToMarkdown(workspace.problems);
+          : format === "notion"
+            ? problemsToNotionMarkdown(workspace.problems)
+            : format === "obsidian"
+              ? problemsToObsidianNotes(workspace.problems)
+              : problemsToMarkdown(workspace.problems);
   await fs.writeFile(file, content, "utf8");
   return file;
 }

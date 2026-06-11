@@ -1,10 +1,16 @@
 {
   "manifest_version": 3,
   "name": "CP Forge Companion",
-  "description": "Local-first Codeforces and LeetCode practice sidebar, notes, mistakes, review, and upsolve tracking.",
+  "description": "Local-first problem sidebar for Codeforces, LeetCode, AtCoder, GFG, and CSES — notes, timer, mistakes, review, upsolve.",
   "version": "0.1.0",
   "permissions": ["storage"],
-  "host_permissions": ["https://codeforces.com/*", "https://leetcode.com/*"],
+  "host_permissions": [
+    "https://codeforces.com/*",
+    "https://leetcode.com/*",
+    "https://atcoder.jp/*",
+    "https://www.geeksforgeeks.org/*",
+    "https://cses.fi/*"
+  ],
   "action": {
     "default_popup": "popup.html"
   },
@@ -15,7 +21,13 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://codeforces.com/*", "https://leetcode.com/*"],
+      "matches": [
+        "https://codeforces.com/*",
+        "https://leetcode.com/*",
+        "https://atcoder.jp/*",
+        "https://www.geeksforgeeks.org/*",
+        "https://cses.fi/*"
+      ],
       "js": ["src/content.ts"],
       "css": ["src/sidebar.css"]
     }

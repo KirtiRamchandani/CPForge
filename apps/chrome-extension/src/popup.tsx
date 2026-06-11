@@ -8,20 +8,31 @@ interface Settings {
   dailyPlan?: string;
 }
 
+interface SessionMap {
+  [url: string]: { status: string; title: string; platform: string };
+}
+
 createRoot(document.getElementById("root")!).render(<Popup />);
 
 function Popup() {
   const [settings, setSettings] = useState<Settings>({});
+  const [sessions, setSessions] = useState<SessionMap>({});
+  const [mistakes, setMistakes] = useState(0);
 
   useEffect(() => {
-    void chrome.storage.local.get(["cp-forge-settings", "cp-forge-session"]).then((stored) => {
+    void chrome.storage.local.get(["cp-forge-settings", "cp-forge-session", "cp-forge-mistakes"]).then((stored) => {
       setSettings({
         cfHandle: stored["cp-forge-settings"]?.cfHandle,
         leetcodeHandle: stored["cp-forge-settings"]?.leetcodeHandle,
         dailyPlan: stored["cp-forge-settings"]?.dailyPlan ?? "1 warmup · 2 main · 1 review · 1 upsolve"
       });
+      setSessions((stored["cp-forge-session"] ?? {}) as SessionMap);
+      setMistakes((stored["cp-forge-mistakes"] ?? []).length);
     });
   }, []);
+
+  const solved = Object.values(sessions).filter((s) => s.status === "solved").length;
+  const upsolve = Object.values(sessions).filter((s) => s.status === "upsolve").length;
 
   return (
     <main className="popup-shell">
@@ -32,6 +43,11 @@ function Popup() {
       <section>
         <h2>Today</h2>
         <p>{settings.dailyPlan}</p>
+      </section>
+      <section className="popup-stats">
+        <div><strong>{solved}</strong><span>Solved</span></div>
+        <div><strong>{upsolve}</strong><span>Upsolve</span></div>
+        <div><strong>{mistakes}</strong><span>Mistakes</span></div>
       </section>
       <section>
         <h2>Handles</h2>

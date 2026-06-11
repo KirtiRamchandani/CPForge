@@ -71,3 +71,35 @@ export const printSuccess = (message: string): void => {
 export const printInfo = (message: string): void => {
   console.log(cyan(`→ CP Forge: ${message}`));
 };
+
+export const printDoctorReport = (report: {
+  diagnosis: string[];
+  prescription: string[];
+  snapshot: string;
+  topMistake?: string;
+}): void => {
+  launchBanner();
+  box("CP Forge Doctor — Diagnosis", report.diagnosis.map((line, index) => `${index + 1}. ${line}`));
+  box("Prescription", report.prescription.map((line) => `▸ ${line}`));
+  console.log(dim(`\n  ${report.snapshot}${report.topMistake ? ` · Top mistake: ${report.topMistake}` : ""}\n`));
+};
+
+export const printTodayPlan = (plan: {
+  warmup: { title: string };
+  main: Array<{ title: string }>;
+  reviewProblemId?: string;
+  upsolveProblemId?: string;
+  reflection: string;
+}): void => {
+  box("Today's CP Forge Plan", [
+    `Warmup: ${green(plan.warmup.title)}`,
+    ...plan.main.map((p, i) => `Main ${i + 1}: ${p.title}`),
+    `Review: ${plan.reviewProblemId ?? "After first solve"}`,
+    `Upsolve: ${plan.upsolveProblemId ?? "Queue clear"}`,
+    `Reflection: ${dim(plan.reflection)}`
+  ]);
+};
+
+export const printStuckReport = (summary: string, reasons: string[]): void => {
+  box("Why am I stuck?", [summary, ...reasons.map((r, i) => `${i + 1}. ${r}`)]);
+};

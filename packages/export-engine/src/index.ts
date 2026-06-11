@@ -172,6 +172,116 @@ export const mistakesToFlashcardsMarkdown = (mistakes: Mistake[]): string =>
     )
     .join("\n");
 
+export const problemsToNotionMarkdown = (problems: Problem[]): string =>
+  [
+    "# CP Forge Problem Sheet",
+    "",
+    "| Problem | Platform | Difficulty | Topics | Status | Notes |",
+    "| --- | --- | --- | --- | --- | --- |",
+    ...problems.map(
+      (problem) =>
+        `| [${problem.title}](${problem.url}) | ${problem.platform} | ${problem.difficulty} | ${problem.topics.join(", ")} | ${problem.status} | ${problem.notes.replace(/\n/g, " ")} |`
+    )
+  ].join("\n");
+
+export const problemsToObsidianNotes = (problems: Problem[]): string =>
+  problems
+    .map(
+      (problem) =>
+        `---
+platform: ${problem.platform}
+url: ${problem.url}
+difficulty: ${problem.difficulty}
+topics: [${problem.topics.join(", ")}]
+patterns: [${problem.patterns.join(", ")}]
+status: ${problem.status}
+confidence: ${problem.confidence}
+review_date: ${problem.reviewDate ?? ""}
+---
+
+# ${problem.title}
+
+## Approach
+
+## Mistakes
+
+## Edge Cases
+
+## Complexity
+
+## Review Notes
+${problem.notes ? `\n${problem.notes}\n` : ""}`
+    )
+    .join("\n\n---\n\n");
+
+export const buildDashboardPayload = (workspace: WorkspaceData, extras: Record<string, unknown> = {}): string =>
+  JSON.stringify({ workspace, ...extras }, null, 2);
+
+export const vscodeWorkspaceConfig = (language = "cpp"): string =>
+  JSON.stringify(
+    {
+      folders: [{ path: "." }],
+      settings: {
+        "files.exclude": { "**/.cpforge/cache": true },
+        "cpForge.preferredLanguage": language
+      },
+      extensions: {
+        recommendations: ["cp-forge.vscode-extension"]
+      }
+    },
+    null,
+    2
+  );
+
+export const extensionImportBundle = (workspace: WorkspaceData): string =>
+  JSON.stringify(
+    {
+      exportedAt: new Date().toISOString(),
+      source: "cp-forge-cli",
+      sessions: Object.fromEntries(
+        workspace.problems.slice(0, 100).map((problem) => [
+          problem.url,
+          {
+            url: problem.url,
+            title: problem.title,
+            platform: problem.platform,
+            status: problem.status,
+            notes: problem.notes,
+            updatedAt: new Date().toISOString()
+          }
+        ])
+      )
+    },
+    null,
+    2
+  );
+
+export const dailyPlanToMarkdown = (plan: {
+  warmup: { title: string };
+  main: Array<{ title: string; url?: string }>;
+  reviewProblemId?: string;
+  upsolveProblemId?: string;
+  reflection: string;
+}): string =>
+  [
+    "# Today's CP Forge Plan",
+    "",
+    "## Warmup",
+    `- ${plan.warmup.title}`,
+    "",
+    "## Main",
+    ...plan.main.map((problem) => `- ${problem.title}`),
+    "",
+    "## Review",
+    `- ${plan.reviewProblemId ?? "Schedule after first solve"}`,
+    "",
+    "## Upsolve",
+    `- ${plan.upsolveProblemId ?? "Queue is clear"}`,
+    "",
+    "## Reflection",
+    `- ${plan.reflection}`
+  ].join("\n");
+
 const nodeToHtml = (node: RoadmapNode): string => nodeToInteractiveHtml(node);
 
 const nodeToInteractiveHtml = (node: RoadmapNode): string => `<details open>

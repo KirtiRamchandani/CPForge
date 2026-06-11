@@ -1,4 +1,4 @@
-import { analyzeWorkspace } from "@cp-forge/analytics-engine";
+import { analyzeWorkspace, buildStuckDiagnosis } from "@cp-forge/analytics-engine";
 import { buildLaunchReport, createWorkspace } from "@cp-forge/core";
 import { portfolioMarkdown } from "@cp-forge/portfolio-engine";
 import { buildDailyPlan, buildWeeklyPlan, detectWeakAreas } from "@cp-forge/recommendation-engine";
@@ -7,6 +7,7 @@ import type { RoadmapNode, WorkspaceData } from "@cp-forge/schemas";
 import { problemBank } from "@cp-forge/sheet-engine";
 import { ActivityGrid, BarChart, MindmapTree, StatCard } from "@cp-forge/ui";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { AchievementGrid, CommandPalette, computeAchievements } from "./CommandPalette";
 
 const nav = [
   "Home",
@@ -41,6 +42,9 @@ export const App = () => {
   const [mindmapOverride, setMindmapOverride] = useState<RoadmapNode | undefined>();
   const [sheetSearch, setSheetSearch] = useState("");
   const [sheetPlatform, setSheetPlatform] = useState("all");
+  const [paletteOpen, setPaletteOpen] = useState(false);
+  const [stuckOpen, setStuckOpen] = useState(false);
+  const [completedToday, setCompletedToday] = useState<Record<string, boolean>>({});
   const [payload, setPayload] = useState<DashboardPayload>(() => buildPayload(createWorkspace({ goal: "amazon", targetCompanies: ["amazon"], preferredLanguage: "cpp" })));
   const fileInput = useRef<HTMLInputElement>(null);
   const searchInput = useRef<HTMLInputElement>(null);
@@ -66,6 +70,8 @@ export const App = () => {
   }, [payload]);
 
   const mindmap = mindmapOverride ?? roadmap.mindmap;
+  const achievements = useMemo(() => computeAchievements(workspace, analytics), [workspace, analytics]);
+  const stuckDiagnosis = useMemo(() => buildStuckDiagnosis(workspace), [workspace]);
 
   const filteredSheet = useMemo(() => {
     const query = sheetSearch.trim().toLowerCase();
@@ -108,12 +114,17 @@ export const App = () => {
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+        event.preventDefault();
+        setPaletteOpen((value) => !value);
+      }
       if (event.key === "/" && active === "Sheets") {
         event.preventDefault();
         searchInput.current?.focus();
       }
       if (event.key === "Escape") {
         setSheetSearch("");
+        setStuckOpen(false);
       }
       const index = Number(event.key) - 1;
       if (event.altKey && index >= 0 && index < nav.length) {
@@ -131,6 +142,34 @@ export const App = () => {
 
   return (
     <main className="app-shell">
+      <CommandPalette
+        onAction={(action) => {
+          if (action === "stuck") setStuckOpen(true);
+          if (action === "export") exportDashboard();
+          if (action === "demo") void loadDemo().catch(() => alert("Demo data not found."));
+          if (action === "import") fileInput.current?.click();
+        }}
+        onClose={() => setPaletteOpen(false)}
+        onNavigate={setActive}
+        open={paletteOpen}
+        pages={nav}
+      />
+      {stuckOpen ? (
+        <div className="palette-backdrop" onClick={() => setStuckOpen(false)} role="presentation">
+          <div className="stuck-modal" onClick={(e) => e.stopPropagation()} role="dialog">
+            <h2>Why am I stuck?</h2>
+            <p>{stuckDiagnosis.summary}</p>
+            <ol>
+              {stuckDiagnosis.reasons.map((reason) => (
+                <li key={reason}>{reason}</li>
+              ))}
+            </ol>
+            <button onClick={() => setStuckOpen(false)} type="button">
+              Got it — back to training
+            </button>
+          </div>
+        </div>
+      ) : null}
       <aside className="sidebar">
         <div className="brand">
           <span>CPF</span>
@@ -146,7 +185,7 @@ export const App = () => {
             </button>
           ))}
         </nav>
-        <p className="sidebar-hint">Alt+1–9 quick nav · / search on Sheets</p>
+        <p className="sidebar-hint">Ctrl+K command palette · Alt+1–9 nav</p>
       </aside>
 
       <section className="workspace">
@@ -167,8 +206,14 @@ export const App = () => {
               ref={fileInput}
               type="file"
             />
-            <button className="btn-secondary" onClick={() => void loadDemo().catch(() => alert("Demo data not found."))} type="button">
-              Load demo
+            <button className="btn-secondary" onClick={() => void loadDemo().catch(() => alert("Demo not found."))} type="button">
+              Demo
+            </button>
+            <button className="btn-secondary" onClick={() => setPaletteOpen(true)} type="button">
+              ⌘K
+            </button>
+            <button className="btn-secondary" onClick={() => setStuckOpen(true)} type="button">
+              Why stuck?
             </button>
             <button className="btn-primary" onClick={exportDashboard} type="button">
               Export JSON
@@ -206,17 +251,26 @@ export const App = () => {
                 {weakAreas.length ? weakAreas.map((area) => <p key={area.topic}>{area.reason}</p>) : <p>Log mistakes and solve problems to unlock coaching signals.</p>}
               </Panel>
             </section>
+            <Panel title="Achievements">
+              <AchievementGrid achievements={achievements} />
+            </Panel>
           </>
         )}
 
         {active === "Today" && (
           <Panel title="Today's CP Forge Plan">
-            <Task label="Warmup" value={today.warmup.title} />
-            {today.main.map((problem) => (
-              <Task key={problem.id} label="Main" value={problem.title} />
+            <TaskCheck done={completedToday.warmup} label="Warmup" onToggle={() => setCompletedToday((s) => ({ ...s, warmup: !s.warmup }))} value={today.warmup.title} />
+            {today.main.map((problem, index) => (
+              <TaskCheck
+                done={completedToday[`main-${index}`]}
+                key={problem.id}
+                label={`Main ${index + 1}`}
+                onToggle={() => setCompletedToday((s) => ({ ...s, [`main-${index}`]: !s[`main-${index}`] }))}
+                value={problem.title}
+              />
             ))}
-            <Task label="Review" value={today.reviewProblemId ?? "Schedule first review after solving"} />
-            <Task label="Upsolve" value={today.upsolveProblemId ?? "No upsolve debt yet"} />
+            <TaskCheck done={completedToday.review} label="Review" onToggle={() => setCompletedToday((s) => ({ ...s, review: !s.review }))} value={today.reviewProblemId ?? "Schedule first review after solving"} />
+            <TaskCheck done={completedToday.upsolve} label="Upsolve" onToggle={() => setCompletedToday((s) => ({ ...s, upsolve: !s.upsolve }))} value={today.upsolveProblemId ?? "No upsolve debt yet"} />
             <Task label="Reflection" value={today.reflection} />
           </Panel>
         )}
@@ -428,6 +482,26 @@ const Panel = ({ title, children }: { title: string; children: React.ReactNode }
     <h2>{title}</h2>
     {children}
   </section>
+);
+
+const TaskCheck = ({
+  label,
+  value,
+  done,
+  onToggle
+}: {
+  label: string;
+  value: string;
+  done?: boolean;
+  onToggle: () => void;
+}) => (
+  <div className={`task-row task-check ${done ? "done" : ""}`}>
+    <button aria-label={`Mark ${label} complete`} className="task-check-btn" onClick={onToggle} type="button">
+      {done ? "✓" : "○"}
+    </button>
+    <span>{label}</span>
+    <strong>{value}</strong>
+  </div>
 );
 
 const Task = ({ label, value }: { label: string; value: string }) => (

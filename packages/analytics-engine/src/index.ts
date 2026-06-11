@@ -66,6 +66,37 @@ export const analyzeWorkspace = (workspace: WorkspaceData): AnalyticsSnapshot =>
   };
 };
 
+export interface Achievement {
+  id: string;
+  title: string;
+  emoji: string;
+  unlocked: boolean;
+  detail: string;
+}
+
+export const computeAchievements = (workspace: WorkspaceData, analytics: AnalyticsSnapshot): Achievement[] => {
+  const solved = analytics.solvedCount;
+  const mistakes = workspace.mistakes.length;
+  const contests = workspace.contests?.length ?? 0;
+  const dpSolved = workspace.problems.filter((p) => p.status === "solved" && p.topics.some((t) => t.toLowerCase().includes("dp"))).length;
+  const graphSolved = workspace.problems.filter((p) => p.status === "solved" && p.topics.some((t) => /graph|tree/i.test(t))).length;
+  const cf1400 = workspace.problems.some((p) => p.status === "solved" && (p.rating ?? 0) >= 1400);
+
+  return [
+    { id: "first-10", title: "First 10 Problems", emoji: "🎯", unlocked: solved >= 10, detail: `${solved}/10 solved` },
+    { id: "first-100", title: "Century Club", emoji: "💯", unlocked: solved >= 100, detail: `${solved}/100 solved` },
+    { id: "streak-7", title: "7-Day Streak", emoji: "🔥", unlocked: analytics.solveStreakDays >= 7, detail: `${analytics.solveStreakDays} day streak` },
+    { id: "streak-30", title: "30-Day Streak", emoji: "⚡", unlocked: analytics.solveStreakDays >= 30, detail: `${analytics.solveStreakDays} day streak` },
+    { id: "upsolve-warrior", title: "Upsolve Warrior", emoji: "🏆", unlocked: analytics.upsolveCount === 0 && solved >= 5, detail: "Upsolve queue cleared" },
+    { id: "dp-apprentice", title: "DP Apprentice", emoji: "🧠", unlocked: dpSolved >= 5, detail: `${dpSolved} DP solves` },
+    { id: "graph-explorer", title: "Graph Explorer", emoji: "🗺️", unlocked: graphSolved >= 5, detail: `${graphSolved} graph/tree solves` },
+    { id: "contest-grinder", title: "Contest Grinder", emoji: "⚔️", unlocked: contests >= 1, detail: `${contests} virtual contests` },
+    { id: "mistake-tracker", title: "Mistake Tracker", emoji: "📝", unlocked: mistakes >= 5, detail: `${mistakes} mistakes logged` },
+    { id: "interview-ready", title: "Interview Ready", emoji: "🚀", unlocked: analytics.readinessScore >= 70, detail: `${analytics.readinessScore}% readiness` },
+    { id: "cf-1400", title: "1400 Breakthrough", emoji: "📈", unlocked: cf1400, detail: "Solved a 1400+ CF problem" }
+  ];
+};
+
 export interface StuckDiagnosis {
   summary: string;
   reasons: string[];
