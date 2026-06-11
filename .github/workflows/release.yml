@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check
+      - run: pnpm --filter @cp-forge/cli build
+      - run: pnpm --filter @cp-forge/web-dashboard build
+      - run: pnpm --filter @cp-forge/chrome-extension build
+      - run: pnpm --filter @cp-forge/vscode-extension build
+      - name: Package artifacts
+        run: |
+          mkdir -p release
+          cd apps/cli && pnpm pack --pack-destination ../../release
+          cd ../..
+          (cd apps/chrome-extension/dist && zip -r ../../release/cp-forge-chrome.zip .)
+          cd apps/vscode-extension && npx @vscode/vsce package --no-dependencies -o ../../release/cp-forge.vsix || true
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: release/*

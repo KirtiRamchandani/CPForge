@@ -1,5 +1,6 @@
 import type { Problem } from "@cp-forge/schemas";
 import { stableId } from "@cp-forge/utils";
+import generatedProblems from "./generated-problems.json";
 
 export interface SheetFilter {
   topic?: string;
@@ -12,7 +13,7 @@ export interface SheetFilter {
   upsolveOnly?: boolean;
 }
 
-export const problemBank: Problem[] = [
+const seedProblems: Problem[] = [
   problem("leetcode", "1", "Two Sum", "https://leetcode.com/problems/two-sum/", "easy", 800, ["arrays", "hashing"], ["hash map"], ["amazon", "google"], "beginner"),
   problem("leetcode", "121", "Best Time to Buy and Sell Stock", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", "easy", 900, ["arrays"], ["prefix min"], ["amazon", "microsoft"], "beginner"),
   problem("leetcode", "3", "Longest Substring Without Repeating Characters", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "medium", 1200, ["strings"], ["sliding-window"], ["amazon", "meta"], "intermediate"),
@@ -28,6 +29,16 @@ export const problemBank: Problem[] = [
   problem("codeforces", "20C", "Dijkstra?", "https://codeforces.com/problemset/problem/20/C", "1900", 1900, ["graphs"], ["dijkstra"], [], "expert"),
   problem("codeforces", "165E", "Compatible Numbers", "https://codeforces.com/problemset/problem/165/E", "2100", 2100, ["bit-manipulation", "dynamic-programming"], ["bitmask DP"], [], "candidate-master")
 ];
+
+const mergeProblems = (): Problem[] => {
+  const map = new Map<string, Problem>();
+  for (const item of [...seedProblems, ...(generatedProblems as Problem[])]) {
+    map.set(item.id, item);
+  }
+  return [...map.values()];
+};
+
+export const problemBank: Problem[] = mergeProblems();
 
 export const filterSheet = (problems: Problem[], filter: SheetFilter): Problem[] =>
   problems.filter((problem) => {

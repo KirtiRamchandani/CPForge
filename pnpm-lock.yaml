@@ -176,12 +176,18 @@ importers:
       '@cp-forge/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@cp-forge/portfolio-engine':
+        specifier: workspace:*
+        version: link:../../packages/portfolio-engine
       '@cp-forge/recommendation-engine':
         specifier: workspace:*
         version: link:../../packages/recommendation-engine
       '@cp-forge/roadmap-engine':
         specifier: workspace:*
         version: link:../../packages/roadmap-engine
+      '@cp-forge/schemas':
+        specifier: workspace:*
+        version: link:../../packages/schemas
       '@cp-forge/sheet-engine':
         specifier: workspace:*
         version: link:../../packages/sheet-engine

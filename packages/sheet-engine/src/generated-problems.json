@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "leetcode-1-two-sum",
+    "platform": "leetcode",
+    "platformId": "1",
+    "title": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "easy",
+    "rating": 800,
+    "topics": [
+      "arrays",
+      "hashing"
+    ],
+    "patterns": [
+      "hash map"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "cf-4a",
+    "platform": "codeforces",
+    "title": "Watermelon",
+    "url": "https://codeforces.com/problemset/problem/4/A",
+    "difficulty": "800",
+    "rating": 800,
+    "topics": [
+      "implementation"
+    ],
+    "patterns": [
+      "parity"
+    ],
+    "companies": [],
+    "level": "newbie",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Warmup",
+    "review_date": "",
+    "source": "sheet"
+  },
+  {
+    "id": "lc-two-sum",
+    "platform": "leetcode",
+    "title": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "easy",
+    "rating": 800,
+    "topics": [
+      "arrays",
+      "hashing"
+    ],
+    "patterns": [
+      "hash map"
+    ],
+    "companies": [
+      "amazon",
+      "google"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Must do",
+    "review_date": "",
+    "source": "sheet"
+  },
+  {
+    "id": "leetcode-217-contains-duplicate",
+    "platform": "leetcode",
+    "platformId": "217",
+    "title": "Contains Duplicate",
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "difficulty": "easy",
+    "rating": 850,
+    "topics": [
+      "arrays",
+      "hashing"
+    ],
+    "patterns": [
+      "hash set"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-242-valid-anagram",
+    "platform": "leetcode",
+    "platformId": "242",
+    "title": "Valid Anagram",
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "difficulty": "easy",
+    "rating": 850,
+    "topics": [
+      "strings",
+      "hashing"
+    ],
+    "patterns": [
+      "frequency map"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-125-valid-palindrome",
+    "platform": "leetcode",
+    "platformId": "125",
+    "title": "Valid Palindrome",
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "difficulty": "easy",
+    "rating": 850,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-100-same-tree",
+    "platform": "leetcode",
+    "platformId": "100",
+    "title": "Same Tree",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "difficulty": "easy",
+    "rating": 850,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-121-best-time-to-buy-and-sell-stock",
+    "platform": "leetcode",
+    "platformId": "121",
+    "title": "Best Time to Buy and Sell Stock",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "prefix min"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-191-number-of-1-bits",
+    "platform": "leetcode",
+    "platformId": "191",
+    "title": "Number of 1 Bits",
+    "url": "https://leetcode.com/problems/number-of-1-bits/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "bit count"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-268-missing-number",
+    "platform": "leetcode",
+    "platformId": "268",
+    "title": "Missing Number",
+    "url": "https://leetcode.com/problems/missing-number/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "arrays",
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "xor"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-70-climbing-stairs",
+    "platform": "leetcode",
+    "platformId": "70",
+    "title": "Climbing Stairs",
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "1D DP"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-206-reverse-linked-list",
+    "platform": "leetcode",
+    "platformId": "206",
+    "title": "Reverse Linked List",
+    "url": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "iterative reverse"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-20-valid-parentheses",
+    "platform": "leetcode",
+    "platformId": "20",
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "stack"
+    ],
+    "patterns": [
+      "stack"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-104-maximum-depth-of-binary-tree",
+    "platform": "leetcode",
+    "platformId": "104",
+    "title": "Maximum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-226-invert-binary-tree",
+    "platform": "leetcode",
+    "platformId": "226",
+    "title": "Invert Binary Tree",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-21-merge-two-sorted-lists",
+    "platform": "leetcode",
+    "platformId": "21",
+    "title": "Merge Two Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "merge"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-252-meeting-rooms",
+    "platform": "leetcode",
+    "platformId": "252",
+    "title": "Meeting Rooms",
+    "url": "https://leetcode.com/problems/meeting-rooms/",
+    "difficulty": "easy",
+    "rating": 900,
+    "topics": [
+      "intervals"
+    ],
+    "patterns": [
+      "sort"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-338-counting-bits",
+    "platform": "leetcode",
+    "platformId": "338",
+    "title": "Counting Bits",
+    "url": "https://leetcode.com/problems/counting-bits/",
+    "difficulty": "easy",
+    "rating": 950,
+    "topics": [
+      "bit-manipulation",
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "DP bits"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-190-reverse-bits",
+    "platform": "leetcode",
+    "platformId": "190",
+    "title": "Reverse Bits",
+    "url": "https://leetcode.com/problems/reverse-bits/",
+    "difficulty": "easy",
+    "rating": 950,
+    "topics": [
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "bit reverse"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-572-subtree-of-another-tree",
+    "platform": "leetcode",
+    "platformId": "572",
+    "title": "Subtree of Another Tree",
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "difficulty": "easy",
+    "rating": 950,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs match"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-110-balanced-binary-tree",
+    "platform": "leetcode",
+    "platformId": "110",
+    "title": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "difficulty": "easy",
+    "rating": 950,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "height dfs"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-543-diameter-of-binary-tree",
+    "platform": "leetcode",
+    "platformId": "543",
+    "title": "Diameter of Binary Tree",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "difficulty": "easy",
+    "rating": 1000,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs height"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-703-kth-largest-element-in-a-stream",
+    "platform": "leetcode",
+    "platformId": "703",
+    "title": "Kth Largest Element in a Stream",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "difficulty": "easy",
+    "rating": 1000,
+    "topics": [
+      "heap"
+    ],
+    "patterns": [
+      "min heap"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-53-maximum-subarray",
+    "platform": "leetcode",
+    "platformId": "53",
+    "title": "Maximum Subarray",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "medium",
+    "rating": 1100,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "kadane"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-238-product-of-array-except-self",
+    "platform": "leetcode",
+    "platformId": "238",
+    "title": "Product of Array Except Self",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "prefix product"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-62-unique-paths",
+    "platform": "leetcode",
+    "platformId": "62",
+    "title": "Unique Paths",
+    "url": "https://leetcode.com/problems/unique-paths/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "grid DP"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-19-remove-nth-node-from-end-of-list",
+    "platform": "leetcode",
+    "platformId": "19",
+    "title": "Remove Nth Node From End of List",
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-3-longest-substring-without-repeating-characters",
+    "platform": "leetcode",
+    "platformId": "3",
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-49-group-anagrams",
+    "platform": "leetcode",
+    "platformId": "49",
+    "title": "Group Anagrams",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "strings",
+      "hashing"
+    ],
+    "patterns": [
+      "hash map"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "lc-longest-substring",
+    "platform": "leetcode",
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [
+      "amazon",
+      "meta"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Variable window",
+    "review_date": "",
+    "source": "sheet"
+  },
+  {
+    "id": "leetcode-152-maximum-product-subarray",
+    "platform": "leetcode",
+    "platformId": "152",
+    "title": "Maximum Product Subarray",
+    "url": "https://leetcode.com/problems/maximum-product-subarray/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "kadane"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-371-sum-of-two-integers",
+    "platform": "leetcode",
+    "platformId": "371",
+    "title": "Sum of Two Integers",
+    "url": "https://leetcode.com/problems/sum-of-two-integers/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "bit-manipulation"
+    ],
+    "patterns": [
+      "bitwise"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-198-house-robber",
+    "platform": "leetcode",
+    "platformId": "198",
+    "title": "House Robber",
+    "url": "https://leetcode.com/problems/house-robber/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "1D DP"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-55-jump-game",
+    "platform": "leetcode",
+    "platformId": "55",
+    "title": "Jump Game",
+    "url": "https://leetcode.com/problems/jump-game/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "arrays",
+      "greedy"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-200-number-of-islands",
+    "platform": "leetcode",
+    "platformId": "200",
+    "title": "Number of Islands",
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "dfs connected components"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-323-number-of-connected-components-in-an-undirected-graph",
+    "platform": "leetcode",
+    "platformId": "323",
+    "title": "Number of Connected Components in an Undirected Graph",
+    "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "union find"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-73-set-matrix-zeroes",
+    "platform": "leetcode",
+    "platformId": "73",
+    "title": "Set Matrix Zeroes",
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "matrices"
+    ],
+    "patterns": [
+      "in-place"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-54-spiral-matrix",
+    "platform": "leetcode",
+    "platformId": "54",
+    "title": "Spiral Matrix",
+    "url": "https://leetcode.com/problems/spiral-matrix/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "matrices"
+    ],
+    "patterns": [
+      "simulation"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-271-encode-and-decode-strings",
+    "platform": "leetcode",
+    "platformId": "271",
+    "title": "Encode and Decode Strings",
+    "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "delimiter encoding"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-98-validate-binary-search-tree",
+    "platform": "leetcode",
+    "platformId": "98",
+    "title": "Validate Binary Search Tree",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "trees",
+      "bst"
+    ],
+    "patterns": [
+      "inorder bounds"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-235-lowest-common-ancestor-of-a-binary-search-tree",
+    "platform": "leetcode",
+    "platformId": "235",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "trees",
+      "bst"
+    ],
+    "patterns": [
+      "bst walk"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-199-binary-tree-right-side-view",
+    "platform": "leetcode",
+    "platformId": "199",
+    "title": "Binary Tree Right Side View",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "bfs levels"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-1448-count-good-nodes-in-binary-tree",
+    "platform": "leetcode",
+    "platformId": "1448",
+    "title": "Count Good Nodes in Binary Tree",
+    "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-2-add-two-numbers",
+    "platform": "leetcode",
+    "platformId": "2",
+    "title": "Add Two Numbers",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "difficulty": "medium",
+    "rating": 1300,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "carry simulation"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-153-find-minimum-in-rotated-sorted-array",
+    "platform": "leetcode",
+    "platformId": "153",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays",
+      "binary-search"
+    ],
+    "patterns": [
+      "binary search on answer"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-33-search-in-rotated-sorted-array",
+    "platform": "leetcode",
+    "platformId": "33",
+    "title": "Search in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays",
+      "binary-search"
+    ],
+    "patterns": [
+      "binary search"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-11-container-with-most-water",
+    "platform": "leetcode",
+    "platformId": "11",
+    "title": "Container With Most Water",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-39-combination-sum",
+    "platform": "leetcode",
+    "platformId": "39",
+    "title": "Combination Sum",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "backtracking"
+    ],
+    "patterns": [
+      "backtracking"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-133-clone-graph",
+    "platform": "leetcode",
+    "platformId": "133",
+    "title": "Clone Graph",
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "bfs shortest path"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-128-longest-consecutive-sequence",
+    "platform": "leetcode",
+    "platformId": "128",
+    "title": "Longest Consecutive Sequence",
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "arrays",
+      "hashing"
+    ],
+    "patterns": [
+      "hash set"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-261-graph-valid-tree",
+    "platform": "leetcode",
+    "platformId": "261",
+    "title": "Graph Valid Tree",
+    "url": "https://leetcode.com/problems/graph-valid-tree/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "union find"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-208-implement-trie-prefix-tree",
+    "platform": "leetcode",
+    "platformId": "208",
+    "title": "Implement Trie (Prefix Tree)",
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "tries"
+    ],
+    "patterns": [
+      "trie"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-79-word-search",
+    "platform": "leetcode",
+    "platformId": "79",
+    "title": "Word Search",
+    "url": "https://leetcode.com/problems/word-search/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "backtracking",
+      "matrices"
+    ],
+    "patterns": [
+      "backtracking"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-48-rotate-image",
+    "platform": "leetcode",
+    "platformId": "48",
+    "title": "Rotate Image",
+    "url": "https://leetcode.com/problems/rotate-image/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "matrices"
+    ],
+    "patterns": [
+      "transpose"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-56-merge-intervals",
+    "platform": "leetcode",
+    "platformId": "56",
+    "title": "Merge Intervals",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "intervals"
+    ],
+    "patterns": [
+      "sort merge"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-57-insert-interval",
+    "platform": "leetcode",
+    "platformId": "57",
+    "title": "Insert Interval",
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "intervals"
+    ],
+    "patterns": [
+      "merge intervals"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-5-longest-palindromic-substring",
+    "platform": "leetcode",
+    "platformId": "5",
+    "title": "Longest Palindromic Substring",
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "expand around center"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-647-palindomic-substrings",
+    "platform": "leetcode",
+    "platformId": "647",
+    "title": "Palindomic Substrings",
+    "url": "https://leetcode.com/problems/palindomic-substrings/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "expand around center"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-230-kth-smallest-element-in-a-bst",
+    "platform": "leetcode",
+    "platformId": "230",
+    "title": "Kth Smallest Element in a BST",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "trees",
+      "bst"
+    ],
+    "patterns": [
+      "inorder"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-347-top-k-frequent-elements",
+    "platform": "leetcode",
+    "platformId": "347",
+    "title": "Top K Frequent Elements",
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "heap",
+      "hashing"
+    ],
+    "patterns": [
+      "bucket sort"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-215-kth-largest-element-in-an-array",
+    "platform": "leetcode",
+    "platformId": "215",
+    "title": "Kth Largest Element in an Array",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "medium",
+    "rating": 1400,
+    "topics": [
+      "heap",
+      "arrays"
+    ],
+    "patterns": [
+      "quickselect"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-15-3sum",
+    "platform": "leetcode",
+    "platformId": "15",
+    "title": "3Sum",
+    "url": "https://leetcode.com/problems/3sum/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "arrays"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-322-coin-change",
+    "platform": "leetcode",
+    "platformId": "322",
+    "title": "Coin Change",
+    "url": "https://leetcode.com/problems/coin-change/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "knapsack DP"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-139-word-break",
+    "platform": "leetcode",
+    "platformId": "139",
+    "title": "Word Break",
+    "url": "https://leetcode.com/problems/word-break/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming",
+      "strings"
+    ],
+    "patterns": [
+      "DP strings"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-213-house-robber-ii",
+    "platform": "leetcode",
+    "platformId": "213",
+    "title": "House Robber II",
+    "url": "https://leetcode.com/problems/house-robber-ii/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "circular DP"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-91-decode-ways",
+    "platform": "leetcode",
+    "platformId": "91",
+    "title": "Decode Ways",
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "dynamic-programming",
+      "strings"
+    ],
+    "patterns": [
+      "DP strings"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-207-course-schedule",
+    "platform": "leetcode",
+    "platformId": "207",
+    "title": "Course Schedule",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "topological sort"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-143-reorder-list",
+    "platform": "leetcode",
+    "platformId": "143",
+    "title": "Reorder List",
+    "url": "https://leetcode.com/problems/reorder-list/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "linked-lists"
+    ],
+    "patterns": [
+      "two pointers"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-435-non-overlapping-intervals",
+    "platform": "leetcode",
+    "platformId": "435",
+    "title": "Non-overlapping Intervals",
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "intervals",
+      "greedy"
+    ],
+    "patterns": [
+      "greedy"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-424-longest-repeating-character-replacement",
+    "platform": "leetcode",
+    "platformId": "424",
+    "title": "Longest Repeating Character Replacement",
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-105-construct-binary-tree-from-preorder-and-inorder-traversal",
+    "platform": "leetcode",
+    "platformId": "105",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "divide and conquer"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-253-meeting-rooms-ii",
+    "platform": "leetcode",
+    "platformId": "253",
+    "title": "Meeting Rooms II",
+    "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "intervals",
+      "heap"
+    ],
+    "patterns": [
+      "heap"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-300-longest-increasing-subsequence",
+    "platform": "leetcode",
+    "platformId": "300",
+    "title": "Longest Increasing Subsequence",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "difficulty": "medium",
+    "rating": 1600,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "LIS DP"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-1143-longest-common-subsequence",
+    "platform": "leetcode",
+    "platformId": "1143",
+    "title": "Longest Common Subsequence",
+    "url": "https://leetcode.com/problems/longest-common-subsequence/",
+    "difficulty": "medium",
+    "rating": 1600,
+    "topics": [
+      "dynamic-programming"
+    ],
+    "patterns": [
+      "2D DP"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-417-pacific-atlantic-water-flow",
+    "platform": "leetcode",
+    "platformId": "417",
+    "title": "Pacific Atlantic Water Flow",
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+    "difficulty": "medium",
+    "rating": 1600,
+    "topics": [
+      "graphs",
+      "matrices"
+    ],
+    "patterns": [
+      "multi-source bfs"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-23-merge-k-sorted-lists",
+    "platform": "leetcode",
+    "platformId": "23",
+    "title": "Merge k Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "linked-lists",
+      "heap"
+    ],
+    "patterns": [
+      "heap"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-76-minimum-window-substring",
+    "platform": "leetcode",
+    "platformId": "76",
+    "title": "Minimum Window Substring",
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-124-binary-tree-maximum-path-sum",
+    "platform": "leetcode",
+    "platformId": "124",
+    "title": "Binary Tree Maximum Path Sum",
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "dfs postorder"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-297-serialize-and-deserialize-binary-tree",
+    "platform": "leetcode",
+    "platformId": "297",
+    "title": "Serialize and Deserialize Binary Tree",
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "trees"
+    ],
+    "patterns": [
+      "bfs"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "lc-min-window",
+    "platform": "leetcode",
+    "title": "Minimum Window Substring",
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": [
+      "strings"
+    ],
+    "patterns": [
+      "sliding-window"
+    ],
+    "companies": [
+      "amazon"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "High frequency",
+    "review_date": "",
+    "source": "sheet"
+  },
+  {
+    "id": "leetcode-212-word-search-ii",
+    "platform": "leetcode",
+    "platformId": "212",
+    "title": "Word Search II",
+    "url": "https://leetcode.com/problems/word-search-ii/",
+    "difficulty": "hard",
+    "rating": 1800,
+    "topics": [
+      "tries",
+      "backtracking"
+    ],
+    "patterns": [
+      "trie + backtracking"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  },
+  {
+    "id": "leetcode-295-find-median-from-data-stream",
+    "platform": "leetcode",
+    "platformId": "295",
+    "title": "Find Median from Data Stream",
+    "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "hard",
+    "rating": 1800,
+    "topics": [
+      "heap"
+    ],
+    "patterns": [
+      "two heaps"
+    ],
+    "companies": [
+      "amazon",
+      "google",
+      "meta",
+      "microsoft"
+    ],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
+    "mistakes": [],
+    "source": "curated"
+  }
+]

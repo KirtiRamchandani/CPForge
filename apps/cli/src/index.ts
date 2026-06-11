@@ -544,7 +544,7 @@ async function ensureWorkspace(profile?: Partial<Profile>): Promise<WorkspaceDat
   try {
     const workspace = await loadWorkspace();
     if (workspace.problems.length === 0) {
-      workspace.problems = problemBank.slice(0, 18);
+      workspace.problems = problemBank.slice(0, 40);
       await saveWorkspace(workspace);
     }
     return workspace;

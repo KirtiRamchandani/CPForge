@@ -12,8 +12,10 @@
   "dependencies": {
     "@cp-forge/analytics-engine": "workspace:*",
     "@cp-forge/core": "workspace:*",
+    "@cp-forge/portfolio-engine": "workspace:*",
     "@cp-forge/recommendation-engine": "workspace:*",
     "@cp-forge/roadmap-engine": "workspace:*",
+    "@cp-forge/schemas": "workspace:*",
     "@cp-forge/sheet-engine": "workspace:*",
     "@cp-forge/ui": "workspace:*",
     "react": "^19.1.0",

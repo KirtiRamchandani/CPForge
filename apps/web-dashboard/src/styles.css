@@ -361,3 +361,25 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+.topbar-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.portfolio-preview {
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #d8e3f8;
+}
+
+.settings-note {
+  margin-top: 16px;
+  color: #8fa3c4;
+}
+
+#cp-forge-sidebar button.active {
+  outline: 2px solid #42d392;
+}
