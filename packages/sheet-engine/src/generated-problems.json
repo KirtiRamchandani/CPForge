@@ -82,21 +82,17 @@
     "difficulty": "easy",
     "rating": 800,
     "topics": [
-      "arrays",
-      "hashing"
+      "arrays"
     ],
     "patterns": [
       "hash map"
     ],
-    "companies": [
-      "amazon",
-      "google"
-    ],
-    "level": "beginner",
+    "companies": [],
+    "level": "intermediate",
     "status": "unseen",
     "attempts": 0,
     "confidence": 0,
-    "notes": "Must do",
+    "notes": "",
     "mistakes": [],
     "source": "sheet-csv"
   },
@@ -3841,9 +3837,7 @@
     "patterns": [
       "knapsack DP"
     ],
-    "companies": [
-      "microsoft"
-    ],
+    "companies": [],
     "level": "intermediate",
     "status": "unseen",
     "attempts": 0,
@@ -3872,6 +3866,29 @@
     "attempts": 0,
     "confidence": 0,
     "notes": "DP transition",
+    "mistakes": [],
+    "source": "sheet-csv"
+  },
+  {
+    "id": "sheet-course-schedule",
+    "platform": "leetcode",
+    "platformId": "course-schedule",
+    "title": "Course Schedule",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "medium",
+    "rating": 1500,
+    "topics": [
+      "graphs"
+    ],
+    "patterns": [
+      "topological sort"
+    ],
+    "companies": [],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "",
     "mistakes": [],
     "source": "sheet-csv"
   },

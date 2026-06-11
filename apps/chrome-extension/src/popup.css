@@ -38,3 +38,46 @@ input {
   background: #17243c;
   color: #eaf2ff;
 }
+
+.popup-shell header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.popup-shell h2 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: #8bd3ff;
+}
+
+.popup-actions {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.options-shell label input[type="text"] {
+  margin-top: 6px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-row input {
+  width: auto;
+}
+
+.saved-msg {
+  color: #42d392;
+  font-size: 13px;
+}
+
+.privacy-note {
+  font-size: 12px;
+  margin-top: 12px;
+}

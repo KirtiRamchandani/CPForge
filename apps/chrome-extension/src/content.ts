@@ -34,7 +34,7 @@ if (isProblemPage && !document.getElementById("cp-forge-sidebar")) {
       <span>${problem.platform}</span>
     </header>
     <h2>${escapeHtml(problem.title)}</h2>
-    <p>${escapeHtml(problem.difficulty)} · Local-first tracking</p>
+    <p>${escapeHtml(problem.difficulty)} · Local-first tracking · <span id="cp-forge-timer">00:00</span></p>
     <button data-status="solving">Start Solving</button>
     <button data-status="solved">Mark Solved</button>
     <button data-status="upsolve">Send To Upsolve</button>
@@ -129,6 +129,15 @@ if (isProblemPage && !document.getElementById("cp-forge-sidebar")) {
     URL.revokeObjectURL(url);
     statusLabel.textContent = "Exported extension sync JSON";
   });
+
+  const timerEl = sidebar.querySelector("#cp-forge-timer") as HTMLElement;
+  let seconds = 0;
+  window.setInterval(() => {
+    seconds += 1;
+    const mins = String(Math.floor(seconds / 60)).padStart(2, "0");
+    const secs = String(seconds % 60).padStart(2, "0");
+    timerEl.textContent = `${mins}:${secs}`;
+  }, 1000);
 }
 
 function debounce(fn: () => void, wait: number) {

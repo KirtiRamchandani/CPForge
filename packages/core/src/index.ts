@@ -13,7 +13,7 @@ export interface LaunchOptions {
 
 export const createWorkspace = (profile?: Partial<Profile>): WorkspaceData => {
   const workspace = emptyWorkspace(profile);
-  workspace.problems = problemBank.slice(0, 18);
+  workspace.problems = problemBank.slice(0, 60);
   return workspace;
 };
 

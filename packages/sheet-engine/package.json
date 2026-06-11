@@ -8,10 +8,14 @@
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
+    },
+    "./extended": {
+      "types": "./dist/extended-bank.d.ts",
+      "import": "./dist/extended-bank.js"
     }
   },
   "scripts": {
-    "build": "node ../../scripts/sync-problem-bank.mjs && tsup src/index.ts --format esm --dts --clean",
+    "build": "node ../../scripts/sync-problem-bank.mjs && tsup src/index.ts src/extended-bank.ts --format esm --dts --clean",
     "dev": "tsup src/index.ts --format esm --dts --watch",
     "test": "vitest run --passWithNoTests"
   },

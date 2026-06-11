@@ -1,0 +1,4 @@
+title,platform,url,difficulty,rating,topics,patterns
+Two Sum,leetcode,https://leetcode.com/problems/two-sum/,easy,800,arrays,hash map
+Coin Change,leetcode,https://leetcode.com/problems/coin-change/,medium,1500,dynamic-programming,knapsack DP
+Course Schedule,leetcode,https://leetcode.com/problems/course-schedule/,medium,1500,graphs,topological sort

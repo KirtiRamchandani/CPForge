@@ -56,9 +56,9 @@ export const parseCodeforcesContests = (rows: CodeforcesContestRow[]): ContestAl
       reason: row.type === "ICPC" ? "Team practice block" : "Rating opportunity — virtual if you miss live"
     }));
 
-export const buildVirtualContest = (targetRating: number, platform = "codeforces"): VirtualContestPlan => {
+export const buildVirtualContest = (targetRating: number, platform = "codeforces", problems = problemBank): VirtualContestPlan => {
   const window = platform === "codeforces" ? 250 : 200;
-  const picks = problemBank
+  const picks = problems
     .filter((problem) => problem.platform === platform && (problem.rating ?? 0) <= targetRating + window)
     .sort((a, b) => (a.rating ?? 0) - (b.rating ?? 0))
     .slice(0, 6);

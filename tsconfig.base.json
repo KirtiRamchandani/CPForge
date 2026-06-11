@@ -26,6 +26,7 @@
       "@cp-forge/roadmap-engine": ["packages/roadmap-engine/src/index.ts"],
       "@cp-forge/schemas": ["packages/schemas/src/index.ts"],
       "@cp-forge/sheet-engine": ["packages/sheet-engine/src/index.ts"],
+      "@cp-forge/sheet-engine/extended": ["packages/sheet-engine/src/extended-bank.ts"],
       "@cp-forge/storage": ["packages/storage/src/index.ts"],
       "@cp-forge/ui": ["packages/ui/src/index.tsx"],
       "@cp-forge/upsolve-engine": ["packages/upsolve-engine/src/index.ts"],

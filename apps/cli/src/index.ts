@@ -25,6 +25,7 @@ import { completeReview, dueReviews, scheduleReviews } from "@cp-forge/review-sc
 import { generateRoadmapPlan } from "@cp-forge/roadmap-engine";
 import type { MistakeCategory, Problem, Profile, WorkspaceData } from "@cp-forge/schemas";
 import { generateCompanySheet, filterSheet, problemBank } from "@cp-forge/sheet-engine";
+import { extendedProblemBank } from "@cp-forge/sheet-engine/extended";
 import { deleteWorkspace, exportWorkspace, importWorkspace, initWorkspace, loadWorkspace, saveWorkspace, workspacePaths, writeJson } from "@cp-forge/storage";
 import { buildUpsolveQueue, prioritizeUpsolve } from "@cp-forge/upsolve-engine";
 
@@ -133,13 +134,14 @@ program
   .option("--weak-only", "only weak topics")
   .option("--revision", "revision sheet")
   .option("--upsolve", "upsolve sheet")
-  .option("--format <format>", "csv, markdown, json", "markdown")
+  .option("--format <format>", "csv, markdown, json, notion, obsidian, sheets", "markdown")
+  .option("--limit <limit>", "max problems to export", parseNumber, 200)
   .action(async (options) => {
     const workspace = await ensureWorkspace();
     const weakTopics = options.weakOnly ? detectWeakAreas(workspace).map((area) => area.topic) : undefined;
     const sheet = options.company
-      ? generateCompanySheet(options.company)
-      : filterSheet(problemBank, {
+      ? filterSheet(bank(), { company: options.company.toLowerCase() }).slice(0, options.limit ?? 200)
+      : filterSheet(bank(), {
           topic: options.topic,
           pattern: options.pattern,
           level: options.level,
@@ -147,7 +149,7 @@ program
           weakTopics,
           revisionOnly: options.revision,
           upsolveOnly: options.upsolve
-        });
+        }).slice(0, options.limit ?? 200);
     await outputSheet(sheet, options.format, "sheet");
   });
 
@@ -156,18 +158,28 @@ program
   .description("Give a rule-based training diagnosis.")
   .action(async () => {
     const workspace = await ensureWorkspace();
+    const analytics = analyzeWorkspace(workspace);
     const weakAreas = detectWeakAreas(workspace);
     const stats = mistakeStats(workspace.mistakes);
+    const stuck = buildStuckDiagnosis(workspace);
+    const attempted = workspace.problems.filter((p) => p.attempts > 0 && p.status !== "solved");
     console.log("\nCP Forge Doctor\n");
     console.log("Diagnosis:");
-    weakAreas.forEach((area, index) => console.log(`${index + 1}. ${area.reason}`));
-    if (stats.total === 0) console.log(`${weakAreas.length + 1}. No mistakes are logged yet; start tracking why wrong answers happen.`);
+    stuck.reasons.forEach((reason, index) => console.log(`${index + 1}. ${reason}`));
+    if (analytics.upsolveCount > 0) console.log(`${stuck.reasons.length + 1}. ${analytics.upsolveCount} problems waiting in upsolve queue.`);
+    if (attempted.length > 5) console.log(`${stuck.reasons.length + 2}. ${attempted.length} attempted-but-unsolved problems are blocking rating growth.`);
+    console.log(`\nSnapshot: ${analytics.solvedCount} solved · ${analytics.reviewDueCount} reviews due · readiness ${analytics.readinessScore}%`);
+    if (stats.total > 0) {
+      const top = Object.entries(stats.byCategory).sort((a, b) => b[1] - a[1])[0];
+      if (top) console.log(`Top mistake category: ${top[0]} (${top[1]})`);
+    }
     console.log("\nPrescription:");
     console.log("- Stop random solving for 14 days.");
-    console.log("- Solve targeted problems from your weakest topics.");
-    console.log("- Upsolve attempted-but-unsolved problems before opening new ones.");
+    console.log("- Solve 20 targeted problems from:", weakAreas.slice(0, 3).map((a) => a.topic).join(", ") || "your weakest topics");
+    console.log("- Upsolve", Math.min(analytics.upsolveCount || 3, 10), "failed problems this week.");
     console.log("- Review solved problems on 1, 3, 7, 14, and 30 day intervals.");
-    console.log("- Log one mistake after every wrong answer.");
+    console.log("- Run 2 virtual contests: cp-forge contest --rating", workspace.profile.targetCpRating ?? 1200);
+    console.log("- Log one mistake after every wrong answer: cp-forge mistakes add");
   });
 
 program
@@ -338,7 +350,27 @@ program
   });
 
 program
-  .command("today")
+  .command("extension-import <file>")
+  .description("Import browser extension session JSON into the workspace.")
+  .action(async (file) => {
+    const workspace = await ensureWorkspace();
+    const raw = JSON.parse(await fs.readFile(file, "utf8")) as {
+      sessions?: Record<string, { url: string; title: string; status: string; notes: string }>;
+    };
+    let imported = 0;
+    for (const session of Object.values(raw.sessions ?? {})) {
+      const match = workspace.problems.find((p) => p.url === session.url || p.title === session.title);
+      if (match) {
+        match.status = session.status as Problem["status"];
+        match.notes = session.notes;
+        imported += 1;
+      }
+    }
+    await saveWorkspace(workspace);
+    printSuccess(`Merged ${imported} extension sessions into .cpforge workspace.`);
+  });
+
+program
   .description("Show today's warmup, main, review, upsolve, and reflection plan.")
   .action(async () => {
     const workspace = await ensureWorkspace();
@@ -435,7 +467,7 @@ program
       };
       const workspace = await ensureWorkspace();
       const resolved = (pack.problems ?? [])
-        .map((entry) => (typeof entry === "string" ? problemBank.find((problem) => problem.id === entry) : entry))
+        .map((entry) => (typeof entry === "string" ? bank().find((problem) => problem.id === entry) : entry))
         .filter((problem): problem is Problem => Boolean(problem));
       if (resolved.length) {
         workspace.problems = mergeProblems(workspace.problems, resolved);
@@ -469,7 +501,7 @@ program
       const roles = options.icpc
         ? ["math", "graphs", "dp", "implementation", "geometry", "strings", "data-structures"]
         : ["arrays", "graphs", "dp", "trees"];
-      await fs.writeFile(path.join(teamDir, "team-sheet.json"), JSON.stringify({ roles, problems: problemBank.slice(0, 12) }, null, 2), "utf8");
+      await fs.writeFile(path.join(teamDir, "team-sheet.json"), JSON.stringify({ roles, problems: bank().slice(0, 12) }, null, 2), "utf8");
       printSuccess("Team sheet exported.");
       return;
     }
@@ -522,7 +554,7 @@ program
         printInfo(`Could not fetch contests offline: ${error instanceof Error ? error.message : "unknown"}`);
       }
     }
-    const plan = buildVirtualContest(options.rating, options.platform);
+    const plan = buildVirtualContest(options.rating, options.platform, bank());
     workspace.contests.push({
       id: plan.id,
       platform: plan.platform,
@@ -583,7 +615,7 @@ async function ensureWorkspace(profile?: Partial<Profile>): Promise<WorkspaceDat
   try {
     const workspace = await loadWorkspace();
     if (workspace.problems.length === 0) {
-      workspace.problems = problemBank.slice(0, 40);
+      workspace.problems = bank().slice(0, 60);
       await saveWorkspace(workspace);
     }
     return workspace;
@@ -755,6 +787,10 @@ function parseNumber(value: string): number {
   const number = Number(value);
   if (!Number.isFinite(number)) throw new Error(`Expected number, got ${value}`);
   return number;
+}
+
+function bank(): Problem[] {
+  return extendedProblemBank(findRepoRoot());
 }
 
 function findRepoRoot(): string {
