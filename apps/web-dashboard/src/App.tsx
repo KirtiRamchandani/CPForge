@@ -320,6 +320,7 @@ export const App = () => {
               <Task label="Streak" value={`${analytics.solveStreakDays} days`} />
               <Task label="Readiness" value={`${analytics.readinessScore}%`} />
             </Panel>
+            <RadarChart title="Pattern mastery" data={analytics.patternMastery ?? {}} />
             <ActivityGrid title="Recent Activity" data={analytics.weeklyActivity} />
           </section>
         )}

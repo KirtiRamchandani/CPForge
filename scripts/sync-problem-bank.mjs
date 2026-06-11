@@ -268,6 +268,33 @@ const toCfProblem = ([platformId, title, rating, topics, patterns]) => {
   };
 };
 
+const companyPatternMap = {
+  netflix: ["arrays", "hashing", "heap", "strings"],
+  uber: ["graphs", "heap", "dynamic-programming", "greedy", "arrays"],
+  adobe: ["arrays", "strings", "dynamic-programming", "trees", "backtracking"],
+  flipkart: ["arrays", "dynamic-programming", "graphs", "greedy"],
+  amazon: ["arrays", "sliding-window", "trees", "graphs", "heap"],
+  google: ["graphs", "dynamic-programming", "greedy", "binary-search"],
+  microsoft: ["arrays", "strings", "trees", "dynamic-programming"],
+  meta: ["arrays", "strings", "graphs", "dynamic-programming"]
+};
+
+const enrichCompanyTags = (problem) => {
+  const companies = new Set(problem.companies ?? []);
+  for (const [company, patterns] of Object.entries(companyPatternMap)) {
+    const hit = patterns.some(
+      (pattern) =>
+        problem.topics?.some((topic) => topic.includes(pattern)) ||
+        problem.patterns?.some((item) => item.toLowerCase().includes(pattern))
+    );
+    if (hit) companies.add(company);
+  }
+  if (problem.platform === "leetcode" && (problem.rating ?? 0) >= 1100 && (problem.rating ?? 0) <= 1700) {
+    ["netflix", "uber", "adobe", "flipkart"].forEach((company) => companies.add(company));
+  }
+  return { ...problem, companies: [...companies] };
+};
+
 const merged = new Map();
 for (const item of blind75.map((row) => toProblem(row, ["amazon", "google", "meta", "microsoft"]))) {
   merged.set(item.id, item);
@@ -286,7 +313,9 @@ if (fs.existsSync(datasetsFile)) {
   }
 }
 
-const output = [...merged.values()].sort((a, b) => (a.rating ?? 0) - (b.rating ?? 0));
+const output = [...merged.values()]
+  .map(enrichCompanyTags)
+  .sort((a, b) => (a.rating ?? 0) - (b.rating ?? 0));
 fs.mkdirSync(path.dirname(outFile), { recursive: true });
 fs.writeFileSync(outFile, `${JSON.stringify(output, null, 2)}\n`, "utf8");
 

@@ -1,44 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="320" viewBox="0 0 780 320" role="img" aria-label="CP Forge dashboard preview">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" role="img" aria-label="CP Forge dashboard animated preview">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#121a2e"/>
+      <stop offset="0%" stop-color="#152238"/>
       <stop offset="100%" stop-color="#080b13"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#42d392"/>
       <stop offset="100%" stop-color="#8bd3ff"/>
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="780" height="320" rx="16" fill="url(#bg)"/>
-  <rect x="24" y="24" width="180" height="272" rx="10" fill="#0d1321" stroke="#20283a"/>
-  <text x="44" y="58" fill="#42d392" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">CP Forge</text>
-  <text x="44" y="88" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Home</text>
-  <text x="44" y="112" fill="#eef4ff" font-family="Inter,Arial,sans-serif" font-size="11">Today</text>
-  <text x="44" y="136" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Mindmap</text>
-  <text x="44" y="160" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Sheets</text>
-  <text x="44" y="184" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Mistakes</text>
-  <rect x="220" y="24" width="536" height="88" rx="10" fill="#10182a" stroke="#25314a"/>
-  <text x="240" y="54" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="12">Goal: Amazon ù 45 days</text>
-  <text x="240" y="82" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">Next: Sliding Window ù 3</text>
-  <rect x="220" y="128" width="168" height="72" rx="10" fill="#10182a" stroke="#25314a"/>
-  <rect x="404" y="128" width="168" height="72" rx="10" fill="#10182a" stroke="#25314a"/>
-  <rect x="588" y="128" width="168" height="72" rx="10" fill="#10182a" stroke="#25314a"/>
-  <text x="240" y="158" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Readiness</text>
-  <text x="240" y="182" fill="#42d392" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">68%</text>
-  <text x="424" y="158" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Reviews due</text>
-  <text x="424" y="182" fill="#8bd3ff" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">4</text>
-  <text x="608" y="158" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Weakest</text>
-  <text x="608" y="182" fill="#ff8b8b" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">DP</text>
-  <rect x="220" y="216" width="350" height="80" rx="10" fill="#10182a" stroke="#25314a"/>
-  <text x="240" y="242" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Skill tree</text>
-  <rect x="240" y="252" width="120" height="8" rx="4" fill="#1a2438"/>
-  <rect x="240" y="252" width="78" height="8" rx="4" fill="url(#accent)"/>
-  <rect x="240" y="268" width="90" height="8" rx="4" fill="#1a2438"/>
-  <rect x="240" y="268" width="34" height="8" rx="4" fill="#42d392"/>
-  <rect x="590" y="216" width="166" height="80" rx="10" fill="#10182a" stroke="#25314a"/>
-  <text x="610" y="242" fill="#8fa3c4" font-family="Inter,Arial,sans-serif" font-size="11">Topic chart</text>
-  <rect x="610" y="254" width="18" height="34" rx="3" fill="#42d392"/>
-  <rect x="634" y="262" width="18" height="26" rx="3" fill="#8bd3ff"/>
-  <rect x="658" y="270" width="18" height="18" rx="3" fill="#ff8b8b"/>
-  <rect x="682" y="276" width="18" height="12" rx="3" fill="#5b6f92"/>
+  <rect width="820" height="360" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="818" height="358" rx="17" fill="none" stroke="#2a3a58" stroke-width="1"/>
+
+  <!-- Sidebar -->
+  <rect x="20" y="20" width="190" height="320" rx="12" fill="#0d1321" stroke="#20283a"/>
+  <text x="42" y="54" fill="#42d392" font-family="Segoe UI,Inter,sans-serif" font-size="16" font-weight="700">CP Forge</text>
+  <text x="42" y="74" fill="#5b7094" font-family="Segoe UI,Inter,sans-serif" font-size="10">Training OS</text>
+  <rect x="34" y="92" width="162" height="28" rx="6" fill="#17233a"/>
+  <text x="46" y="110" fill="#eef4ff" font-family="Segoe UI,Inter,sans-serif" font-size="11" font-weight="600">Today</text>
+  <text x="46" y="138" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Mindmap</text>
+  <text x="46" y="162" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Sheets</text>
+  <text x="46" y="186" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Companies</text>
+  <text x="46" y="210" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Mistakes</text>
+  <text x="46" y="234" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Reviews</text>
+
+  <!-- Hero card -->
+  <rect x="226" y="20" width="574" height="96" rx="12" fill="#10182a" stroke="#25314a"/>
+  <text x="246" y="48" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="12">Goal: Amazon ? 45 days ? cpp</text>
+  <text x="246" y="78" fill="#ffffff" font-family="Segoe UI,Inter,sans-serif" font-size="22" font-weight="700">Next: Sliding Window ◊ 3</text>
+  <text x="246" y="100" fill="#42d392" font-family="Segoe UI,Inter,sans-serif" font-size="12">Why: weakest Amazon pattern ? est. 45 min</text>
+
+  <!-- Stat cards -->
+  <rect x="226" y="128" width="178" height="78" rx="10" fill="#10182a" stroke="#25314a"/>
+  <rect x="416" y="128" width="178" height="78" rx="10" fill="#10182a" stroke="#25314a"/>
+  <rect x="606" y="128" width="194" height="78" rx="10" fill="#10182a" stroke="#25314a"/>
+  <text x="246" y="154" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Readiness</text>
+  <text x="246" y="184" fill="#42d392" font-family="Segoe UI,Inter,sans-serif" font-size="26" font-weight="700">72%</text>
+  <text x="436" y="154" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Reviews due</text>
+  <text x="436" y="184" fill="#8bd3ff" font-family="Segoe UI,Inter,sans-serif" font-size="26" font-weight="700">4</text>
+  <text x="626" y="154" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Weakest</text>
+  <text x="626" y="184" fill="#ff8b8b" font-family="Segoe UI,Inter,sans-serif" font-size="20" font-weight="700">DP</text>
+
+  <!-- Skill tree + chart -->
+  <rect x="226" y="220" width="368" height="120" rx="10" fill="#10182a" stroke="#25314a"/>
+  <text x="246" y="246" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Skill tree progress</text>
+  <rect x="246" y="258" width="140" height="8" rx="4" fill="#1a2438"/>
+  <rect x="246" y="258" width="0" height="8" rx="4" fill="url(#accent)" filter="url(#glow)">
+    <animate attributeName="width" values="0;98;98" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="396" y="266" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="10">Arrays</text>
+  <rect x="246" y="278" width="110" height="8" rx="4" fill="#1a2438"/>
+  <rect x="246" y="278" width="0" height="8" rx="4" fill="#42d392">
+    <animate attributeName="width" values="0;44;44" dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="366" y="286" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="10">DP</text>
+  <rect x="246" y="298" width="160" height="8" rx="4" fill="#1a2438"/>
+  <rect x="246" y="298" width="0" height="8" rx="4" fill="#8bd3ff">
+    <animate attributeName="width" values="0;72;72" dur="2.5s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="416" y="306" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="10">Graphs</text>
+
+  <rect x="606" y="220" width="194" height="120" rx="10" fill="#10182a" stroke="#25314a"/>
+  <text x="626" y="246" fill="#8fa3c4" font-family="Segoe UI,Inter,sans-serif" font-size="11">Activity</text>
+  <g fill="#42d392" opacity="0.9">
+    <rect x="626" y="262" width="14" height="34" rx="3"><animate attributeName="height" values="8;34;34" dur="2s" repeatCount="indefinite"/><animate attributeName="y" values="288;262;262" dur="2s" repeatCount="indefinite"/></rect>
+    <rect x="646" y="272" width="14" height="24" rx="3" fill="#8bd3ff"><animate attributeName="height" values="6;24;24" dur="2s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y" values="290;272;272" dur="2s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <rect x="666" y="280" width="14" height="16" rx="3" fill="#ff8b8b"><animate attributeName="height" values="4;16;16" dur="2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="y" values="292;280;280" dur="2s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <rect x="686" y="286" width="14" height="10" rx="3" fill="#5b6f92"/>
+    <rect x="706" y="276" width="14" height="20" rx="3" fill="#42d392"><animate attributeName="height" values="5;20;20" dur="2s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y" values="291;276;276" dur="2s" begin="0.6s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- Pulse on next action -->
+  <circle cx="780" cy="40" r="6" fill="#42d392" opacity="0.8">
+    <animate attributeName="r" values="4;8;4" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
 </svg>

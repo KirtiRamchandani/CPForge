@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280" role="img" aria-label="CP Forge terminal demo">
+  <defs>
+    <linearGradient id="term-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1524"/>
+      <stop offset="100%" stop-color="#080b13"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="280" rx="14" fill="url(#term-bg)" stroke="#24314a"/>
+  <circle cx="28" cy="26" r="6" fill="#ff5f57"/>
+  <circle cx="48" cy="26" r="6" fill="#febc2e"/>
+  <circle cx="68" cy="26" r="6" fill="#28c840"/>
+  <text x="90" y="30" fill="#6b7fa0" font-family="Consolas,Monaco,monospace" font-size="11">cp-forge · terminal</text>
+
+  <text x="24" y="64" fill="#42d392" font-family="Consolas,Monaco,monospace" font-size="13">$ cp-forge launch --goal amazon --days 45</text>
+  <text x="24" y="88" fill="#8fa3c4" font-family="Consolas,Monaco,monospace" font-size="12">Goal: amazon · Timeline: 45 days · Language: cpp</text>
+  <text x="24" y="108" fill="#8fa3c4" font-family="Consolas,Monaco,monospace" font-size="12">Weak areas: sliding-window, dynamic-programming, graphs</text>
+
+  <text x="24" y="138" fill="#42d392" font-family="Consolas,Monaco,monospace" font-size="13">$ cp-forge doctor</text>
+  <text x="24" y="162" fill="#eef4ff" font-family="Consolas,Monaco,monospace" font-size="12">Prescription: 20 targeted problems · upsolve 3 · review overdue</text>
+
+  <text x="24" y="192" fill="#42d392" font-family="Consolas,Monaco,monospace" font-size="13">$ cp-forge next</text>
+  <text x="24" y="216" fill="#8bd3ff" font-family="Consolas,Monaco,monospace" font-size="12">’ Minimum Window Substring · high · 45 min · weak: sliding-window</text>
+
+  <rect x="24" y="232" width="0" height="14" rx="3" fill="#42d392" opacity="0.35">
+    <animate attributeName="width" values="0;672;672;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="24" y="244" fill="#5b7094" font-family="Consolas,Monaco,monospace" font-size="11">
+    <tspan opacity="0.4">Generating exports...</tspan>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.2s" repeatCount="indefinite"/>
+  </text>
+</svg>

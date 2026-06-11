@@ -58,6 +58,18 @@ export class CodeforcesApiClient {
     return this.request("contest.list", {}, 30 * 60 * 1000);
   }
 
+  async contestStandings(contestId: number, handle: string, from = 1, count = 1) {
+    return this.request(
+      "contest.standings",
+      { contestId, from, count, handles: handle, showUnofficial: false },
+      10 * 60 * 1000
+    );
+  }
+
+  async recentSubmissions(handle: string, count = 20) {
+    return this.userStatus(handle).then((rows) => (Array.isArray(rows) ? rows.slice(0, count) : rows));
+  }
+
   async request(method: string, params: Record<string, string | number | boolean>, ttlMs: number) {
     const query = new URLSearchParams(Object.entries(params).map(([key, value]) => [key, String(value)]));
     const url = `${this.baseUrl}/${method}${query.size ? `?${query.toString()}` : ""}`;

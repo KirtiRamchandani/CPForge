@@ -15,6 +15,7 @@ export interface AnalyticsSnapshot {
   solveStreakDays: number;
   weeklyActivity: Record<string, number>;
   ratingProgress: Record<string, number>;
+  patternMastery: Record<string, number>;
 }
 
 export const analyzeWorkspace = (workspace: WorkspaceData): AnalyticsSnapshot => {
@@ -48,6 +49,7 @@ export const analyzeWorkspace = (workspace: WorkspaceData): AnalyticsSnapshot =>
 
   const weeklyActivity = buildWeeklyActivity(workspace);
   const ratingProgress = buildRatingProgress(workspace);
+  const patternMastery = computePatternMastery(workspace);
 
   return {
     solvedCount: solved.length,
@@ -62,7 +64,8 @@ export const analyzeWorkspace = (workspace: WorkspaceData): AnalyticsSnapshot =>
     readinessScore: Math.max(12, readinessScore),
     solveStreakDays: computeSolveStreak(workspace),
     weeklyActivity,
-    ratingProgress
+    ratingProgress,
+    patternMastery
   };
 };
 
@@ -173,4 +176,37 @@ const buildRatingProgress = (workspace: WorkspaceData): Record<string, number> =
     buckets[bucket] = (buckets[bucket] ?? 0) + 1;
   }
   return buckets;
+};
+
+const corePatterns = [
+  "sliding-window",
+  "two-pointers",
+  "binary-search",
+  "dynamic-programming",
+  "graphs",
+  "trees",
+  "heap",
+  "greedy",
+  "backtracking",
+  "union-find"
+];
+
+export const computePatternMastery = (workspace: WorkspaceData): Record<string, number> => {
+  const solved = workspace.problems.filter((problem) => problem.status === "solved" || problem.status === "mastered");
+  const mistakePatterns = new Set(
+    workspace.mistakes.flatMap((mistake) => [mistake.pattern, mistake.topic].filter(Boolean).map(String))
+  );
+
+  return Object.fromEntries(
+    corePatterns.map((pattern) => {
+      const solvedHits = solved.filter(
+        (problem) =>
+          problem.patterns.some((item) => item.toLowerCase().includes(pattern)) ||
+          problem.topics.some((topic) => topic.toLowerCase().includes(pattern))
+      ).length;
+      const mistakeHits = [...mistakePatterns].filter((item) => item.toLowerCase().includes(pattern)).length;
+      const raw = solvedHits * 18 - mistakeHits * 8 + (solvedHits > 0 ? 12 : 0);
+      return [pattern, Math.max(0, Math.min(100, raw))];
+    })
+  );
 };

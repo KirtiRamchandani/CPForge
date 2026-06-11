@@ -1,7 +1,7 @@
 {
   "name": "cp-forge-monorepo",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CP Forge - the open-source operating system for DSA, Competitive Programming, and coding interviews.",
   "license": "MIT",
   "packageManager": "pnpm@9.15.4",
@@ -18,7 +18,7 @@
     "cf-index": "node scripts/generate-cf-search-index.mjs",
     "generate-sheets": "node scripts/generate-all-sheets.mjs && node scripts/generate-company-sheets.mjs",
     "install-cli": "node scripts/sync-problem-bank.mjs && corepack pnpm build",
-    "check": "corepack pnpm typecheck && corepack pnpm test && corepack pnpm build",
+    "check": "corepack pnpm typecheck && corepack pnpm build && corepack pnpm test",
     "e2e": "playwright test"
   },
   "keywords": [

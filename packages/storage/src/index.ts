@@ -53,7 +53,7 @@ export const initWorkspace = async (root = process.cwd(), profileInput: Partial<
   const profile = profileSchema.parse(profileInput);
   const workspace = emptyWorkspace(profile);
   await writeJson(paths.config, {
-    version: "0.1.0",
+    version: "0.2.0",
     localFirst: true,
     network: { codeforces: "user-triggered", leetcodeGraphql: "disabled" }
   });

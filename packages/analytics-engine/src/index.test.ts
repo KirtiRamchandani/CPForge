@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { analyzeWorkspace, computeAchievements } from "./index";
+import { analyzeWorkspace, computeAchievements, computePatternMastery } from "./index";
 import { emptyWorkspace, problemSchema } from "@cp-forge/schemas";
 
 describe("computeAchievements", () => {
@@ -27,5 +27,26 @@ describe("computeAchievements", () => {
     const analytics = analyzeWorkspace(workspace);
     const badges = computeAchievements(workspace, analytics);
     expect(badges.find((b) => b.id === "first-10")?.unlocked).toBe(true);
+  });
+});
+
+describe("computePatternMastery", () => {
+  it("returns scores for core patterns", () => {
+    const workspace = emptyWorkspace();
+    workspace.problems = [
+      problemSchema.parse({
+        id: "p1",
+        platform: "leetcode",
+        platformId: "3",
+        title: "Longest Substring",
+        url: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        topics: ["strings"],
+        patterns: ["sliding-window"],
+        status: "solved"
+      })
+    ];
+    const mastery = computePatternMastery(workspace);
+    expect(mastery["sliding-window"]).toBeGreaterThan(0);
+    expect(analyzeWorkspace(workspace).patternMastery["sliding-window"]).toBeGreaterThan(0);
   });
 });

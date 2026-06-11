@@ -336,3 +336,44 @@ const csvValue = (value: unknown): string => `"${String(value).replaceAll('"', '
 const escapeHtml = (value: string): string => value.replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char] ?? char);
 const escapeAttr = (value: string): string => escapeHtml(value).replace(/`/g, "&#96;");
 const escapeXml = escapeHtml;
+
+export const workspaceToSqliteDump = (workspace: WorkspaceData): string => {
+  const sql = (value: unknown): string => {
+    if (value === null || value === undefined) return "NULL";
+    if (typeof value === "number") return String(value);
+    return `'${String(value).replaceAll("'", "''")}'`;
+  };
+
+  const lines = [
+    "-- CP Forge workspace SQL dump (import into SQLite with: sqlite3 cpforge.db < workspace.sql)",
+    "PRAGMA foreign_keys = ON;",
+    "CREATE TABLE IF NOT EXISTS profile (key TEXT PRIMARY KEY, value TEXT NOT NULL);",
+    "CREATE TABLE IF NOT EXISTS problems (id TEXT PRIMARY KEY, platform TEXT, title TEXT, url TEXT, difficulty TEXT, rating INTEGER, status TEXT, notes TEXT, quality_rating INTEGER);",
+    "CREATE TABLE IF NOT EXISTS mistakes (id TEXT PRIMARY KEY, problem_id TEXT, title TEXT, category TEXT, description TEXT, created_at TEXT);",
+    "CREATE TABLE IF NOT EXISTS reviews (id TEXT PRIMARY KEY, problem_id TEXT, reason TEXT, due_date TEXT, completed INTEGER);",
+    "DELETE FROM profile;",
+    "DELETE FROM problems;",
+    "DELETE FROM mistakes;",
+    "DELETE FROM reviews;"
+  ];
+
+  for (const [key, value] of Object.entries(workspace.profile)) {
+    lines.push(`INSERT INTO profile (key, value) VALUES (${sql(key)}, ${sql(typeof value === "object" ? JSON.stringify(value) : value)});`);
+  }
+  for (const problem of workspace.problems) {
+    lines.push(
+      `INSERT INTO problems (id, platform, title, url, difficulty, rating, status, notes, quality_rating) VALUES (${sql(problem.id)}, ${sql(problem.platform)}, ${sql(problem.title)}, ${sql(problem.url)}, ${sql(problem.difficulty)}, ${sql(problem.rating ?? null)}, ${sql(problem.status)}, ${sql(problem.notes)}, ${sql(problem.qualityRating ?? null)});`
+    );
+  }
+  for (const mistake of workspace.mistakes) {
+    lines.push(
+      `INSERT INTO mistakes (id, problem_id, title, category, description, created_at) VALUES (${sql(mistake.id)}, ${sql(mistake.problemId)}, ${sql(mistake.title)}, ${sql(mistake.category)}, ${sql(mistake.description)}, ${sql(mistake.createdAt)});`
+    );
+  }
+  for (const review of workspace.reviews) {
+    lines.push(
+      `INSERT INTO reviews (id, problem_id, reason, due_date, completed) VALUES (${sql(review.id)}, ${sql(review.problemId)}, ${sql(review.reason)}, ${sql(review.dueDate)}, ${review.completed ? 1 : 0});`
+    );
+  }
+  return `${lines.join("\n")}\n`;
+};

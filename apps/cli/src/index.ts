@@ -21,7 +21,8 @@ import {
   problemsToObsidianNotes,
   reviewsToIcs,
   vscodeWorkspaceConfig,
-  workspaceToJson
+  workspaceToJson,
+  workspaceToSqliteDump
 } from "@cp-forge/export-engine";
 import { createMistake, mistakeStats } from "@cp-forge/mistake-engine";
 import {
@@ -361,7 +362,7 @@ program
 program
   .command("export")
   .description("Export local data.")
-  .option("--format <format>", "sheets, notion, markdown, obsidian, calendar, json, html", "markdown")
+  .option("--format <format>", "sheets, notion, markdown, obsidian, calendar, json, html, sqlite", "markdown")
   .action(async (options) => {
     const workspace = await ensureWorkspace();
     const file = await exportByFormat(workspace, options.format);
@@ -574,9 +575,29 @@ program
   .option("--platform <platform>", "platform", "codeforces")
   .option("--rating <rating>", "target rating", parseNumber, 1200)
   .option("--upcoming", "fetch upcoming contests when online")
+  .option("--standings <contestId>", "fetch your Codeforces standing for a contest", parseNumber)
   .action(async (options) => {
     const workspace = await ensureWorkspace();
     const analytics = analyzeWorkspace(workspace);
+    if (options.standings && workspace.profile.codeforcesHandle) {
+      try {
+        const client = new CodeforcesApiClient();
+        const result = (await client.contestStandings(options.standings, workspace.profile.codeforcesHandle)) as {
+          rows?: Array<{ rank: number; points: number; party: { members: Array<{ handle: string }> } }>;
+        };
+        const row = result.rows?.[0];
+        if (row) {
+          console.log(`Rank: ${row.rank} · Points: ${row.points} · Contest ${options.standings}`);
+          await writeJson(path.join(workspacePaths().exports, `contest-${options.standings}-standing.json`), row);
+          printSuccess(`Saved standing to .cpforge/exports/contest-${options.standings}-standing.json`);
+        } else {
+          printInfo("No standing found for this handle in that contest.");
+        }
+      } catch (error) {
+        printInfo(`Contest standings skipped: ${error instanceof Error ? error.message : "unknown"}`);
+      }
+      return;
+    }
     if (options.upcoming && options.platform === "codeforces") {
       try {
         const client = new CodeforcesApiClient();
@@ -846,21 +867,25 @@ async function exportByFormat(workspace: WorkspaceData, format: string) {
       ? path.join(exportsDir, "reviews.ics")
       : format === "json"
         ? path.join(exportsDir, "workspace.json")
-        : format === "html"
-          ? path.join(exportsDir, "portfolio.html")
-          : path.join(exportsDir, `${format}.md`);
+        : format === "sqlite"
+          ? path.join(exportsDir, "workspace.sql")
+          : format === "html"
+            ? path.join(exportsDir, "portfolio.html")
+            : path.join(exportsDir, `${format}.md`);
   const content =
     format === "calendar"
       ? reviewsToIcs(workspace.reviews)
       : format === "json"
         ? workspaceToJson(workspace)
-        : format === "html"
-          ? portfolioHtml(workspace)
-          : format === "notion"
-            ? problemsToNotionMarkdown(workspace.problems)
-            : format === "obsidian"
-              ? problemsToObsidianNotes(workspace.problems)
-              : problemsToMarkdown(workspace.problems);
+        : format === "sqlite"
+          ? workspaceToSqliteDump(workspace)
+          : format === "html"
+            ? portfolioHtml(workspace)
+            : format === "notion"
+              ? problemsToNotionMarkdown(workspace.problems)
+              : format === "obsidian"
+                ? problemsToObsidianNotes(workspace.problems)
+                : problemsToMarkdown(workspace.problems);
   await fs.writeFile(file, content, "utf8");
   return file;
 }

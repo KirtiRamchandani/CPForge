@@ -1,6 +1,6 @@
 {
   "name": "cp-forge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The local-first training OS for DSA, Competitive Programming, and coding interviews.",
   "license": "MIT",
   "type": "module",
