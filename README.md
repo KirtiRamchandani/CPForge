@@ -1,190 +1,142 @@
+<div align="center">
+
 # CP Forge
 
-The open-source operating system for DSA, Competitive Programming, and coding interviews.
+**The personal training OS for DSA, competitive programming, and interviews.**
 
-CP Forge turns scattered coding practice into a personalized training system. It is local-first, privacy-first, zero-telemetry, and built for people who want more than solved-count vanity metrics.
+Local-first · Privacy-first · Zero telemetry
 
-> Solved count is vanity. Mistake reduction is growth.
+[![CI](https://github.com/KirtiRamchandani/CPForge/actions/workflows/ci.yml/badge.svg)](https://github.com/KirtiRamchandani/CPForge/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## One Command Demo
+[Dashboard](#dashboard) · [CLI](#cli-in-30-seconds) · [Extensions](#extensions) · [Docs](docs/architecture.md) · [Privacy](PRIVACY.md)
+
+</div>
+
+---
+
+> **Solved count is vanity. Mistake reduction is growth.**
+
+CP Forge turns scattered practice into one system: roadmaps, sheets, spaced review, upsolve queues, mistake tracking, and a coach that tells you **what to solve next** — not just what you already solved.
+
+<p align="center">
+  <img src="docs/assets/dashboard-preview.svg" alt="CP Forge dashboard skill tree and analytics" width="780" />
+</p>
+
+## Try it in one command
 
 ```bash
-npx cp-forge launch --cf your_codeforces_handle --leetcode your_leetcode_handle --goal amazon --days 45
+git clone https://github.com/KirtiRamchandani/CPForge.git && cd CPForge
+corepack enable && pnpm install && pnpm build
+node apps/cli/dist/index.js launch --goal amazon --days 45 --offline
 ```
-
-CP Forge initializes a local workspace, syncs optional public data, analyzes weak topics, builds a daily plan, schedules revision, creates an upsolve queue, exports files, and prints the next useful action.
 
 ```text
-CP Forge Report
-Goal: Amazon SDE Interview
-Timeline: 45 days
-Language: C++
+Next action → Solve sliding-window problems today
+             (weakest high-frequency Amazon pattern in your data)
 
-Detected strengths:
-- Binary Search
-- Greedy
-- Implementation
-
-Detected weak areas:
-- Dynamic Programming
-- Trees
-- Sliding Window
-- Graph BFS
-
-Generated:
-- 45-day Amazon DSA plan
-- Personalized problem sheet
-- Review calendar
-- Mistake tracker
-- Upsolve queue
-- Google Sheets CSV
-- Notion Markdown
-- Obsidian notes
-- GitHub portfolio report
-
-Next action:
-Solve 3 sliding-window problems today because this is your weakest high-frequency Amazon pattern.
+Generated locally → 45-day plan · review calendar · mistake bank · CSV/MD exports
 ```
 
-## Why CP Forge Exists
+No account. No cloud. Everything lives in `.cpforge/`.
 
-Most tools track what you solved. CP Forge tracks why you improved.
+---
 
-It combines:
+## Why CP Forge
 
-- DSA roadmaps
-- Competitive programming ladders
-- Company-wise prep sheets
-- Codeforces tracking
-- LeetCode tracking through local imports and extension parsing
-- Mistake bank
-- Upsolve queue
-- Spaced repetition
-- Interactive skill-tree mindmap
-- Charts
-- Chrome extension
-- VS Code extension
-- Local dashboard
-- Google Sheets export
-- Notion and Obsidian export
-- GitHub portfolio generator
+| Typical tracker | CP Forge |
+| --- | --- |
+| Counts solves | Tracks **why** you improved |
+| Static problem lists | **Personalized** sheets from weak topics |
+| Forget failed problems | **Upsolve queue** with priority |
+| Repeat the same bugs | **Mistake bank** + spaced **review** |
+| Spread across 6 tabs | **CLI + dashboard + browser + editor** |
 
-## What It Builds
+---
 
-CP Forge creates a local `.cpforge/` workspace:
+## Features
 
-```text
-.cpforge/
-  config.json
-  profile.json
-  accounts.json
-  problems.json
-  progress.json
-  mistakes.json
-  reviews.json
-  upsolve.json
-  contests.json
-  mindmaps.json
-  notes/
-  exports/
-  cache/
-```
+**Plan** — Company roadmaps (Amazon, Google, Meta…), DSA & CP skill trees, 45-day launch plans  
+**Practice** — 80+ curated problems, Blind 75 pack, pattern & company sheets  
+**Improve** — Weak-area detection, stuck diagnosis, daily & weekly coach plans  
+**Remember** — Anki-style reviews, upsolve prioritization, mistake categories  
+**Export** — Google Sheets CSV, Notion/Obsidian notes, portfolio SVG, calendar ICS  
+**Extend** — Chrome sidebar on LeetCode/Codeforces, VS Code solving sessions  
 
-No account is required for core features. Network sync is optional, cached, rate-limited, and documented in [PRIVACY.md](./PRIVACY.md).
-
-## Apps
-
-- `apps/cli` - the `cp-forge` command-line product
-- `apps/web-dashboard` - local-first React dashboard
-- `apps/chrome-extension` - Manifest V3 companion for Codeforces and LeetCode
-- `apps/vscode-extension` - VS Code solving-session companion
-- `apps/docs-site` - documentation site
-
-## Packages
-
-- `packages/schemas` - Zod data contracts
-- `packages/storage` - local workspace import/export/delete
-- `packages/platform-adapters` - Codeforces API, DOM import, custom imports
-- `packages/roadmap-engine` - personalized plans and mindmap trees
-- `packages/sheet-engine` - practice sheets and filters
-- `packages/recommendation-engine` - next action, weak topic, and daily plan logic
-- `packages/mistake-engine` - mistake bank and statistics
-- `packages/review-scheduler` - Anki-style review intervals
-- `packages/upsolve-engine` - upsolve prioritization
-- `packages/contest-engine` - contest alerts and virtual contest planning
-- `packages/analytics-engine` - progress and readiness metrics
-- `packages/export-engine` - CSV, Markdown, JSON, ICS, HTML, SVG
-- `packages/portfolio-engine` - GitHub README and portfolio reports
-- `packages/ui` - reusable mindmap and chart primitives
-- `packages/utils` - dates, slugs, formatting, stable IDs
-
-## Installation
-
-```bash
-corepack enable
-corepack prepare pnpm@latest --activate
-pnpm install
-pnpm build
-```
-
-Run the CLI locally:
-
-```bash
-pnpm --filter @cp-forge/cli dev -- launch --goal amazon --days 45 --offline
-```
-
-Run the dashboard:
-
-```bash
-pnpm --filter @cp-forge/web-dashboard dev
-```
-
-## CLI
+<details>
+<summary><strong>Full CLI surface</strong></summary>
 
 ```bash
 cp-forge init --cf tourist --language cpp --goal cp
-cp-forge launch --cf tourist --goal cp --days 45
-cp-forge sync --cf tourist
-cp-forge roadmap --goal interview --company amazon --days 45
-cp-forge sheet --pattern sliding-window
-cp-forge doctor
-cp-forge next --weak-only
-cp-forge review today
-cp-forge upsolve priority
-cp-forge mistakes stats
-cp-forge mindmap --export html
-cp-forge chart --type weakness --export svg
-cp-forge export --format sheets
-cp-forge portfolio --github-readme
+cp-forge today · doctor · next · review · upsolve · mistakes
+cp-forge sheet --pattern sliding-window · roadmap --goal amazon --days 45
+cp-forge mindmap --export html · chart --type weakness --export svg
+cp-forge flashcards · notebook · pack · portfolio · profile-card
+cp-forge dashboard   # exports data for the web app
 ```
+
+</details>
+
+---
+
+## Dashboard
+
+```bash
+pnpm --filter @cp-forge/web-dashboard dev
+# In another terminal:
+node apps/cli/dist/index.js dashboard
+# Import .cpforge/exports/dashboard-data.json in the UI
+```
+
+Skill tree · today's plan · weakness charts · mistake bank · portfolio — all from your local workspace.
+
+---
+
+## Extensions
+
+| Surface | What it does |
+| --- | --- |
+| **Chrome** | Sidebar on LC/CF problem pages — status, notes, checklist (saved locally) |
+| **VS Code** | Start problem, log mistakes, mark solved → `.cpforge/` |
+| **Docs site** | `pnpm --filter @cp-forge/docs-site dev` |
+
+---
+
+## CLI in 30 seconds
+
+```bash
+cp-forge launch --goal amazon --days 45 --offline   # bootstrap everything
+cp-forge today                                       # warmup + mains + reflection
+cp-forge stuck                                       # why progress stalled
+cp-forge sync --cf your_handle                       # optional CF submissions
+```
+
+---
+
+## Develop
+
+```bash
+pnpm install
+pnpm check          # typecheck + test + build
+pnpm --filter @cp-forge/cli dev -- --help
+```
+
+Monorepo: `apps/` (cli, dashboard, extensions, docs) · `packages/` (engines, schemas, storage) · `roadmaps/` · `sheets/` · `packs/`
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) · [ROADMAP.md](ROADMAP.md) · [architecture](docs/architecture.md)
+
+---
 
 ## Privacy
 
-CP Forge is local-first:
+No tracking. No telemetry. No required API keys. Optional Codeforces sync uses public endpoints with local cache and rate limiting. [Full policy →](PRIVACY.md)
 
-- no tracking
-- no telemetry
-- no hidden backend
-- no external analytics
-- no paid API required
-- no AI API required
-- no account required for core features
-- import/export/delete all local data
+---
 
-Optional Codeforces sync uses public anonymous API endpoints with caching and one-request-per-two-second queueing.
+<div align="center">
 
-## Roadmaps And Sheets
+MIT © [KirtiRamchandani](https://github.com/KirtiRamchandani)
 
-The repo includes static DSA, CP, company, language, role-based, and time-based roadmaps plus CSV/Markdown/JSON sheets. The engines can merge these with local progress and mistake data.
+**Star the repo if CP Forge helps your grind.**
 
-## Screenshots
-
-Demo assets are planned in [docs/screenshots.md](./docs/screenshots.md). The dashboard and extension are designed around screenshot-worthy skill trees, weak-topic charts, and daily training rituals.
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md). The project is intentionally modular so contributors can improve one roadmap, one adapter, one export format, or one UI surface without touching everything else.
-
-## License
-
-MIT. See [LICENSE](./LICENSE).
+</div>
