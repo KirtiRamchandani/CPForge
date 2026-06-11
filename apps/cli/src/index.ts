@@ -99,6 +99,7 @@ program
   .option("--cf <handle>", "Codeforces handle")
   .option("--leetcode <handle>", "LeetCode handle")
   .option("--atcoder <handle>", "AtCoder handle")
+  .option("--codechef <handle>", "CodeChef handle (saved locally; use extension for live tracking)")
   .option("--all", "sync all configured handles")
   .option("--offline", "verify local cache/workspace only")
   .action(async (options) => {
@@ -111,8 +112,9 @@ program
     const cf = options.cf ?? (options.all ? workspace.profile.codeforcesHandle : undefined);
     const leetcode = options.leetcode ?? (options.all ? workspace.profile.leetcodeHandle : undefined);
     const atcoder = options.atcoder ?? (options.all ? workspace.profile.atcoderHandle : undefined);
-    if (!cf && !leetcode && !atcoder) {
-      printInfo("No handles provided. Use --cf, --leetcode, --atcoder, or --all.");
+    const codechef = options.codechef ?? (options.all ? workspace.profile.codechefHandle : undefined);
+    if (!cf && !leetcode && !atcoder && !codechef) {
+      printInfo("No handles provided. Use --cf, --leetcode, --atcoder, --codechef, or --all.");
       return;
     }
     if (cf) {
@@ -126,6 +128,10 @@ program
     if (atcoder) {
       next = await tryAtCoderSync(next, atcoder);
       printSuccess(`Synced AtCoder data for ${atcoder}.`);
+    }
+    if (codechef) {
+      next = await tryCodeChefSync(next, codechef);
+      printSuccess(`Saved CodeChef handle ${codechef}. Use the Chrome extension on CodeChef pages for problem tracking.`);
     }
     await saveWorkspace(next);
   });
@@ -608,6 +614,28 @@ program
   });
 
 program
+  .command("rate <problemId>")
+  .description("Rate problem quality (1–5 stars) for your personal bank.")
+  .option("--stars <n>", "quality rating 1-5", parseNumber)
+  .action(async (problemId: string, options: { stars?: number }) => {
+    const workspace = await ensureWorkspace();
+    const stars = options.stars;
+    if (!stars || stars < 1 || stars > 5) {
+      throw new Error("Pass --stars between 1 and 5.");
+    }
+    const index = workspace.problems.findIndex((problem) => problem.id === problemId);
+    if (index >= 0) {
+      workspace.problems[index] = { ...workspace.problems[index], qualityRating: stars };
+    } else {
+      const fromBank = bank().find((problem) => problem.id === problemId);
+      if (!fromBank) throw new Error(`Problem ${problemId} not found in workspace or bank.`);
+      workspace.problems.push({ ...fromBank, qualityRating: stars });
+    }
+    await saveWorkspace(workspace);
+    printSuccess(`Rated ${problemId} ${stars}/5.`);
+  });
+
+program
   .command("dashboard")
   .description("Generate dashboard data for the web app.")
   .action(async () => {
@@ -701,6 +729,12 @@ async function tryLeetCodeSync(workspace: WorkspaceData, handle: string): Promis
   } catch (error) {
     printInfo(`LeetCode sync skipped: ${(error as Error).message}`);
   }
+  return workspace;
+}
+
+async function tryCodeChefSync(workspace: WorkspaceData, handle: string): Promise<WorkspaceData> {
+  workspace.profile.codechefHandle = handle;
+  printInfo("CodeChef has no stable public submissions API. Handle saved; use the Chrome extension on problem pages for live sync.");
   return workspace;
 }
 

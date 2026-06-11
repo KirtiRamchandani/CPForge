@@ -18,6 +18,7 @@
     "@cp-forge/schemas": "workspace:*",
     "@cp-forge/sheet-engine": "workspace:*",
     "@cp-forge/ui": "workspace:*",
+    "@cp-forge/utils": "workspace:*",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

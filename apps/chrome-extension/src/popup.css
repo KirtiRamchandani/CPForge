@@ -76,6 +76,36 @@ input {
   color: #8fa3c4;
 }
 
+.popup-mindmap {
+  max-height: 180px;
+  overflow: auto;
+}
+
+.mini-node {
+  margin-left: 8px;
+  margin-top: 6px;
+}
+
+.mini-node-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.mini-progress {
+  height: 4px;
+  background: #1a2740;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 4px 0 6px;
+}
+
+.mini-progress i {
+  display: block;
+  height: 100%;
+  background: #42d392;
+}
+
 .options-shell label input[type="text"] {
   margin-top: 6px;
 }

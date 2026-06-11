@@ -94,3 +94,4 @@ export const ActivityGrid = ({ title, data }: { title: string; data: Record<stri
 };
 
 export { MindmapCanvas } from "./MindmapCanvas";
+export { RadarChart } from "./RadarChart";

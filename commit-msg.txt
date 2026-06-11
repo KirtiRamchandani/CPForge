@@ -1,0 +1,3 @@
+Finish remaining CP Forge polish: roadmaps, dashboard actions, radar, popup mindmap.
+
+Add role-based and time-based roadmaps, DSA topic index, company readiness radar, sheet row actions, Chrome popup skill tree, rate and CodeChef sync CLI commands, and supporting docs.

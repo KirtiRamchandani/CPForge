@@ -200,6 +200,9 @@ importers:
       '@cp-forge/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+      '@cp-forge/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
       react:
         specifier: ^19.1.0
         version: 19.2.7

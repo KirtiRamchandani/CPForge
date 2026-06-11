@@ -58,6 +58,7 @@ export const problemSchema = z.object({
   reviewDate: z.string().optional(),
   solvedAt: z.string().optional(),
   lastAttemptedAt: z.string().optional(),
+  qualityRating: z.number().min(1).max(5).optional(),
   source: z.string().default("static")
 });
 
@@ -161,7 +162,8 @@ export const profileSchema = z.object({
   currentDsaLevel: z.string().default("beginner"),
   currentCpLevel: z.string().default("newbie"),
   targetCpRating: z.number().int().positive().optional(),
-  interviewTimelineDays: z.number().int().positive().default(45)
+  interviewTimelineDays: z.number().int().positive().default(45),
+  aiAssistEnabled: z.boolean().default(false)
 });
 
 export const workspaceDataSchema = z.object({

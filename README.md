@@ -132,6 +132,8 @@ Everything is stored locally in `.cpforge/` — export or delete anytime.
 | `cp-forge pack add blind-75\|neetcode-150\|cf-specialist` | Community packs |
 | `cp-forge extension-import sync.json` | Merge Chrome extension sessions |
 | `cp-forge dashboard` | Export JSON for web dashboard |
+| `cp-forge rate <id> --stars 5` | Personal problem quality rating |
+| `cp-forge sync --codechef handle` | Save CodeChef handle (extension for live track) |
 
 <details>
 <summary><strong>All commands</strong></summary>
@@ -154,9 +156,14 @@ cp-forge dashboard
 
 **17 views:** Home, Today, Progress, Roadmaps, Mindmap, Sheets, Charts, Contests, Weaknesses, Mistakes, Upsolve, Reviews, Companies, Platforms, Portfolio, Notes, Settings.
 
-- Skill tree with click-to-progress
+- Skill tree with click-to-progress (tree + canvas)
+- Sheet actions: mark solved, note, review, mistake
+- Company readiness radar charts
+- 11k Codeforces search panel
 - Activity grid + rating buckets
 - Import/export `.cpforge` JSON
+
+**Live demo:** [GitHub Pages dashboard](https://kirtiramchandani.github.io/CPForge/dashboard/) (after Pages enabled)
 
 ---
 

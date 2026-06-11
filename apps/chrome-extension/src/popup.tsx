@@ -12,15 +12,24 @@ interface SessionMap {
   [url: string]: { status: string; title: string; platform: string };
 }
 
+interface MindmapNode {
+  id: string;
+  title: string;
+  progress: number;
+  status: string;
+  children: MindmapNode[];
+}
+
 createRoot(document.getElementById("root")!).render(<Popup />);
 
 function Popup() {
   const [settings, setSettings] = useState<Settings>({});
   const [sessions, setSessions] = useState<SessionMap>({});
   const [mistakes, setMistakes] = useState(0);
+  const [mindmap, setMindmap] = useState<MindmapNode | null>(null);
 
   useEffect(() => {
-    void chrome.storage.local.get(["cp-forge-settings", "cp-forge-session", "cp-forge-mistakes"]).then((stored) => {
+    void chrome.storage.local.get(["cp-forge-settings", "cp-forge-session", "cp-forge-mistakes", "cp-forge-mindmap"]).then((stored) => {
       setSettings({
         cfHandle: stored["cp-forge-settings"]?.cfHandle,
         leetcodeHandle: stored["cp-forge-settings"]?.leetcodeHandle,
@@ -28,6 +37,7 @@ function Popup() {
       });
       setSessions((stored["cp-forge-session"] ?? {}) as SessionMap);
       setMistakes((stored["cp-forge-mistakes"] ?? []).length);
+      setMindmap((stored["cp-forge-mindmap"] as MindmapNode | undefined) ?? buildFallbackMindmap(stored["cp-forge-session"] ?? {}));
     });
   }, []);
 
@@ -49,6 +59,12 @@ function Popup() {
         <div><strong>{upsolve}</strong><span>Upsolve</span></div>
         <div><strong>{mistakes}</strong><span>Mistakes</span></div>
       </section>
+      {mindmap ? (
+        <section className="popup-mindmap">
+          <h2>Skill tree</h2>
+          <MiniMindmap node={mindmap} depth={0} />
+        </section>
+      ) : null}
       <section>
         <h2>Handles</h2>
         <p>CF: {settings.cfHandle ?? "not set"}</p>
@@ -79,4 +95,43 @@ function Popup() {
       </div>
     </main>
   );
+}
+
+function MiniMindmap({ node, depth }: { node: MindmapNode; depth: number }) {
+  if (depth > 2) return null;
+  return (
+    <div className="mini-node">
+      <div className="mini-node-row">
+        <span>{node.title}</span>
+        <small>{node.progress}%</small>
+      </div>
+      <div className="mini-progress">
+        <i style={{ width: `${node.progress}%` }} />
+      </div>
+      {node.children.slice(0, 4).map((child) => (
+        <MiniMindmap depth={depth + 1} key={child.id} node={child} />
+      ))}
+    </div>
+  );
+}
+
+function buildFallbackMindmap(sessions: SessionMap): MindmapNode {
+  const topics = ["arrays", "trees", "graphs", "dynamic-programming", "greedy"];
+  const values = Object.values(sessions);
+  return {
+    id: "root",
+    title: "CP Forge",
+    progress: values.length ? Math.min(100, values.filter((s) => s.status === "solved").length * 12) : 8,
+    status: "in_progress",
+    children: topics.map((topic) => {
+      const hits = values.filter((s) => s.title.toLowerCase().includes(topic.replace("-", " ")) || s.status === "solved").length;
+      return {
+        id: topic,
+        title: topic,
+        progress: Math.min(100, hits * 20 + 5),
+        status: hits > 2 ? "strong" : "weak",
+        children: []
+      };
+    })
+  };
 }

@@ -1,11 +1,12 @@
 import { analyzeWorkspace, buildStuckDiagnosis } from "@cp-forge/analytics-engine";
 import { buildLaunchReport, createWorkspace } from "@cp-forge/core";
 import { portfolioMarkdown } from "@cp-forge/portfolio-engine";
-import { buildDailyPlan, buildWeeklyPlan, buildCompanyPlans, detectWeakAreas } from "@cp-forge/recommendation-engine";
+import { buildDailyPlan, buildWeeklyPlan, buildCompanyPlans, computeCompanyReadiness, detectWeakAreas } from "@cp-forge/recommendation-engine";
 import { generateRoadmapPlan, toggleNodeProgress } from "@cp-forge/roadmap-engine";
-import type { RoadmapNode, WorkspaceData } from "@cp-forge/schemas";
+import type { Problem, RoadmapNode, WorkspaceData } from "@cp-forge/schemas";
 import { problemBank } from "@cp-forge/sheet-engine";
-import { ActivityGrid, BarChart, MindmapCanvas, MindmapTree, StatCard } from "@cp-forge/ui";
+import { ActivityGrid, BarChart, MindmapCanvas, MindmapTree, RadarChart, StatCard } from "@cp-forge/ui";
+import { stableId } from "@cp-forge/utils";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AchievementGrid, CommandPalette, computeAchievements } from "./CommandPalette";
 import { CfSearchPanel } from "./CfSearchPanel";
@@ -90,6 +91,16 @@ export const App = () => {
     if (!parsed.workspace?.profile) throw new Error("Invalid dashboard export");
     setPayload(buildPayload(parsed.workspace, parsed));
   }, []);
+
+  const updateWorkspace = useCallback((updater: (workspace: WorkspaceData) => WorkspaceData) => {
+    setPayload((current) => buildPayload(updater(current.workspace), current));
+  }, []);
+
+  const problemStatusMap = useMemo(() => {
+    const map = new Map<string, Problem>();
+    workspace.problems.forEach((problem) => map.set(problem.id, problem));
+    return map;
+  }, [workspace.problems]);
 
   const importFile = useCallback(
     async (file: File) => {
@@ -359,14 +370,97 @@ export const App = () => {
             </div>
             <div className="problem-table">
               {filteredSheet.length ? (
-                filteredSheet.map((problem) => (
-                  <a href={problem.url} key={problem.id} rel="noreferrer" target="_blank">
-                    <strong>{problem.title}</strong>
-                    <span>{problem.platform}</span>
-                    <span>{problem.difficulty}</span>
-                    <small>{problem.patterns.join(", ") || problem.topics.join(", ")}</small>
-                  </a>
-                ))
+                filteredSheet.slice(0, 120).map((problem) => {
+                  const tracked = problemStatusMap.get(problem.id);
+                  const status = tracked?.status ?? "unseen";
+                  return (
+                    <div className="problem-row" key={problem.id}>
+                      <a className="problem-link" href={problem.url} rel="noreferrer" target="_blank">
+                        <strong>{problem.title}</strong>
+                        <span>{problem.platform}</span>
+                        <span>{problem.difficulty}</span>
+                        <small>{problem.patterns.join(", ") || problem.topics.join(", ")}</small>
+                      </a>
+                      <div className="problem-meta">
+                        <span className={`status-pill status-${status}`}>{status}</span>
+                        {tracked?.qualityRating ? <span className="quality-stars">{"★".repeat(tracked.qualityRating)}</span> : null}
+                      </div>
+                      <div className="problem-actions">
+                        <button
+                          onClick={() =>
+                            updateWorkspace((ws) => ({
+                              ...ws,
+                              problems: upsertProblem(ws.problems, { ...problem, status: "solved", solvedAt: new Date().toISOString() })
+                            }))
+                          }
+                          type="button"
+                        >
+                          Solved
+                        </button>
+                        <button
+                          onClick={() => {
+                            const note = window.prompt("Note for this problem:", tracked?.notes ?? "");
+                            if (note === null) return;
+                            updateWorkspace((ws) => ({
+                              ...ws,
+                              problems: upsertProblem(ws.problems, { ...problem, notes: note, status: tracked?.status ?? "attempted" })
+                            }));
+                          }}
+                          type="button"
+                        >
+                          Note
+                        </button>
+                        <button
+                          onClick={() =>
+                            updateWorkspace((ws) => ({
+                              ...ws,
+                              reviews: [
+                                ...ws.reviews,
+                                {
+                                  id: stableId("review", problem.id, Date.now()),
+                                  problemId: problem.id,
+                                  reason: "Scheduled from dashboard sheet",
+                                  interval: 7,
+                                  dueDate: new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10),
+                                  completed: false
+                                }
+                              ],
+                              problems: upsertProblem(ws.problems, { ...problem, status: tracked?.status ?? "review_later" })
+                            }))
+                          }
+                          type="button"
+                        >
+                          Review
+                        </button>
+                        <button
+                          onClick={() =>
+                            updateWorkspace((ws) => ({
+                              ...ws,
+                              mistakes: [
+                                ...ws.mistakes,
+                                {
+                                  id: stableId("mistake", problem.id, Date.now()),
+                                  problemId: problem.id,
+                                  title: problem.title,
+                                  category: "missed edge case",
+                                  topic: problem.topics[0],
+                                  pattern: problem.patterns[0],
+                                  severity: "medium",
+                                  description: "Logged from dashboard",
+                                  fix: "Revisit constraints and edge cases",
+                                  createdAt: new Date().toISOString()
+                                }
+                              ]
+                            }))
+                          }
+                          type="button"
+                        >
+                          Mistake
+                        </button>
+                      </div>
+                    </div>
+                  );
+                })
               ) : (
                 <p className="empty-sheet">No problems match your filters.</p>
               )}
@@ -476,25 +570,31 @@ export const App = () => {
         )}
 
         {active === "Companies" && (
-          <Panel title="Company Readiness">
+          <section className="two-col">
+            <Panel title="Company Readiness">
+              {(workspace.profile.targetCompanies.length ? workspace.profile.targetCompanies : ["amazon"]).map((company) => (
+                <div className="company-block" key={company}>
+                  <h3>{company}</h3>
+                  <p className="company-meta">{filterSheetCount(company)} tagged problems in bank</p>
+                  {buildCompanyPlans(company).map((plan) => (
+                    <div className="company-plan" key={plan.days}>
+                      <strong>{plan.title}</strong>
+                      <p>Focus: {plan.focus.join(", ")}</p>
+                      <ul>
+                        {plan.milestones.slice(0, 4).map((m) => (
+                          <li key={m}>{m}</li>
+                        ))}
+                      </ul>
+                      <p>Must-solve: {plan.mustSolve.slice(0, 5).join(" · ") || `Run cp-forge sheet --company ${company}`}</p>
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </Panel>
             {(workspace.profile.targetCompanies.length ? workspace.profile.targetCompanies : ["amazon"]).map((company) => (
-              <div className="company-block" key={company}>
-                <h3>{company}</h3>
-                {buildCompanyPlans(company).map((plan) => (
-                  <div className="company-plan" key={plan.days}>
-                    <strong>{plan.title}</strong>
-                    <p>Focus: {plan.focus.join(", ")}</p>
-                    <ul>
-                      {plan.milestones.slice(0, 4).map((m) => (
-                        <li key={m}>{m}</li>
-                      ))}
-                    </ul>
-                    <p>Must-solve: {plan.mustSolve.slice(0, 5).join(" · ") || `Run cp-forge sheet --company ${company}`}</p>
-                  </div>
-                ))}
-              </div>
+              <RadarChart key={`radar-${company}`} title={`${company} readiness radar`} data={computeCompanyReadiness(workspace, company)} />
             ))}
-          </Panel>
+          </section>
         )}
 
         {active === "Portfolio" && (
@@ -511,6 +611,7 @@ export const App = () => {
             <Task label="Timeline" value={`${workspace.profile.interviewTimelineDays} days`} />
             <Task label="Codeforces" value={workspace.profile.codeforcesHandle ?? "Not linked"} />
             <Task label="LeetCode" value={workspace.profile.leetcodeHandle ?? "Not linked"} />
+            <Task label="AI assist" value={workspace.profile.aiAssistEnabled ? "Enabled (future)" : "Off — local-first default"} />
             <p className="settings-note">All data stays local in `.cpforge/`. Export with `cp-forge export` or the Export JSON button above.</p>
           </Panel>
         )}
@@ -531,6 +632,16 @@ function buildPayload(workspace: WorkspaceData, partial?: Partial<DashboardPaylo
 
 function filterSheetCount(company: string) {
   return problemBank.filter((problem) => problem.companies.includes(company.toLowerCase())).length;
+}
+
+function upsertProblem(problems: Problem[], next: Problem): Problem[] {
+  const index = problems.findIndex((problem) => problem.id === next.id);
+  if (index >= 0) {
+    const copy = [...problems];
+    copy[index] = { ...copy[index], ...next };
+    return copy;
+  }
+  return [...problems, next];
 }
 
 const Panel = ({ title, children }: { title: string; children: React.ReactNode }) => (

@@ -24,7 +24,8 @@ Welcome to CP Forge! These are great starting points for contributors.
 ## Content
 
 - [ ] Expand Netflix/Uber company tags in problem bank
-- [ ] Add role-based roadmaps (`roadmaps/role-based/`)
+- [x] Add role-based roadmaps (`roadmaps/role-based/`)
+- [x] Add time-based roadmaps (`roadmaps/time-based/`)
 - [ ] Hindi README translation (optional)
 
 ## Docs

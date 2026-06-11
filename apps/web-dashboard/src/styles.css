@@ -267,6 +267,65 @@ a {
   gap: 8px;
 }
 
+.problem-row {
+  border: 1px solid #1f2b43;
+  border-radius: 8px;
+  padding: 12px;
+  background: #0b1220;
+  display: grid;
+  gap: 8px;
+}
+
+.problem-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) 100px 90px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.problem-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-pill {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid #2a3550;
+  text-transform: capitalize;
+}
+
+.status-solved,
+.status-mastered {
+  border-color: #42d392;
+  color: #42d392;
+}
+
+.quality-stars {
+  color: #f5c542;
+  letter-spacing: 1px;
+}
+
+.problem-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.problem-actions button {
+  border: 1px solid #2a3550;
+  background: #121a2b;
+  color: #dbe7ff;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
 .problem-table a {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) 100px 90px minmax(0, 1fr);
@@ -644,4 +703,40 @@ a {
 
 .activity-grid-panel .chart-empty {
   margin-top: 8px;
+}
+
+.radar-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radar-chart {
+  margin: 8px auto;
+}
+
+.radar-label {
+  fill: #9eb0cf;
+  font-size: 9px;
+}
+
+.radar-legend {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  width: 100%;
+}
+
+.radar-legend li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px solid #1f2b43;
+  font-size: 13px;
+}
+
+.company-meta {
+  color: #8fa3c4;
+  font-size: 13px;
+  margin: 0 0 8px;
 }

@@ -162,6 +162,31 @@ export const buildCompanyPlan = (company: string, days: number): CompanyPlanBloc
 
 export const buildCompanyPlans = (company: string): CompanyPlanBlock[] => [30, 45, 60].map((days) => buildCompanyPlan(company, days));
 
+export const computeCompanyReadiness = (workspace: WorkspaceData, company: string): Record<string, number> => {
+  const key = company.toLowerCase().replace(/[^a-z]/g, "");
+  const patterns = companyPatterns[key] ?? companyPatterns.default;
+  const solved = workspace.problems.filter((problem) => problem.status === "solved" || problem.status === "mastered");
+
+  return Object.fromEntries(
+    patterns.map((pattern) => {
+      const pool = problemBank.filter(
+        (problem) =>
+          problem.companies.includes(key) ||
+          problem.topics.some((topic) => topic.includes(pattern)) ||
+          problem.patterns.some((item) => item.includes(pattern))
+      );
+      const solvedCount = solved.filter(
+        (problem) =>
+          problem.companies.includes(key) ||
+          problem.topics.some((topic) => topic.includes(pattern)) ||
+          problem.patterns.some((item) => item.includes(pattern))
+      ).length;
+      const target = Math.max(4, Math.ceil(pool.length * 0.12));
+      return [pattern, Math.min(100, Math.round((solvedCount / target) * 100))];
+    })
+  );
+};
+
 const pickProblemForWeakArea = (topic: string, goal: string): Problem => {
   const exact = problemBank.find((problem) => problem.topics.includes(topic) || problem.patterns.includes(topic));
   if (exact) return exact;

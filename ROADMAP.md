@@ -80,9 +80,12 @@ CP Forge grows by shipping useful local-first workflows before optional integrat
 
 ## Phase 8 - Full Polish
 
-- Demo GIFs
-- Screenshots
-- Release workflow
-- Packaged extensions
-- Community packs
-- Public launch kit
+- Demo GIFs and terminal demo script (`scripts/terminal-demo.sh`)
+- Screenshots and SVG previews
+- Release workflow (npm + extension artifacts)
+- Role-based and time-based roadmaps
+- Company readiness radar in dashboard
+- Sheet row actions in dashboard
+- Chrome popup skill tree
+- AI-optional mode documented (local-first default)
+- Hall of fame and ecosystem docs
