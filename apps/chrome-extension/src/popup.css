@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  width: 340px;
+  background: #0b1020;
+  color: #eaf2ff;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+main {
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 14px;
+}
+
+section,
+label {
+  display: block;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #243655;
+  border-radius: 8px;
+  background: #111a2e;
+}
+
+p {
+  color: #a7b8d6;
+}
+
+button,
+input {
+  width: 100%;
+  margin: 6px 0;
+  padding: 9px;
+  border-radius: 8px;
+  border: 1px solid #304567;
+  background: #17243c;
+  color: #eaf2ff;
+}

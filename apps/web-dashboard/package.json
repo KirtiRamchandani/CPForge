@@ -1,0 +1,26 @@
+{
+  "name": "@cp-forge/web-dashboard",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host 127.0.0.1",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@cp-forge/analytics-engine": "workspace:*",
+    "@cp-forge/core": "workspace:*",
+    "@cp-forge/recommendation-engine": "workspace:*",
+    "@cp-forge/roadmap-engine": "workspace:*",
+    "@cp-forge/sheet-engine": "workspace:*",
+    "@cp-forge/ui": "workspace:*",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.0",
+    "vite": "^6.3.5"
+  }
+}

@@ -1,0 +1,7 @@
+[
+  { "id": "arrays", "title": "Arrays", "why": "The base layer for implementation, hashing, prefix sums, and two pointers." },
+  { "id": "sliding-window", "title": "Sliding Window", "why": "High-frequency interview pattern for substring and subarray optimization." },
+  { "id": "trees", "title": "Trees", "why": "Tests recursion, state passing, DFS/BFS, and parent-child invariants." },
+  { "id": "graphs", "title": "Graphs", "why": "Core CP and interview area covering BFS, DFS, shortest paths, and connectivity." },
+  { "id": "dynamic-programming", "title": "Dynamic Programming", "why": "Turns repeated subproblems into structured recurrence and memory decisions." }
+]

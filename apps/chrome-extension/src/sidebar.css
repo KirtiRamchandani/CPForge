@@ -1,0 +1,54 @@
+#cp-forge-sidebar {
+  position: fixed;
+  top: 84px;
+  right: 18px;
+  z-index: 2147483647;
+  width: 320px;
+  max-height: calc(100vh - 110px);
+  overflow: auto;
+  border: 1px solid #2a3957;
+  border-radius: 8px;
+  padding: 14px;
+  background: #0e1728;
+  color: #edf5ff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+#cp-forge-sidebar header {
+  display: flex;
+  justify-content: space-between;
+  color: #8bd3ff;
+}
+
+#cp-forge-sidebar h2 {
+  margin: 12px 0 6px;
+  font-size: 18px;
+}
+
+#cp-forge-sidebar p,
+#cp-forge-sidebar li {
+  color: #a8b9d5;
+}
+
+#cp-forge-sidebar button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 9px 10px;
+  border: 1px solid #2c4163;
+  border-radius: 8px;
+  background: #17243c;
+  color: #eaf2ff;
+  cursor: pointer;
+}
+
+#cp-forge-sidebar textarea {
+  width: 100%;
+  min-height: 90px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #2c4163;
+  background: #0b1220;
+  color: #eaf2ff;
+}

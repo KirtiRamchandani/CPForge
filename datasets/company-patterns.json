@@ -1,0 +1,7 @@
+{
+  "amazon": ["arrays", "sliding-window", "trees", "graphs", "heaps", "dynamic-programming"],
+  "microsoft": ["arrays", "strings", "trees", "graphs", "dynamic-programming"],
+  "google": ["graphs", "dynamic-programming", "binary-search", "strings", "design"],
+  "meta": ["strings", "graphs", "trees", "hashing", "sliding-window"],
+  "adobe": ["arrays", "trees", "dynamic-programming", "backtracking"]
+}

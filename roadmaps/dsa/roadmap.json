@@ -1,0 +1,28 @@
+{
+  "id": "dsa",
+  "title": "DSA Roadmap",
+  "levels": [
+    "Programming Foundations",
+    "Arrays and Strings",
+    "Hashing",
+    "Two Pointers",
+    "Sliding Window",
+    "Stacks and Queues",
+    "Linked Lists",
+    "Sorting",
+    "Binary Search",
+    "Recursion",
+    "Backtracking",
+    "Trees",
+    "Binary Search Trees",
+    "Heaps",
+    "Greedy",
+    "Graphs",
+    "Dynamic Programming",
+    "Tries",
+    "Intervals",
+    "Bit Manipulation",
+    "Advanced Data Structures",
+    "Interview Mastery"
+  ]
+}

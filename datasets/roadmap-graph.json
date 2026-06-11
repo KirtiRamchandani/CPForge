@@ -1,0 +1,10 @@
+{
+  "root": "dsa",
+  "nodes": [
+    { "id": "dsa", "title": "DSA", "type": "root", "children": ["arrays", "trees", "graphs", "dynamic-programming"] },
+    { "id": "arrays", "title": "Arrays", "type": "topic", "children": ["prefix-sum", "two-pointers", "sliding-window"] },
+    { "id": "trees", "title": "Trees", "type": "topic", "children": ["traversals", "bst", "lca"] },
+    { "id": "graphs", "title": "Graphs", "type": "topic", "children": ["bfs", "dfs", "dijkstra", "dsu"] },
+    { "id": "dynamic-programming", "title": "Dynamic Programming", "type": "topic", "children": ["1d-dp", "2d-dp", "knapsack", "lis"] }
+  ]
+}

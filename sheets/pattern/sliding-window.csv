@@ -1,0 +1,3 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status,attempts,confidence,notes,review_date
+lc-longest-substring,leetcode,Longest Substring Without Repeating Characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,medium,1200,strings,sliding-window,amazon;meta,intermediate,unseen,0,0,Variable window,
+lc-min-window,leetcode,Minimum Window Substring,https://leetcode.com/problems/minimum-window-substring/,hard,1700,strings,sliding-window,amazon;google,advanced,unseen,0,0,Hard invariant,

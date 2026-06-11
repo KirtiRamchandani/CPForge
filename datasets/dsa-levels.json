@@ -1,0 +1,5 @@
+[
+  { "id": "beginner", "focus": ["arrays", "strings", "hashing"] },
+  { "id": "intermediate", "focus": ["trees", "graphs", "dynamic-programming"] },
+  { "id": "advanced", "focus": ["tries", "advanced data structures", "hard dp"] }
+]

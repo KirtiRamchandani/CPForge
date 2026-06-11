@@ -1,0 +1,10 @@
+{
+  "id": "cp",
+  "title": "Competitive Programming Roadmap",
+  "levels": [
+    { "id": "newbie", "range": "800-1000", "moveUpWhen": "You solve A/B quickly and upsolve C consistently." },
+    { "id": "pupil", "range": "1000-1200", "moveUpWhen": "You can solve 1000-rated problems without editorials." },
+    { "id": "specialist", "range": "1200-1500", "moveUpWhen": "You solve C in many Div. 3/4 contests." },
+    { "id": "expert", "range": "1500-1800", "moveUpWhen": "You can mix graph, dp, greedy, and binary search patterns." }
+  ]
+}

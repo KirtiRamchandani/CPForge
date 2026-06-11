@@ -1,0 +1,6 @@
+[
+  { "id": "newbie", "range": "800-1000", "focus": ["implementation", "math", "greedy basics"] },
+  { "id": "pupil", "range": "1000-1200", "focus": ["sorting", "constructive", "prefix sums"] },
+  { "id": "specialist", "range": "1200-1500", "focus": ["graphs", "dp basics", "binary search"] },
+  { "id": "expert", "range": "1500-1800", "focus": ["advanced dp", "shortest paths", "data structures"] }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "lc-two-sum",
+    "platform": "leetcode",
+    "title": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "difficulty": "easy",
+    "rating": 800,
+    "topics": ["arrays", "hashing"],
+    "patterns": ["hash map"],
+    "companies": ["amazon", "google"],
+    "level": "beginner",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Must do",
+    "review_date": ""
+  }
+]

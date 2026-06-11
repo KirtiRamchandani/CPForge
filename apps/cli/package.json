@@ -1,0 +1,30 @@
+{
+  "name": "@cp-forge/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "cp-forge": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@cp-forge/analytics-engine": "workspace:*",
+    "@cp-forge/core": "workspace:*",
+    "@cp-forge/export-engine": "workspace:*",
+    "@cp-forge/mistake-engine": "workspace:*",
+    "@cp-forge/platform-adapters": "workspace:*",
+    "@cp-forge/portfolio-engine": "workspace:*",
+    "@cp-forge/recommendation-engine": "workspace:*",
+    "@cp-forge/review-scheduler": "workspace:*",
+    "@cp-forge/roadmap-engine": "workspace:*",
+    "@cp-forge/schemas": "workspace:*",
+    "@cp-forge/sheet-engine": "workspace:*",
+    "@cp-forge/storage": "workspace:*",
+    "@cp-forge/upsolve-engine": "workspace:*",
+    "commander": "^14.0.0"
+  }
+}

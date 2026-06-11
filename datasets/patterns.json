@@ -1,0 +1,8 @@
+[
+  { "id": "prefix-sum", "title": "Prefix Sum", "commonMistake": "Forgetting the zero prefix for ranges starting at index 0." },
+  { "id": "two-pointers", "title": "Two Pointers", "commonMistake": "Moving the wrong pointer without proving monotonicity." },
+  { "id": "sliding-window", "title": "Sliding Window", "commonMistake": "Not shrinking until the invariant is restored." },
+  { "id": "binary-search-on-answer", "title": "Binary Search On Answer", "commonMistake": "Choosing bounds that do not include the answer." },
+  { "id": "knapsack-dp", "title": "Knapsack DP", "commonMistake": "Iterating in the wrong direction for 0/1 transitions." },
+  { "id": "dijkstra", "title": "Dijkstra", "commonMistake": "Processing stale priority queue states." }
+]

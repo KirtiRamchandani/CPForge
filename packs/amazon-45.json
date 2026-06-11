@@ -1,0 +1,43 @@
+{
+  "title": "Amazon 45-day interview pack",
+  "problems": [
+    {
+      "id": "pack-amazon-two-sum",
+      "platform": "leetcode",
+      "platformId": "1",
+      "title": "Two Sum",
+      "url": "https://leetcode.com/problems/two-sum/",
+      "difficulty": "easy",
+      "rating": 800,
+      "topics": ["arrays", "hashing"],
+      "patterns": ["hash map"],
+      "companies": ["amazon"],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "Must do",
+      "mistakes": [],
+      "source": "pack-amazon-45"
+    },
+    {
+      "id": "pack-amazon-min-window",
+      "platform": "leetcode",
+      "platformId": "76",
+      "title": "Minimum Window Substring",
+      "url": "https://leetcode.com/problems/minimum-window-substring/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": ["strings"],
+      "patterns": ["sliding-window"],
+      "companies": ["amazon"],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "Must do",
+      "mistakes": [],
+      "source": "pack-amazon-45"
+    }
+  ]
+}

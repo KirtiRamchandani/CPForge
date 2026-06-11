@@ -1,0 +1,4 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status,attempts,confidence,notes,review_date
+lc-two-sum,leetcode,Two Sum,https://leetcode.com/problems/two-sum/,easy,800,arrays;hashing,hash map,amazon;google,beginner,unseen,0,0,Must do,
+lc-longest-substring,leetcode,Longest Substring Without Repeating Characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,medium,1200,strings,sliding-window,amazon;meta,intermediate,unseen,0,0,High frequency,
+lc-number-islands,leetcode,Number of Islands,https://leetcode.com/problems/number-of-islands/,medium,1300,graphs,bfs shortest path;dfs connected components,amazon;microsoft,intermediate,unseen,0,0,Core graph,

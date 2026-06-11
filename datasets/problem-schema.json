@@ -1,0 +1,19 @@
+{
+  "columns": [
+    "id",
+    "platform",
+    "title",
+    "url",
+    "difficulty",
+    "rating",
+    "topics",
+    "patterns",
+    "companies",
+    "level",
+    "status",
+    "attempts",
+    "confidence",
+    "notes",
+    "review_date"
+  ]
+}

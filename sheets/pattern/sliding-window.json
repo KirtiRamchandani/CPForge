@@ -1,0 +1,19 @@
+[
+  {
+    "id": "lc-longest-substring",
+    "platform": "leetcode",
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficulty": "medium",
+    "rating": 1200,
+    "topics": ["strings"],
+    "patterns": ["sliding-window"],
+    "companies": ["amazon", "meta"],
+    "level": "intermediate",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "Variable window",
+    "review_date": ""
+  }
+]

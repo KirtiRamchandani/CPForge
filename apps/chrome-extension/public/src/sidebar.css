@@ -1,0 +1,16 @@
+#cp-forge-sidebar {
+  position: fixed;
+  top: 84px;
+  right: 18px;
+  z-index: 2147483647;
+  width: 320px;
+  max-height: calc(100vh - 110px);
+  overflow: auto;
+  border: 1px solid #2a3957;
+  border-radius: 8px;
+  padding: 14px;
+  background: #0e1728;
+  color: #edf5ff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  font-family: Inter, system-ui, sans-serif;
+}

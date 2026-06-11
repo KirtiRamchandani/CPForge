@@ -1,0 +1,6 @@
+{
+  "cpp": { "fastIo": "ios::sync_with_stdio(false); cin.tie(nullptr);", "integer": "long long" },
+  "java": { "fastIo": "BufferedInputStream + StringBuilder", "integer": "long" },
+  "python": { "fastIo": "sys.stdin.buffer.read", "integer": "int" },
+  "javascript": { "fastIo": "fs.readFileSync(0, 'utf8')", "integer": "Number / BigInt" }
+}

@@ -1,0 +1,4 @@
+id,platform,title,url,difficulty,rating,topics,patterns,companies,level,status,attempts,confidence,notes,review_date
+cf-4a,codeforces,Watermelon,https://codeforces.com/problemset/problem/4/A,800,800,implementation,parity,,newbie,unseen,0,0,Warmup,
+cf-455a,codeforces,Boredom,https://codeforces.com/problemset/problem/455/A,1500,1500,dynamic-programming,1D DP,,specialist,unseen,0,0,DP transition,
+cf-20c,codeforces,Dijkstra?,https://codeforces.com/problemset/problem/20/C,1900,1900,graphs,dijkstra,,expert,unseen,0,0,Shortest paths,

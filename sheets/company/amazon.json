@@ -1,0 +1,19 @@
+[
+  {
+    "id": "lc-min-window",
+    "platform": "leetcode",
+    "title": "Minimum Window Substring",
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "difficulty": "hard",
+    "rating": 1700,
+    "topics": ["strings"],
+    "patterns": ["sliding-window"],
+    "companies": ["amazon"],
+    "level": "advanced",
+    "status": "unseen",
+    "attempts": 0,
+    "confidence": 0,
+    "notes": "High frequency",
+    "review_date": ""
+  }
+]

@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: #08101f;
+  color: #eaf2ff;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+main {
+  max-width: 980px;
+  margin: auto;
+  padding: 28px;
+}
+
+nav {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #8bd3ff;
+}
+
+.hero {
+  min-height: 62vh;
+}
+
+h1 {
+  max-width: 760px;
+  font-size: clamp(42px, 8vw, 82px);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+p {
+  color: #a7b8d6;
+  font-size: 18px;
+}
+
+code {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 14px 16px;
+  border: 1px solid #28405d;
+  border-radius: 8px;
+  background: #101a2e;
+}
+
+section {
+  padding: 34px 0;
+}
