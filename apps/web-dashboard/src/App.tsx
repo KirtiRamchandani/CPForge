@@ -10,6 +10,7 @@ import { stableId } from "@cp-forge/utils";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AchievementGrid, CommandPalette, computeAchievements } from "./CommandPalette";
 import { CfSearchPanel } from "./CfSearchPanel";
+import { LeetCodeSearchPanel } from "./LeetCodeSearchPanel";
 
 const nav = [
   "Home",
@@ -467,6 +468,7 @@ export const App = () => {
               )}
             </div>
             <CfSearchPanel />
+            <LeetCodeSearchPanel />
           </Panel>
         )}
 

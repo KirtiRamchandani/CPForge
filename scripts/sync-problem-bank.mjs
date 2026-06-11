@@ -313,6 +313,8 @@ if (fs.existsSync(datasetsFile)) {
   }
 }
 
+// Full CF/LC catalogs live in datasets/*-cache.json for CLI + dashboard search indexes — not bundled here.
+
 const output = [...merged.values()]
   .map(enrichCompanyTags)
   .sort((a, b) => (a.rating ?? 0) - (b.rating ?? 0));

@@ -389,3 +389,14 @@ const strip = (value: string) => value.replace(/<[^>]+>/g, "").replace(/\s+/g, "
 const firstMatch = (value: string, pattern: RegExp) => value.match(pattern)?.[1];
 const splitList = (value = "") => value.split(/[;,|]/).map((item) => item.trim()).filter(Boolean);
 const splitCsvLine = (line: string) => line.split(",").map((cell) => cell.trim().replace(/^"|"$/g, ""));
+
+export {
+  diffNewProblemIds,
+  fetchCodeforcesFeed,
+  fetchLeetCodeFeed,
+  mapCodeforcesApiProblem,
+  mapLeetCodeQuestion,
+  type FeedManifest,
+  type FeedPlatformManifest,
+  type ProblemFeedCache
+} from "./feed.js";

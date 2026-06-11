@@ -202,6 +202,11 @@ pnpm --filter @cp-forge/chrome-extension build
 | `cp-forge export --format sqlite` | SQL dump of your workspace |
 | `cp-forge rate <id> --stars 5` | Personal problem quality rating |
 
+| `cp-forge bank refresh` | Update CF + LeetCode catalogs locally |
+| `cp-forge bank new` | See newly added problems since last refresh |
+
+See [docs/problem-feeds.md](docs/problem-feeds.md) for auto-updating problem lists.
+
 <details>
 <summary><strong>All commands</strong></summary>
 

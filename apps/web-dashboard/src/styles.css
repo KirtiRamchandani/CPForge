@@ -740,3 +740,9 @@ a {
   font-size: 13px;
   margin: 0 0 8px;
 }
+
+.feed-updated {
+  color: #8fa3c4;
+  font-weight: normal;
+  font-size: 12px;
+}

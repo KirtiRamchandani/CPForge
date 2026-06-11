@@ -28,9 +28,13 @@ import { createMistake, mistakeStats } from "@cp-forge/mistake-engine";
 import {
   AtCoderScraper,
   CodeforcesApiClient,
+  diffNewProblemIds,
+  fetchCodeforcesFeed,
+  fetchLeetCodeFeed,
   LeetCodeGraphQLClient,
   leetcodeSubmissionsToProblems,
-  parseCustomCsv
+  parseCustomCsv,
+  type FeedManifest
 } from "@cp-forge/platform-adapters";
 import { printDoctorReport, printInfo, printLaunchReport, printList, printStuckReport, printSuccess, printTodayPlan } from "./terminal.js";
 import { portfolioHtml, portfolioMarkdown, profileCardSvg } from "@cp-forge/portfolio-engine";
@@ -39,7 +43,7 @@ import { completeReview, completedReviews, dueReviews, overdueReviews, scheduleR
 import { generateRoadmapPlan } from "@cp-forge/roadmap-engine";
 import type { MistakeCategory, Problem, Profile, WorkspaceData } from "@cp-forge/schemas";
 import { generateCompanySheet, filterSheet, problemBank } from "@cp-forge/sheet-engine";
-import { extendedProblemBank } from "@cp-forge/sheet-engine/extended";
+import { extendedProblemBank, resetExtendedCache } from "@cp-forge/sheet-engine/extended";
 import { deleteWorkspace, exportWorkspace, importWorkspace, initWorkspace, loadWorkspace, saveWorkspace, workspacePaths, writeJson } from "@cp-forge/storage";
 import { buildUpsolveQueue, prioritizeUpsolve } from "@cp-forge/upsolve-engine";
 
@@ -656,6 +660,119 @@ program
     printSuccess(`Rated ${problemId} ${stars}/5.`);
   });
 
+const bankCmd = program.command("bank").description("Refresh live Codeforces + LeetCode problem catalogs for learners.");
+
+bankCmd
+  .command("refresh")
+  .description("Download latest CF + LC problems into .cpforge/cache/ (rate-limited).")
+  .option("--cf", "refresh Codeforces only")
+  .option("--leetcode", "refresh LeetCode only")
+  .action(async (options) => {
+    const paths = workspacePaths();
+    await fs.mkdir(paths.cache, { recursive: true });
+    const cfFile = path.join(paths.cache, "cf-problemset.json");
+    const lcFile = path.join(paths.cache, "leetcode-problemset.json");
+    const manifestFile = path.join(paths.cache, "feed-manifest.json");
+    const runAll = !options.cf && !options.leetcode;
+
+    let manifest: FeedManifest = { updatedAt: new Date().toISOString() };
+    try {
+      manifest = { ...manifest, ...(JSON.parse(await fs.readFile(manifestFile, "utf8")) as FeedManifest) };
+    } catch {
+      /* first run */
+    }
+
+    if (runAll || options.cf) {
+      printInfo("Fetching Codeforces problemset (public API)...");
+      const previous = await readFeedProblemIds(cfFile);
+      const problems = await fetchCodeforcesFeed(new CodeforcesApiClient());
+      const newIds = diffNewProblemIds(previous, problems);
+      await writeJson(cfFile, { fetchedAt: new Date().toISOString(), platform: "codeforces", count: problems.length, problems });
+      manifest.codeforces = {
+        fetchedAt: new Date().toISOString(),
+        count: problems.length,
+        newSinceLastFetch: newIds.length,
+        sampleNew: newIds.slice(0, 8)
+      };
+      printSuccess(`Codeforces: ${problems.length} problems (${newIds.length} new).`);
+    }
+
+    if (runAll || options.leetcode) {
+      printInfo("Fetching LeetCode catalog (public GraphQL, free problems)...");
+      const previous = await readFeedProblemIds(lcFile);
+      const problems = await fetchLeetCodeFeed({ includePaid: false });
+      const newIds = diffNewProblemIds(previous, problems);
+      await writeJson(lcFile, { fetchedAt: new Date().toISOString(), platform: "leetcode", count: problems.length, problems });
+      manifest.leetcode = {
+        fetchedAt: new Date().toISOString(),
+        count: problems.length,
+        newSinceLastFetch: newIds.length,
+        sampleNew: newIds.slice(0, 8)
+      };
+      printSuccess(`LeetCode: ${problems.length} problems (${newIds.length} new).`);
+    }
+
+    manifest.updatedAt = new Date().toISOString();
+    await writeJson(manifestFile, manifest);
+    resetExtendedCache();
+    printInfo("Run cp-forge bank new to see fresh problems, or cp-forge sheet to filter the expanded bank.");
+  });
+
+bankCmd
+  .command("status")
+  .description("Show when problem feeds were last refreshed.")
+  .action(async () => {
+    const paths = workspacePaths();
+    const manifestFile = path.join(paths.cache, "feed-manifest.json");
+    try {
+      const manifest = JSON.parse(await fs.readFile(manifestFile, "utf8")) as FeedManifest;
+      console.log(`\nProblem feed status (updated ${manifest.updatedAt})`);
+      if (manifest.codeforces) {
+        console.log(`  Codeforces: ${manifest.codeforces.count} · ${manifest.codeforces.newSinceLastFetch} new · ${manifest.codeforces.fetchedAt.slice(0, 10)}`);
+      }
+      if (manifest.leetcode) {
+        console.log(`  LeetCode:   ${manifest.leetcode.count} · ${manifest.leetcode.newSinceLastFetch} new · ${manifest.leetcode.fetchedAt.slice(0, 10)}`);
+      }
+    } catch {
+      printInfo("No local feed cache yet. Run: cp-forge bank refresh");
+    }
+    const repoManifest = path.join(findRepoRoot(), "datasets", "feed-manifest.json");
+    if (existsSync(repoManifest)) {
+      const bundled = JSON.parse(await fs.readFile(repoManifest, "utf8")) as FeedManifest;
+      console.log(`\nBundled repo feeds (updated ${bundled.updatedAt})`);
+      if (bundled.codeforces) console.log(`  Codeforces: ${bundled.codeforces.count}`);
+      if (bundled.leetcode) console.log(`  LeetCode:   ${bundled.leetcode.count}`);
+    }
+  });
+
+bankCmd
+  .command("new")
+  .description("List problems added since your last bank refresh.")
+  .option("--limit <n>", "max rows", parseNumber, 20)
+  .action(async (options) => {
+    const paths = workspacePaths();
+    const manifestFile = path.join(paths.cache, "feed-manifest.json");
+    let manifest: FeedManifest;
+    try {
+      manifest = JSON.parse(await fs.readFile(manifestFile, "utf8")) as FeedManifest;
+    } catch {
+      printInfo("Run cp-forge bank refresh first.");
+      return;
+    }
+    const ids = [...(manifest.codeforces?.sampleNew ?? []), ...(manifest.leetcode?.sampleNew ?? [])];
+    if (!ids.length) {
+      printInfo("No new problems in the last refresh sample.");
+      return;
+    }
+    const all = bank();
+    const rows = ids
+      .map((id) => all.find((p) => p.id === id))
+      .filter((p): p is Problem => Boolean(p))
+      .slice(0, options.limit ?? 20);
+    rows.forEach((p) => console.log(`${p.platform.padEnd(12)} ${p.title} → ${p.url}`));
+    printSuccess(`${rows.length} new problems shown (sample from last refresh).`);
+  });
+
 program
   .command("dashboard")
   .description("Generate dashboard data for the web app.")
@@ -901,7 +1018,17 @@ function parseNumber(value: string): number {
 }
 
 function bank(): Problem[] {
-  return extendedProblemBank(findRepoRoot());
+  resetExtendedCache();
+  return extendedProblemBank(findRepoRoot(), process.cwd());
+}
+
+async function readFeedProblemIds(file: string): Promise<string[]> {
+  try {
+    const raw = JSON.parse(await fs.readFile(file, "utf8")) as { problems?: Problem[] };
+    return (raw.problems ?? []).map((p) => p.id);
+  } catch {
+    return [];
+  }
 }
 
 function findRepoRoot(): string {
