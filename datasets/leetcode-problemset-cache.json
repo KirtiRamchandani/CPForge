@@ -1,6 +1,7 @@
 {
-  "fetchedAt": "2026-06-11T16:55:58.350Z",
-  "count": 3187,
+  "fetchedAt": "2026-06-15T12:27:50.636Z",
+  "platform": "leetcode",
+  "count": 3191,
   "problems": [
     {
       "id": "leetcode-two-sum",
@@ -21138,8 +21139,12 @@
       "url": "https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "bit-manipulation"
+      ],
+      "patterns": [
+        "bit-manipulation"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21156,6 +21161,33 @@
       "platformId": "sum-of-compatible-numbers-in-range-i",
       "title": "Sum of Compatible Numbers in Range I",
       "url": "https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/",
+      "difficulty": "easy",
+      "rating": 900,
+      "topics": [
+        "dynamic-programming",
+        "bit-manipulation",
+        "enumeration"
+      ],
+      "patterns": [
+        "dynamic-programming",
+        "bit-manipulation"
+      ],
+      "companies": [],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-check-good-integer",
+      "platform": "leetcode",
+      "platformId": "check-good-integer",
+      "title": "Check Good Integer",
+      "url": "https://leetcode.com/problems/check-good-integer/",
       "difficulty": "easy",
       "rating": 900,
       "topics": [],
@@ -64690,8 +64722,14 @@
       "url": "https://leetcode.com/problems/minimum-energy-to-maintain-brightness/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "sorting"
+      ],
+      "patterns": [
+        "array",
+        "sorting"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -64710,8 +64748,16 @@
       "url": "https://leetcode.com/problems/maximum-total-value-of-covered-indices/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "patterns": [
+        "array",
+        "string"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -64728,6 +64774,54 @@
       "platformId": "valid-binary-strings-with-cost-limit",
       "title": "Valid Binary Strings With Cost Limit",
       "url": "https://leetcode.com/problems/valid-binary-strings-with-cost-limit/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [
+        "string",
+        "backtracking",
+        "bit-manipulation",
+        "enumeration"
+      ],
+      "patterns": [
+        "string",
+        "backtracking"
+      ],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-frequency-balance-subarray",
+      "platform": "leetcode",
+      "platformId": "frequency-balance-subarray",
+      "title": "Frequency Balance Subarray",
+      "url": "https://leetcode.com/problems/frequency-balance-subarray/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-maximize-sum-of-device-ratings",
+      "platform": "leetcode",
+      "platformId": "maximize-sum-of-device-ratings",
+      "title": "Maximize Sum of Device Ratings",
+      "url": "https://leetcode.com/problems/maximize-sum-of-device-ratings/",
       "difficulty": "medium",
       "rating": 1300,
       "topics": [],
@@ -84611,7 +84705,8 @@
         "array",
         "math",
         "binary-search",
-        "segment-tree"
+        "segment-tree",
+        "sorting"
       ],
       "patterns": [
         "array",
@@ -85118,7 +85213,9 @@
         "array",
         "string",
         "divide-and-conquer",
+        "bit-manipulation",
         "tree",
+        "depth-first-search",
         "segment-tree"
       ],
       "patterns": [
@@ -85833,8 +85930,18 @@
       "url": "https://leetcode.com/problems/maximum-score-with-co-prime-element/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "math",
+        "combinatorics",
+        "enumeration",
+        "number-theory"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -85853,8 +85960,19 @@
       "url": "https://leetcode.com/problems/maximum-sum-of-m-non-overlapping-subarrays-i/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "queue",
+        "sliding-window",
+        "prefix-sum",
+        "monotonic-queue"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -85871,6 +85989,37 @@
       "platformId": "maximum-sum-of-m-non-overlapping-subarrays-ii",
       "title": "Maximum Sum of M Non-Overlapping Subarrays II",
       "url": "https://leetcode.com/problems/maximum-sum-of-m-non-overlapping-subarrays-ii/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "queue",
+        "sliding-window",
+        "prefix-sum",
+        "monotonic-queue"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
+      "companies": [],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-maximum-subarray-sum-after-at-most-k-swaps",
+      "platform": "leetcode",
+      "platformId": "maximum-subarray-sum-after-at-most-k-swaps",
+      "title": "Maximum Subarray Sum After at Most K Swaps",
+      "url": "https://leetcode.com/problems/maximum-subarray-sum-after-at-most-k-swaps/",
       "difficulty": "hard",
       "rating": 1700,
       "topics": [],
