@@ -1,29 +1,33 @@
 {
-  "updatedAt": "2026-06-15T12:27:50.649Z",
+  "updatedAt": "2026-06-22T12:14:59.385Z",
   "codeforces": {
-    "fetchedAt": "2026-06-15T12:26:48.703Z",
-    "count": 11245,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-06-22T12:13:57.806Z",
+    "count": 11255,
+    "newSinceLastFetch": 10,
     "sampleNew": [
-      "codeforces-2236G-criterion-in-burlandia",
-      "codeforces-2236F1-elections-in-saransk-easy-version",
-      "codeforces-2236C-omsk-programmers",
-      "codeforces-2236B-tatar-tv-show",
-      "codeforces-2236A-games-on-the-train",
-      "codeforces-2236F2-elections-in-saransk-hard-version",
-      "codeforces-2236E-friendly-gifts",
-      "codeforces-2236D-brand-new-tatar-tv-show"
+      "codeforces-2237H-slime-and-queries",
+      "codeforces-2237G-send-gcds",
+      "codeforces-2237D-fullmetal-bitchemist",
+      "codeforces-2237B-annoying-the-ghost",
+      "codeforces-2237A-destroying-towers",
+      "codeforces-2237E-permutation-commutation",
+      "codeforces-2237I2-dbfs-order-hard-version",
+      "codeforces-2237I1-dbfs-order-easy-version"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-06-15T12:27:50.649Z",
-    "count": 3191,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-06-22T12:14:59.385Z",
+    "count": 3199,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-check-good-integer",
-      "leetcode-frequency-balance-subarray",
-      "leetcode-maximize-sum-of-device-ratings",
-      "leetcode-maximum-subarray-sum-after-at-most-k-swaps"
+      "leetcode-create-grid-with-exactly-one-path",
+      "leetcode-minimum-lights-to-illuminate-a-road",
+      "leetcode-finish-time-of-tasks-i",
+      "leetcode-maximum-manhattan-distance-after-all-moves",
+      "leetcode-valid-subarrays-with-matching-sum-digits-i",
+      "leetcode-shortest-path-with-at-most-k-consecutive-identical-characters",
+      "leetcode-count-good-integers-in-a-range",
+      "leetcode-maximum-total-value"
     ]
   }
 }
