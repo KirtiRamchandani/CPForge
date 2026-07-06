@@ -1,29 +1,32 @@
 {
-  "updatedAt": "2026-06-29T11:10:44.716Z",
+  "updatedAt": "2026-07-06T10:47:27.233Z",
   "codeforces": {
-    "fetchedAt": "2026-06-29T11:09:44.748Z",
-    "count": 11269,
-    "newSinceLastFetch": 14,
+    "fetchedAt": "2026-07-06T10:46:26.436Z",
+    "count": 11276,
+    "newSinceLastFetch": 7,
     "sampleNew": [
-      "codeforces-2239F-colorful-works",
-      "codeforces-2240B-ai-finds-nothing-here",
-      "codeforces-2240A-another-popcount-problem",
-      "codeforces-2239E-the-end-of-this-world",
-      "codeforces-2239C-revival",
-      "codeforces-2239B-decidophobia",
-      "codeforces-2239A-nim-game-is-xor-game",
-      "codeforces-2238D-storming-arasaka"
+      "codeforces-2241G-summmon",
+      "codeforces-2241F-a-bit-odd",
+      "codeforces-2241C-removevomer",
+      "codeforces-2241B-good-times-good-times",
+      "codeforces-2241A-divide-and-conquer",
+      "codeforces-2241E-fair-and-square",
+      "codeforces-2241D-an-alternative-way"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-06-29T11:10:44.716Z",
-    "count": 3203,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-07-06T10:47:27.233Z",
+    "count": 3211,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-maximum-total-sum-of-k-selected-elements",
-      "leetcode-filter-occupied-intervals",
-      "leetcode-maximum-subarray-sum-after-multiplier",
-      "leetcode-minimum-time-to-reach-target-with-limited-power"
+      "leetcode-unique-middle-element",
+      "leetcode-sum-of-integers-with-maximum-digit-range",
+      "leetcode-maximum-valid-pair-sum",
+      "leetcode-minimum-operations-to-transform-binary-string",
+      "leetcode-subsequence-after-one-replacement",
+      "leetcode-divisible-game",
+      "leetcode-count-distinct-ways-to-form-target-from-two-strings",
+      "leetcode-palindromic-subarray-sum"
     ]
   }
 }
