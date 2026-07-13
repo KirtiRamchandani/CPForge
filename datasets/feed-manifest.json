@@ -1,32 +1,29 @@
 {
-  "updatedAt": "2026-07-06T10:47:27.233Z",
+  "updatedAt": "2026-07-13T09:37:10.105Z",
   "codeforces": {
-    "fetchedAt": "2026-07-06T10:46:26.436Z",
-    "count": 11276,
-    "newSinceLastFetch": 7,
+    "fetchedAt": "2026-07-13T09:36:10.966Z",
+    "count": 11288,
+    "newSinceLastFetch": 12,
     "sampleNew": [
-      "codeforces-2241G-summmon",
-      "codeforces-2241F-a-bit-odd",
-      "codeforces-2241C-removevomer",
-      "codeforces-2241B-good-times-good-times",
-      "codeforces-2241A-divide-and-conquer",
-      "codeforces-2241E-fair-and-square",
-      "codeforces-2241D-an-alternative-way"
+      "codeforces-2242A-bigrams",
+      "codeforces-2242B-predominant-frequency-division",
+      "codeforces-2246F-whoname-and-unsorted-array",
+      "codeforces-2246E-lce4113-and-security-game",
+      "codeforces-2246D-diss-quack-and-array-game",
+      "codeforces-2246B-ezraft-and-array",
+      "codeforces-2246A-farmpiggie-and-subset-sum",
+      "codeforces-2242C-unstable-elements"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-07-06T10:47:27.233Z",
-    "count": 3211,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-07-13T09:37:10.105Z",
+    "count": 3215,
+    "newSinceLastFetch": 4,
     "sampleNew": [
-      "leetcode-unique-middle-element",
-      "leetcode-sum-of-integers-with-maximum-digit-range",
-      "leetcode-maximum-valid-pair-sum",
-      "leetcode-minimum-operations-to-transform-binary-string",
-      "leetcode-subsequence-after-one-replacement",
-      "leetcode-divisible-game",
-      "leetcode-count-distinct-ways-to-form-target-from-two-strings",
-      "leetcode-palindromic-subarray-sum"
+      "leetcode-number-of-elapsed-seconds-between-two-times",
+      "leetcode-minimum-total-cost-to-process-all-elements",
+      "leetcode-create-grid-with-exactly-k-paths-i",
+      "leetcode-maximum-consistent-columns-in-a-grid"
     ]
   }
 }

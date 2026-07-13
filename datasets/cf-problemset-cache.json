@@ -1,8 +1,58 @@
 {
-  "fetchedAt": "2026-07-06T10:46:26.388Z",
+  "fetchedAt": "2026-07-13T09:36:10.922Z",
   "platform": "codeforces",
-  "count": 11276,
+  "count": 11288,
   "problems": [
+    {
+      "id": "codeforces-2242A-bigrams",
+      "platform": "codeforces",
+      "platformId": "2242A",
+      "title": "Bigrams",
+      "url": "https://codeforces.com/problemset/problem/2242/A",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "sortings",
+        "strings"
+      ],
+      "patterns": [
+        "sortings",
+        "strings"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2241A-divide-and-conquer",
+      "platform": "codeforces",
+      "platformId": "2241A",
+      "title": "Divide and Conquer",
+      "url": "https://codeforces.com/problemset/problem/2241/A",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "greedy",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
     {
       "id": "codeforces-2240A-another-popcount-problem",
       "platform": "codeforces",
@@ -26324,34 +26374,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2241G-summmon",
-      "platform": "codeforces",
-      "platformId": "2241G",
-      "title": "Summmon",
-      "url": "https://codeforces.com/problemset/problem/2241/G",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "binary-search",
-        "data-structures",
-        "greedy",
-        "implementation",
-        "math",
-        "number-theory"
-      ],
-      "patterns": [
-        "binary search"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2238B-crimson-triples",
       "platform": "codeforces",
       "platformId": "2238B",
@@ -35821,6 +35843,55 @@
       "patterns": [
         "brute force",
         "geometry"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2242B-predominant-frequency-division",
+      "platform": "codeforces",
+      "platformId": "2242B",
+      "title": "Predominant Frequency Division",
+      "url": "https://codeforces.com/problemset/problem/2242/B",
+      "difficulty": "1000",
+      "rating": 1000,
+      "topics": [
+        "data-structures",
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2241C-removevomer",
+      "platform": "codeforces",
+      "platformId": "2241C",
+      "title": "RemovevomeR",
+      "url": "https://codeforces.com/problemset/problem/2241/C",
+      "difficulty": "1000",
+      "rating": 1000,
+      "topics": [
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "newbie",
@@ -45557,18 +45628,67 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2241F-a-bit-odd",
+      "id": "codeforces-2246F-whoname-and-unsorted-array",
       "platform": "codeforces",
-      "platformId": "2241F",
-      "title": "A Bit Odd",
-      "url": "https://codeforces.com/problemset/problem/2241/F",
+      "platformId": "2246F",
+      "title": "Whoname and Unsorted Array",
+      "url": "https://codeforces.com/problemset/problem/2246/F",
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
-        "data-structures",
+        "constructive-algorithms"
+      ],
+      "patterns": [
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2246E-lce4113-and-security-game",
+      "platform": "codeforces",
+      "platformId": "2246E",
+      "title": "lce4113 and Security Game",
+      "url": "https://codeforces.com/problemset/problem/2246/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "interactive",
+        "probabilities"
+      ],
+      "patterns": [
+        "bitmasks",
+        "interactive"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2246D-diss-quack-and-array-game",
+      "platform": "codeforces",
+      "platformId": "2246D",
+      "title": "diss_quack and Array Game",
+      "url": "https://codeforces.com/problemset/problem/2246/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "brute-force",
         "games",
-        "greedy",
-        "math"
+        "greedy"
       ],
       "patterns": [
         "greedy"
@@ -45583,18 +45703,68 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2241C-removevomer",
+      "id": "codeforces-2246B-ezraft-and-array",
       "platform": "codeforces",
-      "platformId": "2241C",
-      "title": "RemovevomeR",
-      "url": "https://codeforces.com/problemset/problem/2241/C",
+      "platformId": "2246B",
+      "title": "ezraft and Array",
+      "url": "https://codeforces.com/problemset/problem/2246/B",
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
-        "greedy"
+        "constructive-algorithms",
+        "number-theory"
       ],
       "patterns": [
-        "greedy"
+        "constructive algorithms",
+        "number theory"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2246A-farmpiggie-and-subset-sum",
+      "platform": "codeforces",
+      "platformId": "2246A",
+      "title": "farmpiggie and Subset Sum",
+      "url": "https://codeforces.com/problemset/problem/2246/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms"
+      ],
+      "patterns": [
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2241D-an-alternative-way",
+      "platform": "codeforces",
+      "platformId": "2241D",
+      "title": "An Alternative Way",
+      "url": "https://codeforces.com/problemset/problem/2241/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "newbie",
@@ -45620,31 +45790,6 @@
       ],
       "patterns": [
         "graphs"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2241A-divide-and-conquer",
-      "platform": "codeforces",
-      "platformId": "2241A",
-      "title": "Divide and Conquer",
-      "url": "https://codeforces.com/problemset/problem/2241/A",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "greedy",
-        "math",
-        "number-theory"
-      ],
-      "patterns": [
-        "greedy"
       ],
       "companies": [],
       "level": "newbie",
@@ -72420,6 +72565,34 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2242C-unstable-elements",
+      "platform": "codeforces",
+      "platformId": "2242C",
+      "title": "Unstable Elements",
+      "url": "https://codeforces.com/problemset/problem/2242/C",
+      "difficulty": "1300",
+      "rating": 1300,
+      "topics": [
+        "brute-force",
+        "data-structures",
+        "implementation",
+        "sortings",
+        "two-pointers"
+      ],
+      "patterns": [
+        "brute force",
+        "data structures"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2239A-nim-game-is-xor-game",
       "platform": "codeforces",
       "platformId": "2239A",
@@ -96032,44 +96205,16 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2241E-fair-and-square",
+      "id": "codeforces-2246C-0mar-and-alternating-sums",
       "platform": "codeforces",
-      "platformId": "2241E",
-      "title": "Fair and Square",
-      "url": "https://codeforces.com/problemset/problem/2241/E",
+      "platformId": "2246C",
+      "title": "0mar and Alternating Sums",
+      "url": "https://codeforces.com/problemset/problem/2246/C",
       "difficulty": "1500",
       "rating": 1500,
       "topics": [
         "combinatorics",
         "dp",
-        "graphs",
-        "math",
-        "number-theory",
-        "trees"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2241D-an-alternative-way",
-      "platform": "codeforces",
-      "platformId": "2241D",
-      "title": "An Alternative Way",
-      "url": "https://codeforces.com/problemset/problem/2241/D",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "dp",
-        "greedy",
         "math"
       ],
       "patterns": [
@@ -108480,6 +108625,58 @@
       ],
       "companies": [],
       "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2242D-two-digit-strings",
+      "platform": "codeforces",
+      "platformId": "2242D",
+      "title": "Two Digit Strings",
+      "url": "https://codeforces.com/problemset/problem/2242/D",
+      "difficulty": "1600",
+      "rating": 1600,
+      "topics": [
+        "dp",
+        "strings"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2241E-fair-and-square",
+      "platform": "codeforces",
+      "platformId": "2241E",
+      "title": "Fair and Square",
+      "url": "https://codeforces.com/problemset/problem/2241/E",
+      "difficulty": "1600",
+      "rating": 1600,
+      "topics": [
+        "combinatorics",
+        "dp",
+        "graphs",
+        "math",
+        "number-theory",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "expert",
       "status": "unseen",
       "attempts": 0,
       "confidence": 0,
@@ -121442,6 +121639,32 @@
       "patterns": [
         "implementation",
         "math"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2241F-a-bit-odd",
+      "platform": "codeforces",
+      "platformId": "2241F",
+      "title": "A Bit Odd",
+      "url": "https://codeforces.com/problemset/problem/2241/F",
+      "difficulty": "1700",
+      "rating": 1700,
+      "topics": [
+        "data-structures",
+        "games",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "expert",
@@ -184452,6 +184675,35 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2242E-product-of-closures",
+      "platform": "codeforces",
+      "platformId": "2242E",
+      "title": "Product of Closures",
+      "url": "https://codeforces.com/problemset/problem/2242/E",
+      "difficulty": "2200",
+      "rating": 2200,
+      "topics": [
+        "bitmasks",
+        "brute-force",
+        "constructive-algorithms",
+        "greedy",
+        "implementation",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2239C-revival",
       "platform": "codeforces",
       "platformId": "2239C",
@@ -207016,6 +207268,34 @@
       ],
       "patterns": [
         "graphs"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2241G-summmon",
+      "platform": "codeforces",
+      "platformId": "2241G",
+      "title": "Summmon",
+      "url": "https://codeforces.com/problemset/problem/2241/G",
+      "difficulty": "2400",
+      "rating": 2400,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "greedy",
+        "implementation",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "binary search"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -238072,6 +238352,32 @@
       ],
       "patterns": [
         "geometry"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2242F-summer-vacation",
+      "platform": "codeforces",
+      "platformId": "2242F",
+      "title": "Summer Vacation",
+      "url": "https://codeforces.com/problemset/problem/2242/F",
+      "difficulty": "2700",
+      "rating": 2700,
+      "topics": [
+        "data-structures",
+        "dp",
+        "probabilities",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
