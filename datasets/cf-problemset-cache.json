@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-13T09:36:10.922Z",
+  "fetchedAt": "2026-07-20T09:23:15.451Z",
   "platform": "codeforces",
-  "count": 11288,
+  "count": 11311,
   "problems": [
     {
       "id": "codeforces-2242A-bigrams",
@@ -26374,6 +26374,86 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2245D2-construct-an-array-hard-version",
+      "platform": "codeforces",
+      "platformId": "2245D2",
+      "title": "Construct an Array (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2245/D2",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "2-sat",
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "graphs",
+        "implementation"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2245D1-construct-an-array-easy-version",
+      "platform": "codeforces",
+      "platformId": "2245D1",
+      "title": "Construct an Array (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2245/D1",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "dfs-and-similar",
+        "implementation"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2244E-masha-and-the-garland",
+      "platform": "codeforces",
+      "platformId": "2244E",
+      "title": "Masha and the Garland",
+      "url": "https://codeforces.com/problemset/problem/2244/E",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "data-structures",
+        "dp",
+        "greedy",
+        "implementation",
+        "math",
+        "number-theory",
+        "strings"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2238B-crimson-triples",
       "platform": "codeforces",
       "platformId": "2238B",
@@ -45628,6 +45708,129 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2247E-build-a-tree",
+      "platform": "codeforces",
+      "platformId": "2247E",
+      "title": "Build a Tree",
+      "url": "https://codeforces.com/problemset/problem/2247/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "trees"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "trees"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2247D2-xor-sorting-hard-version",
+      "platform": "codeforces",
+      "platformId": "2247D2",
+      "title": "XOR Sorting (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2247/D2",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "data-structures",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2247D1-xor-sorting-easy-version",
+      "platform": "codeforces",
+      "platformId": "2247D1",
+      "title": "XOR Sorting (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2247/D1",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "bitmasks",
+        "divide-and-conquer",
+        "greedy"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2247C-inversion-of-a-subsequence",
+      "platform": "codeforces",
+      "platformId": "2247C",
+      "title": "Inversion of a Subsequence",
+      "url": "https://codeforces.com/problemset/problem/2247/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2247B-yet-another-constructive",
+      "platform": "codeforces",
+      "platformId": "2247B",
+      "title": "Yet Another Constructive",
+      "url": "https://codeforces.com/problemset/problem/2247/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms"
+      ],
+      "patterns": [
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2246F-whoname-and-unsorted-array",
       "platform": "codeforces",
       "platformId": "2246F",
@@ -45661,6 +45864,7 @@
       "topics": [
         "bitmasks",
         "interactive",
+        "math",
         "probabilities"
       ],
       "patterns": [
@@ -45740,6 +45944,208 @@
       ],
       "patterns": [
         "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2245H-connect-connect-see",
+      "platform": "codeforces",
+      "platformId": "2245H",
+      "title": "Connect Connect See",
+      "url": "https://codeforces.com/problemset/problem/2245/H",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "data-structures"
+      ],
+      "patterns": [
+        "brute force",
+        "data structures"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2245G-npc-challenge",
+      "platform": "codeforces",
+      "platformId": "2245G",
+      "title": "NPC Challenge",
+      "url": "https://codeforces.com/problemset/problem/2245/G",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "divide-and-conquer",
+        "interactive"
+      ],
+      "patterns": [
+        "divide and conquer",
+        "interactive"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2245E-tom-and-jerry",
+      "platform": "codeforces",
+      "platformId": "2245E",
+      "title": "Tom and Jerry",
+      "url": "https://codeforces.com/problemset/problem/2245/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "dfs-and-similar",
+        "dsu",
+        "games",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2245C-mexor",
+      "platform": "codeforces",
+      "platformId": "2245C",
+      "title": "MEXOR",
+      "url": "https://codeforces.com/problemset/problem/2245/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "constructive-algorithms",
+        "math"
+      ],
+      "patterns": [
+        "bitmasks",
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2245B-delete-and-concatenate",
+      "platform": "codeforces",
+      "platformId": "2245B",
+      "title": "Delete and Concatenate",
+      "url": "https://codeforces.com/problemset/problem/2245/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2245A-who-watches-the-watchpig",
+      "platform": "codeforces",
+      "platformId": "2245A",
+      "title": "Who Watches the Watchpig?",
+      "url": "https://codeforces.com/problemset/problem/2245/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2244C-stepan-and-permutation",
+      "platform": "codeforces",
+      "platformId": "2244C",
+      "title": "Stepan and Permutation",
+      "url": "https://codeforces.com/problemset/problem/2244/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "dsu",
+        "greedy",
+        "math",
+        "number-theory",
+        "sortings"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2244B-nikita-and-books",
+      "platform": "codeforces",
+      "platformId": "2244B",
+      "title": "Nikita and Books",
+      "url": "https://codeforces.com/problemset/problem/2244/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "newbie",
@@ -96205,6 +96611,56 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2247F-paths-on-a-grid",
+      "platform": "codeforces",
+      "platformId": "2247F",
+      "title": "Paths on a Grid",
+      "url": "https://codeforces.com/problemset/problem/2247/F",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "data-structures",
+        "dp",
+        "hashing"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2247A-zero-sum",
+      "platform": "codeforces",
+      "platformId": "2247A",
+      "title": "Zero Sum",
+      "url": "https://codeforces.com/problemset/problem/2247/A",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "constructive-algorithms",
+        "dp",
+        "number-theory"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2246C-0mar-and-alternating-sums",
       "platform": "codeforces",
       "platformId": "2246C",
@@ -96216,6 +96672,134 @@
         "combinatorics",
         "dp",
         "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2245F-familiar",
+      "platform": "codeforces",
+      "platformId": "2245F",
+      "title": "Familiar?",
+      "url": "https://codeforces.com/problemset/problem/2245/F",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "brute-force",
+        "combinatorics",
+        "dp"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2244G-yura-and-deadlines",
+      "platform": "codeforces",
+      "platformId": "2244G",
+      "title": "Yura and Deadlines",
+      "url": "https://codeforces.com/problemset/problem/2244/G",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "data-structures",
+        "dp"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2244F-anya-loves-trees",
+      "platform": "codeforces",
+      "platformId": "2244F",
+      "title": "Anya Loves Trees!",
+      "url": "https://codeforces.com/problemset/problem/2244/F",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dfs-and-similar",
+        "dp",
+        "greedy",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2244D-yaroslav-and-productivity",
+      "platform": "codeforces",
+      "platformId": "2244D",
+      "title": "Yaroslav and Productivity",
+      "url": "https://codeforces.com/problemset/problem/2244/D",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "constructive-algorithms",
+        "dp",
+        "greedy",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2244A-iskander-and-drawings",
+      "platform": "codeforces",
+      "platformId": "2244A",
+      "title": "Iskander and Drawings",
+      "url": "https://codeforces.com/problemset/problem/2244/A",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "games",
+        "greedy",
+        "strings"
       ],
       "patterns": [
         "dynamic programming"

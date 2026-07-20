@@ -1,29 +1,33 @@
 {
-  "updatedAt": "2026-07-13T09:37:10.105Z",
+  "updatedAt": "2026-07-20T09:24:17.646Z",
   "codeforces": {
-    "fetchedAt": "2026-07-13T09:36:10.966Z",
-    "count": 11288,
-    "newSinceLastFetch": 12,
+    "fetchedAt": "2026-07-20T09:23:15.497Z",
+    "count": 11311,
+    "newSinceLastFetch": 23,
     "sampleNew": [
-      "codeforces-2242A-bigrams",
-      "codeforces-2242B-predominant-frequency-division",
-      "codeforces-2246F-whoname-and-unsorted-array",
-      "codeforces-2246E-lce4113-and-security-game",
-      "codeforces-2246D-diss-quack-and-array-game",
-      "codeforces-2246B-ezraft-and-array",
-      "codeforces-2246A-farmpiggie-and-subset-sum",
-      "codeforces-2242C-unstable-elements"
+      "codeforces-2245D2-construct-an-array-hard-version",
+      "codeforces-2245D1-construct-an-array-easy-version",
+      "codeforces-2244E-masha-and-the-garland",
+      "codeforces-2247E-build-a-tree",
+      "codeforces-2247D2-xor-sorting-hard-version",
+      "codeforces-2247D1-xor-sorting-easy-version",
+      "codeforces-2247C-inversion-of-a-subsequence",
+      "codeforces-2247B-yet-another-constructive"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-07-13T09:37:10.105Z",
-    "count": 3215,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-07-20T09:24:17.646Z",
+    "count": 3223,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-number-of-elapsed-seconds-between-two-times",
-      "leetcode-minimum-total-cost-to-process-all-elements",
-      "leetcode-create-grid-with-exactly-k-paths-i",
-      "leetcode-maximum-consistent-columns-in-a-grid"
+      "leetcode-rearrange-string-to-avoid-character-pair",
+      "leetcode-even-number-of-knight-moves",
+      "leetcode-maximum-value-of-an-alternating-sequence",
+      "leetcode-minimum-adjacent-swaps-to-partition-array",
+      "leetcode-count-dominant-nodes-in-a-binary-tree",
+      "leetcode-transform-binary-string-using-subsequence-sort",
+      "leetcode-minimum-cost-to-convert-string-iii",
+      "leetcode-minimum-number-of-string-groups-through-transformations"
     ]
   }
 }
