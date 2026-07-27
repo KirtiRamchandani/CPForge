@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-20T09:24:17.634Z",
+  "fetchedAt": "2026-07-27T10:00:47.302Z",
   "platform": "leetcode",
-  "count": 3223,
+  "count": 3228,
   "problems": [
     {
       "id": "leetcode-two-sum",
@@ -1383,34 +1383,6 @@
       "patterns": [
         "array",
         "hash-table"
-      ],
-      "companies": [],
-      "level": "beginner",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "leetcode-api",
-      "paidOnly": false
-    },
-    {
-      "id": "leetcode-count-complete-tree-nodes",
-      "platform": "leetcode",
-      "platformId": "count-complete-tree-nodes",
-      "title": "Count Complete Tree Nodes",
-      "url": "https://leetcode.com/problems/count-complete-tree-nodes/",
-      "difficulty": "easy",
-      "rating": 900,
-      "topics": [
-        "binary-search",
-        "bit-manipulation",
-        "tree",
-        "binary-tree"
-      ],
-      "patterns": [
-        "binary-search",
-        "bit-manipulation"
       ],
       "companies": [],
       "level": "beginner",
@@ -21325,6 +21297,26 @@
       "paidOnly": false
     },
     {
+      "id": "leetcode-largest-integer-with-given-digit-sum",
+      "platform": "leetcode",
+      "platformId": "largest-integer-with-given-digit-sum",
+      "title": "Largest Integer With Given Digit Sum",
+      "url": "https://leetcode.com/problems/largest-integer-with-given-digit-sum/",
+      "difficulty": "easy",
+      "rating": 900,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
       "id": "leetcode-add-two-numbers",
       "platform": "leetcode",
       "platformId": "add-two-numbers",
@@ -24629,6 +24621,34 @@
       "patterns": [
         "array",
         "dynamic-programming"
+      ],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-count-complete-tree-nodes",
+      "platform": "leetcode",
+      "platformId": "count-complete-tree-nodes",
+      "title": "Count Complete Tree Nodes",
+      "url": "https://leetcode.com/problems/count-complete-tree-nodes/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [
+        "binary-search",
+        "bit-manipulation",
+        "tree",
+        "binary-tree"
+      ],
+      "patterns": [
+        "binary-search",
+        "bit-manipulation"
       ],
       "companies": [],
       "level": "intermediate",
@@ -33683,7 +33703,7 @@
       "topics": [
         "array",
         "two-pointers",
-        "line-sweep"
+        "sweep-line"
       ],
       "patterns": [
         "array",
@@ -48542,6 +48562,34 @@
       "patterns": [
         "array",
         "two-pointers"
+      ],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-design-sql",
+      "platform": "leetcode",
+      "platformId": "design-sql",
+      "title": "Design SQL",
+      "url": "https://leetcode.com/problems/design-sql/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [
+        "array",
+        "hash-table",
+        "string",
+        "design"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
       ],
       "companies": [],
       "level": "intermediate",
@@ -65366,6 +65414,46 @@
       "paidOnly": false
     },
     {
+      "id": "leetcode-aggregate-two-time-series",
+      "platform": "leetcode",
+      "platformId": "aggregate-two-time-series",
+      "title": "Aggregate Two Time Series",
+      "url": "https://leetcode.com/problems/aggregate-two-time-series/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-count-valid-sequences",
+      "platform": "leetcode",
+      "platformId": "count-valid-sequences",
+      "title": "Count Valid Sequences",
+      "url": "https://leetcode.com/problems/count-valid-sequences/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
       "id": "leetcode-median-of-two-sorted-arrays",
       "platform": "leetcode",
       "platformId": "median-of-two-sorted-arrays",
@@ -66293,7 +66381,7 @@
         "divide-and-conquer",
         "binary-indexed-tree",
         "segment-tree",
-        "line-sweep",
+        "sweep-line",
         "sorting",
         "heap-priority-queue",
         "ordered-set"
@@ -66980,7 +67068,7 @@
         "hash-table",
         "math",
         "geometry",
-        "line-sweep"
+        "sweep-line"
       ],
       "patterns": [
         "array",
@@ -69013,7 +69101,7 @@
       "topics": [
         "array",
         "segment-tree",
-        "line-sweep",
+        "sweep-line",
         "ordered-set"
       ],
       "patterns": [
@@ -74114,7 +74202,7 @@
       "topics": [
         "array",
         "binary-search",
-        "line-sweep",
+        "sweep-line",
         "sorting",
         "heap-priority-queue"
       ],
@@ -82958,7 +83046,7 @@
         "array",
         "binary-search",
         "segment-tree",
-        "line-sweep"
+        "sweep-line"
       ],
       "patterns": [
         "array",
@@ -86726,6 +86814,26 @@
       "platformId": "minimum-number-of-string-groups-through-transformations",
       "title": "Minimum Number of String Groups Through Transformations",
       "url": "https://leetcode.com/problems/minimum-number-of-string-groups-through-transformations/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-minimum-cost-path-with-alternating-directions-iii",
+      "platform": "leetcode",
+      "platformId": "minimum-cost-path-with-alternating-directions-iii",
+      "title": "Minimum Cost Path with Alternating Directions III",
+      "url": "https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-iii/",
       "difficulty": "hard",
       "rating": 1700,
       "topics": [],
