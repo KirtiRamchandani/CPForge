@@ -1,30 +1,32 @@
 {
-  "updatedAt": "2026-07-27T10:00:47.313Z",
+  "updatedAt": "2026-08-03T09:55:27.699Z",
   "codeforces": {
-    "fetchedAt": "2026-07-27T09:59:37.109Z",
-    "count": 11320,
-    "newSinceLastFetch": 9,
+    "fetchedAt": "2026-08-03T09:54:20.592Z",
+    "count": 11327,
+    "newSinceLastFetch": 7,
     "sampleNew": [
-      "codeforces-2250A-threshold-movement",
-      "codeforces-2249E2-string-hard-version",
-      "codeforces-2249E1-string-easy-version",
-      "codeforces-2249C-double-rift-dial",
-      "codeforces-2249B-permutation-cuts",
-      "codeforces-2249A-rank-subsequence",
-      "codeforces-2250B-string-construction",
-      "codeforces-2249D-xor-permutation-matrix"
+      "codeforces-2248F-matrix-elimination",
+      "codeforces-2248E-excuse-for-breaks",
+      "codeforces-2248D-good-pair-queries",
+      "codeforces-2248B-merge-to-match",
+      "codeforces-2248A-you-delete-i-delete",
+      "codeforces-2248G-no-balance-left",
+      "codeforces-2248C-maximize-the-score"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-07-27T10:00:47.313Z",
-    "count": 3228,
-    "newSinceLastFetch": 5,
+    "fetchedAt": "2026-08-03T09:55:27.699Z",
+    "count": 3236,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-largest-integer-with-given-digit-sum",
-      "leetcode-design-sql",
-      "leetcode-aggregate-two-time-series",
-      "leetcode-count-valid-sequences",
-      "leetcode-minimum-cost-path-with-alternating-directions-iii"
+      "leetcode-count-valid-prefixes",
+      "leetcode-maximize-pair-strength-using-gcd",
+      "leetcode-widest-possible-fence",
+      "leetcode-minimum-initial-strength-to-defeat-all-monsters",
+      "leetcode-count-subarrays-with-even-odd-ratio-i",
+      "leetcode-count-of-unfinished-tasks-after-each-shift",
+      "leetcode-minimum-possible-maximum-waiting-time",
+      "leetcode-count-subarrays-with-even-odd-ratio-ii"
     ]
   }
 }

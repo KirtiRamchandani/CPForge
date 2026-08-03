@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-27T09:59:37.065Z",
+  "fetchedAt": "2026-08-03T09:54:20.549Z",
   "platform": "codeforces",
-  "count": 11320,
+  "count": 11327,
   "problems": [
     {
       "id": "codeforces-2242A-bigrams",
@@ -26382,12 +26382,13 @@
       "difficulty": "900",
       "rating": 900,
       "topics": [
+        "brute-force",
         "implementation",
         "math"
       ],
       "patterns": [
-        "implementation",
-        "math"
+        "brute force",
+        "implementation"
       ],
       "companies": [],
       "level": "newbie",
@@ -45896,13 +45897,134 @@
       "rating": 1100,
       "topics": [
         "bitmasks",
-        "chinese-remainder-theorem",
         "constructive-algorithms",
         "math"
       ],
       "patterns": [
         "bitmasks",
-        "chinese remainder theorem"
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2248F-matrix-elimination",
+      "platform": "codeforces",
+      "platformId": "2248F",
+      "title": "Matrix Elimination",
+      "url": "https://codeforces.com/problemset/problem/2248/F",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "math"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2248E-excuse-for-breaks",
+      "platform": "codeforces",
+      "platformId": "2248E",
+      "title": "Excuse for Breaks",
+      "url": "https://codeforces.com/problemset/problem/2248/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "brute-force",
+        "greedy",
+        "math",
+        "two-pointers"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2248D-good-pair-queries",
+      "platform": "codeforces",
+      "platformId": "2248D",
+      "title": "Good Pair Queries",
+      "url": "https://codeforces.com/problemset/problem/2248/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2248B-merge-to-match",
+      "platform": "codeforces",
+      "platformId": "2248B",
+      "title": "Merge to Match",
+      "url": "https://codeforces.com/problemset/problem/2248/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "sortings"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2248A-you-delete-i-delete",
+      "platform": "codeforces",
+      "platformId": "2248A",
+      "title": "You Delete, I Delete",
+      "url": "https://codeforces.com/problemset/problem/2248/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "newbie",
@@ -96830,6 +96952,54 @@
       ],
       "patterns": [
         "graphs"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2248G-no-balance-left",
+      "platform": "codeforces",
+      "platformId": "2248G",
+      "title": "No Balance Left",
+      "url": "https://codeforces.com/problemset/problem/2248/G",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2248C-maximize-the-score",
+      "platform": "codeforces",
+      "platformId": "2248C",
+      "title": "Maximize the Score",
+      "url": "https://codeforces.com/problemset/problem/2248/C",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "greedy"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "specialist",

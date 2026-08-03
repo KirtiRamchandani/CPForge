@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-27T10:00:47.302Z",
+  "fetchedAt": "2026-08-03T09:55:27.687Z",
   "platform": "leetcode",
-  "count": 3228,
+  "count": 3236,
   "problems": [
     {
       "id": "leetcode-two-sum",
@@ -117,7 +117,8 @@
       "rating": 900,
       "topics": [
         "string",
-        "stack"
+        "stack",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -222,7 +223,10 @@
       "topics": [
         "two-pointers",
         "string",
-        "string-matching"
+        "string-matching",
+        "z-algorithm",
+        "knuth-morris-pratt-algorithm",
+        "boyer-moore-string-search-algorithm"
       ],
       "patterns": [
         "two-pointers",
@@ -352,7 +356,8 @@
       "rating": 900,
       "topics": [
         "math",
-        "binary-search"
+        "binary-search",
+        "newtons-method"
       ],
       "patterns": [
         "math",
@@ -811,7 +816,8 @@
       "topics": [
         "hash-table",
         "linked-list",
-        "two-pointers"
+        "two-pointers",
+        "floyds-cycle-finding-algorithm"
       ],
       "patterns": [
         "hash-table",
@@ -949,7 +955,8 @@
         "hash-table",
         "divide-and-conquer",
         "sorting",
-        "counting"
+        "counting",
+        "boyer-moore-majority-vote-algorithm"
       ],
       "patterns": [
         "array",
@@ -1246,7 +1253,8 @@
       "topics": [
         "hash-table",
         "math",
-        "two-pointers"
+        "two-pointers",
+        "floyds-cycle-finding-algorithm"
       ],
       "patterns": [
         "hash-table",
@@ -1781,7 +1789,10 @@
       "topics": [
         "math",
         "brainteaser",
-        "game-theory"
+        "minimax-algorithm",
+        "game-theory",
+        "nim-game",
+        "impartial-game"
       ],
       "patterns": [
         "math",
@@ -2451,7 +2462,8 @@
         "array",
         "two-pointers",
         "greedy",
-        "sorting"
+        "sorting",
+        "quicksort"
       ],
       "patterns": [
         "array",
@@ -2477,7 +2489,9 @@
       "rating": 900,
       "topics": [
         "string",
-        "string-matching"
+        "string-matching",
+        "z-algorithm",
+        "knuth-morris-pratt-algorithm"
       ],
       "patterns": [
         "string",
@@ -2993,7 +3007,8 @@
       "topics": [
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "tree",
@@ -3125,7 +3140,8 @@
       "topics": [
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "tree",
@@ -4408,7 +4424,8 @@
       "rating": 900,
       "topics": [
         "math",
-        "bit-manipulation"
+        "bit-manipulation",
+        "primality-test"
       ],
       "patterns": [
         "math",
@@ -4595,7 +4612,8 @@
       "topics": [
         "array",
         "math",
-        "geometry"
+        "geometry",
+        "polygons"
       ],
       "patterns": [
         "array",
@@ -5183,7 +5201,9 @@
         "hash-table",
         "math",
         "counting",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -5422,7 +5442,8 @@
       "rating": 900,
       "topics": [
         "array",
-        "string"
+        "string",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -5475,7 +5496,8 @@
       "rating": 900,
       "topics": [
         "array",
-        "hash-table"
+        "hash-table",
+        "pigeonhole-principle"
       ],
       "patterns": [
         "array",
@@ -5531,7 +5553,9 @@
         "array",
         "math",
         "greedy",
-        "sorting"
+        "sorting",
+        "quicksort",
+        "polygons"
       ],
       "patterns": [
         "array",
@@ -5822,7 +5846,8 @@
       "rating": 900,
       "topics": [
         "string",
-        "stack"
+        "stack",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -5877,7 +5902,8 @@
         "math",
         "dynamic-programming",
         "brainteaser",
-        "game-theory"
+        "game-theory",
+        "impartial-game"
       ],
       "patterns": [
         "math",
@@ -6036,7 +6062,8 @@
       "topics": [
         "array",
         "sorting",
-        "counting-sort"
+        "counting-sort",
+        "bubble-sort"
       ],
       "patterns": [
         "array",
@@ -6086,7 +6113,9 @@
       "rating": 900,
       "topics": [
         "math",
-        "string"
+        "string",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "math",
@@ -6286,7 +6315,9 @@
         "array",
         "hash-table",
         "sorting",
-        "counting-sort"
+        "counting-sort",
+        "quicksort",
+        "bubble-sort"
       ],
       "patterns": [
         "array",
@@ -6467,10 +6498,14 @@
       "difficulty": "easy",
       "rating": 900,
       "topics": [
-        "math"
+        "math",
+        "primality-test",
+        "sieve-theory",
+        "prime-number-sieve"
       ],
       "patterns": [
-        "math"
+        "math",
+        "primality-test"
       ],
       "companies": [],
       "level": "beginner",
@@ -8833,7 +8868,8 @@
       "rating": 900,
       "topics": [
         "string",
-        "stack"
+        "stack",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -10336,7 +10372,8 @@
       "rating": 900,
       "topics": [
         "string",
-        "sorting"
+        "sorting",
+        "bubble-sort"
       ],
       "patterns": [
         "string",
@@ -10647,7 +10684,8 @@
       "rating": 900,
       "topics": [
         "array",
-        "sorting"
+        "sorting",
+        "quicksort"
       ],
       "patterns": [
         "array",
@@ -10831,7 +10869,9 @@
       "topics": [
         "math",
         "enumeration",
-        "number-theory"
+        "number-theory",
+        "prime-factorization",
+        "sieve-theory"
       ],
       "patterns": [
         "math",
@@ -11037,7 +11077,9 @@
       "topics": [
         "array",
         "math",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -13406,7 +13448,9 @@
       "topics": [
         "math",
         "enumeration",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "math",
@@ -16978,7 +17022,8 @@
       "topics": [
         "array",
         "math",
-        "sorting"
+        "sorting",
+        "polygons"
       ],
       "patterns": [
         "array",
@@ -21317,6 +21362,46 @@
       "paidOnly": false
     },
     {
+      "id": "leetcode-count-valid-prefixes",
+      "platform": "leetcode",
+      "platformId": "count-valid-prefixes",
+      "title": "Count Valid Prefixes",
+      "url": "https://leetcode.com/problems/count-valid-prefixes/",
+      "difficulty": "easy",
+      "rating": 900,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-maximize-pair-strength-using-gcd",
+      "platform": "leetcode",
+      "platformId": "maximize-pair-strength-using-gcd",
+      "title": "Maximize Pair Strength Using GCD",
+      "url": "https://leetcode.com/problems/maximize-pair-strength-using-gcd/",
+      "difficulty": "easy",
+      "rating": 900,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
       "id": "leetcode-add-two-numbers",
       "platform": "leetcode",
       "platformId": "add-two-numbers",
@@ -21381,7 +21466,8 @@
       "topics": [
         "two-pointers",
         "string",
-        "dynamic-programming"
+        "dynamic-programming",
+        "manacher"
       ],
       "patterns": [
         "two-pointers",
@@ -21668,7 +21754,8 @@
       "topics": [
         "string",
         "dynamic-programming",
-        "backtracking"
+        "backtracking",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -22196,7 +22283,8 @@
       "rating": 1300,
       "topics": [
         "array",
-        "sorting"
+        "sorting",
+        "quicksort"
       ],
       "patterns": [
         "array",
@@ -22487,7 +22575,9 @@
       "topics": [
         "array",
         "two-pointers",
-        "sorting"
+        "sorting",
+        "quicksort",
+        "bubble-sort"
       ],
       "patterns": [
         "array",
@@ -23523,7 +23613,8 @@
         "string",
         "dynamic-programming",
         "trie",
-        "memoization"
+        "memoization",
+        "brute-force-search"
       ],
       "patterns": [
         "array",
@@ -23550,7 +23641,8 @@
       "topics": [
         "hash-table",
         "linked-list",
-        "two-pointers"
+        "two-pointers",
+        "floyds-cycle-finding-algorithm"
       ],
       "patterns": [
         "hash-table",
@@ -23846,7 +23938,8 @@
         "array",
         "sorting",
         "bucket-sort",
-        "radix-sort"
+        "radix-sort",
+        "pigeonhole-principle"
       ],
       "patterns": [
         "array",
@@ -24158,7 +24251,9 @@
         "bit-manipulation",
         "sliding-window",
         "rolling-hash",
-        "hash-function"
+        "hash-function",
+        "z-algorithm",
+        "boyer-moore-string-search-algorithm"
       ],
       "patterns": [
         "hash-table",
@@ -24368,7 +24463,10 @@
         "array",
         "math",
         "enumeration",
-        "number-theory"
+        "number-theory",
+        "primality-test",
+        "sieve-theory",
+        "prime-number-sieve"
       ],
       "patterns": [
         "array",
@@ -24396,7 +24494,8 @@
         "depth-first-search",
         "breadth-first-search",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "depth-first-search",
@@ -24725,7 +24824,8 @@
         "array",
         "hash-table",
         "sorting",
-        "counting"
+        "counting",
+        "boyer-moore-majority-vote-algorithm"
       ],
       "patterns": [
         "array",
@@ -24781,7 +24881,9 @@
         "tree",
         "depth-first-search",
         "binary-search-tree",
-        "binary-tree"
+        "binary-tree",
+        "binary-lifting",
+        "lowest-common-ancestor"
       ],
       "patterns": [
         "tree",
@@ -24808,7 +24910,9 @@
       "topics": [
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "binary-lifting",
+        "lowest-common-ancestor"
       ],
       "patterns": [
         "tree",
@@ -24915,7 +25019,8 @@
         "string",
         "dynamic-programming",
         "recursion",
-        "memoization"
+        "memoization",
+        "bracket-sequences"
       ],
       "patterns": [
         "math",
@@ -25049,7 +25154,9 @@
       "topics": [
         "math",
         "dynamic-programming",
-        "breadth-first-search"
+        "breadth-first-search",
+        "knapsack-problem",
+        "complete-knapsack"
       ],
       "patterns": [
         "math",
@@ -25104,7 +25211,9 @@
         "array",
         "two-pointers",
         "binary-search",
-        "bit-manipulation"
+        "bit-manipulation",
+        "pigeonhole-principle",
+        "floyds-cycle-finding-algorithm"
       ],
       "patterns": [
         "array",
@@ -25185,7 +25294,8 @@
       "topics": [
         "array",
         "binary-search",
-        "dynamic-programming"
+        "dynamic-programming",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -25268,7 +25378,8 @@
         "divide-and-conquer",
         "design",
         "binary-indexed-tree",
-        "segment-tree"
+        "segment-tree",
+        "sqrt-decomposition"
       ],
       "patterns": [
         "array",
@@ -25457,7 +25568,9 @@
       "topics": [
         "array",
         "dynamic-programming",
-        "breadth-first-search"
+        "breadth-first-search",
+        "knapsack-problem",
+        "complete-knapsack"
       ],
       "patterns": [
         "array",
@@ -25564,7 +25677,8 @@
       "rating": 1300,
       "topics": [
         "array",
-        "greedy"
+        "greedy",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -25592,7 +25706,8 @@
         "dynamic-programming",
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -25762,7 +25877,11 @@
       "topics": [
         "math",
         "depth-first-search",
-        "breadth-first-search"
+        "breadth-first-search",
+        "bezouts-lemma",
+        "euclidean-algorithm",
+        "greatest-common-divisor",
+        "extended-euclidean-algorithm"
       ],
       "patterns": [
         "math",
@@ -25842,7 +25961,9 @@
       "rating": 1300,
       "topics": [
         "math",
-        "divide-and-conquer"
+        "divide-and-conquer",
+        "eulers-totient-function",
+        "eulers-theorem"
       ],
       "patterns": [
         "math",
@@ -25895,6 +26016,7 @@
       "topics": [
         "math",
         "dynamic-programming",
+        "minimax-algorithm",
         "game-theory"
       ],
       "patterns": [
@@ -26363,7 +26485,9 @@
         "breadth-first-search",
         "union-find",
         "graph",
-        "shortest-path"
+        "shortest-path",
+        "bellman-ford-algorithm",
+        "floyd-warshall-algorithm"
       ],
       "patterns": [
         "array",
@@ -26498,7 +26622,9 @@
       "rating": 1300,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "0-1-knapsack"
       ],
       "patterns": [
         "array",
@@ -26743,7 +26869,8 @@
       "topics": [
         "hash-table",
         "string",
-        "breadth-first-search"
+        "breadth-first-search",
+        "bidirectional-search"
       ],
       "patterns": [
         "hash-table",
@@ -27182,7 +27309,8 @@
       "topics": [
         "array",
         "hash-table",
-        "two-pointers"
+        "two-pointers",
+        "floyds-cycle-finding-algorithm"
       ],
       "patterns": [
         "array",
@@ -27373,7 +27501,9 @@
       "topics": [
         "array",
         "string",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "0-1-knapsack"
       ],
       "patterns": [
         "array",
@@ -27511,7 +27641,9 @@
         "math",
         "dynamic-programming",
         "recursion",
-        "game-theory"
+        "minimax-algorithm",
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -27566,7 +27698,9 @@
       "topics": [
         "array",
         "dynamic-programming",
-        "backtracking"
+        "backtracking",
+        "knapsack-problem",
+        "0-1-knapsack"
       ],
       "patterns": [
         "array",
@@ -27679,7 +27813,8 @@
         "hash-table",
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "hash-table",
@@ -27787,7 +27922,9 @@
       "rating": 1300,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "complete-knapsack"
       ],
       "patterns": [
         "array",
@@ -27872,7 +28009,8 @@
         "array",
         "hash-table",
         "math",
-        "prefix-sum"
+        "prefix-sum",
+        "pigeonhole-principle"
       ],
       "patterns": [
         "array",
@@ -28550,7 +28688,8 @@
       "rating": 1300,
       "topics": [
         "string",
-        "dynamic-programming"
+        "dynamic-programming",
+        "longest-common-subsequence"
       ],
       "patterns": [
         "string",
@@ -28601,7 +28740,9 @@
       "topics": [
         "math",
         "string",
-        "simulation"
+        "simulation",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "math",
@@ -28978,7 +29119,9 @@
         "backtracking",
         "bit-manipulation",
         "memoization",
-        "bitmask"
+        "bitmask",
+        "knapsack-problem",
+        "complete-knapsack"
       ],
       "patterns": [
         "array",
@@ -29005,7 +29148,8 @@
       "topics": [
         "math",
         "string",
-        "simulation"
+        "simulation",
+        "linear-algebra"
       ],
       "patterns": [
         "math",
@@ -29061,7 +29205,8 @@
         "array",
         "dynamic-programming",
         "greedy",
-        "sorting"
+        "sorting",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -29227,7 +29372,8 @@
         "stack",
         "tree",
         "monotonic-stack",
-        "binary-tree"
+        "binary-tree",
+        "cartesian-tree"
       ],
       "patterns": [
         "array",
@@ -29501,7 +29647,8 @@
         "array",
         "dynamic-programming",
         "binary-indexed-tree",
-        "segment-tree"
+        "segment-tree",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -29586,7 +29733,8 @@
         "string",
         "dynamic-programming",
         "stack",
-        "greedy"
+        "greedy",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -29640,7 +29788,10 @@
       "rating": 1300,
       "topics": [
         "string",
-        "string-matching"
+        "string-matching",
+        "z-algorithm",
+        "knuth-morris-pratt-algorithm",
+        "boyer-moore-string-search-algorithm"
       ],
       "patterns": [
         "string",
@@ -29667,7 +29818,8 @@
       "topics": [
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "tree",
@@ -29890,7 +30042,8 @@
       "rating": 1300,
       "topics": [
         "string",
-        "dynamic-programming"
+        "dynamic-programming",
+        "longest-common-subsequence"
       ],
       "patterns": [
         "string",
@@ -30280,7 +30433,8 @@
         "breadth-first-search",
         "graph",
         "heap-priority-queue",
-        "shortest-path"
+        "shortest-path",
+        "dijkstra"
       ],
       "patterns": [
         "depth-first-search",
@@ -30308,7 +30462,8 @@
         "array",
         "hash-table",
         "string",
-        "breadth-first-search"
+        "breadth-first-search",
+        "bidirectional-search"
       ],
       "patterns": [
         "array",
@@ -30637,7 +30792,9 @@
         "depth-first-search",
         "breadth-first-search",
         "union-find",
-        "graph"
+        "graph",
+        "graph-coloring",
+        "bipartite-graph"
       ],
       "patterns": [
         "depth-first-search",
@@ -30910,7 +31067,8 @@
         "backtracking",
         "depth-first-search",
         "breadth-first-search",
-        "graph"
+        "graph",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "backtracking",
@@ -30962,7 +31120,9 @@
         "depth-first-search",
         "breadth-first-search",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "kosarajus-algorithm",
+        "tarjans-scc-algorithm"
       ],
       "patterns": [
         "depth-first-search",
@@ -31667,7 +31827,8 @@
         "array",
         "depth-first-search",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "array",
@@ -31693,7 +31854,8 @@
       "rating": 1300,
       "topics": [
         "array",
-        "binary-search"
+        "binary-search",
+        "ternary-search"
       ],
       "patterns": [
         "array",
@@ -31774,7 +31936,8 @@
       "rating": 1300,
       "topics": [
         "string",
-        "stack"
+        "stack",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -31801,7 +31964,9 @@
       "topics": [
         "math",
         "geometry",
-        "number-theory"
+        "number-theory",
+        "least-common-multiple",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "math",
@@ -31887,7 +32052,10 @@
         "tree",
         "depth-first-search",
         "breadth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "binary-lifting",
+        "lowest-common-ancestor",
+        "dp-on-trees"
       ],
       "patterns": [
         "hash-table",
@@ -31913,7 +32081,8 @@
       "rating": 1300,
       "topics": [
         "math",
-        "number-theory"
+        "number-theory",
+        "primality-test"
       ],
       "patterns": [
         "math",
@@ -32078,7 +32247,9 @@
         "array",
         "math",
         "dynamic-programming",
-        "game-theory"
+        "minimax-algorithm",
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -32132,7 +32303,8 @@
         "array",
         "two-pointers",
         "greedy",
-        "sorting"
+        "sorting",
+        "timsort"
       ],
       "patterns": [
         "array",
@@ -32187,7 +32359,9 @@
         "depth-first-search",
         "breadth-first-search",
         "union-find",
-        "graph"
+        "graph",
+        "graph-coloring",
+        "bipartite-graph"
       ],
       "patterns": [
         "depth-first-search",
@@ -32688,7 +32862,8 @@
       "topics": [
         "string",
         "stack",
-        "greedy"
+        "greedy",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -33016,7 +33191,8 @@
         "hash-table",
         "depth-first-search",
         "union-find",
-        "graph"
+        "graph",
+        "bipartite-graph"
       ],
       "patterns": [
         "hash-table",
@@ -33210,7 +33386,8 @@
         "array",
         "hash-table",
         "math",
-        "bit-manipulation"
+        "bit-manipulation",
+        "floyds-cycle-finding-algorithm"
       ],
       "patterns": [
         "array",
@@ -33267,7 +33444,8 @@
         "depth-first-search",
         "breadth-first-search",
         "union-find",
-        "matrix"
+        "matrix",
+        "planar-graph"
       ],
       "patterns": [
         "array",
@@ -33489,7 +33667,8 @@
         "geometry",
         "sorting",
         "heap-priority-queue",
-        "quickselect"
+        "quickselect",
+        "k-d-tree"
       ],
       "patterns": [
         "array",
@@ -33570,7 +33749,8 @@
       "topics": [
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "tree",
@@ -34081,7 +34261,8 @@
       "rating": 1300,
       "topics": [
         "hash-table",
-        "math"
+        "math",
+        "pigeonhole-principle"
       ],
       "patterns": [
         "hash-table",
@@ -34328,7 +34509,9 @@
       "topics": [
         "array",
         "greedy",
-        "sorting"
+        "sorting",
+        "hungarian-algorithm",
+        "successive-shortest-path-algorithm"
       ],
       "patterns": [
         "array",
@@ -34435,7 +34618,8 @@
       "rating": 1300,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "longest-common-subsequence"
       ],
       "patterns": [
         "array",
@@ -34489,7 +34673,9 @@
       "rating": 1300,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "triangulation",
+        "polygons"
       ],
       "patterns": [
         "array",
@@ -34571,7 +34757,8 @@
       "topics": [
         "depth-first-search",
         "breadth-first-search",
-        "graph"
+        "graph",
+        "graph-coloring"
       ],
       "patterns": [
         "depth-first-search",
@@ -34677,7 +34864,9 @@
       "rating": 1300,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "0-1-knapsack"
       ],
       "patterns": [
         "array",
@@ -35191,7 +35380,8 @@
       "rating": 1300,
       "topics": [
         "string",
-        "stack"
+        "stack",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -35292,7 +35482,10 @@
         "tree",
         "depth-first-search",
         "breadth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "binary-lifting",
+        "lowest-common-ancestor",
+        "dp-on-trees"
       ],
       "patterns": [
         "hash-table",
@@ -35376,7 +35569,8 @@
         "dynamic-programming",
         "stack",
         "greedy",
-        "monotonic-stack"
+        "monotonic-stack",
+        "cartesian-tree"
       ],
       "patterns": [
         "array",
@@ -35483,8 +35677,10 @@
         "array",
         "math",
         "dynamic-programming",
+        "minimax-algorithm",
         "prefix-sum",
-        "game-theory"
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -35510,7 +35706,8 @@
       "rating": 1300,
       "topics": [
         "string",
-        "dynamic-programming"
+        "dynamic-programming",
+        "longest-common-subsequence"
       ],
       "patterns": [
         "string",
@@ -35591,7 +35788,8 @@
         "array",
         "hash-table",
         "binary-search",
-        "design"
+        "design",
+        "persistent-data-structure"
       ],
       "patterns": [
         "array",
@@ -35934,7 +36132,8 @@
       "rating": 1300,
       "topics": [
         "string",
-        "stack"
+        "stack",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -36036,7 +36235,11 @@
         "math",
         "binary-search",
         "combinatorics",
-        "number-theory"
+        "number-theory",
+        "least-common-multiple",
+        "euclidean-algorithm",
+        "greatest-common-divisor",
+        "inclusion-exclusion-principle"
       ],
       "patterns": [
         "math",
@@ -37394,7 +37597,10 @@
       "topics": [
         "dynamic-programming",
         "graph",
-        "shortest-path"
+        "shortest-path",
+        "dijkstra",
+        "bellman-ford-algorithm",
+        "floyd-warshall-algorithm"
       ],
       "patterns": [
         "dynamic-programming",
@@ -37747,10 +37953,12 @@
       "difficulty": "medium",
       "rating": 1300,
       "topics": [
-        "math"
+        "math",
+        "prime-factorization"
       ],
       "patterns": [
-        "math"
+        "math",
+        "prime-factorization"
       ],
       "companies": [],
       "level": "intermediate",
@@ -37859,7 +38067,8 @@
         "dynamic-programming",
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -38048,7 +38257,9 @@
       "rating": 1300,
       "topics": [
         "array",
-        "math"
+        "math",
+        "prime-factorization",
+        "sieve-theory"
       ],
       "patterns": [
         "array",
@@ -38291,7 +38502,8 @@
       "topics": [
         "array",
         "binary-indexed-tree",
-        "simulation"
+        "simulation",
+        "sqrt-decomposition"
       ],
       "patterns": [
         "array",
@@ -38645,7 +38857,8 @@
         "hash-table",
         "tree",
         "depth-first-search",
-        "breadth-first-search"
+        "breadth-first-search",
+        "dp-on-trees"
       ],
       "patterns": [
         "hash-table",
@@ -38672,7 +38885,9 @@
       "topics": [
         "math",
         "string",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "math",
@@ -38837,7 +39052,8 @@
         "string",
         "bit-manipulation",
         "rolling-hash",
-        "hash-function"
+        "hash-function",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "hash-table",
@@ -39169,7 +39385,8 @@
       "rating": 1300,
       "topics": [
         "math",
-        "number-theory"
+        "number-theory",
+        "prime-factorization"
       ],
       "patterns": [
         "math",
@@ -39417,7 +39634,8 @@
         "array",
         "graph",
         "heap-priority-queue",
-        "shortest-path"
+        "shortest-path",
+        "dijkstra"
       ],
       "patterns": [
         "array",
@@ -39446,7 +39664,8 @@
         "tree",
         "depth-first-search",
         "breadth-first-search",
-        "counting"
+        "counting",
+        "dp-on-trees"
       ],
       "patterns": [
         "hash-table",
@@ -39556,7 +39775,8 @@
       "topics": [
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "tree",
@@ -39662,7 +39882,8 @@
       "topics": [
         "string",
         "stack",
-        "greedy"
+        "greedy",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -39793,10 +40014,12 @@
       "difficulty": "medium",
       "rating": 1300,
       "topics": [
-        "graph"
+        "graph",
+        "directed-acyclic-graph"
       ],
       "patterns": [
-        "graph"
+        "graph",
+        "directed-acyclic-graph"
       ],
       "companies": [],
       "level": "intermediate",
@@ -40097,7 +40320,10 @@
         "array",
         "union-find",
         "graph",
-        "minimum-spanning-tree"
+        "minimum-spanning-tree",
+        "prims-algorithm",
+        "kruskals-algorithm",
+        "boruvkas-algorithm"
       ],
       "patterns": [
         "array",
@@ -40315,7 +40541,8 @@
       "topics": [
         "array",
         "greedy",
-        "matrix"
+        "matrix",
+        "flow-network"
       ],
       "patterns": [
         "array",
@@ -40501,7 +40728,8 @@
       "topics": [
         "array",
         "dynamic-programming",
-        "sorting"
+        "sorting",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -40559,7 +40787,8 @@
         "breadth-first-search",
         "union-find",
         "heap-priority-queue",
-        "matrix"
+        "matrix",
+        "dijkstra"
       ],
       "patterns": [
         "array",
@@ -41081,9 +41310,11 @@
         "array",
         "math",
         "greedy",
+        "minimax-algorithm",
         "sorting",
         "heap-priority-queue",
-        "game-theory"
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -41137,7 +41368,9 @@
         "array",
         "math",
         "dynamic-programming",
-        "game-theory"
+        "minimax-algorithm",
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -41866,7 +42099,8 @@
         "array",
         "two-pointers",
         "greedy",
-        "string-matching"
+        "string-matching",
+        "knuth-morris-pratt-algorithm"
       ],
       "patterns": [
         "array",
@@ -41947,7 +42181,9 @@
       "topics": [
         "array",
         "dynamic-programming",
-        "backtracking"
+        "backtracking",
+        "knapsack-problem",
+        "mixed-knapsack"
       ],
       "patterns": [
         "array",
@@ -42081,7 +42317,8 @@
         "graph",
         "topological-sort",
         "heap-priority-queue",
-        "shortest-path"
+        "shortest-path",
+        "dijkstra"
       ],
       "patterns": [
         "dynamic-programming",
@@ -42763,7 +43000,8 @@
         "array",
         "stack",
         "monotonic-stack",
-        "prefix-sum"
+        "prefix-sum",
+        "cartesian-tree"
       ],
       "patterns": [
         "array",
@@ -43785,7 +44023,14 @@
         "dynamic-programming",
         "backtracking",
         "bit-manipulation",
-        "bitmask"
+        "bitmask",
+        "hungarian-algorithm",
+        "bipartite-graph",
+        "successive-shortest-path-algorithm",
+        "matching-graph",
+        "perfect-matching",
+        "minimum-cost-flow",
+        "flow-network"
       ],
       "patterns": [
         "array",
@@ -43946,7 +44191,8 @@
         "two-pointers",
         "string",
         "stack",
-        "greedy"
+        "greedy",
+        "bracket-sequences"
       ],
       "patterns": [
         "two-pointers",
@@ -44055,7 +44301,8 @@
         "dynamic-programming",
         "graph",
         "topological-sort",
-        "shortest-path"
+        "shortest-path",
+        "dijkstra"
       ],
       "patterns": [
         "dynamic-programming",
@@ -44615,8 +44862,11 @@
         "array",
         "math",
         "greedy",
+        "minimax-algorithm",
         "counting",
-        "game-theory"
+        "game-theory",
+        "nim-game",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -44841,7 +45091,8 @@
         "array",
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "array",
@@ -45320,7 +45571,9 @@
         "string",
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "binary-lifting",
+        "lowest-common-ancestor"
       ],
       "patterns": [
         "string",
@@ -45517,7 +45770,8 @@
         "hash-table",
         "string",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "array",
@@ -45544,7 +45798,8 @@
       "topics": [
         "string",
         "stack",
-        "greedy"
+        "greedy",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -46327,7 +46582,8 @@
         "depth-first-search",
         "breadth-first-search",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "depth-first-search",
@@ -49683,7 +49939,11 @@
       "topics": [
         "math",
         "simulation",
-        "number-theory"
+        "number-theory",
+        "prime-factorization",
+        "primality-test",
+        "sieve-theory",
+        "prime-number-sieve"
       ],
       "patterns": [
         "math",
@@ -49739,7 +49999,9 @@
       "topics": [
         "math",
         "binary-search",
-        "number-theory"
+        "number-theory",
+        "least-common-multiple",
+        "inclusion-exclusion-principle"
       ],
       "patterns": [
         "math",
@@ -49822,7 +50084,13 @@
         "array",
         "hash-table",
         "math",
-        "number-theory"
+        "number-theory",
+        "prime-factorization",
+        "euclidean-algorithm",
+        "primality-test",
+        "greatest-common-divisor",
+        "sieve-theory",
+        "prime-number-sieve"
       ],
       "patterns": [
         "array",
@@ -49875,7 +50143,10 @@
       "rating": 1300,
       "topics": [
         "math",
-        "number-theory"
+        "number-theory",
+        "primality-test",
+        "sieve-theory",
+        "prime-number-sieve"
       ],
       "patterns": [
         "math",
@@ -51382,7 +51653,9 @@
       "topics": [
         "array",
         "math",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -53727,7 +54000,9 @@
       "rating": 1300,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "0-1-knapsack"
       ],
       "patterns": [
         "array",
@@ -53830,7 +54105,8 @@
       "topics": [
         "dynamic-programming",
         "tree",
-        "depth-first-search"
+        "depth-first-search",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -54322,7 +54598,8 @@
         "array",
         "greedy",
         "sorting",
-        "prefix-sum"
+        "prefix-sum",
+        "polygons"
       ],
       "patterns": [
         "array",
@@ -54571,7 +54848,10 @@
         "binary-search",
         "rolling-hash",
         "string-matching",
-        "hash-function"
+        "hash-function",
+        "z-algorithm",
+        "knuth-morris-pratt-algorithm",
+        "boyer-moore-string-search-algorithm"
       ],
       "patterns": [
         "two-pointers",
@@ -55043,7 +55323,10 @@
         "matrix",
         "counting",
         "enumeration",
-        "number-theory"
+        "number-theory",
+        "primality-test",
+        "sieve-theory",
+        "prime-number-sieve"
       ],
       "patterns": [
         "array",
@@ -55670,7 +55953,8 @@
       "topics": [
         "array",
         "math",
-        "number-theory"
+        "number-theory",
+        "primality-test"
       ],
       "patterns": [
         "array",
@@ -57787,7 +58071,8 @@
       "topics": [
         "array",
         "math",
-        "number-theory"
+        "number-theory",
+        "least-common-multiple"
       ],
       "patterns": [
         "array",
@@ -65454,6 +65739,86 @@
       "paidOnly": false
     },
     {
+      "id": "leetcode-widest-possible-fence",
+      "platform": "leetcode",
+      "platformId": "widest-possible-fence",
+      "title": "Widest Possible Fence",
+      "url": "https://leetcode.com/problems/widest-possible-fence/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-minimum-initial-strength-to-defeat-all-monsters",
+      "platform": "leetcode",
+      "platformId": "minimum-initial-strength-to-defeat-all-monsters",
+      "title": "Minimum Initial Strength to Defeat All Monsters",
+      "url": "https://leetcode.com/problems/minimum-initial-strength-to-defeat-all-monsters/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-count-subarrays-with-even-odd-ratio-i",
+      "platform": "leetcode",
+      "platformId": "count-subarrays-with-even-odd-ratio-i",
+      "title": "Count Subarrays With Even Odd Ratio I",
+      "url": "https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-i/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-count-of-unfinished-tasks-after-each-shift",
+      "platform": "leetcode",
+      "platformId": "count-of-unfinished-tasks-after-each-shift",
+      "title": "Count of Unfinished Tasks After Each Shift",
+      "url": "https://leetcode.com/problems/count-of-unfinished-tasks-after-each-shift/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
       "id": "leetcode-median-of-two-sorted-arrays",
       "platform": "leetcode",
       "platformId": "median-of-two-sorted-arrays",
@@ -65519,7 +65884,8 @@
         "linked-list",
         "divide-and-conquer",
         "heap-priority-queue",
-        "merge-sort"
+        "merge-sort",
+        "tournament-sort"
       ],
       "patterns": [
         "linked-list",
@@ -65599,7 +65965,8 @@
       "topics": [
         "string",
         "dynamic-programming",
-        "stack"
+        "stack",
+        "bracket-sequences"
       ],
       "patterns": [
         "string",
@@ -65627,7 +65994,9 @@
         "array",
         "hash-table",
         "backtracking",
-        "matrix"
+        "matrix",
+        "algorithm-x",
+        "dancing-links"
       ],
       "patterns": [
         "array",
@@ -65736,7 +66105,8 @@
       "rating": 1700,
       "topics": [
         "array",
-        "backtracking"
+        "backtracking",
+        "algorithm-x"
       ],
       "patterns": [
         "array",
@@ -65761,10 +66131,12 @@
       "difficulty": "hard",
       "rating": 1700,
       "topics": [
-        "backtracking"
+        "backtracking",
+        "algorithm-x"
       ],
       "patterns": [
-        "backtracking"
+        "backtracking",
+        "algorithm-x"
       ],
       "companies": [],
       "level": "advanced",
@@ -65891,7 +66263,8 @@
       "topics": [
         "array",
         "stack",
-        "monotonic-stack"
+        "monotonic-stack",
+        "range-minimum-maximum-query"
       ],
       "patterns": [
         "array",
@@ -66026,7 +66399,8 @@
         "dynamic-programming",
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -66054,7 +66428,8 @@
         "hash-table",
         "string",
         "backtracking",
-        "breadth-first-search"
+        "breadth-first-search",
+        "bidirectional-search"
       ],
       "patterns": [
         "hash-table",
@@ -66081,7 +66456,8 @@
       "topics": [
         "hash-table",
         "string",
-        "breadth-first-search"
+        "breadth-first-search",
+        "bidirectional-search"
       ],
       "patterns": [
         "hash-table",
@@ -66192,7 +66568,9 @@
         "array",
         "hash-table",
         "math",
-        "geometry"
+        "geometry",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -66352,7 +66730,10 @@
         "string",
         "rolling-hash",
         "string-matching",
-        "hash-function"
+        "hash-function",
+        "manacher",
+        "z-algorithm",
+        "knuth-morris-pratt-algorithm"
       ],
       "patterns": [
         "string",
@@ -66497,7 +66878,8 @@
         "queue",
         "sliding-window",
         "heap-priority-queue",
-        "monotonic-queue"
+        "monotonic-queue",
+        "range-minimum-maximum-query"
       ],
       "patterns": [
         "array",
@@ -66718,7 +67100,8 @@
         "binary-indexed-tree",
         "segment-tree",
         "merge-sort",
-        "ordered-set"
+        "ordered-set",
+        "treap"
       ],
       "patterns": [
         "array",
@@ -66778,7 +67161,8 @@
         "binary-indexed-tree",
         "segment-tree",
         "merge-sort",
-        "ordered-set"
+        "ordered-set",
+        "treap"
       ],
       "patterns": [
         "array",
@@ -66810,7 +67194,8 @@
         "graph",
         "topological-sort",
         "memoization",
-        "matrix"
+        "matrix",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "array",
@@ -66867,7 +67252,9 @@
         "graph",
         "sorting",
         "heap-priority-queue",
-        "eulerian-circuit"
+        "eulerian-circuit",
+        "eulerian-path",
+        "semi-eulerian-graph"
       ],
       "patterns": [
         "array",
@@ -66981,7 +67368,8 @@
         "array",
         "binary-search",
         "dynamic-programming",
-        "sorting"
+        "sorting",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -67422,7 +67810,8 @@
         "array",
         "hash-table",
         "sliding-window",
-        "heap-priority-queue"
+        "heap-priority-queue",
+        "treap"
       ],
       "patterns": [
         "array",
@@ -67508,7 +67897,8 @@
         "binary-indexed-tree",
         "segment-tree",
         "merge-sort",
-        "ordered-set"
+        "ordered-set",
+        "treap"
       ],
       "patterns": [
         "array",
@@ -67694,7 +68084,9 @@
       "topics": [
         "array",
         "math",
-        "geometry"
+        "geometry",
+        "convex-hull",
+        "polygons"
       ],
       "patterns": [
         "array",
@@ -68407,7 +68799,9 @@
         "string",
         "depth-first-search",
         "graph",
-        "eulerian-circuit"
+        "eulerian-circuit",
+        "eulerian-path",
+        "eulerian-graph"
       ],
       "patterns": [
         "string",
@@ -68578,7 +68972,10 @@
         "backtracking",
         "breadth-first-search",
         "memoization",
-        "matrix"
+        "matrix",
+        "heuristic-search",
+        "bidirectional-search",
+        "a-search"
       ],
       "patterns": [
         "array",
@@ -68608,8 +69005,10 @@
         "depth-first-search",
         "breadth-first-search",
         "union-find",
+        "minimax-algorithm",
         "heap-priority-queue",
-        "matrix"
+        "matrix",
+        "dijkstra"
       ],
       "patterns": [
         "array",
@@ -68634,10 +69033,13 @@
       "difficulty": "hard",
       "rating": 1700,
       "topics": [
-        "math"
+        "math",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
-        "math"
+        "math",
+        "euclidean-algorithm"
       ],
       "companies": [],
       "level": "advanced",
@@ -68796,6 +69198,7 @@
         "math",
         "dynamic-programming",
         "bit-manipulation",
+        "meet-in-the-middle",
         "bitmask"
       ],
       "patterns": [
@@ -68825,7 +69228,9 @@
         "math",
         "bit-manipulation",
         "brainteaser",
-        "game-theory"
+        "game-theory",
+        "zero-sum-game",
+        "impartial-game"
       ],
       "patterns": [
         "array",
@@ -68877,10 +69282,13 @@
       "difficulty": "hard",
       "rating": 1700,
       "topics": [
-        "dynamic-programming"
+        "dynamic-programming",
+        "heuristic-search",
+        "a-search"
       ],
       "patterns": [
-        "dynamic-programming"
+        "dynamic-programming",
+        "heuristic-search"
       ],
       "companies": [],
       "level": "advanced",
@@ -68986,7 +69394,8 @@
         "dynamic-programming",
         "tree",
         "depth-first-search",
-        "graph"
+        "graph",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -69044,6 +69453,7 @@
         "array",
         "math",
         "string",
+        "minimax-algorithm",
         "interactive",
         "game-theory"
       ],
@@ -69270,7 +69680,9 @@
       "rating": 1700,
       "topics": [
         "math",
-        "binary-search"
+        "binary-search",
+        "least-common-multiple",
+        "inclusion-exclusion-principle"
       ],
       "patterns": [
         "math",
@@ -69296,7 +69708,9 @@
       "rating": 1700,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "0-1-knapsack"
       ],
       "patterns": [
         "array",
@@ -69323,7 +69737,8 @@
       "topics": [
         "graph",
         "heap-priority-queue",
-        "shortest-path"
+        "shortest-path",
+        "dijkstra"
       ],
       "patterns": [
         "graph",
@@ -69432,7 +69847,8 @@
       "topics": [
         "math",
         "string",
-        "sorting"
+        "sorting",
+        "lexicographically-minimal-string-rotation"
       ],
       "patterns": [
         "math",
@@ -69545,7 +69961,9 @@
         "graph",
         "topological-sort",
         "memoization",
-        "game-theory"
+        "minimax-algorithm",
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "math",
@@ -69741,7 +70159,8 @@
         "string",
         "dynamic-programming",
         "bit-manipulation",
-        "bitmask"
+        "bitmask",
+        "hamiltonian-path"
       ],
       "patterns": [
         "array",
@@ -69770,7 +70189,8 @@
         "hash-table",
         "math",
         "union-find",
-        "number-theory"
+        "number-theory",
+        "prime-factorization"
       ],
       "patterns": [
         "array",
@@ -69796,7 +70216,10 @@
       "rating": 1700,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "meet-in-the-middle",
+        "knapsack-problem",
+        "0-1-knapsack"
       ],
       "patterns": [
         "array",
@@ -69878,7 +70301,8 @@
         "dynamic-programming",
         "tree",
         "depth-first-search",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -69962,7 +70386,8 @@
         "array",
         "backtracking",
         "bit-manipulation",
-        "matrix"
+        "matrix",
+        "hamiltonian-path"
       ],
       "patterns": [
         "array",
@@ -70076,7 +70501,8 @@
         "bit-manipulation",
         "queue",
         "sliding-window",
-        "prefix-sum"
+        "prefix-sum",
+        "brute-force-search"
       ],
       "patterns": [
         "array",
@@ -70243,7 +70669,8 @@
         "string",
         "design",
         "trie",
-        "data-stream"
+        "data-stream",
+        "aho-corasick-algorithm"
       ],
       "patterns": [
         "array",
@@ -70271,7 +70698,8 @@
         "array",
         "hash-table",
         "depth-first-search",
-        "breadth-first-search"
+        "breadth-first-search",
+        "bidirectional-search"
       ],
       "patterns": [
         "array",
@@ -70301,7 +70729,11 @@
         "sliding-window",
         "rolling-hash",
         "suffix-array",
-        "hash-function"
+        "hash-function",
+        "suffix-automaton",
+        "suffix-tree",
+        "z-algorithm",
+        "boyer-moore-string-search-algorithm"
       ],
       "patterns": [
         "string",
@@ -70355,7 +70787,8 @@
       "rating": 1700,
       "topics": [
         "string",
-        "dynamic-programming"
+        "dynamic-programming",
+        "longest-common-subsequence"
       ],
       "patterns": [
         "string",
@@ -70382,7 +70815,8 @@
       "topics": [
         "array",
         "binary-search",
-        "interactive"
+        "interactive",
+        "ternary-search"
       ],
       "patterns": [
         "array",
@@ -70526,7 +70960,9 @@
         "binary-search",
         "design",
         "binary-indexed-tree",
-        "segment-tree"
+        "segment-tree",
+        "sqrt-decomposition",
+        "boyer-moore-majority-vote-algorithm"
       ],
       "patterns": [
         "array",
@@ -70552,7 +70988,8 @@
       "rating": 1700,
       "topics": [
         "two-pointers",
-        "string"
+        "string",
+        "lyndon-factorization"
       ],
       "patterns": [
         "two-pointers",
@@ -70637,7 +71074,8 @@
         "array",
         "binary-search",
         "dynamic-programming",
-        "sorting"
+        "sorting",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -70664,7 +71102,8 @@
       "topics": [
         "depth-first-search",
         "graph",
-        "biconnected-component"
+        "biconnected-component",
+        "bridge-graph"
       ],
       "patterns": [
         "depth-first-search",
@@ -70692,7 +71131,8 @@
         "depth-first-search",
         "breadth-first-search",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "depth-first-search",
@@ -70900,7 +71340,11 @@
       "topics": [
         "array",
         "math",
-        "number-theory"
+        "number-theory",
+        "bezouts-lemma",
+        "euclidean-algorithm",
+        "greatest-common-divisor",
+        "extended-euclidean-algorithm"
       ],
       "patterns": [
         "array",
@@ -71229,7 +71673,10 @@
         "string",
         "trie",
         "rolling-hash",
-        "hash-function"
+        "suffix-array",
+        "hash-function",
+        "suffix-automaton",
+        "suffix-tree"
       ],
       "patterns": [
         "string",
@@ -71418,7 +71865,17 @@
         "dynamic-programming",
         "bit-manipulation",
         "matrix",
-        "bitmask"
+        "bitmask",
+        "maximum-flow",
+        "maximum-matching",
+        "bipartite-graph",
+        "edmonds-karp-algorithm",
+        "mpm-algorithm",
+        "push-relabel-algorithm",
+        "minimum-cut",
+        "matching-graph",
+        "flow-network",
+        "dinics-algorithm"
       ],
       "patterns": [
         "array",
@@ -71530,7 +71987,9 @@
         "graph",
         "heap-priority-queue",
         "matrix",
-        "shortest-path"
+        "shortest-path",
+        "0-1-bfs",
+        "dijkstra"
       ],
       "patterns": [
         "array",
@@ -71559,7 +72018,8 @@
         "tree",
         "depth-first-search",
         "binary-search-tree",
-        "binary-tree"
+        "binary-tree",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -71671,7 +72131,9 @@
         "string",
         "rolling-hash",
         "string-matching",
-        "hash-function"
+        "hash-function",
+        "z-algorithm",
+        "knuth-morris-pratt-algorithm"
       ],
       "patterns": [
         "string",
@@ -71754,7 +72216,9 @@
         "array",
         "math",
         "dynamic-programming",
-        "game-theory"
+        "minimax-algorithm",
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -71779,10 +72243,12 @@
       "difficulty": "hard",
       "rating": 1700,
       "topics": [
-        "dynamic-programming"
+        "dynamic-programming",
+        "graph-coloring"
       ],
       "patterns": [
-        "dynamic-programming"
+        "dynamic-programming",
+        "graph-coloring"
       ],
       "companies": [],
       "level": "advanced",
@@ -71888,7 +72354,10 @@
         "array",
         "dynamic-programming",
         "bit-manipulation",
-        "bitmask"
+        "bitmask",
+        "bipartite-graph",
+        "matching-graph",
+        "perfect-matching"
       ],
       "patterns": [
         "array",
@@ -71971,7 +72440,9 @@
       "rating": 1700,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "complete-knapsack"
       ],
       "patterns": [
         "array",
@@ -72024,7 +72495,8 @@
       "rating": 1700,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "longest-common-subsequence"
       ],
       "patterns": [
         "array",
@@ -72166,7 +72638,8 @@
         "tree",
         "depth-first-search",
         "breadth-first-search",
-        "design"
+        "design",
+        "binary-lifting"
       ],
       "patterns": [
         "binary-search",
@@ -72195,7 +72668,10 @@
         "graph",
         "sorting",
         "minimum-spanning-tree",
-        "strongly-connected-component"
+        "strongly-connected-component",
+        "prims-algorithm",
+        "kruskals-algorithm",
+        "boruvkas-algorithm"
       ],
       "patterns": [
         "union-find",
@@ -72223,7 +72699,8 @@
         "dynamic-programming",
         "bit-manipulation",
         "graph",
-        "bitmask"
+        "bitmask",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "dynamic-programming",
@@ -72307,7 +72784,11 @@
       "topics": [
         "math",
         "dynamic-programming",
-        "game-theory"
+        "minimax-algorithm",
+        "game-theory",
+        "nim-game",
+        "sprague-grundy-theorem",
+        "zero-sum-game"
       ],
       "patterns": [
         "math",
@@ -72391,7 +72872,8 @@
         "array",
         "binary-search",
         "bit-manipulation",
-        "segment-tree"
+        "segment-tree",
+        "sparse-table"
       ],
       "patterns": [
         "array",
@@ -72611,7 +73093,8 @@
         "depth-first-search",
         "breadth-first-search",
         "matrix",
-        "strongly-connected-component"
+        "strongly-connected-component",
+        "articulation-point"
       ],
       "patterns": [
         "array",
@@ -72645,7 +73128,8 @@
         "binary-search-tree",
         "memoization",
         "combinatorics",
-        "binary-tree"
+        "binary-tree",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "array",
@@ -72753,7 +73237,8 @@
         "array",
         "graph",
         "topological-sort",
-        "matrix"
+        "matrix",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "array",
@@ -72782,7 +73267,12 @@
         "dynamic-programming",
         "bit-manipulation",
         "matrix",
-        "bitmask"
+        "bitmask",
+        "bipartite-graph",
+        "successive-shortest-path-algorithm",
+        "matching-graph",
+        "minimum-cost-flow",
+        "flow-network"
       ],
       "patterns": [
         "array",
@@ -72953,7 +73443,8 @@
         "math",
         "design",
         "segment-tree",
-        "number-theory"
+        "number-theory",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "math",
@@ -73438,7 +73929,8 @@
         "array",
         "hash-table",
         "binary-search",
-        "greedy"
+        "greedy",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -73527,8 +74019,10 @@
         "graph",
         "topological-sort",
         "memoization",
+        "minimax-algorithm",
         "matrix",
-        "game-theory"
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -73557,7 +74051,9 @@
         "math",
         "dynamic-programming",
         "combinatorics",
-        "number-theory"
+        "number-theory",
+        "prime-factorization",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "array",
@@ -73667,6 +74163,7 @@
         "two-pointers",
         "dynamic-programming",
         "bit-manipulation",
+        "meet-in-the-middle",
         "sorting",
         "bitmask"
       ],
@@ -73893,7 +74390,8 @@
         "two-pointers",
         "binary-search",
         "stack",
-        "monotonic-stack"
+        "monotonic-stack",
+        "cartesian-tree"
       ],
       "patterns": [
         "array",
@@ -74035,7 +74533,9 @@
         "array",
         "math",
         "counting",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -74064,7 +74564,8 @@
         "queue",
         "heap-priority-queue",
         "data-stream",
-        "ordered-set"
+        "ordered-set",
+        "treap"
       ],
       "patterns": [
         "design",
@@ -74093,7 +74594,8 @@
         "math",
         "string",
         "combinatorics",
-        "counting"
+        "counting",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "hash-table",
@@ -74235,7 +74737,8 @@
         "graph",
         "topological-sort",
         "memoization",
-        "counting"
+        "counting",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "hash-table",
@@ -74320,8 +74823,10 @@
         "array",
         "math",
         "dynamic-programming",
+        "minimax-algorithm",
         "prefix-sum",
-        "game-theory"
+        "game-theory",
+        "zero-sum-game"
       ],
       "patterns": [
         "array",
@@ -74349,7 +74854,10 @@
         "array",
         "dynamic-programming",
         "bit-manipulation",
-        "bitmask"
+        "bitmask",
+        "hungarian-algorithm",
+        "bipartite-graph",
+        "successive-shortest-path-algorithm"
       ],
       "patterns": [
         "array",
@@ -74518,7 +75026,9 @@
         "depth-first-search",
         "graph",
         "topological-sort",
-        "combinatorics"
+        "combinatorics",
+        "dp-on-trees",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "array",
@@ -74547,7 +75057,9 @@
         "binary-search",
         "rolling-hash",
         "suffix-array",
-        "hash-function"
+        "hash-function",
+        "suffix-automaton",
+        "suffix-tree"
       ],
       "patterns": [
         "array",
@@ -74574,7 +75086,8 @@
       "topics": [
         "array",
         "dynamic-programming",
-        "graph"
+        "graph",
+        "dijkstra"
       ],
       "patterns": [
         "array",
@@ -74599,10 +75112,12 @@
       "difficulty": "hard",
       "rating": 1700,
       "topics": [
-        "dynamic-programming"
+        "dynamic-programming",
+        "graph-coloring"
       ],
       "patterns": [
-        "dynamic-programming"
+        "dynamic-programming",
+        "graph-coloring"
       ],
       "companies": [],
       "level": "advanced",
@@ -74769,7 +75284,9 @@
         "two-pointers",
         "string",
         "rolling-hash",
-        "hash-function"
+        "hash-function",
+        "manacher",
+        "palindromic-tree"
       ],
       "patterns": [
         "two-pointers",
@@ -74796,7 +75313,8 @@
       "topics": [
         "array",
         "binary-search",
-        "binary-indexed-tree"
+        "binary-indexed-tree",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -74939,7 +75457,8 @@
         "bit-manipulation",
         "counting",
         "number-theory",
-        "bitmask"
+        "bitmask",
+        "sieve-theory"
       ],
       "patterns": [
         "array",
@@ -74968,7 +75487,10 @@
         "math",
         "union-find",
         "sorting",
-        "number-theory"
+        "number-theory",
+        "prime-factorization",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -75173,6 +75695,7 @@
         "binary-search",
         "dynamic-programming",
         "bit-manipulation",
+        "meet-in-the-middle",
         "sorting",
         "ordered-set",
         "bitmask"
@@ -75228,7 +75751,9 @@
       "topics": [
         "breadth-first-search",
         "graph",
-        "shortest-path"
+        "shortest-path",
+        "dijkstra",
+        "k-shortest-path"
       ],
       "patterns": [
         "breadth-first-search",
@@ -75256,7 +75781,8 @@
         "array",
         "dynamic-programming",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "array",
@@ -75504,7 +76030,9 @@
         "array",
         "depth-first-search",
         "graph",
-        "eulerian-circuit"
+        "eulerian-circuit",
+        "eulerian-path",
+        "semi-eulerian-graph"
       ],
       "patterns": [
         "array",
@@ -75586,7 +76114,8 @@
       "rating": 1700,
       "topics": [
         "array",
-        "binary-search"
+        "binary-search",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -75670,7 +76199,9 @@
         "dynamic-programming",
         "depth-first-search",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "kosarajus-algorithm",
+        "tarjans-scc-algorithm"
       ],
       "patterns": [
         "array",
@@ -76006,7 +76537,9 @@
         "hash-table",
         "math",
         "counting",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -76088,7 +76621,9 @@
         "array",
         "math",
         "stack",
-        "number-theory"
+        "number-theory",
+        "least-common-multiple",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -76227,7 +76762,9 @@
         "rolling-hash",
         "suffix-array",
         "string-matching",
-        "hash-function"
+        "hash-function",
+        "z-algorithm",
+        "knuth-morris-pratt-algorithm"
       ],
       "patterns": [
         "string",
@@ -76457,7 +76994,8 @@
       "topics": [
         "array",
         "dynamic-programming",
-        "matrix"
+        "matrix",
+        "bracket-sequences"
       ],
       "patterns": [
         "array",
@@ -76598,7 +77136,9 @@
         "graph",
         "heap-priority-queue",
         "matrix",
-        "shortest-path"
+        "shortest-path",
+        "0-1-bfs",
+        "dijkstra"
       ],
       "patterns": [
         "array",
@@ -76908,7 +77448,9 @@
         "math",
         "dynamic-programming",
         "combinatorics",
-        "number-theory"
+        "number-theory",
+        "prime-factorization",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "math",
@@ -76937,7 +77479,9 @@
         "math",
         "sorting",
         "heap-priority-queue",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -77020,7 +77564,9 @@
         "depth-first-search",
         "breadth-first-search",
         "graph",
-        "topological-sort"
+        "topological-sort",
+        "kosarajus-algorithm",
+        "tarjans-scc-algorithm"
       ],
       "patterns": [
         "depth-first-search",
@@ -77156,7 +77702,8 @@
         "array",
         "graph",
         "topological-sort",
-        "matrix"
+        "matrix",
+        "directed-acyclic-graph"
       ],
       "patterns": [
         "array",
@@ -77892,7 +78439,9 @@
       "topics": [
         "array",
         "tree",
-        "binary-tree"
+        "binary-tree",
+        "binary-lifting",
+        "lowest-common-ancestor"
       ],
       "patterns": [
         "array",
@@ -77921,7 +78470,8 @@
         "math",
         "string",
         "combinatorics",
-        "counting"
+        "counting",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "hash-table",
@@ -78032,7 +78582,8 @@
         "array",
         "dynamic-programming",
         "tree",
-        "depth-first-search"
+        "depth-first-search",
+        "dp-on-trees"
       ],
       "patterns": [
         "array",
@@ -78058,7 +78609,9 @@
       "rating": 1700,
       "topics": [
         "math",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "math",
@@ -78341,7 +78894,8 @@
         "array",
         "hash-table",
         "math",
-        "number-theory"
+        "number-theory",
+        "prime-factorization"
       ],
       "patterns": [
         "array",
@@ -78367,7 +78921,9 @@
       "rating": 1700,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "multiple-knapsack"
       ],
       "patterns": [
         "array",
@@ -78749,7 +79305,10 @@
         "array",
         "math",
         "union-find",
-        "number-theory"
+        "number-theory",
+        "prime-factorization",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -79257,7 +79816,8 @@
         "string",
         "greedy",
         "sorting",
-        "combinatorics"
+        "combinatorics",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "hash-table",
@@ -79398,7 +79958,10 @@
         "dynamic-programming",
         "tree",
         "depth-first-search",
-        "number-theory"
+        "number-theory",
+        "primality-test",
+        "sieve-theory",
+        "prime-number-sieve"
       ],
       "patterns": [
         "math",
@@ -79453,7 +80016,9 @@
         "depth-first-search",
         "graph",
         "topological-sort",
-        "memoization"
+        "memoization",
+        "kosarajus-algorithm",
+        "tarjans-scc-algorithm"
       ],
       "patterns": [
         "dynamic-programming",
@@ -79509,7 +80074,9 @@
         "array",
         "hash-table",
         "dynamic-programming",
-        "sliding-window"
+        "sliding-window",
+        "knapsack-problem",
+        "multiple-knapsack"
       ],
       "patterns": [
         "array",
@@ -79594,7 +80161,8 @@
         "bit-manipulation",
         "tree",
         "depth-first-search",
-        "memoization"
+        "memoization",
+        "dp-on-trees"
       ],
       "patterns": [
         "array",
@@ -79827,7 +80395,8 @@
       "topics": [
         "array",
         "math",
-        "combinatorics"
+        "combinatorics",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "array",
@@ -79969,7 +80538,8 @@
         "tree",
         "depth-first-search",
         "sorting",
-        "heap-priority-queue"
+        "heap-priority-queue",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -80112,7 +80682,10 @@
         "binary-search",
         "rolling-hash",
         "string-matching",
-        "hash-function"
+        "hash-function",
+        "z-algorithm",
+        "knuth-morris-pratt-algorithm",
+        "boyer-moore-string-search-algorithm"
       ],
       "patterns": [
         "two-pointers",
@@ -80335,7 +80908,8 @@
         "trie",
         "rolling-hash",
         "string-matching",
-        "hash-function"
+        "hash-function",
+        "z-algorithm"
       ],
       "patterns": [
         "array",
@@ -80474,7 +81048,9 @@
       "rating": 1700,
       "topics": [
         "array",
-        "dynamic-programming"
+        "dynamic-programming",
+        "knapsack-problem",
+        "0-1-knapsack"
       ],
       "patterns": [
         "array",
@@ -81341,7 +81917,8 @@
         "dynamic-programming",
         "tree",
         "depth-first-search",
-        "graph"
+        "graph",
+        "dp-on-trees"
       ],
       "patterns": [
         "dynamic-programming",
@@ -81818,7 +82395,8 @@
       "topics": [
         "array",
         "binary-search",
-        "sorting"
+        "sorting",
+        "longest-increasing-subsequence"
       ],
       "patterns": [
         "array",
@@ -81904,7 +82482,8 @@
       "rating": 1700,
       "topics": [
         "string",
-        "string-matching"
+        "string-matching",
+        "knuth-morris-pratt-algorithm"
       ],
       "patterns": [
         "string",
@@ -81991,7 +82570,9 @@
         "combinatorics",
         "counting",
         "number-theory",
-        "prefix-sum"
+        "prefix-sum",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -82157,7 +82738,9 @@
         "array",
         "math",
         "dynamic-programming",
-        "number-theory"
+        "number-theory",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -82489,7 +83072,10 @@
         "hash-table",
         "math",
         "union-find",
-        "number-theory"
+        "number-theory",
+        "least-common-multiple",
+        "euclidean-algorithm",
+        "greatest-common-divisor"
       ],
       "patterns": [
         "array",
@@ -82655,7 +83241,8 @@
       "rating": 1700,
       "topics": [
         "math",
-        "combinatorics"
+        "combinatorics",
+        "fermats-little-theorem"
       ],
       "patterns": [
         "math",
@@ -83400,7 +83987,8 @@
       "topics": [
         "array",
         "dynamic-programming",
-        "prefix-sum"
+        "prefix-sum",
+        "li-chao-tree"
       ],
       "patterns": [
         "array",
@@ -86834,6 +87422,46 @@
       "platformId": "minimum-cost-path-with-alternating-directions-iii",
       "title": "Minimum Cost Path with Alternating Directions III",
       "url": "https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-iii/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-minimum-possible-maximum-waiting-time",
+      "platform": "leetcode",
+      "platformId": "minimum-possible-maximum-waiting-time",
+      "title": "Minimum Possible Maximum Waiting Time",
+      "url": "https://leetcode.com/problems/minimum-possible-maximum-waiting-time/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-count-subarrays-with-even-odd-ratio-ii",
+      "platform": "leetcode",
+      "platformId": "count-subarrays-with-even-odd-ratio-ii",
+      "title": "Count Subarrays With Even Odd Ratio II",
+      "url": "https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-ii/",
       "difficulty": "hard",
       "rating": 1700,
       "topics": [],
