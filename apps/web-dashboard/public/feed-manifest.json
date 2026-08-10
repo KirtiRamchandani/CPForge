@@ -1,32 +1,29 @@
 {
-  "updatedAt": "2026-08-03T09:55:27.699Z",
+  "updatedAt": "2026-08-10T07:50:22.208Z",
   "codeforces": {
-    "fetchedAt": "2026-08-03T09:54:20.592Z",
-    "count": 11327,
-    "newSinceLastFetch": 7,
+    "fetchedAt": "2026-08-10T07:49:18.288Z",
+    "count": 11356,
+    "newSinceLastFetch": 29,
     "sampleNew": [
-      "codeforces-2248F-matrix-elimination",
-      "codeforces-2248E-excuse-for-breaks",
-      "codeforces-2248D-good-pair-queries",
-      "codeforces-2248B-merge-to-match",
-      "codeforces-2248A-you-delete-i-delete",
-      "codeforces-2248G-no-balance-left",
-      "codeforces-2248C-maximize-the-score"
+      "codeforces-2256B-domino-tiles",
+      "codeforces-2255A-hot-potatoes-at-the-fairy-warehouse",
+      "codeforces-2254B-evanescent",
+      "codeforces-2254A-riptide",
+      "codeforces-2253D-hypercarp-and-interdimensional-jumps",
+      "codeforces-2256A-three-numbers-on-the-blackboard",
+      "codeforces-2255F-who-will-witness-the-end",
+      "codeforces-2255E2-what-will-remain-at-the-end-hard-version"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-08-03T09:55:27.699Z",
-    "count": 3236,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-08-10T07:50:22.208Z",
+    "count": 3240,
+    "newSinceLastFetch": 4,
     "sampleNew": [
-      "leetcode-count-valid-prefixes",
-      "leetcode-maximize-pair-strength-using-gcd",
-      "leetcode-widest-possible-fence",
-      "leetcode-minimum-initial-strength-to-defeat-all-monsters",
-      "leetcode-count-subarrays-with-even-odd-ratio-i",
-      "leetcode-count-of-unfinished-tasks-after-each-shift",
-      "leetcode-minimum-possible-maximum-waiting-time",
-      "leetcode-count-subarrays-with-even-odd-ratio-ii"
+      "leetcode-minimum-total-price-after-applying-discounts",
+      "leetcode-weighted-sum-of-a-tree",
+      "leetcode-maximum-area-of-two-non-overlapping-square-submatrices",
+      "leetcode-peaks-in-array-ii"
     ]
   }
 }
