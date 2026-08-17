@@ -1,29 +1,24 @@
 {
-  "updatedAt": "2026-08-10T07:50:22.208Z",
+  "updatedAt": "2026-08-17T07:04:10.470Z",
   "codeforces": {
-    "fetchedAt": "2026-08-10T07:49:18.288Z",
+    "fetchedAt": "2026-08-17T07:03:09.346Z",
     "count": 11356,
-    "newSinceLastFetch": 29,
-    "sampleNew": [
-      "codeforces-2256B-domino-tiles",
-      "codeforces-2255A-hot-potatoes-at-the-fairy-warehouse",
-      "codeforces-2254B-evanescent",
-      "codeforces-2254A-riptide",
-      "codeforces-2253D-hypercarp-and-interdimensional-jumps",
-      "codeforces-2256A-three-numbers-on-the-blackboard",
-      "codeforces-2255F-who-will-witness-the-end",
-      "codeforces-2255E2-what-will-remain-at-the-end-hard-version"
-    ]
+    "newSinceLastFetch": 0,
+    "sampleNew": []
   },
   "leetcode": {
-    "fetchedAt": "2026-08-10T07:50:22.208Z",
-    "count": 3240,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-08-17T07:04:10.470Z",
+    "count": 3248,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-minimum-total-price-after-applying-discounts",
-      "leetcode-weighted-sum-of-a-tree",
-      "leetcode-maximum-area-of-two-non-overlapping-square-submatrices",
-      "leetcode-peaks-in-array-ii"
+      "leetcode-elevator-requests-i",
+      "leetcode-nearest-available-drone",
+      "leetcode-minimum-operations-to-make-a-rotated-palindrome-i",
+      "leetcode-k-th-digit-in-infinite-string",
+      "leetcode-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights",
+      "leetcode-maximum-gap-between-stations",
+      "leetcode-elevator-requests-ii",
+      "leetcode-elevator-requests-iii"
     ]
   }
 }
