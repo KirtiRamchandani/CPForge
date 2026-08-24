@@ -1,24 +1,28 @@
 {
-  "updatedAt": "2026-08-17T07:04:10.470Z",
+  "updatedAt": "2026-08-24T07:07:14.729Z",
   "codeforces": {
-    "fetchedAt": "2026-08-17T07:03:09.346Z",
-    "count": 11356,
-    "newSinceLastFetch": 0,
-    "sampleNew": []
+    "fetchedAt": "2026-08-24T07:06:14.288Z",
+    "count": 11363,
+    "newSinceLastFetch": 7,
+    "sampleNew": [
+      "codeforces-2257E-busy-beaver",
+      "codeforces-2257D-bermuda-rectangle",
+      "codeforces-2257B-gigantomachy",
+      "codeforces-2257A-creating-abbreviations",
+      "codeforces-2257C-spying-on-the-beaver",
+      "codeforces-2257F2-beaver-s-jumping-track-hard-version",
+      "codeforces-2257F1-beaver-s-jumping-track-easy-version"
+    ]
   },
   "leetcode": {
-    "fetchedAt": "2026-08-17T07:04:10.470Z",
-    "count": 3248,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-08-24T07:07:14.729Z",
+    "count": 3252,
+    "newSinceLastFetch": 4,
     "sampleNew": [
-      "leetcode-elevator-requests-i",
-      "leetcode-nearest-available-drone",
-      "leetcode-minimum-operations-to-make-a-rotated-palindrome-i",
-      "leetcode-k-th-digit-in-infinite-string",
-      "leetcode-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights",
-      "leetcode-maximum-gap-between-stations",
-      "leetcode-elevator-requests-ii",
-      "leetcode-elevator-requests-iii"
+      "leetcode-check-ascii-palindromic",
+      "leetcode-find-all-numbers-disappeared-in-an-array-ii",
+      "leetcode-longest-subarray-with-at-most-k-distinct-prime-factors",
+      "leetcode-valid-k-unique-subarrays-i"
     ]
   }
 }

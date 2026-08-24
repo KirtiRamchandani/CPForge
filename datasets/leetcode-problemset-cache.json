@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-08-17T07:04:10.458Z",
+  "fetchedAt": "2026-08-24T07:07:14.696Z",
   "platform": "leetcode",
-  "count": 3248,
+  "count": 3252,
   "problems": [
     {
       "id": "leetcode-two-sum",
@@ -21209,8 +21209,14 @@
       "url": "https://leetcode.com/problems/check-good-integer/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "simulation"
+      ],
+      "patterns": [
+        "math",
+        "simulation"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21249,8 +21255,14 @@
       "url": "https://leetcode.com/problems/unique-middle-element/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "counting"
+      ],
+      "patterns": [
+        "array",
+        "counting"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21269,8 +21281,14 @@
       "url": "https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21289,8 +21307,14 @@
       "url": "https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "string"
+      ],
+      "patterns": [
+        "math",
+        "string"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21309,8 +21333,15 @@
       "url": "https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "two-pointers",
+        "string",
+        "sorting"
+      ],
+      "patterns": [
+        "two-pointers",
+        "string"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21329,8 +21360,14 @@
       "url": "https://leetcode.com/problems/even-number-of-knight-moves/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21349,8 +21386,14 @@
       "url": "https://leetcode.com/problems/largest-integer-with-given-digit-sum/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "greedy"
+      ],
+      "patterns": [
+        "math",
+        "greedy"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21369,8 +21412,14 @@
       "url": "https://leetcode.com/problems/count-valid-prefixes/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "string",
+        "counting"
+      ],
+      "patterns": [
+        "string",
+        "counting"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21389,8 +21438,16 @@
       "url": "https://leetcode.com/problems/maximize-pair-strength-using-gcd/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math",
+        "enumeration",
+        "number-theory"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21409,8 +21466,14 @@
       "url": "https://leetcode.com/problems/elevator-requests-i/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "simulation"
+      ],
+      "patterns": [
+        "array",
+        "simulation"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21427,6 +21490,32 @@
       "platformId": "nearest-available-drone",
       "title": "Nearest Available Drone",
       "url": "https://leetcode.com/problems/nearest-available-drone/",
+      "difficulty": "easy",
+      "rating": 900,
+      "topics": [
+        "array",
+        "enumeration"
+      ],
+      "patterns": [
+        "array",
+        "enumeration"
+      ],
+      "companies": [],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-check-ascii-palindromic",
+      "platform": "leetcode",
+      "platformId": "check-ascii-palindromic",
+      "title": "Check ASCII Palindromic",
+      "url": "https://leetcode.com/problems/check-ascii-palindromic/",
       "difficulty": "easy",
       "rating": 900,
       "topics": [],
@@ -65303,8 +65392,15 @@
       "url": "https://leetcode.com/problems/frequency-balance-subarray/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65323,8 +65419,16 @@
       "url": "https://leetcode.com/problems/maximize-sum-of-device-ratings/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "greedy",
+        "sorting",
+        "matrix"
+      ],
+      "patterns": [
+        "array",
+        "greedy"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65343,8 +65447,14 @@
       "url": "https://leetcode.com/problems/minimum-lights-to-illuminate-a-road/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "prefix-sum"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65363,8 +65473,16 @@
       "url": "https://leetcode.com/problems/finish-time-of-tasks-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65546,8 +65664,14 @@
       "url": "https://leetcode.com/problems/maximum-valid-pair-sum/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "enumeration"
+      ],
+      "patterns": [
+        "array",
+        "enumeration"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65566,8 +65690,15 @@
       "url": "https://leetcode.com/problems/minimum-operations-to-transform-binary-string/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "string",
+        "dynamic-programming",
+        "greedy"
+      ],
+      "patterns": [
+        "string",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65586,8 +65717,14 @@
       "url": "https://leetcode.com/problems/subsequence-after-one-replacement/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "two-pointers",
+        "string"
+      ],
+      "patterns": [
+        "two-pointers",
+        "string"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65606,8 +65743,17 @@
       "url": "https://leetcode.com/problems/divisible-game/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math",
+        "dynamic-programming",
+        "enumeration",
+        "number-theory"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65626,8 +65772,15 @@
       "url": "https://leetcode.com/problems/minimum-total-cost-to-process-all-elements/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65646,8 +65799,16 @@
       "url": "https://leetcode.com/problems/create-grid-with-exactly-k-paths-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math",
+        "matrix",
+        "combinatorics"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65666,8 +65827,14 @@
       "url": "https://leetcode.com/problems/maximum-value-of-an-alternating-sequence/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "greedy"
+      ],
+      "patterns": [
+        "math",
+        "greedy"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65686,8 +65853,14 @@
       "url": "https://leetcode.com/problems/minimum-adjacent-swaps-to-partition-array/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "greedy"
+      ],
+      "patterns": [
+        "array",
+        "greedy"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65706,8 +65879,15 @@
       "url": "https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "tree",
+        "depth-first-search",
+        "binary-tree"
+      ],
+      "patterns": [
+        "tree",
+        "depth-first-search"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65726,8 +65906,16 @@
       "url": "https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "patterns": [
+        "array",
+        "two-pointers"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65746,8 +65934,14 @@
       "url": "https://leetcode.com/problems/aggregate-two-time-series/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "two-pointers"
+      ],
+      "patterns": [
+        "array",
+        "two-pointers"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65766,8 +65960,14 @@
       "url": "https://leetcode.com/problems/count-valid-sequences/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "combinatorics"
+      ],
+      "patterns": [
+        "math",
+        "combinatorics"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65786,8 +65986,16 @@
       "url": "https://leetcode.com/problems/widest-possible-fence/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "counting",
+        "enumeration"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65806,8 +66014,16 @@
       "url": "https://leetcode.com/problems/minimum-initial-strength-to-defeat-all-monsters/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "greedy",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65826,8 +66042,18 @@
       "url": "https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "divide-and-conquer"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65846,8 +66072,15 @@
       "url": "https://leetcode.com/problems/count-of-unfinished-tasks-after-each-shift/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65866,8 +66099,16 @@
       "url": "https://leetcode.com/problems/minimum-total-price-after-applying-discounts/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "two-pointers",
+        "greedy",
+        "sorting"
+      ],
+      "patterns": [
+        "array",
+        "two-pointers"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65886,8 +66127,15 @@
       "url": "https://leetcode.com/problems/weighted-sum-of-a-tree/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "tree",
+        "depth-first-search"
+      ],
+      "patterns": [
+        "array",
+        "tree"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65906,8 +66154,16 @@
       "url": "https://leetcode.com/problems/maximum-area-of-two-non-overlapping-square-submatrices/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65926,8 +66182,15 @@
       "url": "https://leetcode.com/problems/minimum-operations-to-make-a-rotated-palindrome-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "string",
+        "enumeration"
+      ],
+      "patterns": [
+        "math",
+        "string"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65946,8 +66209,14 @@
       "url": "https://leetcode.com/problems/k-th-digit-in-infinite-string/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "binary-search"
+      ],
+      "patterns": [
+        "math",
+        "binary-search"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65966,8 +66235,14 @@
       "url": "https://leetcode.com/problems/minimize-the-maximum-waiting-time-at-synchronized-traffic-lights/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "greedy"
+      ],
+      "patterns": [
+        "array",
+        "greedy"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -65984,6 +66259,53 @@
       "platformId": "maximum-gap-between-stations",
       "title": "Maximum Gap Between Stations",
       "url": "https://leetcode.com/problems/maximum-gap-between-stations/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [
+        "two-pointers",
+        "string",
+        "greedy"
+      ],
+      "patterns": [
+        "two-pointers",
+        "string"
+      ],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-find-all-numbers-disappeared-in-an-array-ii",
+      "platform": "leetcode",
+      "platformId": "find-all-numbers-disappeared-in-an-array-ii",
+      "title": "Find All Numbers Disappeared in an Array II",
+      "url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array-ii/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-longest-subarray-with-at-most-k-distinct-prime-factors",
+      "platform": "leetcode",
+      "platformId": "longest-subarray-with-at-most-k-distinct-prime-factors",
+      "title": "Longest Subarray With at Most K Distinct Prime Factors",
+      "url": "https://leetcode.com/problems/longest-subarray-with-at-most-k-distinct-prime-factors/",
       "difficulty": "medium",
       "rating": 1300,
       "topics": [],
@@ -87407,8 +87729,19 @@
       "url": "https://leetcode.com/problems/maximum-subarray-sum-after-at-most-k-swaps/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "greedy",
+        "binary-indexed-tree",
+        "sorting",
+        "heap-priority-queue",
+        "ordered-set"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87427,8 +87760,14 @@
       "url": "https://leetcode.com/problems/count-good-integers-in-a-range/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "dynamic-programming"
+      ],
+      "patterns": [
+        "math",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87504,8 +87843,15 @@
       "url": "https://leetcode.com/problems/count-distinct-ways-to-form-target-from-two-strings/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "string",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "string",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87524,8 +87870,16 @@
       "url": "https://leetcode.com/problems/palindromic-subarray-sum/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "hash-function",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87544,8 +87898,15 @@
       "url": "https://leetcode.com/problems/maximum-consistent-columns-in-a-grid/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "matrix"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87564,8 +87925,15 @@
       "url": "https://leetcode.com/problems/minimum-cost-to-convert-string-iii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "string",
+        "dynamic-programming"
+      ],
+      "patterns": [
+        "array",
+        "string"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87584,8 +87952,15 @@
       "url": "https://leetcode.com/problems/minimum-number-of-string-groups-through-transformations/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "hash-table",
+        "two-pointers",
+        "string"
+      ],
+      "patterns": [
+        "hash-table",
+        "two-pointers"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87604,8 +87979,17 @@
       "url": "https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-iii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "graph",
+        "heap-priority-queue",
+        "matrix",
+        "shortest-path"
+      ],
+      "patterns": [
+        "array",
+        "graph"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87624,8 +88008,15 @@
       "url": "https://leetcode.com/problems/minimum-possible-maximum-waiting-time/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "memoization"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87644,8 +88035,18 @@
       "url": "https://leetcode.com/problems/count-subarrays-with-even-odd-ratio-ii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "divide-and-conquer",
+        "binary-indexed-tree",
+        "segment-tree",
+        "merge-sort",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "divide-and-conquer"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87664,8 +88065,15 @@
       "url": "https://leetcode.com/problems/peaks-in-array-ii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "divide-and-conquer",
+        "segment-tree"
+      ],
+      "patterns": [
+        "array",
+        "divide-and-conquer"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87684,8 +88092,15 @@
       "url": "https://leetcode.com/problems/elevator-requests-ii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -87702,6 +88117,35 @@
       "platformId": "elevator-requests-iii",
       "title": "Elevator Requests III",
       "url": "https://leetcode.com/problems/elevator-requests-iii/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "sorting",
+        "bitmask"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
+      "companies": [],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-valid-k-unique-subarrays-i",
+      "platform": "leetcode",
+      "platformId": "valid-k-unique-subarrays-i",
+      "title": "Valid K-Unique Subarrays I",
+      "url": "https://leetcode.com/problems/valid-k-unique-subarrays-i/",
       "difficulty": "hard",
       "rating": 1700,
       "topics": [],
