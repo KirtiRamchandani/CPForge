@@ -1,8 +1,56 @@
 {
-  "fetchedAt": "2026-08-24T07:06:14.200Z",
+  "fetchedAt": "2026-08-31T13:10:40.409Z",
   "platform": "codeforces",
-  "count": 11363,
+  "count": 11370,
   "problems": [
+    {
+      "id": "codeforces-2257B-gigantomachy",
+      "platform": "codeforces",
+      "platformId": "2257B",
+      "title": "Gigantomachy",
+      "url": "https://codeforces.com/problemset/problem/2257/B",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "math"
+      ],
+      "patterns": [
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2257A-creating-abbreviations",
+      "platform": "codeforces",
+      "platformId": "2257A",
+      "title": "Creating Abbreviations",
+      "url": "https://codeforces.com/problemset/problem/2257/A",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "brute-force",
+        "strings"
+      ],
+      "patterns": [
+        "brute force",
+        "strings"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
     {
       "id": "codeforces-2256A-three-numbers-on-the-blackboard",
       "platform": "codeforces",
@@ -26644,21 +26692,17 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2257E-busy-beaver",
+      "id": "codeforces-2258D-magic-tiles",
       "platform": "codeforces",
-      "platformId": "2257E",
-      "title": "Busy Beaver",
-      "url": "https://codeforces.com/problemset/problem/2257/E",
+      "platformId": "2258D",
+      "title": "Magic Tiles",
+      "url": "https://codeforces.com/problemset/problem/2258/D",
       "difficulty": "900",
       "rating": 900,
       "topics": [
-        "brute-force",
-        "data-structures",
-        "divide-and-conquer",
         "dp",
         "greedy",
-        "implementation",
-        "sortings"
+        "implementation"
       ],
       "patterns": [
         "dynamic programming"
@@ -26673,22 +26717,21 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2257D-bermuda-rectangle",
+      "id": "codeforces-2258B2-carrot-chopdown-hard-version",
       "platform": "codeforces",
-      "platformId": "2257D",
-      "title": "Bermuda Rectangle",
-      "url": "https://codeforces.com/problemset/problem/2257/D",
+      "platformId": "2258B2",
+      "title": "Carrot Chopdown (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2258/B2",
       "difficulty": "900",
       "rating": 900,
       "topics": [
-        "binary-search",
+        "brute-force",
+        "greedy",
         "implementation",
-        "math",
-        "number-theory",
-        "two-pointers"
+        "math"
       ],
       "patterns": [
-        "binary search"
+        "greedy"
       ],
       "companies": [],
       "level": "newbie",
@@ -46123,18 +46166,22 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2257B-gigantomachy",
+      "id": "codeforces-2258E-divmex",
       "platform": "codeforces",
-      "platformId": "2257B",
-      "title": "Gigantomachy",
-      "url": "https://codeforces.com/problemset/problem/2257/B",
+      "platformId": "2258E",
+      "title": "DivMEX",
+      "url": "https://codeforces.com/problemset/problem/2258/E",
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
-        "math"
+        "brute-force",
+        "data-structures",
+        "math",
+        "number-theory"
       ],
       "patterns": [
-        "math"
+        "brute force",
+        "data structures"
       ],
       "companies": [],
       "level": "newbie",
@@ -46146,20 +46193,70 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2257A-creating-abbreviations",
+      "id": "codeforces-2258C-far-cities",
       "platform": "codeforces",
-      "platformId": "2257A",
-      "title": "Creating Abbreviations",
-      "url": "https://codeforces.com/problemset/problem/2257/A",
+      "platformId": "2258C",
+      "title": "Far Cities",
+      "url": "https://codeforces.com/problemset/problem/2258/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "interactive",
+        "trees",
+        "two-pointers"
+      ],
+      "patterns": [
+        "interactive",
+        "trees"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2258B1-carrot-chopdown-easy-version",
+      "platform": "codeforces",
+      "platformId": "2258B1",
+      "title": "Carrot Chopdown (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2258/B1",
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
         "brute-force",
-        "strings"
+        "games",
+        "math"
       ],
       "patterns": [
         "brute force",
-        "strings"
+        "games"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2258A-odd-eraser",
+      "platform": "codeforces",
+      "platformId": "2258A",
+      "title": "Odd Eraser",
+      "url": "https://codeforces.com/problemset/problem/2258/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "math"
+      ],
+      "patterns": [
+        "math"
       ],
       "companies": [],
       "level": "newbie",
@@ -56116,12 +56213,13 @@
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
+        "*special",
         "bitmasks",
         "brute-force"
       ],
       "patterns": [
-        "bitmasks",
-        "brute force"
+        "*special",
+        "bitmasks"
       ],
       "companies": [],
       "level": "newbie",
@@ -61844,6 +61942,33 @@
       ],
       "companies": [],
       "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2257C-spying-on-the-beaver",
+      "platform": "codeforces",
+      "platformId": "2257C",
+      "title": "Spying on the Beaver",
+      "url": "https://codeforces.com/problemset/problem/2257/C",
+      "difficulty": "1200",
+      "rating": 1200,
+      "topics": [
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "dsu",
+        "graphs",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "specialist",
       "status": "unseen",
       "attempts": 0,
       "confidence": 0,
@@ -84915,33 +85040,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2257C-spying-on-the-beaver",
-      "platform": "codeforces",
-      "platformId": "2257C",
-      "title": "Spying on the Beaver",
-      "url": "https://codeforces.com/problemset/problem/2257/C",
-      "difficulty": "1400",
-      "rating": 1400,
-      "topics": [
-        "constructive-algorithms",
-        "dfs-and-similar",
-        "dsu",
-        "graphs",
-        "trees"
-      ],
-      "patterns": [
-        "graphs"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2252C-risky-tower",
       "platform": "codeforces",
       "platformId": "2252C",
@@ -97063,42 +97161,18 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2257F2-beaver-s-jumping-track-hard-version",
+      "id": "codeforces-2258F-plus-minus-tree",
       "platform": "codeforces",
-      "platformId": "2257F2",
-      "title": "Beaver's Jumping Track (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2257/F2",
+      "platformId": "2258F",
+      "title": "Plus Minus Tree",
+      "url": "https://codeforces.com/problemset/problem/2258/F",
       "difficulty": "1500",
       "rating": 1500,
       "topics": [
-        "data-structures",
+        "dfs-and-similar",
         "dp",
-        "matrices"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2257F1-beaver-s-jumping-track-easy-version",
-      "platform": "codeforces",
-      "platformId": "2257F1",
-      "title": "Beaver's Jumping Track (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2257/F1",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "data-structures",
-        "dp",
-        "matrices"
+        "graphs",
+        "trees"
       ],
       "patterns": [
         "dynamic programming"
@@ -109582,6 +109656,33 @@
       ],
       "companies": [],
       "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2257D-bermuda-rectangle",
+      "platform": "codeforces",
+      "platformId": "2257D",
+      "title": "Bermuda Rectangle",
+      "url": "https://codeforces.com/problemset/problem/2257/D",
+      "difficulty": "1600",
+      "rating": 1600,
+      "topics": [
+        "binary-search",
+        "implementation",
+        "math",
+        "number-theory",
+        "two-pointers"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "expert",
       "status": "unseen",
       "attempts": 0,
       "confidence": 0,
@@ -161894,6 +161995,35 @@
       ],
       "patterns": [
         "greedy"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2257E-busy-beaver",
+      "platform": "codeforces",
+      "platformId": "2257E",
+      "title": "Busy Beaver",
+      "url": "https://codeforces.com/problemset/problem/2257/E",
+      "difficulty": "2000",
+      "rating": 2000,
+      "topics": [
+        "brute-force",
+        "data-structures",
+        "divide-and-conquer",
+        "dp",
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -220635,6 +220765,31 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2257F1-beaver-s-jumping-track-easy-version",
+      "platform": "codeforces",
+      "platformId": "2257F1",
+      "title": "Beaver's Jumping Track (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2257/F1",
+      "difficulty": "2500",
+      "rating": 2500,
+      "topics": [
+        "data-structures",
+        "dp",
+        "matrices"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2248F-matrix-elimination",
       "platform": "codeforces",
       "platformId": "2248F",
@@ -239969,6 +240124,31 @@
       ],
       "patterns": [
         "geometry"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2257F2-beaver-s-jumping-track-hard-version",
+      "platform": "codeforces",
+      "platformId": "2257F2",
+      "title": "Beaver's Jumping Track (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2257/F2",
+      "difficulty": "2700",
+      "rating": 2700,
+      "topics": [
+        "data-structures",
+        "dp",
+        "matrices"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",

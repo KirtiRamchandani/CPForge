@@ -1,28 +1,32 @@
 {
-  "updatedAt": "2026-08-24T07:07:14.729Z",
+  "updatedAt": "2026-08-31T13:11:50.124Z",
   "codeforces": {
-    "fetchedAt": "2026-08-24T07:06:14.288Z",
-    "count": 11363,
+    "fetchedAt": "2026-08-31T13:10:40.452Z",
+    "count": 11370,
     "newSinceLastFetch": 7,
     "sampleNew": [
-      "codeforces-2257E-busy-beaver",
-      "codeforces-2257D-bermuda-rectangle",
-      "codeforces-2257B-gigantomachy",
-      "codeforces-2257A-creating-abbreviations",
-      "codeforces-2257C-spying-on-the-beaver",
-      "codeforces-2257F2-beaver-s-jumping-track-hard-version",
-      "codeforces-2257F1-beaver-s-jumping-track-easy-version"
+      "codeforces-2258D-magic-tiles",
+      "codeforces-2258B2-carrot-chopdown-hard-version",
+      "codeforces-2258E-divmex",
+      "codeforces-2258C-far-cities",
+      "codeforces-2258B1-carrot-chopdown-easy-version",
+      "codeforces-2258A-odd-eraser",
+      "codeforces-2258F-plus-minus-tree"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-08-24T07:07:14.729Z",
-    "count": 3252,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-08-31T13:11:50.124Z",
+    "count": 3260,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-check-ascii-palindromic",
-      "leetcode-find-all-numbers-disappeared-in-an-array-ii",
-      "leetcode-longest-subarray-with-at-most-k-distinct-prime-factors",
-      "leetcode-valid-k-unique-subarrays-i"
+      "leetcode-count-integers-appearing-in-a-single-block",
+      "leetcode-minimum-bishop-moves-to-reach-target",
+      "leetcode-maximum-valid-split-positions-i",
+      "leetcode-lexicographically-largest-string-after-pair-transformations",
+      "leetcode-sum-of-decoded-numbers",
+      "leetcode-minimum-operations-to-form-subset-sum-i",
+      "leetcode-maximum-valid-split-positions-ii",
+      "leetcode-minimum-operations-to-form-subset-sum-ii"
     ]
   }
 }
