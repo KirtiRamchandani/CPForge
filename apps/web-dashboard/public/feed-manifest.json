@@ -1,32 +1,29 @@
 {
-  "updatedAt": "2026-08-31T13:11:50.124Z",
+  "updatedAt": "2026-09-07T12:02:44.287Z",
   "codeforces": {
-    "fetchedAt": "2026-08-31T13:10:40.452Z",
-    "count": 11370,
-    "newSinceLastFetch": 7,
+    "fetchedAt": "2026-09-07T12:01:37.263Z",
+    "count": 11378,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "codeforces-2258D-magic-tiles",
-      "codeforces-2258B2-carrot-chopdown-hard-version",
-      "codeforces-2258E-divmex",
-      "codeforces-2258C-far-cities",
-      "codeforces-2258B1-carrot-chopdown-easy-version",
-      "codeforces-2258A-odd-eraser",
-      "codeforces-2258F-plus-minus-tree"
+      "codeforces-2259G-index-removal",
+      "codeforces-2259F-binary-bubble-sort-inversions",
+      "codeforces-2259E-treasure-map-destruction-constructive-version",
+      "codeforces-2259D-mex-multiset",
+      "codeforces-2259C-101",
+      "codeforces-2259B-minus-two",
+      "codeforces-2259A-moo-language-school",
+      "codeforces-2259H-treasure-map-destruction-counting-version"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-08-31T13:11:50.124Z",
-    "count": 3260,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-09-07T12:02:44.287Z",
+    "count": 3264,
+    "newSinceLastFetch": 4,
     "sampleNew": [
-      "leetcode-count-integers-appearing-in-a-single-block",
-      "leetcode-minimum-bishop-moves-to-reach-target",
-      "leetcode-maximum-valid-split-positions-i",
-      "leetcode-lexicographically-largest-string-after-pair-transformations",
-      "leetcode-sum-of-decoded-numbers",
-      "leetcode-minimum-operations-to-form-subset-sum-i",
-      "leetcode-maximum-valid-split-positions-ii",
-      "leetcode-minimum-operations-to-form-subset-sum-ii"
+      "leetcode-count-rotations-with-exactly-k-equal-adjacent-pairs",
+      "leetcode-count-good-cyclic-rotations",
+      "leetcode-count-robot-groups",
+      "leetcode-minimum-cost-path-with-at-most-k-turns"
     ]
   }
 }

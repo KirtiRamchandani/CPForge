@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-08-31T13:10:40.409Z",
+  "fetchedAt": "2026-09-07T12:01:37.218Z",
   "platform": "codeforces",
-  "count": 11370,
+  "count": 11378,
   "problems": [
     {
       "id": "codeforces-2257B-gigantomachy",
@@ -46166,6 +46166,180 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2259G-index-removal",
+      "platform": "codeforces",
+      "platformId": "2259G",
+      "title": "Index Removal",
+      "url": "https://codeforces.com/problemset/problem/2259/G",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "math"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2259F-binary-bubble-sort-inversions",
+      "platform": "codeforces",
+      "platformId": "2259F",
+      "title": "Binary Bubble Sort Inversions",
+      "url": "https://codeforces.com/problemset/problem/2259/F",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "data-structures",
+        "math",
+        "two-pointers"
+      ],
+      "patterns": [
+        "data structures",
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2259E-treasure-map-destruction-constructive-version",
+      "platform": "codeforces",
+      "platformId": "2259E",
+      "title": "Treasure Map Destruction (Constructive Version)",
+      "url": "https://codeforces.com/problemset/problem/2259/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "2-sat",
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2259D-mex-multiset",
+      "platform": "codeforces",
+      "platformId": "2259D",
+      "title": "MEX Multiset",
+      "url": "https://codeforces.com/problemset/problem/2259/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2259C-101",
+      "platform": "codeforces",
+      "platformId": "2259C",
+      "title": "101",
+      "url": "https://codeforces.com/problemset/problem/2259/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2259B-minus-two",
+      "platform": "codeforces",
+      "platformId": "2259B",
+      "title": "Minus Two",
+      "url": "https://codeforces.com/problemset/problem/2259/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "math",
+        "number theory"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2259A-moo-language-school",
+      "platform": "codeforces",
+      "platformId": "2259A",
+      "title": "Moo Language School",
+      "url": "https://codeforces.com/problemset/problem/2259/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "greedy",
+        "two-pointers"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2258E-divmex",
       "platform": "codeforces",
       "platformId": "2258E",
@@ -46174,14 +46348,13 @@
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
-        "brute-force",
         "data-structures",
         "math",
         "number-theory"
       ],
       "patterns": [
-        "brute force",
-        "data structures"
+        "data structures",
+        "math"
       ],
       "companies": [],
       "level": "newbie",
@@ -97161,6 +97334,34 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2259H-treasure-map-destruction-counting-version",
+      "platform": "codeforces",
+      "platformId": "2259H",
+      "title": "Treasure Map Destruction (Counting Version)",
+      "url": "https://codeforces.com/problemset/problem/2259/H",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "2-sat",
+        "combinatorics",
+        "dfs-and-similar",
+        "dp",
+        "graphs",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2258F-plus-minus-tree",
       "platform": "codeforces",
       "platformId": "2258F",
@@ -97169,9 +97370,11 @@
       "difficulty": "1500",
       "rating": 1500,
       "topics": [
+        "data-structures",
         "dfs-and-similar",
         "dp",
         "graphs",
+        "greedy",
         "trees"
       ],
       "patterns": [
