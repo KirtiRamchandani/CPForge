@@ -1,29 +1,33 @@
 {
-  "updatedAt": "2026-09-07T12:02:44.287Z",
+  "updatedAt": "2026-09-14T12:18:30.300Z",
   "codeforces": {
-    "fetchedAt": "2026-09-07T12:01:37.263Z",
-    "count": 11378,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-09-14T12:17:25.653Z",
+    "count": 11401,
+    "newSinceLastFetch": 23,
     "sampleNew": [
-      "codeforces-2259G-index-removal",
-      "codeforces-2259F-binary-bubble-sort-inversions",
-      "codeforces-2259E-treasure-map-destruction-constructive-version",
-      "codeforces-2259D-mex-multiset",
-      "codeforces-2259C-101",
-      "codeforces-2259B-minus-two",
-      "codeforces-2259A-moo-language-school",
-      "codeforces-2259H-treasure-map-destruction-counting-version"
+      "codeforces-2264F-deranged-calculator",
+      "codeforces-2264A-rumb-needs-a-hand",
+      "codeforces-2262B-culling-game",
+      "codeforces-2262A2-floor-of-mex-hard-version",
+      "codeforces-2260D-signs-of-prefix-sums",
+      "codeforces-2260A-monocarp-s-contest",
+      "codeforces-2264D-dr-agos-s-dark-mode",
+      "codeforces-2264C-madamant-s-skating-dynasty"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-09-07T12:02:44.287Z",
-    "count": 3264,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-09-14T12:18:30.299Z",
+    "count": 3272,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-count-rotations-with-exactly-k-equal-adjacent-pairs",
-      "leetcode-count-good-cyclic-rotations",
-      "leetcode-count-robot-groups",
-      "leetcode-minimum-cost-path-with-at-most-k-turns"
+      "leetcode-count-values-with-equally-spaced-occurrences-i",
+      "leetcode-cyclically-shift-rows-and-columns",
+      "leetcode-count-values-with-equally-spaced-occurrences-ii",
+      "leetcode-minimum-days-to-score-exactly-n-points",
+      "leetcode-minimum-operations-to-make-every-element-palindromic",
+      "leetcode-count-shadow-pairs-i",
+      "leetcode-count-subarrays-with-distant-sums",
+      "leetcode-count-shadow-pairs-ii"
     ]
   }
 }
