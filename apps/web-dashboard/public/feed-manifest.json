@@ -1,33 +1,20 @@
 {
-  "updatedAt": "2026-09-14T12:18:30.300Z",
+  "updatedAt": "2026-09-21T12:26:15.915Z",
   "codeforces": {
-    "fetchedAt": "2026-09-14T12:17:25.653Z",
+    "fetchedAt": "2026-09-21T12:25:13.870Z",
     "count": 11401,
-    "newSinceLastFetch": 23,
-    "sampleNew": [
-      "codeforces-2264F-deranged-calculator",
-      "codeforces-2264A-rumb-needs-a-hand",
-      "codeforces-2262B-culling-game",
-      "codeforces-2262A2-floor-of-mex-hard-version",
-      "codeforces-2260D-signs-of-prefix-sums",
-      "codeforces-2260A-monocarp-s-contest",
-      "codeforces-2264D-dr-agos-s-dark-mode",
-      "codeforces-2264C-madamant-s-skating-dynasty"
-    ]
+    "newSinceLastFetch": 0,
+    "sampleNew": []
   },
   "leetcode": {
-    "fetchedAt": "2026-09-14T12:18:30.299Z",
-    "count": 3272,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-09-21T12:26:15.915Z",
+    "count": 3276,
+    "newSinceLastFetch": 4,
     "sampleNew": [
-      "leetcode-count-values-with-equally-spaced-occurrences-i",
-      "leetcode-cyclically-shift-rows-and-columns",
-      "leetcode-count-values-with-equally-spaced-occurrences-ii",
-      "leetcode-minimum-days-to-score-exactly-n-points",
-      "leetcode-minimum-operations-to-make-every-element-palindromic",
-      "leetcode-count-shadow-pairs-i",
-      "leetcode-count-subarrays-with-distant-sums",
-      "leetcode-count-shadow-pairs-ii"
+      "leetcode-number-of-intersecting-interval-pairs-i",
+      "leetcode-number-of-intersecting-interval-pairs-ii",
+      "leetcode-maximum-pulse-value-after-one-subarray-rotation",
+      "leetcode-lexicographically-largest-power-array"
     ]
   }
 }

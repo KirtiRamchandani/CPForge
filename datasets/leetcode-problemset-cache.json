@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-14T12:18:30.289Z",
+  "fetchedAt": "2026-09-21T12:26:15.902Z",
   "platform": "leetcode",
-  "count": 3272,
+  "count": 3276,
   "problems": [
     {
       "id": "leetcode-two-sum",
@@ -16464,6 +16464,7 @@
       "topics": [
         "array",
         "hash-table",
+        "binary-indexed-tree",
         "segment-tree"
       ],
       "patterns": [
@@ -17209,11 +17210,12 @@
       "rating": 900,
       "topics": [
         "array",
+        "two-pointers",
         "simulation"
       ],
       "patterns": [
         "array",
-        "simulation"
+        "two-pointers"
       ],
       "companies": [],
       "level": "beginner",
@@ -21518,8 +21520,15 @@
       "url": "https://leetcode.com/problems/check-ascii-palindromic/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "two-pointers",
+        "string",
+        "bit-manipulation"
+      ],
+      "patterns": [
+        "two-pointers",
+        "string"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21538,8 +21547,15 @@
       "url": "https://leetcode.com/problems/count-integers-appearing-in-a-single-block/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21558,8 +21574,15 @@
       "url": "https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "string",
+        "sliding-window",
+        "enumeration"
+      ],
+      "patterns": [
+        "string",
+        "sliding-window"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21578,8 +21601,14 @@
       "url": "https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21596,6 +21625,33 @@
       "platformId": "cyclically-shift-rows-and-columns",
       "title": "Cyclically Shift Rows and Columns",
       "url": "https://leetcode.com/problems/cyclically-shift-rows-and-columns/",
+      "difficulty": "easy",
+      "rating": 900,
+      "topics": [
+        "array",
+        "matrix",
+        "simulation"
+      ],
+      "patterns": [
+        "array",
+        "matrix"
+      ],
+      "companies": [],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-number-of-intersecting-interval-pairs-i",
+      "platform": "leetcode",
+      "platformId": "number-of-intersecting-interval-pairs-i",
+      "title": "Number of Intersecting Interval Pairs I",
+      "url": "https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/",
       "difficulty": "easy",
       "rating": 900,
       "topics": [],
@@ -64296,7 +64352,8 @@
       "rating": 1300,
       "topics": [
         "hash-table",
-        "string"
+        "string",
+        "simulation"
       ],
       "patterns": [
         "hash-table",
@@ -66340,8 +66397,15 @@
       "url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array-ii/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "sorting"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66360,8 +66424,17 @@
       "url": "https://leetcode.com/problems/longest-subarray-with-at-most-k-distinct-prime-factors/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "math",
+        "sliding-window",
+        "number-theory"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66380,8 +66453,14 @@
       "url": "https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66400,8 +66479,16 @@
       "url": "https://leetcode.com/problems/maximum-valid-split-positions-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math",
+        "enumeration",
+        "number-theory"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66420,8 +66507,16 @@
       "url": "https://leetcode.com/problems/lexicographically-largest-string-after-pair-transformations/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "string",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "patterns": [
+        "array",
+        "string"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66440,8 +66535,15 @@
       "url": "https://leetcode.com/problems/sum-of-decoded-numbers/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math",
+        "simulation"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66460,8 +66562,14 @@
       "url": "https://leetcode.com/problems/minimum-operations-to-form-subset-sum-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66480,8 +66588,15 @@
       "url": "https://leetcode.com/problems/count-good-cyclic-rotations/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "sliding-window",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "sliding-window"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66500,8 +66615,15 @@
       "url": "https://leetcode.com/problems/count-robot-groups/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "patterns": [
+        "array",
+        "stack"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66520,8 +66642,14 @@
       "url": "https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66540,8 +66668,14 @@
       "url": "https://leetcode.com/problems/minimum-days-to-score-exactly-n-points/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "dynamic-programming"
+      ],
+      "patterns": [
+        "math",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66560,8 +66694,14 @@
       "url": "https://leetcode.com/problems/minimum-operations-to-make-every-element-palindromic/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66578,6 +66718,53 @@
       "platformId": "count-shadow-pairs-i",
       "title": "Count Shadow Pairs I",
       "url": "https://leetcode.com/problems/count-shadow-pairs-i/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "patterns": [
+        "array",
+        "stack"
+      ],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-number-of-intersecting-interval-pairs-ii",
+      "platform": "leetcode",
+      "platformId": "number-of-intersecting-interval-pairs-ii",
+      "title": "Number of Intersecting Interval Pairs II",
+      "url": "https://leetcode.com/problems/number-of-intersecting-interval-pairs-ii/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-maximum-pulse-value-after-one-subarray-rotation",
+      "platform": "leetcode",
+      "platformId": "maximum-pulse-value-after-one-subarray-rotation",
+      "title": "Maximum Pulse Value After One Subarray Rotation",
+      "url": "https://leetcode.com/problems/maximum-pulse-value-after-one-subarray-rotation/",
       "difficulty": "medium",
       "rating": 1300,
       "topics": [],
@@ -86684,6 +86871,7 @@
         "array",
         "math",
         "binary-search",
+        "binary-indexed-tree",
         "segment-tree",
         "sorting"
       ],
@@ -87087,6 +87275,7 @@
       "rating": 1700,
       "topics": [
         "array",
+        "binary-search",
         "divide-and-conquer",
         "dynamic-programming",
         "queue",
@@ -87095,7 +87284,7 @@
       ],
       "patterns": [
         "array",
-        "divide-and-conquer"
+        "binary-search"
       ],
       "companies": [],
       "level": "advanced",
@@ -87195,6 +87384,7 @@
         "bit-manipulation",
         "tree",
         "depth-first-search",
+        "binary-indexed-tree",
         "segment-tree"
       ],
       "patterns": [
@@ -88448,8 +88638,18 @@
       "url": "https://leetcode.com/problems/valid-k-unique-subarrays-i/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "bit-manipulation",
+        "binary-indexed-tree",
+        "segment-tree",
+        "hash-function",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "bit-manipulation"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -88468,8 +88668,16 @@
       "url": "https://leetcode.com/problems/maximum-valid-split-positions-ii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math",
+        "enumeration",
+        "number-theory"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -88488,8 +88696,14 @@
       "url": "https://leetcode.com/problems/minimum-operations-to-form-subset-sum-ii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "dynamic-programming"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -88508,8 +88722,17 @@
       "url": "https://leetcode.com/problems/minimum-cost-path-with-at-most-k-turns/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "heap",
+        "graph",
+        "matrix",
+        "shortest-path"
+      ],
+      "patterns": [
+        "array",
+        "heap"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -88528,8 +88751,17 @@
       "url": "https://leetcode.com/problems/count-subarrays-with-distant-sums/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "binary-indexed-tree",
+        "segment-tree",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -88546,6 +88778,38 @@
       "platformId": "count-shadow-pairs-ii",
       "title": "Count Shadow Pairs II",
       "url": "https://leetcode.com/problems/count-shadow-pairs-ii/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": [
+        "array",
+        "binary-search",
+        "divide-and-conquer",
+        "stack",
+        "binary-indexed-tree",
+        "segment-tree",
+        "sorting",
+        "monotonic-stack"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
+      "companies": [],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-lexicographically-largest-power-array",
+      "platform": "leetcode",
+      "platformId": "lexicographically-largest-power-array",
+      "title": "Lexicographically Largest Power Array",
+      "url": "https://leetcode.com/problems/lexicographically-largest-power-array/",
       "difficulty": "hard",
       "rating": 1700,
       "topics": [],
