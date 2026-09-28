@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-21T12:25:13.824Z",
+  "fetchedAt": "2026-09-28T13:22:35.185Z",
   "platform": "codeforces",
-  "count": 11401,
+  "count": 11425,
   "problems": [
     {
       "id": "codeforces-2264A-rumb-needs-a-hand",
@@ -26837,6 +26837,86 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2269B-kiakio-and-squared-numbers",
+      "platform": "codeforces",
+      "platformId": "2269B",
+      "title": "KiaKio and Squared Numbers",
+      "url": "https://codeforces.com/problemset/problem/2269/B",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "brute-force",
+        "implementation"
+      ],
+      "patterns": [
+        "brute force",
+        "implementation"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2267F1-xor-transformations-easy-version",
+      "platform": "codeforces",
+      "platformId": "2267F1",
+      "title": "XOR Transformations (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2267/F1",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "bitmasks",
+        "brute-force",
+        "implementation",
+        "sortings"
+      ],
+      "patterns": [
+        "bitmasks",
+        "brute force"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2266F-mex-replacement",
+      "platform": "codeforces",
+      "platformId": "2266F",
+      "title": "MEX Replacement",
+      "url": "https://codeforces.com/problemset/problem/2266/F",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "binary-search",
+        "brute-force",
+        "greedy",
+        "implementation",
+        "math",
+        "sortings"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2263B-min-matrices",
       "platform": "codeforces",
       "platformId": "2263B",
@@ -46384,6 +46464,392 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2269A-sausage-bank",
+      "platform": "codeforces",
+      "platformId": "2269A",
+      "title": "SauSaGe Bank",
+      "url": "https://codeforces.com/problemset/problem/2269/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2268F-deglado",
+      "platform": "codeforces",
+      "platformId": "2268F",
+      "title": "Deglado",
+      "url": "https://codeforces.com/problemset/problem/2268/F",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms"
+      ],
+      "patterns": [
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2268E-kia-kio-and-tree-of-life",
+      "platform": "codeforces",
+      "platformId": "2268E",
+      "title": "Kia Kio and Tree of Life",
+      "url": "https://codeforces.com/problemset/problem/2268/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "data-structures",
+        "fft",
+        "math",
+        "trees"
+      ],
+      "patterns": [
+        "data structures",
+        "fft"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2268C-kiakio-and-energy-intervals",
+      "platform": "codeforces",
+      "platformId": "2268C",
+      "title": "KiaKio and Energy Intervals",
+      "url": "https://codeforces.com/problemset/problem/2268/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "bitmasks",
+        "brute-force",
+        "data-structures",
+        "divide-and-conquer",
+        "greedy",
+        "trees",
+        "two-pointers"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2268B-what-a-sausage-it-s-all-meat",
+      "platform": "codeforces",
+      "platformId": "2268B",
+      "title": "What a SauSaGe! It's All Meat",
+      "url": "https://codeforces.com/problemset/problem/2268/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "brute-force",
+        "data-structures",
+        "math"
+      ],
+      "patterns": [
+        "bitmasks",
+        "brute force"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2268A-k-is-important",
+      "platform": "codeforces",
+      "platformId": "2268A",
+      "title": "K Is Important",
+      "url": "https://codeforces.com/problemset/problem/2268/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2267F2-xor-transformations-hard-version",
+      "platform": "codeforces",
+      "platformId": "2267F2",
+      "title": "XOR Transformations (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2267/F2",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "brute-force",
+        "data-structures",
+        "dfs-and-similar",
+        "greedy",
+        "math",
+        "sortings",
+        "strings",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2267E-clean-substrings",
+      "platform": "codeforces",
+      "platformId": "2267E",
+      "title": "Clean Substrings",
+      "url": "https://codeforces.com/problemset/problem/2267/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "combinatorics",
+        "data-structures",
+        "math"
+      ],
+      "patterns": [
+        "combinatorics",
+        "data structures"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2267C-gcd-treasury",
+      "platform": "codeforces",
+      "platformId": "2267C",
+      "title": "GCD Treasury",
+      "url": "https://codeforces.com/problemset/problem/2267/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2267B-fashionable-array",
+      "platform": "codeforces",
+      "platformId": "2267B",
+      "title": "Fashionable Array",
+      "url": "https://codeforces.com/problemset/problem/2267/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "constructive-algorithms",
+        "sortings"
+      ],
+      "patterns": [
+        "brute force",
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2267A-turn-into-a-palindrome",
+      "platform": "codeforces",
+      "platformId": "2267A",
+      "title": "Turn Into a Palindrome",
+      "url": "https://codeforces.com/problemset/problem/2267/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "strings"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2266D-falling-concrete",
+      "platform": "codeforces",
+      "platformId": "2266D",
+      "title": "Falling Concrete",
+      "url": "https://codeforces.com/problemset/problem/2266/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "data-structures",
+        "math",
+        "sortings"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "data structures"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2266C-and-or-sort",
+      "platform": "codeforces",
+      "platformId": "2266C",
+      "title": "AND, OR, Sort!",
+      "url": "https://codeforces.com/problemset/problem/2266/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "strings"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2266B-three-piles",
+      "platform": "codeforces",
+      "platformId": "2266B",
+      "title": "Three Piles",
+      "url": "https://codeforces.com/problemset/problem/2266/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "games",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2266A-good-contest",
+      "platform": "codeforces",
+      "platformId": "2266A",
+      "title": "Good Contest",
+      "url": "https://codeforces.com/problemset/problem/2266/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2253B-hypercarp-and-the-control-panel",
       "platform": "codeforces",
       "platformId": "2253B",
@@ -46973,90 +47439,6 @@
       ],
       "patterns": [
         "greedy"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2207H3-bowser-s-castle-hard-version",
-      "platform": "codeforces",
-      "platformId": "2207H3",
-      "title": "Bowser's Castle (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2207/H3",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "constructive-algorithms",
-        "divide-and-conquer",
-        "interactive",
-        "trees",
-        "two-pointers"
-      ],
-      "patterns": [
-        "constructive algorithms",
-        "divide and conquer"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2207H2-bowser-s-castle-medium-version",
-      "platform": "codeforces",
-      "platformId": "2207H2",
-      "title": "Bowser's Castle (Medium Version)",
-      "url": "https://codeforces.com/problemset/problem/2207/H2",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "constructive-algorithms",
-        "divide-and-conquer",
-        "interactive",
-        "trees",
-        "two-pointers"
-      ],
-      "patterns": [
-        "constructive algorithms",
-        "divide and conquer"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2207H1-bowser-s-castle-easy-version",
-      "platform": "codeforces",
-      "platformId": "2207H1",
-      "title": "Bowser's Castle (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2207/H1",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "binary-search",
-        "constructive-algorithms",
-        "divide-and-conquer",
-        "greedy",
-        "interactive",
-        "trees"
-      ],
-      "patterns": [
-        "binary search"
       ],
       "companies": [],
       "level": "newbie",
@@ -73478,32 +73860,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2264C-madamant-s-skating-dynasty",
-      "platform": "codeforces",
-      "platformId": "2264C",
-      "title": "Madamant's Skating Dynasty",
-      "url": "https://codeforces.com/problemset/problem/2264/C",
-      "difficulty": "1300",
-      "rating": 1300,
-      "topics": [
-        "combinatorics",
-        "math",
-        "sortings"
-      ],
-      "patterns": [
-        "combinatorics",
-        "math"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2260C-maximize-xor-minimize-operations",
       "platform": "codeforces",
       "platformId": "2260C",
@@ -74170,30 +74526,6 @@
       "patterns": [
         "constructive algorithms",
         "math"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2172M-maximum-distance-to-port",
-      "platform": "codeforces",
-      "platformId": "2172M",
-      "title": "Maximum Distance To Port",
-      "url": "https://codeforces.com/problemset/problem/2172/M",
-      "difficulty": "1300",
-      "rating": 1300,
-      "topics": [
-        "graphs",
-        "shortest-paths"
-      ],
-      "patterns": [
-        "graphs"
       ],
       "companies": [],
       "level": "specialist",
@@ -85254,6 +85586,32 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2264C-madamant-s-skating-dynasty",
+      "platform": "codeforces",
+      "platformId": "2264C",
+      "title": "Madamant's Skating Dynasty",
+      "url": "https://codeforces.com/problemset/problem/2264/C",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "combinatorics",
+        "math",
+        "sortings"
+      ],
+      "patterns": [
+        "combinatorics",
+        "math"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2252C-risky-tower",
       "platform": "codeforces",
       "platformId": "2252C",
@@ -85683,6 +86041,30 @@
       ],
       "patterns": [
         "greedy"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2172M-maximum-distance-to-port",
+      "platform": "codeforces",
+      "platformId": "2172M",
+      "title": "Maximum Distance To Port",
+      "url": "https://codeforces.com/problemset/problem/2172/M",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "graphs",
+        "shortest-paths"
+      ],
+      "patterns": [
+        "graphs"
       ],
       "companies": [],
       "level": "specialist",
@@ -97375,6 +97757,162 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2268D-aghabalasar-and-hamed",
+      "platform": "codeforces",
+      "platformId": "2268D",
+      "title": "AghaBalaSar and Hamed",
+      "url": "https://codeforces.com/problemset/problem/2268/D",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "data-structures",
+        "dp",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2267G-new-lrt",
+      "platform": "codeforces",
+      "platformId": "2267G",
+      "title": "New LRT",
+      "url": "https://codeforces.com/problemset/problem/2267/G",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "fft"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2267D-backrooms-hill",
+      "platform": "codeforces",
+      "platformId": "2267D",
+      "title": "Backrooms Hill",
+      "url": "https://codeforces.com/problemset/problem/2267/D",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "constructive-algorithms",
+        "dp",
+        "greedy",
+        "sortings",
+        "two-pointers"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2266H-deque-malfunction",
+      "platform": "codeforces",
+      "platformId": "2266H",
+      "title": "Deque Malfunction",
+      "url": "https://codeforces.com/problemset/problem/2266/H",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "dp",
+        "greedy"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2266G-modular-tree",
+      "platform": "codeforces",
+      "platformId": "2266G",
+      "title": "Modular Tree",
+      "url": "https://codeforces.com/problemset/problem/2266/G",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dfs-and-similar",
+        "dp",
+        "greedy",
+        "math",
+        "number-theory",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2266E-prime-destruction",
+      "platform": "codeforces",
+      "platformId": "2266E",
+      "title": "Prime Destruction",
+      "url": "https://codeforces.com/problemset/problem/2266/E",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "brute-force",
+        "dp",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2259E-treasure-map-destruction-constructive-version",
       "platform": "codeforces",
       "platformId": "2259E",
@@ -97474,32 +98012,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2239B-decidophobia",
-      "platform": "codeforces",
-      "platformId": "2239B",
-      "title": "Decidophobia",
-      "url": "https://codeforces.com/problemset/problem/2239/B",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "greedy",
-        "math",
-        "sortings",
-        "two-pointers"
-      ],
-      "patterns": [
-        "greedy"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2238D-storming-arasaka",
       "platform": "codeforces",
       "platformId": "2238D",
@@ -97511,31 +98023,6 @@
         "greedy",
         "math",
         "number-theory"
-      ],
-      "patterns": [
-        "greedy"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2237D-fullmetal-bitchemist",
-      "platform": "codeforces",
-      "platformId": "2237D",
-      "title": "Fullmetal Bitchemist",
-      "url": "https://codeforces.com/problemset/problem/2237/D",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "constructive-algorithms",
-        "greedy",
-        "math"
       ],
       "patterns": [
         "greedy"
@@ -97566,32 +98053,6 @@
       ],
       "patterns": [
         "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2232C2-seating-arrangement-hard-version",
-      "platform": "codeforces",
-      "platformId": "2232C2",
-      "title": "Seating Arrangement (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2232/C2",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "binary-search",
-        "greedy",
-        "math",
-        "two-pointers"
-      ],
-      "patterns": [
-        "binary search"
       ],
       "companies": [],
       "level": "specialist",
@@ -97954,31 +98415,6 @@
       ],
       "patterns": [
         "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2155C-the-ancient-wizards-capes",
-      "platform": "codeforces",
-      "platformId": "2155C",
-      "title": "The Ancient Wizards' Capes",
-      "url": "https://codeforces.com/problemset/problem/2155/C",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "brute-force",
-        "greedy",
-        "implementation"
-      ],
-      "patterns": [
-        "greedy"
       ],
       "companies": [],
       "level": "specialist",
@@ -110033,6 +110469,83 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2239B-decidophobia",
+      "platform": "codeforces",
+      "platformId": "2239B",
+      "title": "Decidophobia",
+      "url": "https://codeforces.com/problemset/problem/2239/B",
+      "difficulty": "1600",
+      "rating": 1600,
+      "topics": [
+        "greedy",
+        "math",
+        "sortings",
+        "two-pointers"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2237D-fullmetal-bitchemist",
+      "platform": "codeforces",
+      "platformId": "2237D",
+      "title": "Fullmetal Bitchemist",
+      "url": "https://codeforces.com/problemset/problem/2237/D",
+      "difficulty": "1600",
+      "rating": 1600,
+      "topics": [
+        "constructive-algorithms",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2232C2-seating-arrangement-hard-version",
+      "platform": "codeforces",
+      "platformId": "2232C2",
+      "title": "Seating Arrangement (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2232/C2",
+      "difficulty": "1600",
+      "rating": 1600,
+      "topics": [
+        "binary-search",
+        "greedy",
+        "math",
+        "two-pointers"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2228C2-cirno-and-number-hard-version",
       "platform": "codeforces",
       "platformId": "2228C2",
@@ -110487,6 +111000,31 @@
       ],
       "patterns": [
         "binary search"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2155C-the-ancient-wizards-capes",
+      "platform": "codeforces",
+      "platformId": "2155C",
+      "title": "The Ancient Wizards' Capes",
+      "url": "https://codeforces.com/problemset/problem/2155/C",
+      "difficulty": "1600",
+      "rating": 1600,
+      "topics": [
+        "brute-force",
+        "greedy",
+        "implementation"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "expert",
@@ -136139,34 +136677,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2264D-dr-agos-s-dark-mode",
-      "platform": "codeforces",
-      "platformId": "2264D",
-      "title": "Dr. Agos's Dark Mode",
-      "url": "https://codeforces.com/problemset/problem/2264/D",
-      "difficulty": "1800",
-      "rating": 1800,
-      "topics": [
-        "brute-force",
-        "chinese-remainder-theorem",
-        "constructive-algorithms",
-        "math",
-        "strings"
-      ],
-      "patterns": [
-        "brute force",
-        "chinese remainder theorem"
-      ],
-      "companies": [],
-      "level": "expert",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2262A2-floor-of-mex-hard-version",
       "platform": "codeforces",
       "platformId": "2262A2",
@@ -148639,6 +149149,34 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2264D-dr-agos-s-dark-mode",
+      "platform": "codeforces",
+      "platformId": "2264D",
+      "title": "Dr. Agos's Dark Mode",
+      "url": "https://codeforces.com/problemset/problem/2264/D",
+      "difficulty": "1900",
+      "rating": 1900,
+      "topics": [
+        "brute-force",
+        "chinese-remainder-theorem",
+        "constructive-algorithms",
+        "math",
+        "strings"
+      ],
+      "patterns": [
+        "brute force",
+        "chinese remainder theorem"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2259G-index-removal",
       "platform": "codeforces",
       "platformId": "2259G",
@@ -148691,33 +149229,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2248E-excuse-for-breaks",
-      "platform": "codeforces",
-      "platformId": "2248E",
-      "title": "Excuse for Breaks",
-      "url": "https://codeforces.com/problemset/problem/2248/E",
-      "difficulty": "1900",
-      "rating": 1900,
-      "topics": [
-        "binary-search",
-        "brute-force",
-        "greedy",
-        "math",
-        "two-pointers"
-      ],
-      "patterns": [
-        "binary search"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2246D-diss-quack-and-array-game",
       "platform": "codeforces",
       "platformId": "2246D",
@@ -148757,34 +149268,6 @@
       ],
       "patterns": [
         "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2234F-vessels-heights-and-two-versions-hard-version",
-      "platform": "codeforces",
-      "platformId": "2234F",
-      "title": "Vessels, Heights and Two Versions (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2234/F",
-      "difficulty": "1900",
-      "rating": 1900,
-      "topics": [
-        "data-structures",
-        "dfs-and-similar",
-        "dsu",
-        "greedy",
-        "implementation",
-        "two-pointers"
-      ],
-      "patterns": [
-        "graphs"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -149094,32 +149577,6 @@
         "dp",
         "graphs",
         "trees"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2180D-insolvable-disks",
-      "platform": "codeforces",
-      "platformId": "2180D",
-      "title": "Insolvable Disks",
-      "url": "https://codeforces.com/problemset/problem/2180/D",
-      "difficulty": "1900",
-      "rating": 1900,
-      "topics": [
-        "data-structures",
-        "dp",
-        "greedy",
-        "math"
       ],
       "patterns": [
         "dynamic programming"
@@ -162454,35 +162911,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2257E-busy-beaver",
-      "platform": "codeforces",
-      "platformId": "2257E",
-      "title": "Busy Beaver",
-      "url": "https://codeforces.com/problemset/problem/2257/E",
-      "difficulty": "2000",
-      "rating": 2000,
-      "topics": [
-        "brute-force",
-        "data-structures",
-        "divide-and-conquer",
-        "dp",
-        "greedy",
-        "implementation",
-        "sortings"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2249C-double-rift-dial",
       "platform": "codeforces",
       "platformId": "2249C",
@@ -162499,6 +162927,33 @@
       ],
       "patterns": [
         "graphs"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2248E-excuse-for-breaks",
+      "platform": "codeforces",
+      "platformId": "2248E",
+      "title": "Excuse for Breaks",
+      "url": "https://codeforces.com/problemset/problem/2248/E",
+      "difficulty": "2000",
+      "rating": 2000,
+      "topics": [
+        "binary-search",
+        "brute-force",
+        "greedy",
+        "math",
+        "two-pointers"
+      ],
+      "patterns": [
+        "binary search"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -162562,41 +163017,20 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2238E-cake-trial",
+      "id": "codeforces-2234F-vessels-heights-and-two-versions-hard-version",
       "platform": "codeforces",
-      "platformId": "2238E",
-      "title": "Cake Trial",
-      "url": "https://codeforces.com/problemset/problem/2238/E",
-      "difficulty": "2000",
-      "rating": 2000,
-      "topics": [
-        "dp",
-        "greedy"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2237E-permutation-commutation",
-      "platform": "codeforces",
-      "platformId": "2237E",
-      "title": "Permutation Commutation",
-      "url": "https://codeforces.com/problemset/problem/2237/E",
+      "platformId": "2234F",
+      "title": "Vessels, Heights and Two Versions (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2234/F",
       "difficulty": "2000",
       "rating": 2000,
       "topics": [
         "data-structures",
-        "graphs",
-        "greedy"
+        "dfs-and-similar",
+        "dsu",
+        "greedy",
+        "implementation",
+        "two-pointers"
       ],
       "patterns": [
         "graphs"
@@ -162700,34 +163134,6 @@
         "bitmasks",
         "constructive-algorithms",
         "interactive"
-      ],
-      "patterns": [
-        "binary search"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2217E-definitely-larger",
-      "platform": "codeforces",
-      "platformId": "2217E",
-      "title": "Definitely Larger",
-      "url": "https://codeforces.com/problemset/problem/2217/E",
-      "difficulty": "2000",
-      "rating": 2000,
-      "topics": [
-        "binary-search",
-        "constructive-algorithms",
-        "data-structures",
-        "graphs",
-        "greedy",
-        "sortings"
       ],
       "patterns": [
         "binary search"
@@ -162914,6 +163320,32 @@
       ],
       "patterns": [
         "binary search"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2180D-insolvable-disks",
+      "platform": "codeforces",
+      "platformId": "2180D",
+      "title": "Insolvable Disks",
+      "url": "https://codeforces.com/problemset/problem/2180/D",
+      "difficulty": "2000",
+      "rating": 2000,
+      "topics": [
+        "data-structures",
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -175008,17 +175440,21 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2264E1-a-prime-flood-easy-version",
+      "id": "codeforces-2257E-busy-beaver",
       "platform": "codeforces",
-      "platformId": "2264E1",
-      "title": "A Prime Flood (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2264/E1",
+      "platformId": "2257E",
+      "title": "Busy Beaver",
+      "url": "https://codeforces.com/problemset/problem/2257/E",
       "difficulty": "2100",
       "rating": 2100,
       "topics": [
-        "combinatorics",
+        "brute-force",
+        "data-structures",
+        "divide-and-conquer",
         "dp",
-        "number-theory"
+        "greedy",
+        "implementation",
+        "sortings"
       ],
       "patterns": [
         "dynamic programming"
@@ -175062,34 +175498,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2253E-diameter-intersections",
-      "platform": "codeforces",
-      "platformId": "2253E",
-      "title": "Diameter Intersections",
-      "url": "https://codeforces.com/problemset/problem/2253/E",
-      "difficulty": "2100",
-      "rating": 2100,
-      "topics": [
-        "brute-force",
-        "dfs-and-similar",
-        "fft",
-        "graphs",
-        "implementation",
-        "trees"
-      ],
-      "patterns": [
-        "graphs"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2252E-generational-triplets",
       "platform": "codeforces",
       "platformId": "2252E",
@@ -175105,6 +175513,55 @@
       ],
       "patterns": [
         "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2238E-cake-trial",
+      "platform": "codeforces",
+      "platformId": "2238E",
+      "title": "Cake Trial",
+      "url": "https://codeforces.com/problemset/problem/2238/E",
+      "difficulty": "2100",
+      "rating": 2100,
+      "topics": [
+        "dp",
+        "greedy"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2237E-permutation-commutation",
+      "platform": "codeforces",
+      "platformId": "2237E",
+      "title": "Permutation Commutation",
+      "url": "https://codeforces.com/problemset/problem/2237/E",
+      "difficulty": "2100",
+      "rating": 2100,
+      "topics": [
+        "data-structures",
+        "graphs",
+        "greedy"
+      ],
+      "patterns": [
+        "graphs"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -175132,35 +175589,6 @@
       ],
       "patterns": [
         "graphs"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2230E-minimum-influence",
-      "platform": "codeforces",
-      "platformId": "2230E",
-      "title": "Minimum Influence",
-      "url": "https://codeforces.com/problemset/problem/2230/E",
-      "difficulty": "2100",
-      "rating": 2100,
-      "topics": [
-        "binary-search",
-        "data-structures",
-        "greedy",
-        "implementation",
-        "math",
-        "sortings",
-        "two-pointers"
-      ],
-      "patterns": [
-        "binary search"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -175224,6 +175652,34 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2217E-definitely-larger",
+      "platform": "codeforces",
+      "platformId": "2217E",
+      "title": "Definitely Larger",
+      "url": "https://codeforces.com/problemset/problem/2217/E",
+      "difficulty": "2100",
+      "rating": 2100,
+      "topics": [
+        "binary-search",
+        "constructive-algorithms",
+        "data-structures",
+        "graphs",
+        "greedy",
+        "sortings"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2210D-a-simple-rbs-problem",
       "platform": "codeforces",
       "platformId": "2210D",
@@ -175265,30 +175721,6 @@
       ],
       "patterns": [
         "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2207E1-n-mex-constructive-version",
-      "platform": "codeforces",
-      "platformId": "2207E1",
-      "title": "N-MEX (Constructive Version)",
-      "url": "https://codeforces.com/problemset/problem/2207/E1",
-      "difficulty": "2100",
-      "rating": 2100,
-      "topics": [
-        "constructive-algorithms",
-        "greedy"
-      ],
-      "patterns": [
-        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -186655,22 +187087,20 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2262C-traveling-the-world",
+      "id": "codeforces-2264E1-a-prime-flood-easy-version",
       "platform": "codeforces",
-      "platformId": "2262C",
-      "title": "Traveling the World",
-      "url": "https://codeforces.com/problemset/problem/2262/C",
+      "platformId": "2264E1",
+      "title": "A Prime Flood (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2264/E1",
       "difficulty": "2200",
       "rating": 2200,
       "topics": [
         "combinatorics",
-        "constructive-algorithms",
-        "graphs",
-        "greedy",
-        "math"
+        "dp",
+        "number-theory"
       ],
       "patterns": [
-        "graphs"
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -186726,6 +187156,34 @@
       ],
       "patterns": [
         "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2253E-diameter-intersections",
+      "platform": "codeforces",
+      "platformId": "2253E",
+      "title": "Diameter Intersections",
+      "url": "https://codeforces.com/problemset/problem/2253/E",
+      "difficulty": "2200",
+      "rating": 2200,
+      "topics": [
+        "brute-force",
+        "dfs-and-similar",
+        "fft",
+        "graphs",
+        "implementation",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -186818,21 +187276,24 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2233E1-permutation-transmission-easy-version",
+      "id": "codeforces-2230E-minimum-influence",
       "platform": "codeforces",
-      "platformId": "2233E1",
-      "title": "Permutation Transmission (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2233/E1",
+      "platformId": "2230E",
+      "title": "Minimum Influence",
+      "url": "https://codeforces.com/problemset/problem/2230/E",
       "difficulty": "2200",
       "rating": 2200,
       "topics": [
-        "bitmasks",
-        "combinatorics",
-        "sortings"
+        "binary-search",
+        "data-structures",
+        "greedy",
+        "implementation",
+        "math",
+        "sortings",
+        "two-pointers"
       ],
       "patterns": [
-        "bitmasks",
-        "combinatorics"
+        "binary search"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -186943,6 +187404,30 @@
       ],
       "patterns": [
         "graphs"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2207E1-n-mex-constructive-version",
+      "platform": "codeforces",
+      "platformId": "2207E1",
+      "title": "N-MEX (Constructive Version)",
+      "url": "https://codeforces.com/problemset/problem/2207/E1",
+      "difficulty": "2200",
+      "rating": 2200,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -187262,33 +187747,6 @@
       "patterns": [
         "constructive algorithms",
         "math"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2156F1-strange-operation-easy-version",
-      "platform": "codeforces",
-      "platformId": "2156F1",
-      "title": "Strange Operation (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2156/F1",
-      "difficulty": "2200",
-      "rating": 2200,
-      "topics": [
-        "brute-force",
-        "data-structures",
-        "greedy",
-        "implementation",
-        "sortings"
-      ],
-      "patterns": [
-        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -198826,6 +199284,33 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2262C-traveling-the-world",
+      "platform": "codeforces",
+      "platformId": "2262C",
+      "title": "Traveling the World",
+      "url": "https://codeforces.com/problemset/problem/2262/C",
+      "difficulty": "2300",
+      "rating": 2300,
+      "topics": [
+        "combinatorics",
+        "constructive-algorithms",
+        "graphs",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2255D-how-long-until-nothing-remains",
       "platform": "codeforces",
       "platformId": "2255D",
@@ -198958,6 +199443,32 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2233E1-permutation-transmission-easy-version",
+      "platform": "codeforces",
+      "platformId": "2233E1",
+      "title": "Permutation Transmission (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2233/E1",
+      "difficulty": "2300",
+      "rating": 2300,
+      "topics": [
+        "bitmasks",
+        "combinatorics",
+        "sortings"
+      ],
+      "patterns": [
+        "bitmasks",
+        "combinatorics"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2231E-graph-cutting",
       "platform": "codeforces",
       "platformId": "2231E",
@@ -199051,36 +199562,6 @@
         "math",
         "probabilities",
         "trees"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2217F-interval-game",
-      "platform": "codeforces",
-      "platformId": "2217F",
-      "title": "Interval Game",
-      "url": "https://codeforces.com/problemset/problem/2217/F",
-      "difficulty": "2300",
-      "rating": 2300,
-      "topics": [
-        "bitmasks",
-        "combinatorics",
-        "constructive-algorithms",
-        "dp",
-        "games",
-        "greedy",
-        "math",
-        "probabilities"
       ],
       "patterns": [
         "dynamic programming"
@@ -199403,6 +199884,33 @@
       "patterns": [
         "combinatorics",
         "graph matchings"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2156F1-strange-operation-easy-version",
+      "platform": "codeforces",
+      "platformId": "2156F1",
+      "title": "Strange Operation (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2156/F1",
+      "difficulty": "2300",
+      "rating": 2300,
+      "topics": [
+        "brute-force",
+        "data-structures",
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -209566,6 +210074,36 @@
       "patterns": [
         "combinatorics",
         "math"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2217F-interval-game",
+      "platform": "codeforces",
+      "platformId": "2217F",
+      "title": "Interval Game",
+      "url": "https://codeforces.com/problemset/problem/2217/F",
+      "difficulty": "2400",
+      "rating": 2400,
+      "topics": [
+        "bitmasks",
+        "combinatorics",
+        "constructive-algorithms",
+        "dp",
+        "games",
+        "greedy",
+        "math",
+        "probabilities"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -221345,34 +221883,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2258F-plus-minus-tree",
-      "platform": "codeforces",
-      "platformId": "2258F",
-      "title": "Plus Minus Tree",
-      "url": "https://codeforces.com/problemset/problem/2258/F",
-      "difficulty": "2500",
-      "rating": 2500,
-      "topics": [
-        "data-structures",
-        "dfs-and-similar",
-        "dp",
-        "graphs",
-        "greedy",
-        "trees"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2258D-magic-tiles",
       "platform": "codeforces",
       "platformId": "2258D",
@@ -221817,56 +222327,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2172H-shuffling-cards-with-problem-solver-68",
-      "platform": "codeforces",
-      "platformId": "2172H",
-      "title": "Shuffling Cards with Problem Solver 68!",
-      "url": "https://codeforces.com/problemset/problem/2172/H",
-      "difficulty": "2500",
-      "rating": 2500,
-      "topics": [
-        "hashing",
-        "string-suffix-structures",
-        "strings"
-      ],
-      "patterns": [
-        "hashing",
-        "string suffix structures"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2165D-path-split",
-      "platform": "codeforces",
-      "platformId": "2165D",
-      "title": "Path Split",
-      "url": "https://codeforces.com/problemset/problem/2165/D",
-      "difficulty": "2500",
-      "rating": 2500,
-      "topics": [
-        "graph-matchings",
-        "greedy"
-      ],
-      "patterns": [
-        "greedy"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2163D2-diadrash-hard-version",
       "platform": "codeforces",
       "platformId": "2163D2",
@@ -221968,30 +222428,6 @@
       ],
       "patterns": [
         "binary search"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2152F-triple-attack",
-      "platform": "codeforces",
-      "platformId": "2152F",
-      "title": "Triple Attack",
-      "url": "https://codeforces.com/problemset/problem/2152/F",
-      "difficulty": "2500",
-      "rating": 2500,
-      "topics": [
-        "data-structures",
-        "greedy"
-      ],
-      "patterns": [
-        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -232486,6 +232922,32 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2172H-shuffling-cards-with-problem-solver-68",
+      "platform": "codeforces",
+      "platformId": "2172H",
+      "title": "Shuffling Cards with Problem Solver 68!",
+      "url": "https://codeforces.com/problemset/problem/2172/H",
+      "difficulty": "2600",
+      "rating": 2600,
+      "topics": [
+        "hashing",
+        "string-suffix-structures",
+        "strings"
+      ],
+      "patterns": [
+        "hashing",
+        "string suffix structures"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2170F-build-xor-on-a-segment",
       "platform": "codeforces",
       "platformId": "2170F",
@@ -232499,6 +232961,30 @@
       ],
       "patterns": [
         "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2165D-path-split",
+      "platform": "codeforces",
+      "platformId": "2165D",
+      "title": "Path Split",
+      "url": "https://codeforces.com/problemset/problem/2165/D",
+      "difficulty": "2600",
+      "rating": 2600,
+      "topics": [
+        "graph-matchings",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -232579,6 +233065,30 @@
       ],
       "patterns": [
         "graphs"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2152F-triple-attack",
+      "platform": "codeforces",
+      "platformId": "2152F",
+      "title": "Triple Attack",
+      "url": "https://codeforces.com/problemset/problem/2152/F",
+      "difficulty": "2600",
+      "rating": 2600,
+      "topics": [
+        "data-structures",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -240768,32 +241278,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2264F-deranged-calculator",
-      "platform": "codeforces",
-      "platformId": "2264F",
-      "title": "Deranged Calculator",
-      "url": "https://codeforces.com/problemset/problem/2264/F",
-      "difficulty": "2700",
-      "rating": 2700,
-      "topics": [
-        "constructive-algorithms",
-        "implementation",
-        "math"
-      ],
-      "patterns": [
-        "constructive algorithms",
-        "implementation"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2264E2-a-prime-flood-hard-version",
       "platform": "codeforces",
       "platformId": "2264E2",
@@ -240831,32 +241315,6 @@
         "data-structures",
         "dp",
         "matrices"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2242F-summer-vacation",
-      "platform": "codeforces",
-      "platformId": "2242F",
-      "title": "Summer Vacation",
-      "url": "https://codeforces.com/problemset/problem/2242/F",
-      "difficulty": "2700",
-      "rating": 2700,
-      "topics": [
-        "data-structures",
-        "dp",
-        "probabilities",
-        "trees"
       ],
       "patterns": [
         "dynamic programming"
@@ -241006,33 +241464,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2210F-a-simple-problem",
-      "platform": "codeforces",
-      "platformId": "2210F",
-      "title": "A Simple Problem",
-      "url": "https://codeforces.com/problemset/problem/2210/F",
-      "difficulty": "2700",
-      "rating": 2700,
-      "topics": [
-        "binary-search",
-        "data-structures",
-        "greedy",
-        "math",
-        "trees"
-      ],
-      "patterns": [
-        "binary search"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2210E-binary-strings-are-simple",
       "platform": "codeforces",
       "platformId": "2210E",
@@ -241121,32 +241552,6 @@
         "dp",
         "graphs",
         "matrices"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2169F-subsequence-problem",
-      "platform": "codeforces",
-      "platformId": "2169F",
-      "title": "Subsequence Problem",
-      "url": "https://codeforces.com/problemset/problem/2169/F",
-      "difficulty": "2700",
-      "rating": 2700,
-      "topics": [
-        "combinatorics",
-        "dp",
-        "fft",
-        "math"
       ],
       "patterns": [
         "dynamic programming"
@@ -248712,20 +249117,21 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2262D-plusworld",
+      "id": "codeforces-2264F-deranged-calculator",
       "platform": "codeforces",
-      "platformId": "2262D",
-      "title": "PLUSworld",
-      "url": "https://codeforces.com/problemset/problem/2262/D",
+      "platformId": "2264F",
+      "title": "Deranged Calculator",
+      "url": "https://codeforces.com/problemset/problem/2264/F",
       "difficulty": "2800",
       "rating": 2800,
       "topics": [
         "constructive-algorithms",
-        "graphs",
-        "greedy"
+        "implementation",
+        "math"
       ],
       "patterns": [
-        "graphs"
+        "constructive algorithms",
+        "implementation"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -248774,6 +249180,32 @@
         "brute-force",
         "combinatorics",
         "dp"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2242F-summer-vacation",
+      "platform": "codeforces",
+      "platformId": "2242F",
+      "title": "Summer Vacation",
+      "url": "https://codeforces.com/problemset/problem/2242/F",
+      "difficulty": "2800",
+      "rating": 2800,
+      "topics": [
+        "data-structures",
+        "dp",
+        "probabilities",
+        "trees"
       ],
       "patterns": [
         "dynamic programming"
@@ -248905,6 +249337,33 @@
       ],
       "patterns": [
         "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2210F-a-simple-problem",
+      "platform": "codeforces",
+      "platformId": "2210F",
+      "title": "A Simple Problem",
+      "url": "https://codeforces.com/problemset/problem/2210/F",
+      "difficulty": "2800",
+      "rating": 2800,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "greedy",
+        "math",
+        "trees"
+      ],
+      "patterns": [
+        "binary search"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -249117,6 +249576,32 @@
       ],
       "patterns": [
         "graphs"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2169F-subsequence-problem",
+      "platform": "codeforces",
+      "platformId": "2169F",
+      "title": "Subsequence Problem",
+      "url": "https://codeforces.com/problemset/problem/2169/F",
+      "difficulty": "2800",
+      "rating": 2800,
+      "topics": [
+        "combinatorics",
+        "dp",
+        "fft",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -255215,6 +255700,31 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2262D-plusworld",
+      "platform": "codeforces",
+      "platformId": "2262D",
+      "title": "PLUSworld",
+      "url": "https://codeforces.com/problemset/problem/2262/D",
+      "difficulty": "2900",
+      "rating": 2900,
+      "topics": [
+        "constructive-algorithms",
+        "graphs",
+        "greedy"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2260G-sortable-permutations",
       "platform": "codeforces",
       "platformId": "2260G",
@@ -255343,33 +255853,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2229G-roadworks",
-      "platform": "codeforces",
-      "platformId": "2229G",
-      "title": "Roadworks",
-      "url": "https://codeforces.com/problemset/problem/2229/G",
-      "difficulty": "2900",
-      "rating": 2900,
-      "topics": [
-        "binary-search",
-        "data-structures",
-        "dp",
-        "greedy",
-        "two-pointers"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2225G-simple-problem",
       "platform": "codeforces",
       "platformId": "2225G",
@@ -255385,61 +255868,6 @@
       ],
       "patterns": [
         "graphs"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2211G-rational-bubble-sort",
-      "platform": "codeforces",
-      "platformId": "2211G",
-      "title": "Rational Bubble Sort",
-      "url": "https://codeforces.com/problemset/problem/2211/G",
-      "difficulty": "2900",
-      "rating": 2900,
-      "topics": [
-        "constructive-algorithms",
-        "geometry",
-        "greedy"
-      ],
-      "patterns": [
-        "greedy"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2207F-hanabi",
-      "platform": "codeforces",
-      "platformId": "2207F",
-      "title": "Hanabi",
-      "url": "https://codeforces.com/problemset/problem/2207/F",
-      "difficulty": "2900",
-      "rating": 2900,
-      "topics": [
-        "binary-search",
-        "data-structures",
-        "dp",
-        "dsu",
-        "flows",
-        "graph-matchings",
-        "graphs",
-        "greedy"
-      ],
-      "patterns": [
-        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -261248,6 +261676,34 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2258F-plus-minus-tree",
+      "platform": "codeforces",
+      "platformId": "2258F",
+      "title": "Plus Minus Tree",
+      "url": "https://codeforces.com/problemset/problem/2258/F",
+      "difficulty": "3000",
+      "rating": 3000,
+      "topics": [
+        "data-structures",
+        "dfs-and-similar",
+        "dp",
+        "graphs",
+        "greedy",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2249E2-string-hard-version",
       "platform": "codeforces",
       "platformId": "2249E2",
@@ -261350,6 +261806,33 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2229G-roadworks",
+      "platform": "codeforces",
+      "platformId": "2229G",
+      "title": "Roadworks",
+      "url": "https://codeforces.com/problemset/problem/2229/G",
+      "difficulty": "3000",
+      "rating": 3000,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "dp",
+        "greedy",
+        "two-pointers"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2226G-stop-spot",
       "platform": "codeforces",
       "platformId": "2226G",
@@ -261365,6 +261848,36 @@
       "patterns": [
         "implementation",
         "strings"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2207F-hanabi",
+      "platform": "codeforces",
+      "platformId": "2207F",
+      "title": "Hanabi",
+      "url": "https://codeforces.com/problemset/problem/2207/F",
+      "difficulty": "3000",
+      "rating": 3000,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "dp",
+        "dsu",
+        "flows",
+        "graph-matchings",
+        "graphs",
+        "greedy"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -261524,31 +262037,6 @@
       ],
       "patterns": [
         "graphs"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2156F2-strange-operation-hard-version",
-      "platform": "codeforces",
-      "platformId": "2156F2",
-      "title": "Strange Operation (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2156/F2",
-      "difficulty": "3000",
-      "rating": 3000,
-      "topics": [
-        "data-structures",
-        "greedy",
-        "trees"
-      ],
-      "patterns": [
-        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -266329,6 +266817,31 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2211G-rational-bubble-sort",
+      "platform": "codeforces",
+      "platformId": "2211G",
+      "title": "Rational Bubble Sort",
+      "url": "https://codeforces.com/problemset/problem/2211/G",
+      "difficulty": "3100",
+      "rating": 3100,
+      "topics": [
+        "constructive-algorithms",
+        "geometry",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2206G-extra-transition",
       "platform": "codeforces",
       "platformId": "2206G",
@@ -266442,6 +266955,31 @@
       ],
       "patterns": [
         "binary search"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2156F2-strange-operation-hard-version",
+      "platform": "codeforces",
+      "platformId": "2156F2",
+      "title": "Strange Operation (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2156/F2",
+      "difficulty": "3100",
+      "rating": 3100,
+      "topics": [
+        "data-structures",
+        "greedy",
+        "trees"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -270531,31 +271069,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2229H-wowee-binary-string",
-      "platform": "codeforces",
-      "platformId": "2229H",
-      "title": "Wowee Binary String",
-      "url": "https://codeforces.com/problemset/problem/2229/H",
-      "difficulty": "3200",
-      "rating": 3200,
-      "topics": [
-        "combinatorics",
-        "dp",
-        "strings"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2190E-median-permutation",
       "platform": "codeforces",
       "platformId": "2190E",
@@ -270723,33 +271236,6 @@
       ],
       "patterns": [
         "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2157H-keygen-3",
-      "platform": "codeforces",
-      "platformId": "2157H",
-      "title": "Keygen 3",
-      "url": "https://codeforces.com/problemset/problem/2157/H",
-      "difficulty": "3200",
-      "rating": 3200,
-      "topics": [
-        "brute-force",
-        "combinatorics",
-        "constructive-algorithms",
-        "dfs-and-similar",
-        "math"
-      ],
-      "patterns": [
-        "graphs"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -274406,6 +274892,31 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2229H-wowee-binary-string",
+      "platform": "codeforces",
+      "platformId": "2229H",
+      "title": "Wowee Binary String",
+      "url": "https://codeforces.com/problemset/problem/2229/H",
+      "difficulty": "3300",
+      "rating": 3300,
+      "topics": [
+        "combinatorics",
+        "dp",
+        "strings"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2207G-toothless",
       "platform": "codeforces",
       "platformId": "2207G",
@@ -274586,6 +275097,33 @@
         "graphs",
         "interactive",
         "trees"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2157H-keygen-3",
+      "platform": "codeforces",
+      "platformId": "2157H",
+      "title": "Keygen 3",
+      "url": "https://codeforces.com/problemset/problem/2157/H",
+      "difficulty": "3300",
+      "rating": 3300,
+      "topics": [
+        "brute-force",
+        "combinatorics",
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "math"
       ],
       "patterns": [
         "graphs"
@@ -277774,56 +278312,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2229I-the-endians",
-      "platform": "codeforces",
-      "platformId": "2229I",
-      "title": "The Endians",
-      "url": "https://codeforces.com/problemset/problem/2229/I",
-      "difficulty": "3400",
-      "rating": 3400,
-      "topics": [
-        "dp",
-        "trees"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2223F-zhily-and-colorful-strings",
-      "platform": "codeforces",
-      "platformId": "2223F",
-      "title": "Zhily and Colorful Strings",
-      "url": "https://codeforces.com/problemset/problem/2223/F",
-      "difficulty": "3400",
-      "rating": 3400,
-      "topics": [
-        "divide-and-conquer",
-        "fft",
-        "math"
-      ],
-      "patterns": [
-        "divide and conquer",
-        "fft"
-      ],
-      "companies": [],
-      "level": "candidate-master",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2180H1-bug-is-feature-unconditional-version",
       "platform": "codeforces",
       "platformId": "2180H1",
@@ -280191,6 +280679,56 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2229I-the-endians",
+      "platform": "codeforces",
+      "platformId": "2229I",
+      "title": "The Endians",
+      "url": "https://codeforces.com/problemset/problem/2229/I",
+      "difficulty": "3500",
+      "rating": 3500,
+      "topics": [
+        "dp",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2223F-zhily-and-colorful-strings",
+      "platform": "codeforces",
+      "platformId": "2223F",
+      "title": "Zhily and Colorful Strings",
+      "url": "https://codeforces.com/problemset/problem/2223/F",
+      "difficulty": "3500",
+      "rating": 3500,
+      "topics": [
+        "divide-and-conquer",
+        "fft",
+        "math"
+      ],
+      "patterns": [
+        "divide and conquer",
+        "fft"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2223E-zhily-and-permutation",
       "platform": "codeforces",
       "platformId": "2223E",
@@ -280322,6 +280860,90 @@
       "rating": 3500,
       "topics": [],
       "patterns": [],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2207H3-bowser-s-castle-hard-version",
+      "platform": "codeforces",
+      "platformId": "2207H3",
+      "title": "Bowser's Castle (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2207/H3",
+      "difficulty": "3500",
+      "rating": 3500,
+      "topics": [
+        "constructive-algorithms",
+        "divide-and-conquer",
+        "interactive",
+        "trees",
+        "two-pointers"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "divide and conquer"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2207H2-bowser-s-castle-medium-version",
+      "platform": "codeforces",
+      "platformId": "2207H2",
+      "title": "Bowser's Castle (Medium Version)",
+      "url": "https://codeforces.com/problemset/problem/2207/H2",
+      "difficulty": "3500",
+      "rating": 3500,
+      "topics": [
+        "constructive-algorithms",
+        "divide-and-conquer",
+        "interactive",
+        "trees",
+        "two-pointers"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "divide and conquer"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2207H1-bowser-s-castle-easy-version",
+      "platform": "codeforces",
+      "platformId": "2207H1",
+      "title": "Bowser's Castle (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2207/H1",
+      "difficulty": "3500",
+      "rating": 3500,
+      "topics": [
+        "binary-search",
+        "constructive-algorithms",
+        "divide-and-conquer",
+        "greedy",
+        "interactive",
+        "trees"
+      ],
+      "patterns": [
+        "binary search"
+      ],
       "companies": [],
       "level": "candidate-master",
       "status": "unseen",

@@ -1,20 +1,33 @@
 {
-  "updatedAt": "2026-09-21T12:26:15.915Z",
+  "updatedAt": "2026-09-28T13:23:41.177Z",
   "codeforces": {
-    "fetchedAt": "2026-09-21T12:25:13.870Z",
-    "count": 11401,
-    "newSinceLastFetch": 0,
-    "sampleNew": []
+    "fetchedAt": "2026-09-28T13:22:35.232Z",
+    "count": 11425,
+    "newSinceLastFetch": 24,
+    "sampleNew": [
+      "codeforces-2269B-kiakio-and-squared-numbers",
+      "codeforces-2267F1-xor-transformations-easy-version",
+      "codeforces-2266F-mex-replacement",
+      "codeforces-2269A-sausage-bank",
+      "codeforces-2268F-deglado",
+      "codeforces-2268E-kia-kio-and-tree-of-life",
+      "codeforces-2268C-kiakio-and-energy-intervals",
+      "codeforces-2268B-what-a-sausage-it-s-all-meat"
+    ]
   },
   "leetcode": {
-    "fetchedAt": "2026-09-21T12:26:15.915Z",
-    "count": 3276,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-09-28T13:23:41.177Z",
+    "count": 3284,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-number-of-intersecting-interval-pairs-i",
-      "leetcode-number-of-intersecting-interval-pairs-ii",
-      "leetcode-maximum-pulse-value-after-one-subarray-rotation",
-      "leetcode-lexicographically-largest-power-array"
+      "leetcode-minimum-queen-moves-to-reach-target",
+      "leetcode-rearrange-array-by-removing-distinct-values",
+      "leetcode-transform-array-using-pair-operations",
+      "leetcode-longest-subarray-divisible-by-k-with-at-most-one-negation-i",
+      "leetcode-maximum-equal-adjacent-pairs-after-at-most-one-replacement",
+      "leetcode-longest-subarray-with-restricted-pair-sums",
+      "leetcode-longest-subarray-divisible-by-k-with-at-most-one-negation-ii",
+      "leetcode-maximize-meeting-earnings-with-idle-gaps"
     ]
   }
 }
