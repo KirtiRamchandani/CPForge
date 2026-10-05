@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-28T13:23:41.165Z",
+  "fetchedAt": "2026-10-05T14:06:39.553Z",
   "platform": "leetcode",
-  "count": 3284,
+  "count": 3288,
   "problems": [
     {
       "id": "leetcode-two-sum",
@@ -21654,8 +21654,16 @@
       "url": "https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "sorting",
+        "enumeration"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21674,8 +21682,14 @@
       "url": "https://leetcode.com/problems/minimum-queen-moves-to-reach-target/",
       "difficulty": "easy",
       "rating": 900,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "math"
+      ],
+      "patterns": [
+        "array",
+        "math"
+      ],
       "companies": [],
       "level": "beginner",
       "status": "unseen",
@@ -21692,6 +21706,37 @@
       "platformId": "rearrange-array-by-removing-distinct-values",
       "title": "Rearrange Array by Removing Distinct Values",
       "url": "https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/",
+      "difficulty": "easy",
+      "rating": 900,
+      "topics": [
+        "array",
+        "hash-table",
+        "sorting",
+        "heap-priority-queue",
+        "simulation",
+        "counting",
+        "ordered-set"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
+      "companies": [],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-minimum-rotations-to-dial-a-number-i",
+      "platform": "leetcode",
+      "platformId": "minimum-rotations-to-dial-a-number-i",
+      "title": "Minimum Rotations to Dial a Number I",
+      "url": "https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/",
       "difficulty": "easy",
       "rating": 900,
       "topics": [],
@@ -66787,8 +66832,15 @@
       "url": "https://leetcode.com/problems/number-of-intersecting-interval-pairs-ii/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "binary-search",
+        "sorting"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66807,8 +66859,15 @@
       "url": "https://leetcode.com/problems/maximum-pulse-value-after-one-subarray-rotation/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66827,8 +66886,14 @@
       "url": "https://leetcode.com/problems/transform-array-using-pair-operations/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "brainteaser"
+      ],
+      "patterns": [
+        "array",
+        "brainteaser"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66847,8 +66912,15 @@
       "url": "https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66867,8 +66939,15 @@
       "url": "https://leetcode.com/problems/maximum-equal-adjacent-pairs-after-at-most-one-replacement/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -66885,6 +66964,53 @@
       "platformId": "longest-subarray-with-restricted-pair-sums",
       "title": "Longest Subarray With Restricted Pair Sums",
       "url": "https://leetcode.com/problems/longest-subarray-with-restricted-pair-sums/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [
+        "array",
+        "hash-table",
+        "sliding-window"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-minimum-rotations-to-dial-a-number-ii",
+      "platform": "leetcode",
+      "platformId": "minimum-rotations-to-dial-a-number-ii",
+      "title": "Minimum Rotations to Dial a Number II",
+      "url": "https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-maximum-alternating-subarray-sum-with-one-deletion",
+      "platform": "leetcode",
+      "platformId": "maximum-alternating-subarray-sum-with-one-deletion",
+      "title": "Maximum Alternating Subarray Sum With One Deletion",
+      "url": "https://leetcode.com/problems/maximum-alternating-subarray-sum-with-one-deletion/",
       "difficulty": "medium",
       "rating": 1300,
       "topics": [],
@@ -88760,15 +88886,17 @@
       "rating": 1700,
       "topics": [
         "array",
+        "hash-table",
         "bit-manipulation",
         "binary-indexed-tree",
         "segment-tree",
+        "sliding-window",
         "hash-function",
         "prefix-sum"
       ],
       "patterns": [
         "array",
-        "bit-manipulation"
+        "hash-table"
       ],
       "companies": [],
       "level": "advanced",
@@ -88932,8 +89060,15 @@
       "url": "https://leetcode.com/problems/lexicographically-largest-power-array/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "greedy",
+        "bit-manipulation"
+      ],
+      "patterns": [
+        "array",
+        "greedy"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -88952,8 +89087,16 @@
       "url": "https://leetcode.com/problems/longest-subarray-divisible-by-k-with-at-most-one-negation-ii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "binary-search",
+        "prefix-sum"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -88970,6 +89113,34 @@
       "platformId": "maximize-meeting-earnings-with-idle-gaps",
       "title": "Maximize Meeting Earnings with Idle Gaps",
       "url": "https://leetcode.com/problems/maximize-meeting-earnings-with-idle-gaps/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": [
+        "array",
+        "binary-search",
+        "dynamic-programming",
+        "sorting"
+      ],
+      "patterns": [
+        "array",
+        "binary-search"
+      ],
+      "companies": [],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-count-good-strings",
+      "platform": "leetcode",
+      "platformId": "count-good-strings",
+      "title": "Count Good Strings",
+      "url": "https://leetcode.com/problems/count-good-strings/",
       "difficulty": "hard",
       "rating": 1700,
       "topics": [],

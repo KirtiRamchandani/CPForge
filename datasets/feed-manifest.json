@@ -1,33 +1,20 @@
 {
-  "updatedAt": "2026-09-28T13:23:41.177Z",
+  "updatedAt": "2026-10-05T14:06:39.567Z",
   "codeforces": {
-    "fetchedAt": "2026-09-28T13:22:35.232Z",
+    "fetchedAt": "2026-10-05T14:05:30.016Z",
     "count": 11425,
-    "newSinceLastFetch": 24,
-    "sampleNew": [
-      "codeforces-2269B-kiakio-and-squared-numbers",
-      "codeforces-2267F1-xor-transformations-easy-version",
-      "codeforces-2266F-mex-replacement",
-      "codeforces-2269A-sausage-bank",
-      "codeforces-2268F-deglado",
-      "codeforces-2268E-kia-kio-and-tree-of-life",
-      "codeforces-2268C-kiakio-and-energy-intervals",
-      "codeforces-2268B-what-a-sausage-it-s-all-meat"
-    ]
+    "newSinceLastFetch": 0,
+    "sampleNew": []
   },
   "leetcode": {
-    "fetchedAt": "2026-09-28T13:23:41.177Z",
-    "count": 3284,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-10-05T14:06:39.567Z",
+    "count": 3288,
+    "newSinceLastFetch": 4,
     "sampleNew": [
-      "leetcode-minimum-queen-moves-to-reach-target",
-      "leetcode-rearrange-array-by-removing-distinct-values",
-      "leetcode-transform-array-using-pair-operations",
-      "leetcode-longest-subarray-divisible-by-k-with-at-most-one-negation-i",
-      "leetcode-maximum-equal-adjacent-pairs-after-at-most-one-replacement",
-      "leetcode-longest-subarray-with-restricted-pair-sums",
-      "leetcode-longest-subarray-divisible-by-k-with-at-most-one-negation-ii",
-      "leetcode-maximize-meeting-earnings-with-idle-gaps"
+      "leetcode-minimum-rotations-to-dial-a-number-i",
+      "leetcode-minimum-rotations-to-dial-a-number-ii",
+      "leetcode-maximum-alternating-subarray-sum-with-one-deletion",
+      "leetcode-count-good-strings"
     ]
   }
 }
