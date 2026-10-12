@@ -1,20 +1,33 @@
 {
-  "updatedAt": "2026-10-05T14:06:39.567Z",
+  "updatedAt": "2026-10-12T14:55:16.354Z",
   "codeforces": {
-    "fetchedAt": "2026-10-05T14:05:30.016Z",
-    "count": 11425,
-    "newSinceLastFetch": 0,
-    "sampleNew": []
+    "fetchedAt": "2026-10-12T14:54:10.624Z",
+    "count": 11450,
+    "newSinceLastFetch": 25,
+    "sampleNew": [
+      "codeforces-2275E-repentance-is-already-on-the-way",
+      "codeforces-2275D-precision-alignment",
+      "codeforces-2275B-did-not-go-to-print",
+      "codeforces-2275A-in-search-of-convenience",
+      "codeforces-2274A-the-projections-of-paco",
+      "codeforces-2273D-aura-battle",
+      "codeforces-2273C-matrix-puzzle",
+      "codeforces-2271G-grid-filling"
+    ]
   },
   "leetcode": {
-    "fetchedAt": "2026-10-05T14:06:39.567Z",
-    "count": 3288,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-10-12T14:55:16.354Z",
+    "count": 3296,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-minimum-rotations-to-dial-a-number-i",
-      "leetcode-minimum-rotations-to-dial-a-number-ii",
-      "leetcode-maximum-alternating-subarray-sum-with-one-deletion",
-      "leetcode-count-good-strings"
+      "leetcode-maximum-product-pair-with-target-sum",
+      "leetcode-three-fibonacci-sum",
+      "leetcode-longest-resilient-subarray-i",
+      "leetcode-longest-resilient-subarray-ii",
+      "leetcode-prime-subset-selection-i",
+      "leetcode-design-bus-seat-booking-system",
+      "leetcode-minimize-inversions-in-a-prefix-tree",
+      "leetcode-prime-subset-selection-ii"
     ]
   }
 }
