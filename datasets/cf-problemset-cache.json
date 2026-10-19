@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-12T14:54:10.576Z",
+  "fetchedAt": "2026-10-19T12:38:32.640Z",
   "platform": "codeforces",
-  "count": 11450,
+  "count": 11467,
   "problems": [
     {
       "id": "codeforces-2269A-sausage-bank",
@@ -26959,6 +26959,59 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2276F-permutation-coloring-game",
+      "platform": "codeforces",
+      "platformId": "2276F",
+      "title": "Permutation Coloring Game",
+      "url": "https://codeforces.com/problemset/problem/2276/F",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "dp",
+        "dsu",
+        "games",
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2276B-replace-and-compress",
+      "platform": "codeforces",
+      "platformId": "2276B",
+      "title": "Replace and Compress",
+      "url": "https://codeforces.com/problemset/problem/2276/B",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "implementation",
+        "strings"
+      ],
+      "patterns": [
+        "implementation",
+        "strings"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2275E-repentance-is-already-on-the-way",
       "platform": "codeforces",
       "platformId": "2275E",
@@ -27067,12 +27120,14 @@
       "difficulty": "900",
       "rating": 900,
       "topics": [
+        "dfs-and-similar",
+        "dp",
+        "hashing",
         "implementation",
         "math"
       ],
       "patterns": [
-        "implementation",
-        "math"
+        "dynamic programming"
       ],
       "companies": [],
       "level": "newbie",
@@ -27119,14 +27174,15 @@
       "difficulty": "900",
       "rating": 900,
       "topics": [
+        "brute-force",
         "data-structures",
         "implementation",
         "math",
         "matrices"
       ],
       "patterns": [
-        "data structures",
-        "implementation"
+        "brute force",
+        "data structures"
       ],
       "companies": [],
       "level": "newbie",
@@ -46813,6 +46869,55 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2276C-subarrays",
+      "platform": "codeforces",
+      "platformId": "2276C",
+      "title": "Subarrays",
+      "url": "https://codeforces.com/problemset/problem/2276/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "math",
+        "number theory"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2276A-perfect-sandwiches",
+      "platform": "codeforces",
+      "platformId": "2276A",
+      "title": "Perfect Sandwiches",
+      "url": "https://codeforces.com/problemset/problem/2276/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2275F-tea-blend",
       "platform": "codeforces",
       "platformId": "2275F",
@@ -46971,6 +47076,7 @@
       "rating": 1100,
       "topics": [
         "binary-search",
+        "data-structures",
         "greedy"
       ],
       "patterns": [
@@ -47022,6 +47128,184 @@
       ],
       "patterns": [
         "constructive algorithms",
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261H-oh-tree-tree-tree-no-need-to-leave",
+      "platform": "codeforces",
+      "platformId": "2261H",
+      "title": "Oh Tree Tree Tree, No Need to Leave",
+      "url": "https://codeforces.com/problemset/problem/2261/H",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "communication",
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "interactive",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261F2-plegma-ii-ask-me-any-cell-hard-version",
+      "platform": "codeforces",
+      "platformId": "2261F2",
+      "title": "Plegma II: Ask Me Any Cell (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2261/F2",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms"
+      ],
+      "patterns": [
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261E-what-does-the-cow-say",
+      "platform": "codeforces",
+      "platformId": "2261E",
+      "title": "What Does the Cow Say?",
+      "url": "https://codeforces.com/problemset/problem/2261/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "dfs-and-similar",
+        "greedy",
+        "trees"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261D1-come-be-my-friend-don-t-be-so-scared-easy-version",
+      "platform": "codeforces",
+      "platformId": "2261D1",
+      "title": "Come Be My Friend, Don't Be So Scared (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2261/D1",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "math"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261C-i-know-about-a-million-things",
+      "platform": "codeforces",
+      "platformId": "2261C",
+      "title": "I Know About a Million Things",
+      "url": "https://codeforces.com/problemset/problem/2261/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "games",
+        "math"
+      ],
+      "patterns": [
+        "games",
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261B-what-s-the-capital-of-france",
+      "platform": "codeforces",
+      "platformId": "2261B",
+      "title": "What's the Capital of France?",
+      "url": "https://codeforces.com/problemset/problem/2261/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261A-hey-it-s-me-souvlakity",
+      "platform": "codeforces",
+      "platformId": "2261A",
+      "title": "Hey, It's Me, Souvlakity",
+      "url": "https://codeforces.com/problemset/problem/2261/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "games",
+        "math"
+      ],
+      "patterns": [
+        "games",
         "math"
       ],
       "companies": [],
@@ -85819,6 +86103,30 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2276D-caveman",
+      "platform": "codeforces",
+      "platformId": "2276D",
+      "title": "Caveman",
+      "url": "https://codeforces.com/problemset/problem/2276/D",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "combinatorics",
+        "graphs"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2275G-copper-squander",
       "platform": "codeforces",
       "platformId": "2275G",
@@ -85857,6 +86165,7 @@
       "difficulty": "1400",
       "rating": 1400,
       "topics": [
+        "bitmasks",
         "constructive-algorithms",
         "graphs",
         "greedy",
@@ -85970,6 +86279,35 @@
       "patterns": [
         "combinatorics",
         "math"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261D2-come-be-my-friend-don-t-be-so-scared-hard-version",
+      "platform": "codeforces",
+      "platformId": "2261D2",
+      "title": "Come Be My Friend, Don't Be So Scared (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2261/D2",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "constructive-algorithms",
+        "data-structures",
+        "dsu",
+        "graphs",
+        "hashing",
+        "trees",
+        "two-pointers"
+      ],
+      "patterns": [
+        "graphs"
       ],
       "companies": [],
       "level": "specialist",
@@ -98126,6 +98464,58 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2276G-elimination-of-players",
+      "platform": "codeforces",
+      "platformId": "2276G",
+      "title": "Elimination of Players",
+      "url": "https://codeforces.com/problemset/problem/2276/G",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "combinatorics",
+        "dp",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2276E-good-substrings",
+      "platform": "codeforces",
+      "platformId": "2276E",
+      "title": "Good Substrings",
+      "url": "https://codeforces.com/problemset/problem/2276/E",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "combinatorics",
+        "data-structures",
+        "dp",
+        "greedy",
+        "strings"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2275H-a-problem-to-warm-up-the-eyebrows",
       "platform": "codeforces",
       "platformId": "2275H",
@@ -98244,6 +98634,62 @@
       "patterns": [
         "bitmasks",
         "brute force"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261G-1-2-3-and-xor-where-did-everybody-go",
+      "platform": "codeforces",
+      "platformId": "2261G",
+      "title": "1 2 3 and XOR, Where Did Everybody Go?",
+      "url": "https://codeforces.com/problemset/problem/2261/G",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "bitmasks",
+        "data-structures",
+        "divide-and-conquer",
+        "dp",
+        "greedy",
+        "sortings",
+        "two-pointers"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261F1-plegma-ii-ask-me-any-cell-easy-version",
+      "platform": "codeforces",
+      "platformId": "2261F1",
+      "title": "Plegma II: Ask Me Any Cell (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2261/F1",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "brute-force",
+        "constructive-algorithms",
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "specialist",
