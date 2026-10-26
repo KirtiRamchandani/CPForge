@@ -1,8 +1,134 @@
 {
-  "fetchedAt": "2026-10-19T12:38:32.640Z",
+  "fetchedAt": "2026-10-26T12:33:51.858Z",
   "platform": "codeforces",
-  "count": 11467,
+  "count": 11474,
   "problems": [
+    {
+      "id": "codeforces-2276A-perfect-sandwiches",
+      "platform": "codeforces",
+      "platformId": "2276A",
+      "title": "Perfect Sandwiches",
+      "url": "https://codeforces.com/problemset/problem/2276/A",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2275B-did-not-go-to-print",
+      "platform": "codeforces",
+      "platformId": "2275B",
+      "title": "Did Not Go to Print",
+      "url": "https://codeforces.com/problemset/problem/2275/B",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "data-structures",
+        "implementation"
+      ],
+      "patterns": [
+        "data structures",
+        "implementation"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2275A-in-search-of-convenience",
+      "platform": "codeforces",
+      "platformId": "2275A",
+      "title": "In Search of Convenience",
+      "url": "https://codeforces.com/problemset/problem/2275/A",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "geometry",
+        "implementation"
+      ],
+      "patterns": [
+        "geometry",
+        "implementation"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2274A-the-projections-of-paco",
+      "platform": "codeforces",
+      "platformId": "2274A",
+      "title": "The Projections of Paco",
+      "url": "https://codeforces.com/problemset/problem/2274/A",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "dfs-and-similar",
+        "dp",
+        "hashing",
+        "implementation",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2271A-robot-odd-moves",
+      "platform": "codeforces",
+      "platformId": "2271A",
+      "title": "Robot Odd Moves",
+      "url": "https://codeforces.com/problemset/problem/2271/A",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "constructive-algorithms",
+        "math"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
     {
       "id": "codeforces-2269A-sausage-bank",
       "platform": "codeforces",
@@ -164,6 +290,31 @@
       ],
       "patterns": [
         "games"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261A-hey-it-s-me-souvlakity",
+      "platform": "codeforces",
+      "platformId": "2261A",
+      "title": "Hey, It's Me, Souvlakity",
+      "url": "https://codeforces.com/problemset/problem/2261/A",
+      "difficulty": "800",
+      "rating": 800,
+      "topics": [
+        "games",
+        "math"
+      ],
+      "patterns": [
+        "games",
+        "math"
       ],
       "companies": [],
       "level": "newbie",
@@ -26959,72 +27110,22 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2276F-permutation-coloring-game",
+      "id": "codeforces-2277D2-number-operating-hard-version",
       "platform": "codeforces",
-      "platformId": "2276F",
-      "title": "Permutation Coloring Game",
-      "url": "https://codeforces.com/problemset/problem/2276/F",
+      "platformId": "2277D2",
+      "title": "Number Operating (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2277/D2",
       "difficulty": "900",
       "rating": 900,
       "topics": [
-        "dp",
-        "dsu",
-        "games",
-        "greedy",
-        "implementation",
-        "math"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2276B-replace-and-compress",
-      "platform": "codeforces",
-      "platformId": "2276B",
-      "title": "Replace and Compress",
-      "url": "https://codeforces.com/problemset/problem/2276/B",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "implementation",
-        "strings"
-      ],
-      "patterns": [
-        "implementation",
-        "strings"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2275E-repentance-is-already-on-the-way",
-      "platform": "codeforces",
-      "platformId": "2275E",
-      "title": "Repentance Is Already on the Way",
-      "url": "https://codeforces.com/problemset/problem/2275/E",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "dp",
+        "bitmasks",
+        "brute-force",
+        "divide-and-conquer",
         "implementation"
       ],
       "patterns": [
-        "dynamic programming"
+        "bitmasks",
+        "brute force"
       ],
       "companies": [],
       "level": "newbie",
@@ -27036,232 +27137,23 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2275D-precision-alignment",
+      "id": "codeforces-2277D1-number-operating-easy-version",
       "platform": "codeforces",
-      "platformId": "2275D",
-      "title": "Precision Alignment",
-      "url": "https://codeforces.com/problemset/problem/2275/D",
+      "platformId": "2277D1",
+      "title": "Number Operating (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2277/D1",
       "difficulty": "900",
       "rating": 900,
       "topics": [
         "binary-search",
+        "bitmasks",
         "brute-force",
-        "greedy",
-        "implementation"
-      ],
-      "patterns": [
-        "binary search"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2275B-did-not-go-to-print",
-      "platform": "codeforces",
-      "platformId": "2275B",
-      "title": "Did Not Go to Print",
-      "url": "https://codeforces.com/problemset/problem/2275/B",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "data-structures",
-        "implementation"
-      ],
-      "patterns": [
-        "data structures",
-        "implementation"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2275A-in-search-of-convenience",
-      "platform": "codeforces",
-      "platformId": "2275A",
-      "title": "In Search of Convenience",
-      "url": "https://codeforces.com/problemset/problem/2275/A",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "geometry",
-        "implementation"
-      ],
-      "patterns": [
-        "geometry",
-        "implementation"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2274A-the-projections-of-paco",
-      "platform": "codeforces",
-      "platformId": "2274A",
-      "title": "The Projections of Paco",
-      "url": "https://codeforces.com/problemset/problem/2274/A",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "dfs-and-similar",
-        "dp",
-        "hashing",
-        "implementation",
-        "math"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2273D-aura-battle",
-      "platform": "codeforces",
-      "platformId": "2273D",
-      "title": "Aura Battle",
-      "url": "https://codeforces.com/problemset/problem/2273/D",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "brute-force",
-        "implementation",
-        "interactive",
-        "math"
-      ],
-      "patterns": [
-        "brute force",
-        "implementation"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2273C-matrix-puzzle",
-      "platform": "codeforces",
-      "platformId": "2273C",
-      "title": "Matrix Puzzle",
-      "url": "https://codeforces.com/problemset/problem/2273/C",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "brute-force",
-        "data-structures",
-        "implementation",
-        "math",
-        "matrices"
-      ],
-      "patterns": [
-        "brute force",
-        "data structures"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2271G-grid-filling",
-      "platform": "codeforces",
-      "platformId": "2271G",
-      "title": "Grid Filling",
-      "url": "https://codeforces.com/problemset/problem/2271/G",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "constructive-algorithms",
-        "greedy",
-        "implementation"
-      ],
-      "patterns": [
-        "greedy"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2271F-beautiful-pillers",
-      "platform": "codeforces",
-      "platformId": "2271F",
-      "title": "Beautiful Pillers",
-      "url": "https://codeforces.com/problemset/problem/2271/F",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "constructive-algorithms",
-        "data-structures",
         "dp",
         "greedy",
         "implementation"
       ],
       "patterns": [
         "dynamic programming"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2271D-target-infection",
-      "platform": "codeforces",
-      "platformId": "2271D",
-      "title": "Target Infection",
-      "url": "https://codeforces.com/problemset/problem/2271/D",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "binary-search",
-        "brute-force",
-        "greedy",
-        "implementation",
-        "two-pointers"
-      ],
-      "patterns": [
-        "binary search"
       ],
       "companies": [],
       "level": "newbie",
@@ -36902,6 +36794,79 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2276B-replace-and-compress",
+      "platform": "codeforces",
+      "platformId": "2276B",
+      "title": "Replace and Compress",
+      "url": "https://codeforces.com/problemset/problem/2276/B",
+      "difficulty": "1000",
+      "rating": 1000,
+      "topics": [
+        "implementation",
+        "strings"
+      ],
+      "patterns": [
+        "implementation",
+        "strings"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2275C-unrequited-love",
+      "platform": "codeforces",
+      "platformId": "2275C",
+      "title": "Unrequited Love",
+      "url": "https://codeforces.com/problemset/problem/2275/C",
+      "difficulty": "1000",
+      "rating": 1000,
+      "topics": [
+        "brute-force",
+        "data-structures"
+      ],
+      "patterns": [
+        "brute force",
+        "data structures"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2271B-mex-game",
+      "platform": "codeforces",
+      "platformId": "2271B",
+      "title": "MEX Game",
+      "url": "https://codeforces.com/problemset/problem/2271/B",
+      "difficulty": "1000",
+      "rating": 1000,
+      "topics": [
+        "games"
+      ],
+      "patterns": [
+        "games"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2269B-kiakio-and-squared-numbers",
       "platform": "codeforces",
       "platformId": "2269B",
@@ -36965,6 +36930,31 @@
       ],
       "patterns": [
         "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261C-i-know-about-a-million-things",
+      "platform": "codeforces",
+      "platformId": "2261C",
+      "title": "I Know About a Million Things",
+      "url": "https://codeforces.com/problemset/problem/2261/C",
+      "difficulty": "1000",
+      "rating": 1000,
+      "topics": [
+        "games",
+        "math"
+      ],
+      "patterns": [
+        "games",
+        "math"
       ],
       "companies": [],
       "level": "newbie",
@@ -46869,20 +46859,21 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2276C-subarrays",
+      "id": "codeforces-2277F-token-re-moving",
       "platform": "codeforces",
-      "platformId": "2276C",
-      "title": "Subarrays",
-      "url": "https://codeforces.com/problemset/problem/2276/C",
+      "platformId": "2277F",
+      "title": "Token Re-Moving",
+      "url": "https://codeforces.com/problemset/problem/2277/F",
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
-        "math",
-        "number-theory"
+        "data-structures",
+        "dfs-and-similar",
+        "dsu",
+        "trees"
       ],
       "patterns": [
-        "math",
-        "number theory"
+        "graphs"
       ],
       "companies": [],
       "level": "newbie",
@@ -46894,16 +46885,42 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2276A-perfect-sandwiches",
+      "id": "codeforces-2277E-tree-guessing",
       "platform": "codeforces",
-      "platformId": "2276A",
-      "title": "Perfect Sandwiches",
-      "url": "https://codeforces.com/problemset/problem/2276/A",
+      "platformId": "2277E",
+      "title": "Tree Guessing",
+      "url": "https://codeforces.com/problemset/problem/2277/E",
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
-        "greedy",
-        "math"
+        "constructive-algorithms",
+        "interactive",
+        "trees"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "interactive"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2277B-sequence-decreasing",
+      "platform": "codeforces",
+      "platformId": "2277B",
+      "title": "Sequence Decreasing",
+      "url": "https://codeforces.com/problemset/problem/2277/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
       ],
       "patterns": [
         "greedy"
@@ -46918,21 +46935,18 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2275F-tea-blend",
+      "id": "codeforces-2277A-subset-selecting",
       "platform": "codeforces",
-      "platformId": "2275F",
-      "title": "Tea Blend",
-      "url": "https://codeforces.com/problemset/problem/2275/F",
+      "platformId": "2277A",
+      "title": "Subset Selecting",
+      "url": "https://codeforces.com/problemset/problem/2277/A",
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
-        "hashing",
-        "math",
-        "number-theory"
+        "greedy"
       ],
       "patterns": [
-        "hashing",
-        "math"
+        "greedy"
       ],
       "companies": [],
       "level": "newbie",
@@ -46944,20 +46958,20 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2275C-unrequited-love",
+      "id": "codeforces-2276C-subarrays",
       "platform": "codeforces",
-      "platformId": "2275C",
-      "title": "Unrequited Love",
-      "url": "https://codeforces.com/problemset/problem/2275/C",
+      "platformId": "2276C",
+      "title": "Subarrays",
+      "url": "https://codeforces.com/problemset/problem/2276/C",
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
-        "brute-force",
-        "data-structures"
+        "math",
+        "number-theory"
       ],
       "patterns": [
-        "brute force",
-        "data structures"
+        "math",
+        "number theory"
       ],
       "companies": [],
       "level": "newbie",
@@ -46992,282 +47006,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2273E-six-seven-bags",
-      "platform": "codeforces",
-      "platformId": "2273E",
-      "title": "Six-Seven Bags",
-      "url": "https://codeforces.com/problemset/problem/2273/E",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "brute-force",
-        "greedy",
-        "interactive"
-      ],
-      "patterns": [
-        "greedy"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2273B-robot-championship",
-      "platform": "codeforces",
-      "platformId": "2273B",
-      "title": "Robot Championship",
-      "url": "https://codeforces.com/problemset/problem/2273/B",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "constructive-algorithms",
-        "math"
-      ],
-      "patterns": [
-        "constructive algorithms",
-        "math"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2271H2-personal-issues-hard-version",
-      "platform": "codeforces",
-      "platformId": "2271H2",
-      "title": "Personal Issues (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2271/H2",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "games",
-        "trees"
-      ],
-      "patterns": [
-        "games",
-        "trees"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2271E-array-emptying",
-      "platform": "codeforces",
-      "platformId": "2271E",
-      "title": "Array Emptying",
-      "url": "https://codeforces.com/problemset/problem/2271/E",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "binary-search",
-        "data-structures",
-        "greedy"
-      ],
-      "patterns": [
-        "binary search"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2271B-mex-game",
-      "platform": "codeforces",
-      "platformId": "2271B",
-      "title": "MEX Game",
-      "url": "https://codeforces.com/problemset/problem/2271/B",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "games"
-      ],
-      "patterns": [
-        "games"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2271A-robot-odd-moves",
-      "platform": "codeforces",
-      "platformId": "2271A",
-      "title": "Robot Odd Moves",
-      "url": "https://codeforces.com/problemset/problem/2271/A",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "constructive-algorithms",
-        "math"
-      ],
-      "patterns": [
-        "constructive algorithms",
-        "math"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261H-oh-tree-tree-tree-no-need-to-leave",
-      "platform": "codeforces",
-      "platformId": "2261H",
-      "title": "Oh Tree Tree Tree, No Need to Leave",
-      "url": "https://codeforces.com/problemset/problem/2261/H",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "bitmasks",
-        "communication",
-        "constructive-algorithms",
-        "dfs-and-similar",
-        "interactive",
-        "trees"
-      ],
-      "patterns": [
-        "graphs"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261F2-plegma-ii-ask-me-any-cell-hard-version",
-      "platform": "codeforces",
-      "platformId": "2261F2",
-      "title": "Plegma II: Ask Me Any Cell (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2261/F2",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "constructive-algorithms"
-      ],
-      "patterns": [
-        "constructive algorithms"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261E-what-does-the-cow-say",
-      "platform": "codeforces",
-      "platformId": "2261E",
-      "title": "What Does the Cow Say?",
-      "url": "https://codeforces.com/problemset/problem/2261/E",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "binary-search",
-        "data-structures",
-        "dfs-and-similar",
-        "greedy",
-        "trees"
-      ],
-      "patterns": [
-        "binary search"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261D1-come-be-my-friend-don-t-be-so-scared-easy-version",
-      "platform": "codeforces",
-      "platformId": "2261D1",
-      "title": "Come Be My Friend, Don't Be So Scared (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2261/D1",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "constructive-algorithms",
-        "math"
-      ],
-      "patterns": [
-        "constructive algorithms",
-        "math"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261C-i-know-about-a-million-things",
-      "platform": "codeforces",
-      "platformId": "2261C",
-      "title": "I Know About a Million Things",
-      "url": "https://codeforces.com/problemset/problem/2261/C",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "games",
-        "math"
-      ],
-      "patterns": [
-        "games",
-        "math"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2261B-what-s-the-capital-of-france",
       "platform": "codeforces",
       "platformId": "2261B",
@@ -47282,31 +47020,6 @@
       ],
       "patterns": [
         "greedy"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261A-hey-it-s-me-souvlakity",
-      "platform": "codeforces",
-      "platformId": "2261A",
-      "title": "Hey, It's Me, Souvlakity",
-      "url": "https://codeforces.com/problemset/problem/2261/A",
-      "difficulty": "1100",
-      "rating": 1100,
-      "topics": [
-        "games",
-        "math"
-      ],
-      "patterns": [
-        "games",
-        "math"
       ],
       "companies": [],
       "level": "newbie",
@@ -74377,6 +74090,83 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2275D-precision-alignment",
+      "platform": "codeforces",
+      "platformId": "2275D",
+      "title": "Precision Alignment",
+      "url": "https://codeforces.com/problemset/problem/2275/D",
+      "difficulty": "1300",
+      "rating": 1300,
+      "topics": [
+        "binary-search",
+        "brute-force",
+        "greedy",
+        "implementation"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2273A-lavencia-oranges",
+      "platform": "codeforces",
+      "platformId": "2273A",
+      "title": "Lavencia Oranges",
+      "url": "https://codeforces.com/problemset/problem/2273/A",
+      "difficulty": "1300",
+      "rating": 1300,
+      "topics": [
+        "binary-search",
+        "constructive-algorithms",
+        "dp",
+        "greedy"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261D1-come-be-my-friend-don-t-be-so-scared-easy-version",
+      "platform": "codeforces",
+      "platformId": "2261D1",
+      "title": "Come Be My Friend, Don't Be So Scared (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2261/D1",
+      "difficulty": "1300",
+      "rating": 1300,
+      "topics": [
+        "constructive-algorithms",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2260C-maximize-xor-minimize-operations",
       "platform": "codeforces",
       "platformId": "2260C",
@@ -86103,16 +85893,18 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2276D-caveman",
+      "id": "codeforces-2277C-edge-addeleting",
       "platform": "codeforces",
-      "platformId": "2276D",
-      "title": "Caveman",
-      "url": "https://codeforces.com/problemset/problem/2276/D",
+      "platformId": "2277C",
+      "title": "Edge Addeleting",
+      "url": "https://codeforces.com/problemset/problem/2277/C",
       "difficulty": "1400",
       "rating": 1400,
       "topics": [
-        "combinatorics",
-        "graphs"
+        "dfs-and-similar",
+        "graphs",
+        "greedy",
+        "trees"
       ],
       "patterns": [
         "graphs"
@@ -86127,25 +85919,19 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2275G-copper-squander",
+      "id": "codeforces-2276D-caveman",
       "platform": "codeforces",
-      "platformId": "2275G",
-      "title": "Copper Squander",
-      "url": "https://codeforces.com/problemset/problem/2275/G",
+      "platformId": "2276D",
+      "title": "Caveman",
+      "url": "https://codeforces.com/problemset/problem/2276/D",
       "difficulty": "1400",
       "rating": 1400,
       "topics": [
-        "binary-search",
-        "data-structures",
-        "dsu",
-        "graphs",
-        "greedy",
-        "math",
-        "sortings",
-        "ternary-search"
+        "combinatorics",
+        "graphs"
       ],
       "patterns": [
-        "binary search"
+        "graphs"
       ],
       "companies": [],
       "level": "specialist",
@@ -86279,35 +86065,6 @@
       "patterns": [
         "combinatorics",
         "math"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261D2-come-be-my-friend-don-t-be-so-scared-hard-version",
-      "platform": "codeforces",
-      "platformId": "2261D2",
-      "title": "Come Be My Friend, Don't Be So Scared (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2261/D2",
-      "difficulty": "1400",
-      "rating": 1400,
-      "topics": [
-        "constructive-algorithms",
-        "data-structures",
-        "dsu",
-        "graphs",
-        "hashing",
-        "trees",
-        "two-pointers"
-      ],
-      "patterns": [
-        "graphs"
       ],
       "companies": [],
       "level": "specialist",
@@ -98464,146 +98221,16 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2276G-elimination-of-players",
+      "id": "codeforces-2275E-repentance-is-already-on-the-way",
       "platform": "codeforces",
-      "platformId": "2276G",
-      "title": "Elimination of Players",
-      "url": "https://codeforces.com/problemset/problem/2276/G",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "combinatorics",
-        "dp",
-        "math"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2276E-good-substrings",
-      "platform": "codeforces",
-      "platformId": "2276E",
-      "title": "Good Substrings",
-      "url": "https://codeforces.com/problemset/problem/2276/E",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "combinatorics",
-        "data-structures",
-        "dp",
-        "greedy",
-        "strings"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2275H-a-problem-to-warm-up-the-eyebrows",
-      "platform": "codeforces",
-      "platformId": "2275H",
-      "title": "A Problem to Warm Up the Eyebrows",
-      "url": "https://codeforces.com/problemset/problem/2275/H",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "combinatorics",
-        "dp",
-        "math"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2273F-pancho-s-permutation",
-      "platform": "codeforces",
-      "platformId": "2273F",
-      "title": "Pancho's Permutation",
-      "url": "https://codeforces.com/problemset/problem/2273/F",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "constructive-algorithms",
-        "dp",
-        "greedy",
-        "math"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2273A-lavencia-oranges",
-      "platform": "codeforces",
-      "platformId": "2273A",
-      "title": "Lavencia Oranges",
-      "url": "https://codeforces.com/problemset/problem/2273/A",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "binary-search",
-        "constructive-algorithms",
-        "dp",
-        "greedy"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2271H1-personal-issues-easy-version",
-      "platform": "codeforces",
-      "platformId": "2271H1",
-      "title": "Personal Issues (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2271/H1",
+      "platformId": "2275E",
+      "title": "Repentance Is Already on the Way",
+      "url": "https://codeforces.com/problemset/problem/2275/E",
       "difficulty": "1500",
       "rating": 1500,
       "topics": [
         "dp",
-        "games",
-        "trees"
+        "implementation"
       ],
       "patterns": [
         "dynamic programming"
@@ -98634,62 +98261,6 @@
       "patterns": [
         "bitmasks",
         "brute force"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261G-1-2-3-and-xor-where-did-everybody-go",
-      "platform": "codeforces",
-      "platformId": "2261G",
-      "title": "1 2 3 and XOR, Where Did Everybody Go?",
-      "url": "https://codeforces.com/problemset/problem/2261/G",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "bitmasks",
-        "data-structures",
-        "divide-and-conquer",
-        "dp",
-        "greedy",
-        "sortings",
-        "two-pointers"
-      ],
-      "patterns": [
-        "dynamic programming"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2261F1-plegma-ii-ask-me-any-cell-easy-version",
-      "platform": "codeforces",
-      "platformId": "2261F1",
-      "title": "Plegma II: Ask Me Any Cell (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2261/F1",
-      "difficulty": "1500",
-      "rating": 1500,
-      "topics": [
-        "brute-force",
-        "constructive-algorithms",
-        "dp",
-        "greedy",
-        "math"
-      ],
-      "patterns": [
-        "dynamic programming"
       ],
       "companies": [],
       "level": "specialist",
@@ -124324,6 +123895,33 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2271D-target-infection",
+      "platform": "codeforces",
+      "platformId": "2271D",
+      "title": "Target Infection",
+      "url": "https://codeforces.com/problemset/problem/2271/D",
+      "difficulty": "1700",
+      "rating": 1700,
+      "topics": [
+        "binary-search",
+        "brute-force",
+        "greedy",
+        "implementation",
+        "two-pointers"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2267F1-xor-transformations-easy-version",
       "platform": "codeforces",
       "platformId": "2267F1",
@@ -137492,6 +137090,59 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2276E-good-substrings",
+      "platform": "codeforces",
+      "platformId": "2276E",
+      "title": "Good Substrings",
+      "url": "https://codeforces.com/problemset/problem/2276/E",
+      "difficulty": "1800",
+      "rating": 1800,
+      "topics": [
+        "combinatorics",
+        "data-structures",
+        "dp",
+        "greedy",
+        "strings"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2275F-tea-blend",
+      "platform": "codeforces",
+      "platformId": "2275F",
+      "title": "Tea Blend",
+      "url": "https://codeforces.com/problemset/problem/2275/F",
+      "difficulty": "1800",
+      "rating": 1800,
+      "topics": [
+        "hashing",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "hashing",
+        "math"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2262A2-floor-of-mex-hard-version",
       "platform": "codeforces",
       "platformId": "2262A2",
@@ -137506,6 +137157,33 @@
       ],
       "patterns": [
         "dynamic programming"
+      ],
+      "companies": [],
+      "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261E-what-does-the-cow-say",
+      "platform": "codeforces",
+      "platformId": "2261E",
+      "title": "What Does the Cow Say?",
+      "url": "https://codeforces.com/problemset/problem/2261/E",
+      "difficulty": "1800",
+      "rating": 1800,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "dfs-and-similar",
+        "greedy",
+        "trees"
+      ],
+      "patterns": [
+        "binary search"
       ],
       "companies": [],
       "level": "expert",
@@ -149956,6 +149634,61 @@
       ],
       "companies": [],
       "level": "expert",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2275G-copper-squander",
+      "platform": "codeforces",
+      "platformId": "2275G",
+      "title": "Copper Squander",
+      "url": "https://codeforces.com/problemset/problem/2275/G",
+      "difficulty": "1900",
+      "rating": 1900,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "dsu",
+        "graphs",
+        "greedy",
+        "math",
+        "sortings",
+        "ternary-search"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2273B-robot-championship",
+      "platform": "codeforces",
+      "platformId": "2273B",
+      "title": "Robot Championship",
+      "url": "https://codeforces.com/problemset/problem/2273/B",
+      "difficulty": "1900",
+      "rating": 1900,
+      "topics": [
+        "constructive-algorithms",
+        "math"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "math"
+      ],
+      "companies": [],
+      "level": "candidate-master",
       "status": "unseen",
       "attempts": 0,
       "confidence": 0,
@@ -176309,6 +176042,84 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2276G-elimination-of-players",
+      "platform": "codeforces",
+      "platformId": "2276G",
+      "title": "Elimination of Players",
+      "url": "https://codeforces.com/problemset/problem/2276/G",
+      "difficulty": "2100",
+      "rating": 2100,
+      "topics": [
+        "combinatorics",
+        "dp",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2273C-matrix-puzzle",
+      "platform": "codeforces",
+      "platformId": "2273C",
+      "title": "Matrix Puzzle",
+      "url": "https://codeforces.com/problemset/problem/2273/C",
+      "difficulty": "2100",
+      "rating": 2100,
+      "topics": [
+        "brute-force",
+        "data-structures",
+        "implementation",
+        "math",
+        "matrices"
+      ],
+      "patterns": [
+        "brute force",
+        "data structures"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2271E-array-emptying",
+      "platform": "codeforces",
+      "platformId": "2271E",
+      "title": "Array Emptying",
+      "url": "https://codeforces.com/problemset/problem/2271/E",
+      "difficulty": "2100",
+      "rating": 2100,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "greedy"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2257E-busy-beaver",
       "platform": "codeforces",
       "platformId": "2257E",
@@ -200181,6 +199992,33 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2271F-beautiful-pillers",
+      "platform": "codeforces",
+      "platformId": "2271F",
+      "title": "Beautiful Pillers",
+      "url": "https://codeforces.com/problemset/problem/2271/F",
+      "difficulty": "2300",
+      "rating": 2300,
+      "topics": [
+        "constructive-algorithms",
+        "data-structures",
+        "dp",
+        "greedy",
+        "implementation"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2268C-kiakio-and-energy-intervals",
       "platform": "codeforces",
       "platformId": "2268C",
@@ -210913,6 +210751,60 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2276F-permutation-coloring-game",
+      "platform": "codeforces",
+      "platformId": "2276F",
+      "title": "Permutation Coloring Game",
+      "url": "https://codeforces.com/problemset/problem/2276/F",
+      "difficulty": "2400",
+      "rating": 2400,
+      "topics": [
+        "brute-force",
+        "dp",
+        "dsu",
+        "games",
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2275H-a-problem-to-warm-up-the-eyebrows",
+      "platform": "codeforces",
+      "platformId": "2275H",
+      "title": "A Problem to Warm Up the Eyebrows",
+      "url": "https://codeforces.com/problemset/problem/2275/H",
+      "difficulty": "2400",
+      "rating": 2400,
+      "topics": [
+        "combinatorics",
+        "dp",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2266H-deque-malfunction",
       "platform": "codeforces",
       "platformId": "2266H",
@@ -210928,6 +210820,35 @@
       ],
       "patterns": [
         "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261D2-come-be-my-friend-don-t-be-so-scared-hard-version",
+      "platform": "codeforces",
+      "platformId": "2261D2",
+      "title": "Come Be My Friend, Don't Be So Scared (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2261/D2",
+      "difficulty": "2400",
+      "rating": 2400,
+      "topics": [
+        "constructive-algorithms",
+        "data-structures",
+        "dsu",
+        "graphs",
+        "hashing",
+        "trees",
+        "two-pointers"
+      ],
+      "patterns": [
+        "graphs"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -222840,6 +222761,31 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2261F1-plegma-ii-ask-me-any-cell-easy-version",
+      "platform": "codeforces",
+      "platformId": "2261F1",
+      "title": "Plegma II: Ask Me Any Cell (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2261/F1",
+      "difficulty": "2500",
+      "rating": 2500,
+      "topics": [
+        "constructive-algorithms",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2260F-edge-three-coloring",
       "platform": "codeforces",
       "platformId": "2260F",
@@ -233463,6 +233409,33 @@
       ],
       "patterns": [
         "data structures",
+        "implementation"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2273D-aura-battle",
+      "platform": "codeforces",
+      "platformId": "2273D",
+      "title": "Aura Battle",
+      "url": "https://codeforces.com/problemset/problem/2273/D",
+      "difficulty": "2600",
+      "rating": 2600,
+      "topics": [
+        "brute-force",
+        "implementation",
+        "interactive",
+        "math"
+      ],
+      "patterns": [
+        "brute force",
         "implementation"
       ],
       "companies": [],
@@ -250178,6 +250151,31 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2271H1-personal-issues-easy-version",
+      "platform": "codeforces",
+      "platformId": "2271H1",
+      "title": "Personal Issues (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2271/H1",
+      "difficulty": "2800",
+      "rating": 2800,
+      "topics": [
+        "dp",
+        "games",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2264F-deranged-calculator",
       "platform": "codeforces",
       "platformId": "2264F",
@@ -250193,6 +250191,35 @@
       "patterns": [
         "constructive algorithms",
         "implementation"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261G-1-2-3-and-xor-where-did-everybody-go",
+      "platform": "codeforces",
+      "platformId": "2261G",
+      "title": "1 2 3 and XOR, Where Did Everybody Go?",
+      "url": "https://codeforces.com/problemset/problem/2261/G",
+      "difficulty": "2800",
+      "rating": 2800,
+      "topics": [
+        "bitmasks",
+        "data-structures",
+        "divide-and-conquer",
+        "dp",
+        "greedy",
+        "sortings",
+        "two-pointers"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -256750,6 +256777,31 @@
       ],
       "patterns": [
         "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2273E-six-seven-bags",
+      "platform": "codeforces",
+      "platformId": "2273E",
+      "title": "Six-Seven Bags",
+      "url": "https://codeforces.com/problemset/problem/2273/E",
+      "difficulty": "2900",
+      "rating": 2900,
+      "topics": [
+        "brute-force",
+        "greedy",
+        "interactive"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "candidate-master",
@@ -267800,6 +267852,31 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2271G-grid-filling",
+      "platform": "codeforces",
+      "platformId": "2271G",
+      "title": "Grid Filling",
+      "url": "https://codeforces.com/problemset/problem/2271/G",
+      "difficulty": "3100",
+      "rating": 3100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy",
+        "implementation"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2262E-paired-bracket-sequences",
       "platform": "codeforces",
       "platformId": "2262E",
@@ -275927,6 +276004,54 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2271H2-personal-issues-hard-version",
+      "platform": "codeforces",
+      "platformId": "2271H2",
+      "title": "Personal Issues (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2271/H2",
+      "difficulty": "3300",
+      "rating": 3300,
+      "topics": [
+        "games",
+        "trees"
+      ],
+      "patterns": [
+        "games",
+        "trees"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261F2-plegma-ii-ask-me-any-cell-hard-version",
+      "platform": "codeforces",
+      "platformId": "2261F2",
+      "title": "Plegma II: Ask Me Any Cell (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2261/F2",
+      "difficulty": "3300",
+      "rating": 3300,
+      "topics": [
+        "constructive-algorithms"
+      ],
+      "patterns": [
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2239E-the-end-of-this-world",
       "platform": "codeforces",
       "platformId": "2239E",
@@ -281593,6 +281718,32 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2273F-pancho-s-permutation",
+      "platform": "codeforces",
+      "platformId": "2273F",
+      "title": "Pancho's Permutation",
+      "url": "https://codeforces.com/problemset/problem/2273/F",
+      "difficulty": "3500",
+      "rating": 3500,
+      "topics": [
+        "constructive-algorithms",
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2268F-deglado",
       "platform": "codeforces",
       "platformId": "2268F",
@@ -281628,6 +281779,34 @@
       ],
       "patterns": [
         "math"
+      ],
+      "companies": [],
+      "level": "candidate-master",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2261H-oh-tree-tree-tree-no-need-to-leave",
+      "platform": "codeforces",
+      "platformId": "2261H",
+      "title": "Oh Tree Tree Tree, No Need to Leave",
+      "url": "https://codeforces.com/problemset/problem/2261/H",
+      "difficulty": "3500",
+      "rating": 3500,
+      "topics": [
+        "bitmasks",
+        "communication",
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "interactive",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
       ],
       "companies": [],
       "level": "candidate-master",

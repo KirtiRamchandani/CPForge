@@ -1,29 +1,32 @@
 {
-  "updatedAt": "2026-10-19T12:39:35.436Z",
+  "updatedAt": "2026-10-26T12:35:00.025Z",
   "codeforces": {
-    "fetchedAt": "2026-10-19T12:38:32.670Z",
-    "count": 11467,
-    "newSinceLastFetch": 17,
+    "fetchedAt": "2026-10-26T12:33:51.901Z",
+    "count": 11474,
+    "newSinceLastFetch": 7,
     "sampleNew": [
-      "codeforces-2276F-permutation-coloring-game",
-      "codeforces-2276B-replace-and-compress",
-      "codeforces-2276C-subarrays",
-      "codeforces-2276A-perfect-sandwiches",
-      "codeforces-2261H-oh-tree-tree-tree-no-need-to-leave",
-      "codeforces-2261F2-plegma-ii-ask-me-any-cell-hard-version",
-      "codeforces-2261E-what-does-the-cow-say",
-      "codeforces-2261D1-come-be-my-friend-don-t-be-so-scared-easy-version"
+      "codeforces-2277D2-number-operating-hard-version",
+      "codeforces-2277D1-number-operating-easy-version",
+      "codeforces-2277F-token-re-moving",
+      "codeforces-2277E-tree-guessing",
+      "codeforces-2277B-sequence-decreasing",
+      "codeforces-2277A-subset-selecting",
+      "codeforces-2277C-edge-addeleting"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-10-19T12:39:35.436Z",
-    "count": 3300,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-10-26T12:35:00.025Z",
+    "count": 3308,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-minimum-deletions-to-make-array-sharp",
-      "leetcode-last-visited-cell-in-a-directional-grid",
-      "leetcode-find-root-of-a-colored-tree",
-      "leetcode-minimum-interval-selection-to-cover-target-intervals"
+      "leetcode-difference-between-peaks-and-valleys",
+      "leetcode-binary-digit-score",
+      "leetcode-count-subarrays-with-loose-bounds",
+      "leetcode-count-magical-substring-pairs-i",
+      "leetcode-maximize-sum-after-at-most-k-digit-rearrangements",
+      "leetcode-count-frequency-staircase-subarrays-i",
+      "leetcode-count-magical-substring-pairs-ii",
+      "leetcode-count-frequency-staircase-subarrays-ii"
     ]
   }
 }
