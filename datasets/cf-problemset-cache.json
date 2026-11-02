@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-26T12:33:51.858Z",
+  "fetchedAt": "2026-11-02T15:12:03.883Z",
   "platform": "codeforces",
-  "count": 11474,
+  "count": 11488,
   "problems": [
     {
       "id": "codeforces-2276A-perfect-sandwiches",
@@ -27110,50 +27110,21 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2277D2-number-operating-hard-version",
+      "id": "codeforces-2278A-fraction-and-six",
       "platform": "codeforces",
-      "platformId": "2277D2",
-      "title": "Number Operating (Hard Version)",
-      "url": "https://codeforces.com/problemset/problem/2277/D2",
+      "platformId": "2278A",
+      "title": "Fraction and Six",
+      "url": "https://codeforces.com/problemset/problem/2278/A",
       "difficulty": "900",
       "rating": 900,
       "topics": [
-        "bitmasks",
-        "brute-force",
-        "divide-and-conquer",
-        "implementation"
+        "implementation",
+        "sortings",
+        "strings"
       ],
       "patterns": [
-        "bitmasks",
-        "brute force"
-      ],
-      "companies": [],
-      "level": "newbie",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
-      "id": "codeforces-2277D1-number-operating-easy-version",
-      "platform": "codeforces",
-      "platformId": "2277D1",
-      "title": "Number Operating (Easy Version)",
-      "url": "https://codeforces.com/problemset/problem/2277/D1",
-      "difficulty": "900",
-      "rating": 900,
-      "topics": [
-        "binary-search",
-        "bitmasks",
-        "brute-force",
-        "dp",
-        "greedy",
-        "implementation"
-      ],
-      "patterns": [
-        "dynamic programming"
+        "implementation",
+        "sortings"
       ],
       "companies": [],
       "level": "newbie",
@@ -46859,6 +46830,100 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2278E-swap-and-negate",
+      "platform": "codeforces",
+      "platformId": "2278E",
+      "title": "Swap and Negate",
+      "url": "https://codeforces.com/problemset/problem/2278/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2278D-lock-and-unlock",
+      "platform": "codeforces",
+      "platformId": "2278D",
+      "title": "Lock and Unlock",
+      "url": "https://codeforces.com/problemset/problem/2278/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2278C-math-and-physics",
+      "platform": "codeforces",
+      "platformId": "2278C",
+      "title": "Math and Physics",
+      "url": "https://codeforces.com/problemset/problem/2278/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2278B-stakes-and-shapes",
+      "platform": "codeforces",
+      "platformId": "2278B",
+      "title": "Stakes and Shapes",
+      "url": "https://codeforces.com/problemset/problem/2278/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2277F-token-re-moving",
       "platform": "codeforces",
       "platformId": "2277F",
@@ -46900,6 +46965,57 @@
       "patterns": [
         "constructive algorithms",
         "interactive"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2277D1-number-operating-easy-version",
+      "platform": "codeforces",
+      "platformId": "2277D1",
+      "title": "Number Operating (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2277/D1",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "bitmasks",
+        "brute-force",
+        "greedy"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2277C-edge-addeleting",
+      "platform": "codeforces",
+      "platformId": "2277C",
+      "title": "Edge Addeleting",
+      "url": "https://codeforces.com/problemset/problem/2277/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "dfs-and-similar",
+        "greedy",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
       ],
       "companies": [],
       "level": "newbie",
@@ -46991,6 +47107,106 @@
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2272G-ranges",
+      "platform": "codeforces",
+      "platformId": "2272G",
+      "title": "Ranges",
+      "url": "https://codeforces.com/problemset/problem/2272/G",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "data-structures",
+        "divide-and-conquer",
+        "dsu"
+      ],
+      "patterns": [
+        "data structures",
+        "divide and conquer"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2272E-memory-cell-interception",
+      "platform": "codeforces",
+      "platformId": "2272E",
+      "title": "Memory Cell Interception",
+      "url": "https://codeforces.com/problemset/problem/2272/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "greedy",
+        "two-pointers"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2272B-frogs-jump",
+      "platform": "codeforces",
+      "platformId": "2272B",
+      "title": "Frogs Jump",
+      "url": "https://codeforces.com/problemset/problem/2272/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2272A-maximize-one-mex",
+      "platform": "codeforces",
+      "platformId": "2272A",
+      "title": "Maximize One MEX",
+      "url": "https://codeforces.com/problemset/problem/2272/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "constructive-algorithms",
         "greedy"
       ],
       "patterns": [
@@ -85893,32 +86109,6 @@
       "source": "codeforces-api"
     },
     {
-      "id": "codeforces-2277C-edge-addeleting",
-      "platform": "codeforces",
-      "platformId": "2277C",
-      "title": "Edge Addeleting",
-      "url": "https://codeforces.com/problemset/problem/2277/C",
-      "difficulty": "1400",
-      "rating": 1400,
-      "topics": [
-        "dfs-and-similar",
-        "graphs",
-        "greedy",
-        "trees"
-      ],
-      "patterns": [
-        "graphs"
-      ],
-      "companies": [],
-      "level": "specialist",
-      "status": "unseen",
-      "attempts": 0,
-      "confidence": 0,
-      "notes": "",
-      "mistakes": [],
-      "source": "codeforces-api"
-    },
-    {
       "id": "codeforces-2276D-caveman",
       "platform": "codeforces",
       "platformId": "2276D",
@@ -98221,6 +98411,85 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2278G-0s-and-1s",
+      "platform": "codeforces",
+      "platformId": "2278G",
+      "title": "0s and 1s",
+      "url": "https://codeforces.com/problemset/problem/2278/G",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "bitmasks",
+        "dfs-and-similar",
+        "dp",
+        "hashing",
+        "number-theory",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2278F-modulo-and-counting",
+      "platform": "codeforces",
+      "platformId": "2278F",
+      "title": "Modulo and Counting",
+      "url": "https://codeforces.com/problemset/problem/2278/F",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2277D2-number-operating-hard-version",
+      "platform": "codeforces",
+      "platformId": "2277D2",
+      "title": "Number Operating (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2277/D2",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "bitmasks",
+        "brute-force",
+        "divide-and-conquer",
+        "dp"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2275E-repentance-is-already-on-the-way",
       "platform": "codeforces",
       "platformId": "2275E",
@@ -98231,6 +98500,84 @@
       "topics": [
         "dp",
         "implementation"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2272F-tree-reduction-game",
+      "platform": "codeforces",
+      "platformId": "2272F",
+      "title": "Tree Reduction Game",
+      "url": "https://codeforces.com/problemset/problem/2272/F",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dfs-and-similar",
+        "dp",
+        "games",
+        "trees"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2272D-connecting-the-conflicts",
+      "platform": "codeforces",
+      "platformId": "2272D",
+      "title": "Connecting the Conflicts",
+      "url": "https://codeforces.com/problemset/problem/2272/D",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "brute-force",
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "dp"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2272C-yet-another-black-cell-problem",
+      "platform": "codeforces",
+      "platformId": "2272C",
+      "title": "Yet Another Black Cell Problem",
+      "url": "https://codeforces.com/problemset/problem/2272/C",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "binary-search",
+        "constructive-algorithms",
+        "dp",
+        "greedy"
       ],
       "patterns": [
         "dynamic programming"

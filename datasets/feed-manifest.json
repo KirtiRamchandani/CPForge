@@ -1,32 +1,29 @@
 {
-  "updatedAt": "2026-10-26T12:35:00.025Z",
+  "updatedAt": "2026-11-02T15:13:09.176Z",
   "codeforces": {
-    "fetchedAt": "2026-10-26T12:33:51.901Z",
-    "count": 11474,
-    "newSinceLastFetch": 7,
+    "fetchedAt": "2026-11-02T15:12:03.940Z",
+    "count": 11488,
+    "newSinceLastFetch": 14,
     "sampleNew": [
-      "codeforces-2277D2-number-operating-hard-version",
-      "codeforces-2277D1-number-operating-easy-version",
-      "codeforces-2277F-token-re-moving",
-      "codeforces-2277E-tree-guessing",
-      "codeforces-2277B-sequence-decreasing",
-      "codeforces-2277A-subset-selecting",
-      "codeforces-2277C-edge-addeleting"
+      "codeforces-2278A-fraction-and-six",
+      "codeforces-2278E-swap-and-negate",
+      "codeforces-2278D-lock-and-unlock",
+      "codeforces-2278C-math-and-physics",
+      "codeforces-2278B-stakes-and-shapes",
+      "codeforces-2272G-ranges",
+      "codeforces-2272E-memory-cell-interception",
+      "codeforces-2272B-frogs-jump"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-10-26T12:35:00.025Z",
-    "count": 3308,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-11-02T15:13:09.176Z",
+    "count": 3312,
+    "newSinceLastFetch": 4,
     "sampleNew": [
-      "leetcode-difference-between-peaks-and-valleys",
-      "leetcode-binary-digit-score",
-      "leetcode-count-subarrays-with-loose-bounds",
-      "leetcode-count-magical-substring-pairs-i",
-      "leetcode-maximize-sum-after-at-most-k-digit-rearrangements",
-      "leetcode-count-frequency-staircase-subarrays-i",
-      "leetcode-count-magical-substring-pairs-ii",
-      "leetcode-count-frequency-staircase-subarrays-ii"
+      "leetcode-minimum-value-of-merged-integers",
+      "leetcode-minimize-the-maximum-value-of-gcd-connected-array",
+      "leetcode-minimum-operations-to-sort-with-locked-indices",
+      "leetcode-minimum-cost-path-with-even-xor-parity"
     ]
   }
 }
