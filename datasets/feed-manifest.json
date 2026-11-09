@@ -1,29 +1,33 @@
 {
-  "updatedAt": "2026-11-02T15:13:09.176Z",
+  "updatedAt": "2026-11-09T15:42:58.115Z",
   "codeforces": {
-    "fetchedAt": "2026-11-02T15:12:03.940Z",
-    "count": 11488,
-    "newSinceLastFetch": 14,
+    "fetchedAt": "2026-11-09T15:41:54.088Z",
+    "count": 11511,
+    "newSinceLastFetch": 23,
     "sampleNew": [
-      "codeforces-2278A-fraction-and-six",
-      "codeforces-2278E-swap-and-negate",
-      "codeforces-2278D-lock-and-unlock",
-      "codeforces-2278C-math-and-physics",
-      "codeforces-2278B-stakes-and-shapes",
-      "codeforces-2272G-ranges",
-      "codeforces-2272E-memory-cell-interception",
-      "codeforces-2272B-frogs-jump"
+      "codeforces-2280A-are-they-the-same",
+      "codeforces-2279A-reverse-and-double",
+      "codeforces-2284B-introduction-to-the-niche-internet",
+      "codeforces-2284A2-15k4jr3b-hard-version",
+      "codeforces-2284A1-15k4jr3b-easy-version",
+      "codeforces-2283G-order-statistics-on-the-graph",
+      "codeforces-2283D-black-gray-and-white",
+      "codeforces-2283C-big-xor"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-11-02T15:13:09.176Z",
-    "count": 3312,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-11-09T15:42:58.115Z",
+    "count": 3320,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-minimum-value-of-merged-integers",
-      "leetcode-minimize-the-maximum-value-of-gcd-connected-array",
-      "leetcode-minimum-operations-to-sort-with-locked-indices",
-      "leetcode-minimum-cost-path-with-even-xor-parity"
+      "leetcode-count-valid-substrings-i",
+      "leetcode-remove-elements-by-type-and-color",
+      "leetcode-count-valid-substrings-ii",
+      "leetcode-find-mismatched-segments-between-two-strings",
+      "leetcode-count-valid-suffix-sorts-i",
+      "leetcode-minimum-cost-to-make-red-nodes-connected",
+      "leetcode-repeated-string-match-ii",
+      "leetcode-count-valid-suffix-sorts-ii"
     ]
   }
 }

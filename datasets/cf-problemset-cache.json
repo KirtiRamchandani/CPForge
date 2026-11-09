@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-11-02T15:12:03.883Z",
+  "fetchedAt": "2026-11-09T15:41:54.031Z",
   "platform": "codeforces",
-  "count": 11488,
+  "count": 11511,
   "problems": [
     {
       "id": "codeforces-2276A-perfect-sandwiches",
@@ -27110,6 +27110,57 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2280A-are-they-the-same",
+      "platform": "codeforces",
+      "platformId": "2280A",
+      "title": "Are They the Same?",
+      "url": "https://codeforces.com/problemset/problem/2280/A",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "brute-force",
+        "implementation"
+      ],
+      "patterns": [
+        "brute force",
+        "implementation"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2279A-reverse-and-double",
+      "platform": "codeforces",
+      "platformId": "2279A",
+      "title": "Reverse and Double",
+      "url": "https://codeforces.com/problemset/problem/2279/A",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "binary-search",
+        "brute-force",
+        "data-structures",
+        "implementation"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2278A-fraction-and-six",
       "platform": "codeforces",
       "platformId": "2278A",
@@ -46819,6 +46870,282 @@
       ],
       "patterns": [
         "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2284B-introduction-to-the-niche-internet",
+      "platform": "codeforces",
+      "platformId": "2284B",
+      "title": "Introduction to the Niche Internet",
+      "url": "https://codeforces.com/problemset/problem/2284/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy",
+        "sortings"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2284A2-15k4jr3b-hard-version",
+      "platform": "codeforces",
+      "platformId": "2284A2",
+      "title": "15K4JR3B (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2284/A2",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2284A1-15k4jr3b-easy-version",
+      "platform": "codeforces",
+      "platformId": "2284A1",
+      "title": "15K4JR3B (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2284/A1",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2283G-order-statistics-on-the-graph",
+      "platform": "codeforces",
+      "platformId": "2283G",
+      "title": "Order Statistics on the Graph",
+      "url": "https://codeforces.com/problemset/problem/2283/G",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "brute-force",
+        "sortings"
+      ],
+      "patterns": [
+        "bitmasks",
+        "brute force"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2283D-black-gray-and-white",
+      "platform": "codeforces",
+      "platformId": "2283D",
+      "title": "Black, Gray and White",
+      "url": "https://codeforces.com/problemset/problem/2283/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2283C-big-xor",
+      "platform": "codeforces",
+      "platformId": "2283C",
+      "title": "Big XOR",
+      "url": "https://codeforces.com/problemset/problem/2283/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "bitmasks",
+        "constructive-algorithms"
+      ],
+      "patterns": [
+        "bitmasks",
+        "constructive algorithms"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2283B-rhythmic-string",
+      "platform": "codeforces",
+      "platformId": "2283B",
+      "title": "Rhythmic String",
+      "url": "https://codeforces.com/problemset/problem/2283/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "number-theory"
+      ],
+      "patterns": [
+        "brute force",
+        "number theory"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2283A-numbers-on-the-board",
+      "platform": "codeforces",
+      "platformId": "2283A",
+      "title": "Numbers on the Board",
+      "url": "https://codeforces.com/problemset/problem/2283/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "math",
+        "two-pointers"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2280B-secret-string-patterns",
+      "platform": "codeforces",
+      "platformId": "2280B",
+      "title": "Secret String Patterns",
+      "url": "https://codeforces.com/problemset/problem/2280/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "interactive"
+      ],
+      "patterns": [
+        "interactive"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2279E-save-me",
+      "platform": "codeforces",
+      "platformId": "2279E",
+      "title": "Save Me!",
+      "url": "https://codeforces.com/problemset/problem/2279/E",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "dfs-and-similar",
+        "meet-in-the-middle"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2279C-anti-productive",
+      "platform": "codeforces",
+      "platformId": "2279C",
+      "title": "Anti-Productive",
+      "url": "https://codeforces.com/problemset/problem/2279/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "patterns": [
+        "greedy"
       ],
       "companies": [],
       "level": "newbie",
@@ -86109,6 +86436,112 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2284E-my-mind-is-going",
+      "platform": "codeforces",
+      "platformId": "2284E",
+      "title": "My Mind Is Going",
+      "url": "https://codeforces.com/problemset/problem/2284/E",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "binary-search",
+        "dfs-and-similar",
+        "graphs",
+        "interactive"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2284D-the-theorem-of-two-cans",
+      "platform": "codeforces",
+      "platformId": "2284D",
+      "title": "The Theorem of Two Cans",
+      "url": "https://codeforces.com/problemset/problem/2284/D",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "communication",
+        "constructive-algorithms",
+        "dfs-and-similar",
+        "graphs",
+        "interactive",
+        "math",
+        "trees"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2283F-minimize-the-graph",
+      "platform": "codeforces",
+      "platformId": "2283F",
+      "title": "Minimize the Graph",
+      "url": "https://codeforces.com/problemset/problem/2283/F",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "brute-force",
+        "data-structures",
+        "graphs",
+        "greedy"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2279F-the-stones-of-nim",
+      "platform": "codeforces",
+      "platformId": "2279F",
+      "title": "The Stones of Nim",
+      "url": "https://codeforces.com/problemset/problem/2279/F",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "bitmasks",
+        "graphs",
+        "greedy"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2276D-caveman",
       "platform": "codeforces",
       "platformId": "2276D",
@@ -98400,6 +98833,165 @@
       ],
       "patterns": [
         "graphs"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2284F-fun-times",
+      "platform": "codeforces",
+      "platformId": "2284F",
+      "title": "Fun Times",
+      "url": "https://codeforces.com/problemset/problem/2284/F",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "combinatorics",
+        "data-structures",
+        "dp",
+        "math",
+        "matrices"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2284C2-disgusting-gcd-checker-version",
+      "platform": "codeforces",
+      "platformId": "2284C2",
+      "title": "Disgusting + GCD (Checker Version)",
+      "url": "https://codeforces.com/problemset/problem/2284/C2",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "brute-force",
+        "dp",
+        "graphs",
+        "greedy",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2284C1-disgusting-gcd-constructive-version",
+      "platform": "codeforces",
+      "platformId": "2284C1",
+      "title": "Disgusting + GCD (Constructive Version)",
+      "url": "https://codeforces.com/problemset/problem/2284/C1",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "constructive-algorithms",
+        "dp",
+        "graphs",
+        "greedy",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2283E-partition-of-a-binary-string",
+      "platform": "codeforces",
+      "platformId": "2283E",
+      "title": "Partition of a Binary String",
+      "url": "https://codeforces.com/problemset/problem/2283/E",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "combinatorics",
+        "dp"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2279D-meta-graph",
+      "platform": "codeforces",
+      "platformId": "2279D",
+      "title": "Meta Graph",
+      "url": "https://codeforces.com/problemset/problem/2279/D",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "brute-force",
+        "constructive-algorithms",
+        "dp",
+        "graphs",
+        "shortest-paths"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2279B-balanced-subsets",
+      "platform": "codeforces",
+      "platformId": "2279B",
+      "title": "Balanced Subsets",
+      "url": "https://codeforces.com/problemset/problem/2279/B",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "bitmasks",
+        "combinatorics",
+        "dp"
+      ],
+      "patterns": [
+        "dynamic programming"
       ],
       "companies": [],
       "level": "specialist",
