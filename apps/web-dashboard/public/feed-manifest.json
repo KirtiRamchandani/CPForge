@@ -1,33 +1,29 @@
 {
-  "updatedAt": "2026-11-09T15:42:58.115Z",
+  "updatedAt": "2026-11-16T15:17:39.864Z",
   "codeforces": {
-    "fetchedAt": "2026-11-09T15:41:54.088Z",
-    "count": 11511,
-    "newSinceLastFetch": 23,
+    "fetchedAt": "2026-11-16T15:16:33.585Z",
+    "count": 11526,
+    "newSinceLastFetch": 15,
     "sampleNew": [
-      "codeforces-2280A-are-they-the-same",
-      "codeforces-2279A-reverse-and-double",
-      "codeforces-2284B-introduction-to-the-niche-internet",
-      "codeforces-2284A2-15k4jr3b-hard-version",
-      "codeforces-2284A1-15k4jr3b-easy-version",
-      "codeforces-2283G-order-statistics-on-the-graph",
-      "codeforces-2283D-black-gray-and-white",
-      "codeforces-2283C-big-xor"
+      "codeforces-2290D-letters-down",
+      "codeforces-2290B-stubborn-pen",
+      "codeforces-2290A-three-piles",
+      "codeforces-2285E-arithmetic-subarray",
+      "codeforces-2290H-extra-road",
+      "codeforces-2290G1-lakeside-trail-easy-version",
+      "codeforces-2290F-value-counters",
+      "codeforces-2290C-books-on-a-shelf"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-11-09T15:42:58.115Z",
-    "count": 3320,
-    "newSinceLastFetch": 8,
+    "fetchedAt": "2026-11-16T15:17:39.864Z",
+    "count": 3324,
+    "newSinceLastFetch": 4,
     "sampleNew": [
-      "leetcode-count-valid-substrings-i",
-      "leetcode-remove-elements-by-type-and-color",
-      "leetcode-count-valid-substrings-ii",
-      "leetcode-find-mismatched-segments-between-two-strings",
-      "leetcode-count-valid-suffix-sorts-i",
-      "leetcode-minimum-cost-to-make-red-nodes-connected",
-      "leetcode-repeated-string-match-ii",
-      "leetcode-count-valid-suffix-sorts-ii"
+      "leetcode-count-consistent-subarrays-i",
+      "leetcode-maximize-score-after-zeroing-subtrees",
+      "leetcode-game-of-divisible-sums",
+      "leetcode-count-consistent-subarrays-ii"
     ]
   }
 }

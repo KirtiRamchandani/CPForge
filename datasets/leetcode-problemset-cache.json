@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-11-09T15:42:58.101Z",
+  "fetchedAt": "2026-11-16T15:17:39.852Z",
   "platform": "leetcode",
-  "count": 3320,
+  "count": 3324,
   "problems": [
     {
       "id": "leetcode-two-sum",
@@ -21857,6 +21857,26 @@
       "platformId": "minimum-value-of-merged-integers",
       "title": "Minimum Value of Merged Integers",
       "url": "https://leetcode.com/problems/minimum-value-of-merged-integers/",
+      "difficulty": "easy",
+      "rating": 900,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "beginner",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-count-consistent-subarrays-i",
+      "platform": "leetcode",
+      "platformId": "count-consistent-subarrays-i",
+      "title": "Count Consistent Subarrays I",
+      "url": "https://leetcode.com/problems/count-consistent-subarrays-i/",
       "difficulty": "easy",
       "rating": 900,
       "topics": [],
@@ -67353,8 +67373,15 @@
       "url": "https://leetcode.com/problems/minimize-the-maximum-value-of-gcd-connected-array/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "greedy",
+        "number-theory"
+      ],
+      "patterns": [
+        "math",
+        "greedy"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -67373,8 +67400,19 @@
       "url": "https://leetcode.com/problems/minimum-operations-to-sort-with-locked-indices/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "divide-and-conquer",
+        "greedy",
+        "binary-indexed-tree",
+        "segment-tree",
+        "sorting",
+        "merge-sort"
+      ],
+      "patterns": [
+        "array",
+        "divide-and-conquer"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -67393,8 +67431,14 @@
       "url": "https://leetcode.com/problems/count-valid-substrings-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "string",
+        "enumeration"
+      ],
+      "patterns": [
+        "string",
+        "enumeration"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -67413,8 +67457,14 @@
       "url": "https://leetcode.com/problems/remove-elements-by-type-and-color/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "stack"
+      ],
+      "patterns": [
+        "array",
+        "stack"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -67433,8 +67483,15 @@
       "url": "https://leetcode.com/problems/count-valid-substrings-ii/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "hash-table",
+        "string",
+        "enumeration"
+      ],
+      "patterns": [
+        "hash-table",
+        "string"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -67453,8 +67510,12 @@
       "url": "https://leetcode.com/problems/find-mismatched-segments-between-two-strings/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "string"
+      ],
+      "patterns": [
+        "string"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -67473,8 +67534,15 @@
       "url": "https://leetcode.com/problems/count-valid-suffix-sorts-i/",
       "difficulty": "medium",
       "rating": 1300,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "hash-table",
+        "counting"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
       "companies": [],
       "level": "intermediate",
       "status": "unseen",
@@ -67491,6 +67559,54 @@
       "platformId": "minimum-cost-to-make-red-nodes-connected",
       "title": "Minimum Cost to Make Red Nodes Connected",
       "url": "https://leetcode.com/problems/minimum-cost-to-make-red-nodes-connected/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [
+        "string",
+        "dynamic-programming",
+        "tree",
+        "depth-first-search"
+      ],
+      "patterns": [
+        "string",
+        "dynamic-programming"
+      ],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-maximize-score-after-zeroing-subtrees",
+      "platform": "leetcode",
+      "platformId": "maximize-score-after-zeroing-subtrees",
+      "title": "Maximize Score After Zeroing Subtrees",
+      "url": "https://leetcode.com/problems/maximize-score-after-zeroing-subtrees/",
+      "difficulty": "medium",
+      "rating": 1300,
+      "topics": [],
+      "patterns": [],
+      "companies": [],
+      "level": "intermediate",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-game-of-divisible-sums",
+      "platform": "leetcode",
+      "platformId": "game-of-divisible-sums",
+      "title": "Game of Divisible Sums",
+      "url": "https://leetcode.com/problems/game-of-divisible-sums/",
       "difficulty": "medium",
       "rating": 1300,
       "topics": [],
@@ -89452,14 +89568,14 @@
       "rating": 1700,
       "topics": [
         "array",
-        "heap",
         "graph",
+        "heap-priority-queue",
         "matrix",
         "shortest-path"
       ],
       "patterns": [
         "array",
-        "heap"
+        "graph"
       ],
       "companies": [],
       "level": "advanced",
@@ -89743,8 +89859,17 @@
       "url": "https://leetcode.com/problems/minimum-cost-path-with-even-xor-parity/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "array",
+        "dynamic-programming",
+        "bit-manipulation",
+        "tree",
+        "depth-first-search"
+      ],
+      "patterns": [
+        "array",
+        "dynamic-programming"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -89763,8 +89888,16 @@
       "url": "https://leetcode.com/problems/repeated-string-match-ii/",
       "difficulty": "hard",
       "rating": 1700,
-      "topics": [],
-      "patterns": [],
+      "topics": [
+        "math",
+        "string",
+        "string-matching",
+        "number-theory"
+      ],
+      "patterns": [
+        "math",
+        "string"
+      ],
       "companies": [],
       "level": "advanced",
       "status": "unseen",
@@ -89781,6 +89914,37 @@
       "platformId": "count-valid-suffix-sorts-ii",
       "title": "Count Valid Suffix Sorts II",
       "url": "https://leetcode.com/problems/count-valid-suffix-sorts-ii/",
+      "difficulty": "hard",
+      "rating": 1700,
+      "topics": [
+        "array",
+        "hash-table",
+        "sliding-window",
+        "rolling-hash",
+        "string-matching",
+        "counting",
+        "hash-function"
+      ],
+      "patterns": [
+        "array",
+        "hash-table"
+      ],
+      "companies": [],
+      "level": "advanced",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "leetcode-api",
+      "paidOnly": false
+    },
+    {
+      "id": "leetcode-count-consistent-subarrays-ii",
+      "platform": "leetcode",
+      "platformId": "count-consistent-subarrays-ii",
+      "title": "Count Consistent Subarrays II",
+      "url": "https://leetcode.com/problems/count-consistent-subarrays-ii/",
       "difficulty": "hard",
       "rating": 1700,
       "topics": [],

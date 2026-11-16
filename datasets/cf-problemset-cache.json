@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-11-09T15:41:54.031Z",
+  "fetchedAt": "2026-11-16T15:16:33.537Z",
   "platform": "codeforces",
-  "count": 11511,
+  "count": 11526,
   "problems": [
     {
       "id": "codeforces-2276A-perfect-sandwiches",
@@ -27110,6 +27110,108 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2290D-letters-down",
+      "platform": "codeforces",
+      "platformId": "2290D",
+      "title": "Letters Down",
+      "url": "https://codeforces.com/problemset/problem/2290/D",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "data-structures",
+        "dsu",
+        "greedy",
+        "implementation",
+        "strings"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2290B-stubborn-pen",
+      "platform": "codeforces",
+      "platformId": "2290B",
+      "title": "Stubborn Pen",
+      "url": "https://codeforces.com/problemset/problem/2290/B",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "implementation",
+        "strings"
+      ],
+      "patterns": [
+        "implementation",
+        "strings"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2290A-three-piles",
+      "platform": "codeforces",
+      "platformId": "2290A",
+      "title": "Three Piles",
+      "url": "https://codeforces.com/problemset/problem/2290/A",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "implementation",
+        "math"
+      ],
+      "patterns": [
+        "implementation",
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2285E-arithmetic-subarray",
+      "platform": "codeforces",
+      "platformId": "2285E",
+      "title": "Arithmetic Subarray",
+      "url": "https://codeforces.com/problemset/problem/2285/E",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "data-structures",
+        "greedy",
+        "implementation"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2280A-are-they-the-same",
       "platform": "codeforces",
       "platformId": "2280A",
@@ -46881,6 +46983,210 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2290H-extra-road",
+      "platform": "codeforces",
+      "platformId": "2290H",
+      "title": "Extra Road",
+      "url": "https://codeforces.com/problemset/problem/2290/H",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "dfs-and-similar",
+        "greedy",
+        "trees"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2290G1-lakeside-trail-easy-version",
+      "platform": "codeforces",
+      "platformId": "2290G1",
+      "title": "Lakeside Trail (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2290/G1",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "brute-force",
+        "math"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2290F-value-counters",
+      "platform": "codeforces",
+      "platformId": "2290F",
+      "title": "Value Counters",
+      "url": "https://codeforces.com/problemset/problem/2290/F",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "constructive-algorithms",
+        "math"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2290C-books-on-a-shelf",
+      "platform": "codeforces",
+      "platformId": "2290C",
+      "title": "Books on a Shelf",
+      "url": "https://codeforces.com/problemset/problem/2290/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "greedy",
+        "sortings"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2285D-reverse-partition",
+      "platform": "codeforces",
+      "platformId": "2285D",
+      "title": "Reverse Partition",
+      "url": "https://codeforces.com/problemset/problem/2285/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "combinatorics",
+        "data-structures"
+      ],
+      "patterns": [
+        "combinatorics",
+        "data structures"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2285C-max-substitution",
+      "platform": "codeforces",
+      "platformId": "2285C",
+      "title": "Max Substitution",
+      "url": "https://codeforces.com/problemset/problem/2285/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "combinatorics",
+        "data-structures",
+        "math",
+        "sortings",
+        "two-pointers"
+      ],
+      "patterns": [
+        "combinatorics",
+        "data structures"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2285B-diverse-string",
+      "platform": "codeforces",
+      "platformId": "2285B",
+      "title": "Diverse String",
+      "url": "https://codeforces.com/problemset/problem/2285/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "combinatorics",
+        "strings"
+      ],
+      "patterns": [
+        "combinatorics",
+        "strings"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2285A-composite-permutation",
+      "platform": "codeforces",
+      "platformId": "2285A",
+      "title": "Composite Permutation",
+      "url": "https://codeforces.com/problemset/problem/2285/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "math"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2284B-introduction-to-the-niche-internet",
       "platform": "codeforces",
       "platformId": "2284B",
@@ -47116,6 +47422,7 @@
       "topics": [
         "brute-force",
         "dfs-and-similar",
+        "matrices",
         "meet-in-the-middle"
       ],
       "patterns": [
@@ -86436,6 +86743,31 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2285F-mooclear-reactor-3",
+      "platform": "codeforces",
+      "platformId": "2285F",
+      "title": "Mooclear Reactor 3",
+      "url": "https://codeforces.com/problemset/problem/2285/F",
+      "difficulty": "1400",
+      "rating": 1400,
+      "topics": [
+        "data-structures",
+        "divide-and-conquer",
+        "graphs"
+      ],
+      "patterns": [
+        "graphs"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2284E-my-mind-is-going",
       "platform": "codeforces",
       "platformId": "2284E",
@@ -98844,6 +99176,57 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2290G2-lakeside-trail-hard-version",
+      "platform": "codeforces",
+      "platformId": "2290G2",
+      "title": "Lakeside Trail (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2290/G2",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "binary-search",
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2290E-avalanche",
+      "platform": "codeforces",
+      "platformId": "2290E",
+      "title": "Avalanche",
+      "url": "https://codeforces.com/problemset/problem/2290/E",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "games",
+        "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2284F-fun-times",
       "platform": "codeforces",
       "platformId": "2284F",
@@ -98959,7 +99342,6 @@
       "difficulty": "1500",
       "rating": 1500,
       "topics": [
-        "brute-force",
         "constructive-algorithms",
         "dp",
         "graphs",
