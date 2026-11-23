@@ -1,29 +1,33 @@
 {
-  "updatedAt": "2026-11-16T15:17:39.864Z",
+  "updatedAt": "2026-11-23T17:45:10.438Z",
   "codeforces": {
-    "fetchedAt": "2026-11-16T15:16:33.585Z",
-    "count": 11526,
+    "fetchedAt": "2026-11-23T17:44:07.621Z",
+    "count": 11541,
     "newSinceLastFetch": 15,
     "sampleNew": [
-      "codeforces-2290D-letters-down",
-      "codeforces-2290B-stubborn-pen",
-      "codeforces-2290A-three-piles",
-      "codeforces-2285E-arithmetic-subarray",
-      "codeforces-2290H-extra-road",
-      "codeforces-2290G1-lakeside-trail-easy-version",
-      "codeforces-2290F-value-counters",
-      "codeforces-2290C-books-on-a-shelf"
+      "codeforces-2289F-problem-from-malinovka",
+      "codeforces-2289B-problem-from-chebarkul",
+      "codeforces-2289D-problem-from-yuzhnouralsk",
+      "codeforces-2289C-problem-from-ust-katav",
+      "codeforces-2289A-problem-from-dolgoderevenskoye",
+      "codeforces-2288C-reimu-hakurei-and-the-youkai",
+      "codeforces-2288A-youmu-konpaku-and-the-duel",
+      "codeforces-2287D-patchouli-knowledge-and-the-string"
     ]
   },
   "leetcode": {
-    "fetchedAt": "2026-11-16T15:17:39.864Z",
-    "count": 3324,
-    "newSinceLastFetch": 4,
+    "fetchedAt": "2026-11-23T17:45:10.438Z",
+    "count": 3332,
+    "newSinceLastFetch": 8,
     "sampleNew": [
-      "leetcode-count-consistent-subarrays-i",
-      "leetcode-maximize-score-after-zeroing-subtrees",
-      "leetcode-game-of-divisible-sums",
-      "leetcode-count-consistent-subarrays-ii"
+      "leetcode-assign-umbrella-on-rainy-days",
+      "leetcode-count-dominant-elements",
+      "leetcode-minimum-range-after-sum-operations",
+      "leetcode-minimum-operations-to-make-mountain-array-i",
+      "leetcode-minimum-cost-to-make-all-array-elements-equal",
+      "leetcode-earliest-signal-activation-times",
+      "leetcode-minimum-set-bits-in-a-valid-integer",
+      "leetcode-minimum-cost-to-delete-array"
     ]
   }
 }

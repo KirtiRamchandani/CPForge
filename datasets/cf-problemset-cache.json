@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-11-16T15:16:33.537Z",
+  "fetchedAt": "2026-11-23T17:44:07.554Z",
   "platform": "codeforces",
-  "count": 11526,
+  "count": 11541,
   "problems": [
     {
       "id": "codeforces-2276A-perfect-sandwiches",
@@ -27187,6 +27187,58 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2289F-problem-from-malinovka",
+      "platform": "codeforces",
+      "platformId": "2289F",
+      "title": "Problem from Malinovka",
+      "url": "https://codeforces.com/problemset/problem/2289/F",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "brute-force",
+        "implementation",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "brute force",
+        "implementation"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2289B-problem-from-chebarkul",
+      "platform": "codeforces",
+      "platformId": "2289B",
+      "title": "Problem from Chebarkul",
+      "url": "https://codeforces.com/problemset/problem/2289/B",
+      "difficulty": "900",
+      "rating": 900,
+      "topics": [
+        "data-structures",
+        "implementation"
+      ],
+      "patterns": [
+        "data structures",
+        "implementation"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2285E-arithmetic-subarray",
       "platform": "codeforces",
       "platformId": "2285E",
@@ -27197,7 +27249,9 @@
       "topics": [
         "data-structures",
         "greedy",
-        "implementation"
+        "implementation",
+        "sortings",
+        "two-pointers"
       ],
       "patterns": [
         "greedy"
@@ -47084,6 +47138,208 @@
       "source": "codeforces-api"
     },
     {
+      "id": "codeforces-2289D-problem-from-yuzhnouralsk",
+      "platform": "codeforces",
+      "platformId": "2289D",
+      "title": "Problem from Yuzhnouralsk",
+      "url": "https://codeforces.com/problemset/problem/2289/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "data-structures",
+        "greedy",
+        "meet-in-the-middle",
+        "sortings",
+        "two-pointers"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2289C-problem-from-ust-katav",
+      "platform": "codeforces",
+      "platformId": "2289C",
+      "title": "Problem from Ust-Katav",
+      "url": "https://codeforces.com/problemset/problem/2289/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "data-structures",
+        "divide-and-conquer"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2289A-problem-from-dolgoderevenskoye",
+      "platform": "codeforces",
+      "platformId": "2289A",
+      "title": "Problem from Dolgoderevenskoye",
+      "url": "https://codeforces.com/problemset/problem/2289/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "math"
+      ],
+      "patterns": [
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2288C-reimu-hakurei-and-the-youkai",
+      "platform": "codeforces",
+      "platformId": "2288C",
+      "title": "Reimu Hakurei and the Youkai",
+      "url": "https://codeforces.com/problemset/problem/2288/C",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "greedy",
+        "sortings"
+      ],
+      "patterns": [
+        "greedy"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2288A-youmu-konpaku-and-the-duel",
+      "platform": "codeforces",
+      "platformId": "2288A",
+      "title": "Youmu Konpaku and the Duel",
+      "url": "https://codeforces.com/problemset/problem/2288/A",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "brute-force",
+        "math"
+      ],
+      "patterns": [
+        "brute force",
+        "math"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2287D-patchouli-knowledge-and-the-string",
+      "platform": "codeforces",
+      "platformId": "2287D",
+      "title": "Patchouli Knowledge and the String",
+      "url": "https://codeforces.com/problemset/problem/2287/D",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "brute-force",
+        "fft",
+        "hashing",
+        "probabilities",
+        "strings"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2287B-satori-komeiji-and-the-metro",
+      "platform": "codeforces",
+      "platformId": "2287B",
+      "title": "Satori Komeiji and the Metro",
+      "url": "https://codeforces.com/problemset/problem/2287/B",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "binary-search",
+        "greedy",
+        "two-pointers"
+      ],
+      "patterns": [
+        "binary search"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2287A2-yukari-yakumo-and-the-boundary-stones-hard-version",
+      "platform": "codeforces",
+      "platformId": "2287A2",
+      "title": "Yukari Yakumo and the Boundary Stones (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2287/A2",
+      "difficulty": "1100",
+      "rating": 1100,
+      "topics": [
+        "constructive-algorithms",
+        "interactive"
+      ],
+      "patterns": [
+        "constructive algorithms",
+        "interactive"
+      ],
+      "companies": [],
+      "level": "newbie",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
       "id": "codeforces-2285D-reverse-partition",
       "platform": "codeforces",
       "platformId": "2285D",
@@ -47092,12 +47348,13 @@
       "difficulty": "1100",
       "rating": 1100,
       "topics": [
+        "binary-search",
         "combinatorics",
-        "data-structures"
+        "data-structures",
+        "math"
       ],
       "patterns": [
-        "combinatorics",
-        "data structures"
+        "binary search"
       ],
       "companies": [],
       "level": "newbie",
@@ -47146,11 +47403,12 @@
       "rating": 1100,
       "topics": [
         "combinatorics",
+        "math",
         "strings"
       ],
       "patterns": [
         "combinatorics",
-        "strings"
+        "math"
       ],
       "companies": [],
       "level": "newbie",
@@ -86753,6 +87011,7 @@
       "topics": [
         "data-structures",
         "divide-and-conquer",
+        "dsu",
         "graphs"
       ],
       "patterns": [
@@ -99213,6 +99472,133 @@
         "dp",
         "games",
         "math"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2289E-the-problem-from-silach",
+      "platform": "codeforces",
+      "platformId": "2289E",
+      "title": "The Problem from Silach",
+      "url": "https://codeforces.com/problemset/problem/2289/E",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "brute-force",
+        "data-structures",
+        "dp",
+        "dsu",
+        "trees",
+        "two-pointers"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2287E2-marisa-kirisame-and-the-game-hard-version",
+      "platform": "codeforces",
+      "platformId": "2287E2",
+      "title": "Marisa Kirisame and the Game (Hard Version)",
+      "url": "https://codeforces.com/problemset/problem/2287/E2",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "games"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2287E1-marisa-kirisame-and-the-game-easy-version",
+      "platform": "codeforces",
+      "platformId": "2287E1",
+      "title": "Marisa Kirisame and the Game (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2287/E1",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "games"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2287C-cirno-and-the-math-problem",
+      "platform": "codeforces",
+      "platformId": "2287C",
+      "title": "Cirno and the Math Problem",
+      "url": "https://codeforces.com/problemset/problem/2287/C",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "bitmasks",
+        "brute-force",
+        "dp",
+        "math",
+        "number-theory"
+      ],
+      "patterns": [
+        "dynamic programming"
+      ],
+      "companies": [],
+      "level": "specialist",
+      "status": "unseen",
+      "attempts": 0,
+      "confidence": 0,
+      "notes": "",
+      "mistakes": [],
+      "source": "codeforces-api"
+    },
+    {
+      "id": "codeforces-2287A1-yukari-yakumo-and-the-boundary-stones-easy-version",
+      "platform": "codeforces",
+      "platformId": "2287A1",
+      "title": "Yukari Yakumo and the Boundary Stones (Easy Version)",
+      "url": "https://codeforces.com/problemset/problem/2287/A1",
+      "difficulty": "1500",
+      "rating": 1500,
+      "topics": [
+        "dp",
+        "greedy"
       ],
       "patterns": [
         "dynamic programming"
